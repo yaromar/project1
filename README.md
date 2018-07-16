@@ -10,20 +10,21 @@ FILES:
 
   nucleosomes_pdb:
  
-    1) contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes; 158 structures in total              
-    2) 1 column: PDB
-    3) the list can be obtained by completing the first step from 'notes_Y.txt'
+    *contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes; 158 structures in total              
+    *1 column: PDB
+    *the list can be obtained by completing the first step from 'notes_Y.txt'
     
   protein_ligand_merged.csv:
   
-    1) contains all chains/nucleotides/ligands of the nucleosome structures from 'nucleosome_pdb'
-    2) 15 columns: structureId, chainId, structureTitle, pdbDoi, entityId, ligandId, ligandName, InChI, InChIKey, hetId, IC50, deltaG, uniprotAcc, uniprotRecommendedName, uniprotAlternativeNames
-    3) the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
+    *contains all chains/nucleotides/ligands of the nucleosome structures from 'nucleosome_pdb'
+    *15 columns: structureId, chainId, structureTitle, pdbDoi, entityId, ligandId, ligandName, InChI, InChIKey, hetId, IC50, deltaG, uniprotAcc, uniprotRecommendedName, uniprotAlternativeNames
+    *the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
     
 
 SCRIPTS:
 
-  getpdb.sh 
-    1) downloads specified PDB to specified folder 
-    2) usage: getpdb 'PDB#' [directory]
+  getpdb.sh:
+  
+    *downloads specified PDB to specified folder 
+    *usage: getpdb 'PDB#' [directory]
 
