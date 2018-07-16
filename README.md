@@ -7,9 +7,9 @@ FILES:
     *tips/useful links/protocols
 
   nucleosomes_pdb:
-    *contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes; 158 structures in total
-    *1 column: PDB
-    *the list can be obtained by completing the first step from 'notes_Y.txt'
+    1) contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes; 158 structures in total
+    2) 1 column: PDB
+    3) the list can be obtained by completing the first step from 'notes_Y.txt'
     
   protein_ligand_merged.csv:
     *contains all chains/nucleotides/ligands of the nucleosome structures from 'nucleosome_pdb'
