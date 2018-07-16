@@ -25,6 +25,6 @@ SCRIPTS:
 
   getpdb.sh:
   
-    *downloads specified PDB to specified folder 
+    *downloads a specified PDB to a specified folder 
     *usage: getpdb 'PDB#' [directory]
 
