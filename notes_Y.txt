@@ -8,10 +8,10 @@ http://www.pantherdb.org (protein characterization)
 
 Steps:
 1) Find all resolved whole nucleosome structures: 
-	Go to PDB: 
-		StructTitleQuery: struct.title.comparator=contains 		struct.title.value=nucleosome and Oligomeric state Search : 		Min Number of oligomeric state=8
+	Go to https://www.rcsb.org/pdb/software/wsreport.do : 
+		StructTitleQuery: struct.title.comparator=contains 		
+		struct.title.value=nucleosome and Oligomeric state Search : 		Min Number of oligomeric state=8
 		Copy the PDB list
-	Results: 158 structures
 
 2) Break PDB results into UNIPROT chains and ligands:
 	Go to https://www.rcsb.org/pdb/software/wsreport.do :
