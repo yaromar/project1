@@ -40,6 +40,6 @@ SCRIPTS:
 
   getpdb.sh:
   
-    *downloads a specified PDB to a specified folder 
+    *downloads a specified PDB to a specified folder (downloads to the current folder by default)
     *usage: getpdb 'PDB#' [directory]
-
+    
