@@ -13,13 +13,19 @@ Steps:
 		Copy the PDB list
 	Results: 158 structures
 
-2)Break PDB results into UNIPROT chains and ligands:
+2) Break PDB results into UNIPROT chains and ligands:
 	Go to https://www.rcsb.org/pdb/software/wsreport.do :
 		Choose PDB ID(s) in Step 1 and past results from step 1 in the <structureIdList> field
 		Select ‘Customizable table’ in Step 2
 		Export report in CSV
 
-
+3) For GO Slim analysis (using UNIPROT):
+	Go to https://pir.georgetown.edu/pirwww/search/batch.shtml (preferred): 
+		Choose iProtClass
+	OR
+	Go to http://www.pantherdb.org
+	
+	
 Misc:
 	Download PDBx/mmCIF from Step 1 (download ligands optionally)
 		OR
