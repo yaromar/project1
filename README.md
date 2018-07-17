@@ -10,7 +10,7 @@ FILES:
 
   nucleosomes_pdb:
  
-    *contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes; 158 structures in total              
+    *contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes and a structure of a chromatosome; 159 structures in total              
     *1 column: PDB
     *'Nucleosome_PDB' entity from the 'ER_diagram'
     *the list can be obtained by completing the first step from 'notes_Y.txt'
@@ -33,13 +33,13 @@ FILES:
   
     *contains ligand names of small molecules found in the PDB structures from 'nucleosome_pdb'
     *1 column: ligandName
-    *there are 30 small molecules in total, but it has to be double double-checked, as it was done manually 
+    *there are 31 small molecules in total, but it has to be double double-checked, as it was done manually 
     *some of them might not bind to nucleosome core particles (e.g., bind to other chains)
   
   report_1.pdf:
   
     *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 30 in total)
-    *names of unique small molecules extracted from 'protein_ligand_merged.csv' (manually! omitting ions! 30 in total)
+    *names of unique small molecules extracted from 'protein_ligand_merged.csv' (manually! omitting ions! 30 in total; 1 missing in the report)
     *tables are from the PIR server, pie charts from the PantherDB 
     *PantherDB recognized only 19 UNIPROT
     
