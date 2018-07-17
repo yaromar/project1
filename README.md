@@ -36,6 +36,13 @@ FILES:
     *there are 30 small molecules in total, but it has to be double double-checked, as it was done manually 
     *some of them might not bind to nucleosome core particles (e.g., bind to other chains)
   
+  report_1.pdf:
+  
+    *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 30 in total)
+    *names of unique small molecules extracted from 'protein_ligand_merged.csv' (manually! omitting ions! 30 in total)
+    *tables are from the PIR server, pie charts from the PantherDB 
+    *PantherDB recognized only 19 UNIPROT
+    
 SCRIPTS:
 
   getpdb.sh:
