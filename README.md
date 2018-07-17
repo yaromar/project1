@@ -26,19 +26,18 @@ FILES:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
     *1 column: UNIPROT
-    *there are 30 chains in total, but it has to be double-checked, as it was done manually 
-    *some of them might not bind to nucleosome core particles (e.g., bind to DNA)
+    *there are 31 chains in total
     
   small_molecules.txt:
   
     *contains ligand names of small molecules found in the PDB structures from 'nucleosome_pdb'
     *1 column: ligandName
-    *there are 31 small molecules in total, but it has to be double double-checked, as it was done manually 
-    *some of them might not bind to nucleosome core particles (e.g., bind to other chains)
+    *there are 31 small molecules in total
+    *some of them might not bind to nucleosome core particles (e.g., bind to binding partners)
   
   report_1.pdf:
   
-    *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 30 in total)
+    *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 30 in total; 1 missing in the report)
     *names of unique small molecules extracted from 'protein_ligand_merged.csv' (manually! omitting ions! 30 in total; 1 missing in the report)
     *tables are from the PIR server, pie charts from the PantherDB 
     *PantherDB recognized only 19 UNIPROT
