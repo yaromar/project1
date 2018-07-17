@@ -1,4 +1,5 @@
 1) Write a script to double-check whether all binding partners were extracted
 2) Check extracted binding partners for known parnters from literature (from Seyit)
-3) Classify binding partners by protein family (conserved domain DB)
-4) Get interfaces (how?)
+3) Redo pie charts/charts from report1.pdf (PantherDB recognized only 19 UNIPROT#)
+4) Classify binding partners by protein family (conserved domain DB)
+5) Get interfaces (how?)
