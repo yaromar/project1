@@ -24,9 +24,3 @@ Steps:
 		Choose iProtClass
 	OR
 	Go to http://www.pantherdb.org
-	
-	
-Misc:
-	Download PDBx/mmCIF from Step 1 (download ligands optionally)
-		OR
-	Use getpdb (scripts/getpdb)
