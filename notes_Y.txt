@@ -10,9 +10,10 @@ Steps:
 1) Find all resolved whole nucleosome structures: 
 	Go to PDB: 
 		StructTitleQuery: struct.title.comparator=contains struct.title.value=nucleosome 
-			and 
+		and
 		Oligomeric state Search : Min Number of oligomeric state=8
 		
+		Also, search for 'chromatosome'
 		Copy the PDB list
 
 2) Break PDB results into UNIPROT chains and ligands:
@@ -24,5 +25,5 @@ Steps:
 3) For GO Slim analysis (using UNIPROT):
 	Go to https://pir.georgetown.edu/pirwww/search/batch.shtml (preferred): 
 		Choose iProtClass
-	OR
+		OR
 	Go to http://www.pantherdb.org
