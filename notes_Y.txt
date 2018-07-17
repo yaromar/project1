@@ -1,4 +1,25 @@
 Useful links:
 
-  https://pir.georgetown.edu/pirwww/search/batch.shtml
-  http://www.pantherdb.org
+https://www.ebi.ac.uk/pdbe/docs/sifts/index.html (SIFTS)
+https://www.ncbi.nlm.nih.gov/Structure/vastplus/vastplus.cgi (VAST+)
+http://mmcif.wwpdb.org/docs/faqs/pdbx-mmcif-faq-general.html (PDBx/mmCIF specs)
+https://pir.georgetown.edu/pirwww/search/batch.shtml (protein characterization)
+http://www.pantherdb.org (protein characterization)
+
+Steps:
+1) Find all resolved whole nucleosome structures: 
+	Go to PDB: 
+		StructTitleQuery: struct.title.comparator=contains 		struct.title.value=nucleosome and Oligomeric state Search : 		Min Number of oligomeric state=8
+		Copy the PDB list
+	Results: 158 structures
+
+2)Break PDB results into UNIPROT chains and ligands:
+	Go to https://www.rcsb.org/pdb/software/wsreport.do :
+		Choose PDB ID(s) in Step 1 and past results from step 1 in the <structureIdList> field
+		Select ‘Customizable table’ in Step 2
+		Export report in CSV
+
+
+	Download PDBx/mmCIF from Step 1 (download ligands optionally)
+		OR
+	Use getpdb (scripts/getpdb)
