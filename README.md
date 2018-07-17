@@ -21,8 +21,21 @@ FILES:
     *15 columns: structureId, chainId, structureTitle, pdbDoi, entityId, ligandId, ligandName, InChI, InChIKey, hetId, IC50, deltaG, uniprotAcc, uniprotRecommendedName, uniprotAlternativeNames
     *merged 'Histone' and 'Molecule' entities from 'ER_diagram
     *the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
+      
+  non_histone_chains.csv:
+  
+    *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
+    *1 column: UNIPROT
+    *there are 30 chains in total, but it has to be double-checked, as it was done manually 
+    *some of them might not bind to nucleosome core particles (e.g., bind to DNA)
     
-
+  small_molecules.csv
+  
+    *contains ligand names of small molecules found in the PDB structures from 'nucleosome_pdb'
+    *1 column: ligandName
+    *there are 30 small molecules in total, but it has to be double double-checked, as it was done manually 
+    *some of them might not bind to nucleosome core particles (e.g., bind to other chains)
+  
 SCRIPTS:
 
   getpdb.sh:
