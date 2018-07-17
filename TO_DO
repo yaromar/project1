@@ -1,9 +1,13 @@
-- Write a script to double-check whether all binding partners were extracted
+
 - Redo pie charts/tables from 'report1.pdf' (PantherDB recognized only 19 UNIPROT#)
 - Classify binding partners by protein family (conserved domain DB)
 - Get interfaces (how?)
 
 DONE:
-- Check extracted binding partners for known parnters from literature (from Seyit):
-  *4QLC was missing (chromatosome)
-  *added it to 'protein_ligands_merged.csv'
+- Checked extracted binding partners for known parnters from literature (from Seyit):
+   *4QLC was missing (chromatosome)
+   *added it to 'protein_ligands_merged.csv'
+
+- Double-checked whether all binding partners were extracted
+   *Maltose-binding periplasmic protein
+   *Added it to the 
