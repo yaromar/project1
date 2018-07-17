@@ -1826,3 +1826,14 @@ structureId,chainId,structureTitle,pdbDoi,entityId,ligandId,ligandName,InChI,InC
 6FQ8,H,Class 3 : translocated nucleosome,10.2210/pdb6fq8/pdb,4,,,,,,,,A0A1L8FQ56,Histone H2B,
 6FQ8,I,Class 3 : translocated nucleosome,10.2210/pdb6fq8/pdb,5,,,,,,,,,,
 6FQ8,J,Class 3 : translocated nucleosome,10.2210/pdb6fq8/pdb,6,,,,,,,,,,
+"4QLC","A","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","3","CIT","CITRIC ACID","InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)","KRKNYBCHXYNGOX-UHFFFAOYSA-N","CIT","","","P02299","Histone H3",""
+"4QLC","B","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","4","","","","","","","","P84040","Histone H4",""
+"4QLC","C","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","5","","","","","","","","P84051","Histone H2A",""
+"4QLC","D","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","6","","","","","","","","P02283","Histone H2B",""
+"4QLC","E","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","3","","","","","","","","P02299","Histone H3",""
+"4QLC","F","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","4","","","","","","","","P84040","Histone H4",""
+"4QLC","G","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","5","CIT","CITRIC ACID","InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)","KRKNYBCHXYNGOX-UHFFFAOYSA-N","CIT","","","P84051","Histone H2A",""
+"4QLC","H","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","6","","","","","","","","P02283","Histone H2B",""
+"4QLC","I","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","1","","","","","","","","","",""
+"4QLC","J","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","2","","","","","","","","","",""
+"4QLC","U","Crystal structure of chromatosome at 3.5 angstrom resolution","10.2210/pdb4qlc/pdb","7","","","","","","","","P02259","Histone H5",""
