@@ -1,10 +1,10 @@
 Useful links:
-
 https://www.ebi.ac.uk/pdbe/docs/sifts/index.html (SIFTS)
 https://www.ncbi.nlm.nih.gov/Structure/vastplus/vastplus.cgi (VAST+)
 http://mmcif.wwpdb.org/docs/faqs/pdbx-mmcif-faq-general.html (PDBx/mmCIF specs)
 https://pir.georgetown.edu/pirwww/search/batch.shtml (protein characterization)
 http://www.pantherdb.org (protein characterization)
+
 
 Steps:
 1) Find all resolved whole nucleosome structures: 
@@ -20,6 +20,7 @@ Steps:
 		Export report in CSV
 
 
+Misc:
 	Download PDBx/mmCIF from Step 1 (download ligands optionally)
 		OR
 	Use getpdb (scripts/getpdb)
