@@ -10,5 +10,5 @@ DONE:
    *added it to 'protein_ligands_merged.csv'
 
 - Double-checked whether all binding partners were extracted
-   *Maltose-binding periplasmic protein
-   *Added it to the 
+   *P0AEY0 was missing (Maltose-binding periplasmic protein)
+   *Added it to the 'non_histone_chains.csv'
