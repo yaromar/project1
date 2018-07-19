@@ -1,5 +1,6 @@
 
 TO DO:
+- Make a graph with histones and their interacting partners
 - Extract tetramers/hexamers (?)
 - Redo pie charts/tables from 'report1.pdf' (PantherDB recognized only 19 UNIPROT#)
 - Classify binding partners by protein family (conserved domain DB)
