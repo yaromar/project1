@@ -10,8 +10,8 @@ Q99496	4R8P	E3 ubiquitin-protein ligase RING2	Crystal structure of the Ring1B/Bm
 P50102	4ZUX	Ubiquitin carboxyl-terminal hydrolase 8	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
 Q6WNK7	4ZUX	Transcription and mRNA export factor SUS1	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
 A6ZWK1	4ZUX	SAGA-associated factor 11	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-P0CG47	4ZUX	Polyubiquitin-B	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Homo sapiens
 P53165	4ZUX	SAGA-associated factor 73	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
+P0CG47	4ZUX	Polyubiquitin-B	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Homo sapiens
 P0CG47	5KGF	Polyubiquitin-B	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens
 Q12888	5KGF	TP53-binding protein 1	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens
 P14349	5MLU	Gag polyprotein	Crystal structure of the PFV GAG CBS bound to a mononucleosome	Xenopus laevis	Simian foamy virus
@@ -25,6 +25,7 @@ Q9Y230	6ETX	RuvB-like 2	Cryo-EM structure of the human INO80 complex bound to nu
 Q9ULG1	6ETX	DNA helicase INO80	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
 Q9H9F9	6ETX	Actin-related protein 5	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
 Q9C086	6ETX	INO80 complex subunit B	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	synthetic construct
+Q9Y265	6ETX	RuvB-like 1	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
 G0RYI5	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
 G0RYC2	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
 G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
