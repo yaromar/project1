@@ -22,7 +22,7 @@ FILES:
     *merged 'Histone' and 'Molecule' entities from 'ER_diagram
     *the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
       
-  non_histone_chains.csv:
+  non_histone_chains.tsv:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
     *5 columns: UNIPROT,	PDB,	binding_partner_name,	PDB_name,	nucleosome_Organism,	binding_parner_organism
