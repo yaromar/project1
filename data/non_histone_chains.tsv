@@ -1,37 +1,36 @@
-UNIPROT	PDB	binding_partner_name	PDB_name	nucleosome_Organism	binding_parner_organism
-P25171	3MVD	Regulator of chromosome condensation	Crystal structure of the chromatin factor RCC1 in complex with the nucleosome core particle	Xenopus laevis	Drosophila melanogaster
-P06701	3TU4	Regulatory protein SIR3	Crystal structure of the Sir3 BAH domain in complex with a nucleosome core particle.	Xenopus laevis	Saccharomyces cerevisiae
-P06701	4JJN	Regulatory protein SIR3	Crystal structure of heterochromatin protein Sir3 in complex with a silenced yeast nucleosome	Saccharomyces cerevisiae	Saccharomyces cerevisiae
-P06701	4KUD	Regulatory protein SIR3	Crystal structure of N-terminal acetylated Sir3 BAH domain D205N mutant in complex with yeast nucleosome core particle	Saccharomyces cerevisiae	Saccharomyces cerevisiae
-P06701	4LD9	Regulatory protein SIR3	Crystal structure of the N-terminally acetylated BAH domain of Sir3 bound to the nucleosome core particle	Xenopus laevis	Saccharomyces cerevisiae
-P35226	4R8P	Polycomb complex protein BMI-1	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens
-P61077	4R8P	Ubiquitin-conjugating enzyme E2 D3	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens
-Q99496	4R8P	E3 ubiquitin-protein ligase RING2	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens
-P50102	4ZUX	Ubiquitin carboxyl-terminal hydrolase 8	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-Q6WNK7	4ZUX	Transcription and mRNA export factor SUS1	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-A6ZWK1	4ZUX	SAGA-associated factor 11	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-P53165	4ZUX	SAGA-associated factor 73	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-P0CG47	4ZUX	Polyubiquitin-B	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Homo sapiens
-P0CG47	5KGF	Polyubiquitin-B	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens
-Q12888	5KGF	TP53-binding protein 1	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens
-P14349	5MLU	Gag polyprotein	Crystal structure of the PFV GAG CBS bound to a mononucleosome	Xenopus laevis	Simian foamy virus
-P32657	5O9G	Chromo domain-containing protein 1	Structure of nucleosome-Chd1 complex	Xenopus laevis	Saccharomyces cerevisiae
-P22082	5X0Y	Transcription regulatory protein SNF2	Complex of Snf2-Nucleosome complex with Snf2 bound to SHL2 of the nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-P22082	5X0X	Transcription regulatory protein SNF2	Complex of Snf2-Nucleosome complex with Snf2 bound to position +6 of the nucleosome	Xenopus laevis	Saccharomyces cerevisiae
-P0AEY0	6BUZ	Maltose-binding periplasmic protein	Cryo-EM structure of CENP-A nucleosome in complex with kinetochore protein CENP-N	Homo sapiens	Escherichia coli, Homo sapiens
-Q96H22	6BUZ	Centromere protein N	Cryo-EM structure of CENP-A nucleosome in complex with kinetochore protein CENP-N	Homo sapiens	Escherichia coli, Homo sapiens
-Q96H22	6C0W	Centromere protein N	Cryo-EM structure of human kinetochore protein CENP-N with the centromeric nucleosome containing CENP-A	Homo sapiens	Homo sapiens
-Q9Y230	6ETX	RuvB-like 2	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
-Q9ULG1	6ETX	DNA helicase INO80	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
-Q9H9F9	6ETX	Actin-related protein 5	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
-Q9C086	6ETX	INO80 complex subunit B	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	synthetic construct
-Q9Y265	6ETX	RuvB-like 1	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens
-G0RYI5	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
-G0RYC2	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
-G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
-G0S590	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
-G0S589	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum
-P03169	5E5A	55 kDa immediate-early protein 1	Crystal structure of the chromatin-tethering domain of Human cytomegalovirus IE1 protein bound to the nucleosome core particle	Xenopus laevis	Human betaherpesvirus 5
-Q9QR71	5GTC	Protein ORF73	Crystal structure of complex between DMAP-SH conjugated with a Kaposi's sarcoma herpesvirus LANA peptide (5-15) and nucleosome core particle	Homo sapiens	Human gammaherpesvirus 8
-P21827	5HQ2	Guanine nucleotide exchange factor SRM1	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Saccharomyces cerevisiae
-Q9NQR1	5HQ2	N-lysine methyltransferase KMT5A	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Homo sapiens
+P25171	3MVD	Regulator of chromosome condensation	Crystal structure of the chromatin factor RCC1 in complex with the nucleosome core particle	Xenopus laevis	Drosophila melanogaster	Notes
+P06701	3TU4	Regulatory protein SIR3	Crystal structure of the Sir3 BAH domain in complex with a nucleosome core particle.	Xenopus laevis	Saccharomyces cerevisiae	
+P06701	4JJN	Regulatory protein SIR3	Crystal structure of heterochromatin protein Sir3 in complex with a silenced yeast nucleosome	Saccharomyces cerevisiae	Saccharomyces cerevisiae	
+P06701	4KUD	Regulatory protein SIR3	Crystal structure of N-terminal acetylated Sir3 BAH domain D205N mutant in complex with yeast nucleosome core particle	Saccharomyces cerevisiae	Saccharomyces cerevisiae	
+P06701	4LD9	Regulatory protein SIR3	Crystal structure of the N-terminally acetylated BAH domain of Sir3 bound to the nucleosome core particle	Xenopus laevis	Saccharomyces cerevisiae	
+P35226	4R8P	Polycomb complex protein BMI-1	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens	
+P61077	4R8P	Ubiquitin-conjugating enzyme E2 D3	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens	
+Q99496	4R8P	E3 ubiquitin-protein ligase RING2	Crystal structure of the Ring1B/Bmi1/UbcH5c PRC1 ubiquitylation module bound to the nucleosome core particle	Xenopus laevis	Homo sapiens	
+P50102	4ZUX	Ubiquitin carboxyl-terminal hydrolase 8	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+Q6WNK7	4ZUX	Transcription and mRNA export factor SUS1	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+A6ZWK1	4ZUX	SAGA-associated factor 11	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+P53165	4ZUX	SAGA-associated factor 73	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+P0CG47	4ZUX	Polyubiquitin-B	SAGA DUB module Ubp8/Sgf11/Sus1/Sgf73 bound to ubiqitinated nucleosome	Xenopus laevis	Homo sapiens	
+P0CG47	5KGF	Polyubiquitin-B	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens	
+Q12888	5KGF	TP53-binding protein 1	Structural model of 53BP1 bound to a ubiquitylated and methylated nucleosome, at 4.5 A resolution	Xenopus laevis	Homo sapiens	
+P14349	5MLU	Gag polyprotein	Crystal structure of the PFV GAG CBS bound to a mononucleosome	Xenopus laevis	Simian foamy virus	
+P32657	5O9G	Chromo domain-containing protein 1	Structure of nucleosome-Chd1 complex	Xenopus laevis	Saccharomyces cerevisiae	
+P22082	5X0Y	Transcription regulatory protein SNF2	Complex of Snf2-Nucleosome complex with Snf2 bound to SHL2 of the nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+P22082	5X0X	Transcription regulatory protein SNF2	Complex of Snf2-Nucleosome complex with Snf2 bound to position +6 of the nucleosome	Xenopus laevis	Saccharomyces cerevisiae	
+P0AEY0	6BUZ	Maltose-binding periplasmic protein	Cryo-EM structure of CENP-A nucleosome in complex with kinetochore protein CENP-N	Homo sapiens	Escherichia coli, Homo sapiens	
+Q96H22	6BUZ	Centromere protein N	Cryo-EM structure of CENP-A nucleosome in complex with kinetochore protein CENP-N	Homo sapiens	Escherichia coli, Homo sapiens	
+Q96H22	6C0W	Centromere protein N	Cryo-EM structure of human kinetochore protein CENP-N with the centromeric nucleosome containing CENP-A	Homo sapiens	Homo sapiens	
+Q9Y230	6ETX	RuvB-like 2	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens	
+Q9ULG1	6ETX	DNA helicase INO80	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens	
+Q9H9F9	6ETX	Actin-related protein 5	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens	
+Q9C086	6ETX	INO80 complex subunit B	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	synthetic construct	
+Q9Y265	6ETX	RuvB-like 1	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens	
+G0RYI5	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	
+G0RYC2	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	
+G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	les2
+G0S590	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Ies6
+G0S589	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Actin related protein 5
+P03169	5E5A	55 kDa immediate-early protein 1	Crystal structure of the chromatin-tethering domain of Human cytomegalovirus IE1 protein bound to the nucleosome core particle	Xenopus laevis	Human betaherpesvirus 5	
+Q9QR71	5GTC	Protein ORF73	Crystal structure of complex between DMAP-SH conjugated with a Kaposi's sarcoma herpesvirus LANA peptide (5-15) and nucleosome core particle	Homo sapiens	Human gammaherpesvirus 8	
+P21827	5HQ2	Guanine nucleotide exchange factor SRM1	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Saccharomyces cerevisiae	
+Q9NQR1	5HQ2	N-lysine methyltransferase KMT5A	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Homo sapiens	
