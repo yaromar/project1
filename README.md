@@ -43,6 +43,11 @@ FILES:
     *tables are from the PIR server, pie charts from the PantherDB 
     *PantherDB recognized only 19 UNIPROT
     
+  Interfaces/:
+  
+    *contains results of Alexander's pipeline for PDB structures that contain binding partners
+    
+    
 SCRIPTS:
 
   getpdb.sh:
