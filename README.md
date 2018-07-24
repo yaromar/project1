@@ -26,8 +26,8 @@ FILES:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
     *9 columns: UNIPROT,	PDB,	binding_partner_name,	PDB_name,	nucleosome_Organism,	binding_parner_organism, notes, CD_results, deposit_year, release_year
-    *there are 31 unique chains in total, but 35 entries, as some of the binding partners occur in several PDB structures
-    *there are only 19 PDB structures that contain binding partners
+    *there are 30 unique chains in total (if we count centromere protein N), but 37 entries, as some of the binding partners occur in several PDB structures
+    *there are only 19 PDB structures that contain binding partners; also, 6C0W is bound only to centromere protein N
     
   small_molecules.txt:
   
