@@ -15,6 +15,7 @@ Steps:
 		
 		Also, search for 'chromatosome' AND delete 5HQ2 (half structure w/ binding partners)
 		Copy the PDB list
+	IMPORTANT: 5HQ2 is only one half of a nucleosome, while 4ZUX is a double nucleosome (X-ray artifact);
 
 2) Break PDB results into UNIPROT chains and ligands:
 	Go to https://www.rcsb.org/pdb/software/wsreport.do :
