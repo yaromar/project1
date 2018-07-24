@@ -13,7 +13,7 @@ Steps:
 		and
 		Oligomeric state Search : Min Number of oligomeric state=8
 		
-		Also, search for 'chromatosome'
+		Also, search for 'chromatosome' AND delete 5HQ2 (half structure w/ binding partners)
 		Copy the PDB list
 
 2) Break PDB results into UNIPROT chains and ligands:
