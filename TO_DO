@@ -1,8 +1,9 @@
 
 TO DO:
+- Delete 5HQ2? It is only one half of nucleosome
 - Make a tree graph with histones and their interacting partners
 - Make a histogram interface residues
-- Make a histogram with # of structures vs year
+
 - Extract tetramers/hexamers (?)
 - Redo pie charts/tables from 'report1.pdf' (PantherDB recognized only 19 UNIPROT#)
 - Classify binding partners by protein family (conserved domain DB)
@@ -16,3 +17,7 @@ DONE:
 - Double-checked whether all binding partners were extracted
    *P0AEY0 was missing (Maltose-binding periplasmic protein)
    *Added it to the 'non_histone_chains.csv'
+
+- Made a histogram with # of structures vs year
+  *Cumulative sum plot looks better
+  *illustrations/PDB_release_trend/png
