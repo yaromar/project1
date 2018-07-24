@@ -11,9 +11,9 @@ FILES:
   nucleosomes_pdb:
  
     *contains PDB# of all (16/7/18) resolved whole (8 chains) nucleosomes and a structure of a chromatosome; 159 structures in total              
-    *1 column: PDB
+    *3 column: PDB, depositionDate, releaseDate
     *'Nucleosome_PDB' entity from the 'ER_diagram'
-    *the list can be obtained by completing the first step from 'notes_Y.txt'
+    *the list can be obtained by completing the first step from 'notes_Y.txt' and manually adding a structure of chromatosome
     
   protein_ligand_merged.csv:
   
