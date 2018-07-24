@@ -1,4 +1,4 @@
-YEAR	nucleosome_W/_BP	nucleosome_w/bp_cumulative	NUCLEOSOME_ONLY	NUCLEOSOME_ONLY_CUMULATIVE
+YEAR	nucleosome_w/bp_cumulative	nucleosome_W/_BP	NUCLEOSOME_ONLY	NUCLEOSOME_ONLY_CUMULATIVE
 Until ‘99	0	0	1	1
 ’99-‘00	0	0	2	3
 ’01-‘02	0	0	4	7
@@ -9,4 +9,4 @@ Until ‘99	0	0	1	1
 ’11-‘12	2	1	24	67
 ’13-‘14	6	4	10	77
 ’15-‘16	11	5	34	111
-’17-‘18	20	9	28	139
+’17-‘18	19	9	29	140
