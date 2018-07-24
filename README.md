@@ -47,6 +47,9 @@ FILES:
   
     *contains results of Alexander's pipeline for PDB structures that contain binding partners
     
+  PDB_release_trend*.tsv:
+  
+    *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
     
 SCRIPTS:
 
