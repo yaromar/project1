@@ -50,6 +50,7 @@ FILES:
   PDB_release_trend*.tsv:
   
     *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
+    *5 columns: YEAR, nucleosome_W/_BP, nucleosome_w/bp_cumulative, NUCLEOSOME_ONLY, NUCLEOSOME_ONLY_CUMULATIVE
     
 SCRIPTS:
 
