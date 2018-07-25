@@ -14,7 +14,7 @@ PDB	HISTONES_CHAINS 	BP_CHAINS	DNA_CHAINS
 6BUZ	C, G, D, H, A, E, B, F	N	I, J
 6C0W	C, G, D, H, A, E, B, F	K	I, J
 6ETX	K, O, L, P, I, M, J, N	H, G, R, A, C, E, B, D, F	X, Y
-6FML	O, S, P, T, M, Q, N, R	A, B, C, D, E, F, G, H, I, J, J	K, L
+6FML	O, S, P, T, M, Q, N, R	A, B, C, D, E, F, H, I, J, J, G	K, L
 5E5A	C, G, D, H, A, E, B, F	K	I, J
 5GTC	C, G, D, H, A, E, B, F	K	I, J
 5HQ2	G, H, A, B	K, M	I, J
