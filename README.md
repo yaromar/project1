@@ -26,8 +26,8 @@ FILES:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
     *9 columns: UNIPROT,	PDB,	binding_partner_name,	PDB_name,	nucleosome_Organism,	binding_parner_organism, notes, CD_results, deposit_year, release_year
-    *there are 30 unique chains in total (if we count centromere protein N in 6C0W and 6BUZ), but 37 entries, as some of the binding partners occur in several PDB structures
-    *there are only 20 PDB structures that contain binding partners; also, 6C0W is bound only to centromere protein N
+    *there are 31 unique chains in total (if we count centromere protein N in 6C0W and 6BUZ), but 38 entries, as some of the binding partners occur in several PDB structures; also, 6FML's chain G is actually a catalytic domain of INO80 (Ino80), but it does not have a UNIPROT -- I distinguish it from INO80 complex subunit B of 6ETX for now (it aligned with RMSD 3.46 2646 atoms)
+    *there are only 20 PDB structures that contain binding partners; also, 6C0W is bound only to centromere protein N, while 6BUZ's binding partner is the same chain as centromere protein N
     
   small_molecules.txt:
   
