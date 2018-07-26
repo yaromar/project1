@@ -23,7 +23,6 @@ def map_split_chains(labeledChainsFile, mappingFile, pdbList, histoneDict, partn
 	histoneList = []
 	partnerList = []
 	get_chain_lists(labeledChainsFile, pdbList, histoneList, partnerList)
-	print(histoneList)
 
 	with open(mappingFile, 'r') as mf:
 		for line in mf:

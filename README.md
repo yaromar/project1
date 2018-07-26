@@ -59,3 +59,8 @@ SCRIPTS:
     *downloads a specified PDB to a specified folder (downloads to the current folder by default)
     *usage: getpdb 'PDB#' [directory]
     
+  interface_to_frequency.*:
+  
+    *converts interface data obtained by Alex to residue frequency
+    *uses *chain_protein_mapping.tab files and labeled_chains.tsv
+    *usage: to be determined
