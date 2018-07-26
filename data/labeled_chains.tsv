@@ -1,20 +1,20 @@
-PDB	HISTONE_CHAINS 	BP_CHAINS	DNA_CHAINS
-3MVD	C, G, D, H, A, E, B, F	K, L	I, J
-3TU4	C, G, D, H, A, E, B, F	K, L	I, J
-4JJN	C, G, D, H, A, E, B, F	K, L	I, J
-4KUD	C, G, D, H, A, E, B, F	K, L	I, J
-4LD9	C, G, D, H, A, E, B, F	K, L	I, J
-4R8P	C, G, D, H, A, E, B, F	K, L, M, N	I, J
-4ZUX	C, G, M, Q, D, H, N, R, A, E, K, O, B, F, L, P	X, c, h, m, W, b, g, l, Y, d, i, n, V, a, f, k, U, Z, e, j	I, J, S, T
-5KGF	C, G, D, H, A, E, B, F	M, O, K, L	I, J
-5MLU	C, G, D, H, A, E, B, F	M	I, J
-5O9G	C, G, D, H, A, E, B, F	W, W	I, J
-5X0Y	C, G, D, H, A, E, B, F	O	I, J
-5X0X	C, G, D, H, A, E, B, F	O	I, J
-6BUZ	C, G, D, H, A, E, B, F	N	I, J
-6C0W	C, G, D, H, A, E, B, F	K	I, J
-6ETX	K, O, L, P, I, M, J, N	H, G, R, A, C, E, B, D, F	X, Y
-6FML	O, S, P, T, M, Q, N, R	A, B, C, D, E, F, H, I, J, J, G	K, L
-5E5A	C, G, D, H, A, E, B, F	K	I, J
-5GTC	C, G, D, H, A, E, B, F	K	I, J
-5HQ2	G, H, A, B	K, M	I, J
+PDB	HISTONES_CHAINS	BP_CHAINS	DNA_CHAINS
+3MVD	C,G,D,H,A,E,B,F	K,L	I,J
+3TU4	C,G,D,H,A,E,B,F	K,L	I,J
+4JJN	C,G,D,H,A,E,B,F	K,L	I,J
+4KUD	C,G,D,H,A,E,B,F	K,L	I,J
+4LD9	C,G,D,H,A,E,B,F	K,L	I,J
+4R8P	C,G,D,H,A,E,B,F	K,L,M,N	I,J
+4ZUX	C,G,M,Q,D,H,N,R,A,E,K,O,B,F,L,P	X,c,h,m,W,b,g,l,Y,d,i,n,V,a,f,k,U,Z,e,j	I,J,S,T
+5KGF	C,G,D,H,A,E,B,F	M,O,K,L	I,J
+5MLU	C,G,D,H,A,E,B,F	M	I,J
+5O9G	C,G,D,H,A,E,B,F	W,W	I,J
+5X0Y	C,G,D,H,A,E,B,F	O	I,J
+5X0X	C,G,D,H,A,E,B,F	O	I,J
+6BUZ	C,G,D,H,A,E,B,F	N	I,J
+6C0W	C,G,D,H,A,E,B,F	K	I,J
+6ETX	K,O,L,P,I,M,J,N	H,G,R,A,C,E,B,D,F	X,Y
+6FML	O,S,P,T,M,Q,N,R	A,B,C,D,E,F,H,I,J,J,G	K,L
+5E5A	C,G,D,H,A,E,B,F	K	I,J
+5GTC	C,G,D,H,A,E,B,F	K	I,J
+5HQ2	G,H,A,B	K,M	I,J
