@@ -23,7 +23,6 @@ def map_split_chains(labeledChainsFile, mappingFile, pdbList, histoneDict, partn
 	histoneList = []
 	partnerList = []
 	get_chain_lists(labeledChainsFile, pdbList, histoneList, partnerList)
-	print(histoneList)
 
 	with open(mappingFile, 'r') as mf:
 		for line in mf:
@@ -41,7 +40,7 @@ def map_split_chains(labeledChainsFile, mappingFile, pdbList, histoneDict, partn
 
 
 def main():
-	mappingFile = "../data/Interfaces/6buz_chain_protein_mapping.tab"
+	mappingFile = "../data/Interfaces/4zux_chain_protein_mapping.tab"
 	labeledChainsFile = "../data/labeled_chains.tsv"
 	pdbIDs = ["4ZUX"]
 	#For the following dicts:
