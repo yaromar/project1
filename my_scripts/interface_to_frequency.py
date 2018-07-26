@@ -41,7 +41,7 @@ def map_split_chains(labeledChainsFile, mappingFile, pdbList, histoneDict, partn
 
 
 def main():
-	mappingFile = "../data/Interfaces/6buz_chain_protein_mapping.tab"
+	mappingFile = "../data/Interfaces/4zux_chain_protein_mapping.tab"
 	labeledChainsFile = "../data/labeled_chains.tsv"
 	pdbIDs = ["4ZUX"]
 	#For the following dicts:
