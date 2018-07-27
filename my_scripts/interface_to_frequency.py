@@ -1,60 +1,104 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python 3
 
 
+def get_chain_lists(labeledChainsFile, mappedChains):
+        with open(labeledChainsFile, 'r') as lfh:
+            lfh.readline() #skips header
 
-def map_chains(mappingFile, chainMap):
-	with open(mappingFile, 'r') as mf:
-		for line in mf:
-			chainMap[line.split()[0]] = line.split()[1]
+            for line in lfh:
+                pdbID = line.split('\t', 1)[0]
+                histoneChains = line.split('\t')[1].split(',')
+                partnerChains = line.split('\t')[2].split(',')
 
+                histDict = {}
+                partnDict = {}
+                for chain in histoneChains:
+                    histDict[chain] = ''
 
-def get_chain_lists(labeledChainsFile, pdbList, histoneList, partnerList):
-		with open(labeledChainsFile, 'r') as lf:
-			for pdbID in pdbList:
-				for line in lf:
-					if(line.startswith(pdbID)):
-						histoneList[:] = line.split('\t')[1].split(',')
-						partnerList[:] = line.split('\t')[2].split(',')
-						lf.seek(0)
-						break
+                for chain in partnerChains:
+                    partnDict[chain] = ''
 
+                mappedChains[pdbID] = {'histone' : {}}
+                mappedChains[pdbID] = {'partner' : {}}
 
-def map_split_chains(labeledChainsFile, mappingFile, pdbList, histoneDict, partnerDict):
-	histoneList = []
-	partnerList = []
-	get_chain_lists(labeledChainsFile, pdbList, histoneList, partnerList)
-
-	with open(mappingFile, 'r') as mf:
-		for line in mf:
-			if(line.split()[1] in histoneList):
-				histoneDict[line.split()[0]] = line.split()[1]
-			elif(line.split()[1] in partnerList):
-				partnerDict[line.split()[0]] = line.split()[1]
+                mappedChains[pdbID]['histone'] = histDict
+                mappedChains[pdbID]['partner'] = partnDict
 
 
-#def get_frequency(file_, residueDict):
-#	with open(file_, 'r') as residueFile:
-#		for line in residueFile:
+def map_chains(labeledChainsFile, mappingFiles, mappedChains):
+    get_chain_lists(labeledChainsFile, mappedChains)
+    
+    for file in mappingFiles:
+        pdbID = file.split('/', 3)[3]
+        pdbID = pdbID.split('_', 1)[0]
+        
+        with open(file, 'r') as mfh:
+            mfh.readline() #skips header  
+            
+            for line in mfh:
+                lineFields = line.split('\t', 2)
+                chainOriginal = lineFields[0] #Alexander's files
+                chainNew = lineFields[1] #labeled_chains file
+                
+                if(chainNew in mappedChains[pdbID]['histone']):
+                    mappedChains[pdbID]['histone'][chainNew] = line.split()[0]
+                elif(chainNew in mappedChains[pdbID]['partner']):
+                    mappedChains[pdbID]['partner'][chainNew] = line.split()[0]				
 
+
+class pdbFreq:
+    def __init__(self, interfaceFiles, mappedChains):
+        self.freq = {}
+        self.freq['chain'] = {}
+        self.freq['chain']['residue'] = {}
+
+        for file in interfaceFiles:
+            pdbID = file.split('/', 3)[3]
+            pdbID = pdbID.split('_', 1)[0]
+
+            with open (file, 'r') as ifh:
+                for line in ifh:
+                    lineFields = line.split('\t', 7) #gets only the first 8 columns !!!
+                    chain1 = lineFields[0]
+                    chain2 = lineFields[4]
+
+                    if((chain1 in mappedChains[pdbID]['histone'].values()) and (chain2 in mappedChains[pdbID]['partner'].values())):
+                        res = lineFields[2]
+                        self.addResidue(chain1, res)
+                    elif((chain1 in mappedChains[pdbID]['partner'].values()) and (chain2 in mappedChains[pdbID]['histone'].values())):
+                        res = lineFields[6]
+                        self.addResidue(chain2, res)
+
+    def addResidue(self, ch, aa):
+        if(ch in self.freq):
+            if(aa in self.freq[ch]):
+                self.freq[ch][aa] += 1
+            else:
+                self.freq[ch][aa] = 1
+        else:
+            self.freq[ch] = {aa: 1}
+
+    def printContent(self):
+        print(self.freq)
 
 
 
 def main():
-	mappingFile = "../data/Interfaces/4zux_chain_protein_mapping.tab"
-	labeledChainsFile = "../data/labeled_chains.tsv"
-	pdbIDs = ["4ZUX"]
-	#For the following dicts:
-	#key = original chain from Alex files; value = PDB chain from labeled_chains.tsv
-	histones = {} 
-	partners = {}
+    labeledChainsFiles = "../data/labeled_chains.tsv"
+    mappingFiles = ["../data/Interfaces/4zux_chain_protein_mapping.tab"]
+    interfaceFiles = ["../data/Interfaces/4zux_atomic_contacts_5.0A.tab"]
 
-	map_split_chains(labeledChainsFile, mappingFile, pdbIDs, histones, partners)
-
-
-
-
+    mappedChains = {} 
+    mappedChains['PDB'] = {}
+    mappedChains['PDB']['type'] = {}
+    mappedChains['PDB']['type']['chain'] = {}
+    
+    map_chains(labeledChainsFiles, mappingFiles, mappedChains)
+    
+    result = pdbFreq(interfaceFiles, mappedChains)
+    result.printContent()
 
 
 
 if __name__ == "__main__":
-	main()
+    main()
