@@ -1,4 +1,9 @@
 #!/usr/bin/env python 3
+import os
+
+PATH = "../data/Interfaces/"
+
+
 
 
 def get_chain_lists(labeledChainsFile, mappedChains):
@@ -29,10 +34,8 @@ def map_chains(labeledChainsFile, mappingFiles, mappedChains):
     get_chain_lists(labeledChainsFile, mappedChains)
     
     for file in mappingFiles:
-        pdbID = file.split('/', 3)[3]
-        pdbID = pdbID.split('_', 1)[0]
-        
-        with open(file, 'r') as mfh:
+        pdbID = file.split('_', 1)[0]
+        with open(PATH+file, 'r') as mfh:
             mfh.readline() #skips header  
             
             for line in mfh:
@@ -41,22 +44,23 @@ def map_chains(labeledChainsFile, mappingFiles, mappedChains):
                 chainNew = lineFields[1] #labeled_chains file
                 
                 if(chainNew in mappedChains[pdbID]['histone']):
-                    mappedChains[pdbID]['histone'][chainNew] = line.split()[0]
+                    mappedChains[pdbID]['histone'][chainNew] = chainOriginal
                 elif(chainNew in mappedChains[pdbID]['partner']):
-                    mappedChains[pdbID]['partner'][chainNew] = line.split()[0]				
+                    mappedChains[pdbID]['partner'][chainNew] = chainOriginal
+
 
 
 class pdbFreq:
     def __init__(self, interfaceFiles, mappedChains):
         self.freq = {}
-        self.freq['chain'] = {}
-        self.freq['chain']['residue'] = {}
+        self.freq['pdb'] = {}
+        self.freq['pdb']['chain'] = {}
+        self.freq['pdb']['chain']['residue'] = {}
 
         for file in interfaceFiles:
-            pdbID = file.split('/', 3)[3]
-            pdbID = pdbID.split('_', 1)[0]
+            pdbID = file.split('_', 1)[0]
 
-            with open (file, 'r') as ifh:
+            with open (PATH+file, 'r') as ifh:
                 for line in ifh:
                     lineFields = line.split('\t', 7) #gets only the first 8 columns !!!
                     chain1 = lineFields[0]
@@ -64,29 +68,42 @@ class pdbFreq:
 
                     if((chain1 in mappedChains[pdbID]['histone'].values()) and (chain2 in mappedChains[pdbID]['partner'].values())):
                         res = lineFields[2]
-                        self.addResidue(chain1, res)
+                        self.addResidue(pdbID, chain1, res)
                     elif((chain1 in mappedChains[pdbID]['partner'].values()) and (chain2 in mappedChains[pdbID]['histone'].values())):
                         res = lineFields[6]
-                        self.addResidue(chain2, res)
+                        self.addResidue(pdbID, chain2, res)
 
-    def addResidue(self, ch, aa):
-        if(ch in self.freq):
-            if(aa in self.freq[ch]):
-                self.freq[ch][aa] += 1
+    def addResidue(self, pdb, ch, aa):
+        if(pdb in self.freq):
+            if(ch in self.freq[pdb]):
+                if(aa in self.freq[pdb][ch]):
+                    self.freq[pdb][ch][aa] += 1
+                else:
+                    self.freq[pdb][ch][aa] = 1
             else:
-                self.freq[ch][aa] = 1
+                self.freq[pdb][ch] = {aa : 1}
         else:
-            self.freq[ch] = {aa: 1}
+            self.freq[pdb] = {ch : {aa : 1}}
 
     def printContent(self):
         print(self.freq)
 
 
 
+
+
 def main():
+    folder = os.listdir(PATH)
+    
+    mappingFiles = []
+    interfaceFiles = []
+    for file in folder:
+        if("mapping" in file):
+            mappingFiles.append(file)
+        elif("contacts"in file):
+            interfaceFiles.append(file)
+    
     labeledChainsFiles = "../data/labeled_chains.tsv"
-    mappingFiles = ["../data/Interfaces/4zux_chain_protein_mapping.tab"]
-    interfaceFiles = ["../data/Interfaces/4zux_atomic_contacts_5.0A.tab"]
 
     mappedChains = {} 
     mappedChains['PDB'] = {}
@@ -100,5 +117,6 @@ def main():
 
 
 
+
 if __name__ == "__main__":
-    main()
+main()
