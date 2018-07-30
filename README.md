@@ -52,6 +52,16 @@ FILES:
     *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
     *5 columns: YEAR, nucleosome_W/_BP, nucleosome_w/bp_cumulative, NUCLEOSOME_ONLY, NUCLEOSOME_ONLY_CUMULATIVE
     
+  aa_freq_byPDB.tsv:
+  
+    *contains count of interface residues sorted by pdb and then by chain
+    *4 columns: pdb, chain, residue, count
+    
+  aa_freq_byAA.tsv:
+  
+    *contains count of interface residues sorted by chains (sum of all PDBs)
+    *3 columns: chain, residue, count
+    
 SCRIPTS:
 
   getpdb.sh:
@@ -59,8 +69,15 @@ SCRIPTS:
     *downloads a specified PDB to a specified folder (downloads to the current folder by default)
     *usage: getpdb 'PDB#' [directory]
     
-  interface_to_frequency.*:
+  interface_to_frequency.ipynb:
   
     *converts interface data obtained by Alex to residue frequency
     *uses *chain_protein_mapping.tab files and labeled_chains.tsv
     *usage: to be determined
+
+  freqByPDB_to_freqByChain.ipynb
+  
+    *converts data obtained from interface_to_frequency.ipynb to residue count by chains
+    *uses aa_freq_byPDB.tsv
+    *usage: to be determined
+    *does not use 6fml and 6etx as they are cryo em structures, and chains cannot be assigned to cononical nucleosome histones
