@@ -1,4 +1,4 @@
-pdb     chain   residue  {}
+pdb     chain   residue  count
 5e5a    I       23       1
 5e5a    I       24       1
 5e5a    I       25       2
