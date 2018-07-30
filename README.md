@@ -52,13 +52,13 @@ FILES:
     *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
     *5 columns: YEAR, nucleosome_W/_BP, nucleosome_w/bp_cumulative, NUCLEOSOME_ONLY, NUCLEOSOME_ONLY_CUMULATIVE
     
-  aa_freq_byPDB.tsv:
+  aa_freqByPDB.tsv:
   
     *contains count of interface residues sorted by pdb and then by chain
     *4 columns: pdb, chain, residue, count
     *does not have 5x0x interface as the closest histone/bp residues are further than 5A away from each other
     
-  aa_freq_byAA.tsv:
+  aa_freqByChain.tsv:
   
     *contains count of interface residues sorted by chains (sum of all PDBs)
     *3 columns: chain, residue, count
@@ -79,6 +79,6 @@ SCRIPTS:
   freqByPDB_to_freqByChain.ipynb
   
     *converts data obtained from interface_to_frequency.ipynb to residue count by chains
-    *uses aa_freq_byPDB.tsv
+    *uses aa_freqByPDB.tsv
     *usage: to be determined
-    *does not use 6fml and 6etx as they are cryo em structures, and chains cannot be assigned to cononical nucleosome histones
+    *does not use 6fml and 6etx as they are cryo em structures, and chains cannot be assigned to canonical nucleosome histones
