@@ -80,3 +80,4 @@ SCRIPTS:
     *converts data obtained from interface_to_frequency.ipynb to residue count by chains
     *uses aa_freq_byPDB.tsv
     *usage: to be determined
+    *does not use 6fml and 6etx as they are cryo em structures, and chains cannot be assigned to cononical nucleosome histones
