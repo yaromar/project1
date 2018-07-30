@@ -56,6 +56,7 @@ FILES:
   
     *contains count of interface residues sorted by pdb and then by chain
     *4 columns: pdb, chain, residue, count
+    *does not have 5x0x interface as the closest histone/bp residues are further than 5A away from each other
     
   aa_freq_byAA.tsv:
   
