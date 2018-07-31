@@ -1,27 +1,14 @@
 
 TO DO:
-- Make a histogram interface residues
-  - Categorize by binding partner 
+- Make a histogram of interface residues: 
+  - Every line either a variant/binding partner or just variant
   - Merge together or add cryo EM using VAST+ 
   - Do something about variants
   - Normalize
 
+- Visualize interfaces by binding partner
+- Classify binding partners by protein family (conserved domain DB)
+- Check histone/DNA and DNA/binding partner interfaces 
 - Document scripts
 - Extract tetramers/hexamers (?)
 - Redo pie charts/tables from 'report1.pdf' (PantherDB recognized only 19 UNIPROT#)
-- Classify binding partners by protein family (conserved domain DB)
-- Visualize interfaces by binding partner
-
-
-DONE:
-- Checked extracted binding partners for known parnters from literature (from Seyit):
-   *4QLC was missing (chromatosome)
-   *added it to 'protein_ligands_merged.csv'
-
-- Double-checked whether all binding partners were extracted
-   *P0AEY0 was missing (Maltose-binding periplasmic protein)
-   *Added it to the 'non_histone_chains.csv'
-
-- Made a histogram with # of structures vs year
-  *Cumulative sum plot looks better
-  *illustrations/PDB_release_trend/png
