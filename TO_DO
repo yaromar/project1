@@ -1,13 +1,16 @@
 
 TO DO:
-- Delete 5HQ2? It is only one half of nucleosome
-- Make a tree graph with histones and their interacting partners
 - Make a histogram interface residues
+  - Categorize by binding partner 
+  - Merge together or add cryo EM using VAST+ 
+  - Do something about variants
+  - Normalize
 
 - Extract tetramers/hexamers (?)
 - Redo pie charts/tables from 'report1.pdf' (PantherDB recognized only 19 UNIPROT#)
 - Classify binding partners by protein family (conserved domain DB)
-- Visualize interfaces
+- Visualize interfaces by binding partner
+
 
 DONE:
 - Checked extracted binding partners for known parnters from literature (from Seyit):
