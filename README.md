@@ -16,7 +16,8 @@ FILES:
     *merged 'Histone' and 'Molecule' entities from 'ER_diagram
     *the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
     *5OY7 is a tetranucleosome 
-     
+    *5T5K is not on the list as it's only 6 chains
+    
   non_histone_chains.tsv:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
