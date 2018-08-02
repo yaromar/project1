@@ -54,7 +54,7 @@ FILES:
   
     *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
     *6 columns: year, nucleosome_w/_bp, nucleosome_w/bp_cum, nucleosome_only, nucleosome_only_cum, all_nucleosomes
-    
+    *nucleosome_w/_bp does not include PDB structures where bp is another nucleosome for consistency
   labeled_chains.tsv:
   
     *classifies chains from "non_histone_chains.tsv" by categories
