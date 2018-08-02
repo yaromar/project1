@@ -1,5 +1,5 @@
 year	nucleosome_w/_bp	nucleosome_w/bp_cum	nucleosome_only	nucleosome_only_cum	all_nucleosomes
-‘98	0	0	1	1	1
+Until ‘99	0	0	1	1	1
 ‘99	0	0	0	1	0
 ‘00	0	0	3	4	3
 ‘01	0	0	2	6	2
@@ -18,5 +18,5 @@ year	nucleosome_w/_bp	nucleosome_w/bp_cum	nucleosome_only	nucleosome_only_cum	al
 ‘14	1	7	4	90	5
 ‘15	1	8	20	110	21
 ‘16	3	11	17	127	20
-‘17	6	17	23	150	29
-‘18	3	20	5	155	8
+‘17	7	18	22	149	29
+‘18	3	21	5	154	8
