@@ -8,14 +8,23 @@ http://www.pantherdb.org (protein characterization)
 
 Steps:
 1) Find all resolved whole nucleosome structures: 
-	Go to PDB: 
+	Go to PDB:
+		a) query
 		StructTitleQuery: struct.title.comparator=contains struct.title.value=nucleosome 
 		and
 		Oligomeric state Search : Min Number of oligomeric state=8
 		
-		Also, search for 'chromatosome' AND delete 5HQ2 (half structure w/ binding partners)
+		b) then search for polynucleosomes
+		StructTitleQuery: struct.title.comparator=contains struct.title.value=nucleosome 
+		and
+		Oligomeric state Search : Min Number of oligomeric state=16
+		
+		c) Also, search for 'chromatosome'
 		Copy the PDB list
-	IMPORTANT: 5HQ2 is only one half of a nucleosome, while 4ZUX is a double nucleosome (X-ray artifact);
+		
+	Go to VAST+:
+		a) search for structure similar to 1KX5 (with tails), 3LZ0 (tails clipped), 6FQ5 'canonical nucleosome', and 
+		4QLC ('chromatosome') 
 
 2) Break PDB results into UNIPROT chains and ligands:
 	Go to https://www.rcsb.org/pdb/software/wsreport.do :
