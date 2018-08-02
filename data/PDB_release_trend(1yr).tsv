@@ -1,4 +1,4 @@
-YEAR	nucleosome_w/_bp	nucleosome_w/bp_cum	nucleosome_only	nucleosome_only_cum	all_nucleosomes
+year	nucleosome_w/_bp	nucleosome_w/bp_cum	nucleosome_only	nucleosome_only_cum	all_nucleosomes
 ‘98	0	0	1	1	1
 ‘99	0	0	0	1	0
 ‘00	0	0	3	4	3
