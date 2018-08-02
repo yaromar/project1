@@ -18,6 +18,10 @@ Q12888	5KGF	TP53-binding protein 1	Structural model of 53BP1 bound to a ubiquity
 P21827	5HQ2	Guanine nucleotide exchange factor SRM1	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Saccharomyces cerevisiae		Alpha-tubulin suppressor and related RCC1 domain-containing proteins, Regulator of chromosome condensation (RCC1) repea superfamily	2016	2016
 Q9NQR1	5HQ2	N-lysine methyltransferase KMT5A	Structural model of Set8 histone H4 Lys20 methyltransferase bound to nucleosome core particle	Xenopus laevis	Homo sapiens		MAEBL superfamily, , SET domain, , SET domain-containing protein superfamily	2016	2016
 P03169	5E5A	55 kDa immediate-early protein 1	Crystal structure of the chromatin-tethering domain of Human cytomegalovirus IE1 protein bound to the nucleosome core particle	Xenopus laevis	Human betaherpesvirus 5		Cytomegalovirus IE1 protein superfamily ,hypothetical protein	2015	2016
+ P68431	5gse	Histone H3.1	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
+ P62805	5gse	Histone H4	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
+ P04908	5gse	Histone H2A type 1-B/E	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
+ P06899	5gse	Histone H2B type 1-J	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
 Q9QR71	5GTC	Protein ORF73	Crystal structure of complex between DMAP-SH conjugated with a Kaposi's sarcoma herpesvirus LANA peptide (5-15) and nucleosome core particle	Homo sapiens	Human gammaherpesvirus 8		PHA03169 superfamily hypothetical protein	2016	2017
 P14349	5MLU	Gag polyprotein	Crystal structure of the PFV GAG CBS bound to a mononucleosome	Xenopus laevis	Simian foamy virus		Spumavirus gag protein superfamily, transcription termination factor Rho	2016	2017
 P32657	5O9G	Chromo domain-containing protein 1	Structure of nucleosome-Chd1 complex	Xenopus laevis	Saccharomyces cerevisiae		Chromsuperfamily, DUF4208 superfamily, SNF2_N superfamily, SANT_TRF superfamily, Chromatin organization modifier domain, Superfamily II DNA or RNA helicase, SNF2 family,Probable chromatin-remodeling complex Aptness chain, , SNF2 family N-terminal domain, Helicase superfamily c-terminal domain, Telomere repeat binding factor-like DNA-binding domains of the SANT/myb-like family, Domain of unknown function (DUF4208)	2017	2017
@@ -37,7 +41,3 @@ G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome comple
 G0S590	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Ies6	 	2018	2018
 G0S589	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Actin related protein 5	 	2018	2018
 	6FML		CryoEM Structure INO80core Nucleosome complex	Homo sapiens		Ino80; chain G; no uniprot; aligned with 6ETX INO80	 	2018	2018
- P68431	5gse	Histone H3.1	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
- P62805	5gse	Histone H4	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
- P04908	5gse	Histone H2A type 1-B/E	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
- P06899	5gse	Histone H2B type 1-J	Crystal structure of unusual nucleosome	Homo sapiens	Homo sapiens	Inter-nucleosomal 		2016	2017
