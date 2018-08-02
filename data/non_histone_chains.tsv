@@ -1,5 +1,5 @@
-UNIPROT	PDB	binding_parner_name	PDB_name	nucleosome_Organism	binding_partner_organism	notes	CD_results	deposit_year	release_year
-Q9DUM3	1ZLA		X-ray Structure of a Kaposi's sarcoma herpesvirus LANA peptide bound to the nucleosomal core	Xenopus laevis	Human gammaherpesvirus 8	Latent nuclear antigen			2006
+UNIPROT	PDB	bp_name	PDB_name	nucleosome_organism	bp_organism	notes	CD_results	deposit_year	release_year
+Q9DUM3	1ZLA		X-ray Structure of a Kaposi's sarcoma herpesvirus LANA peptide bound to the nucleosomal core	Xenopus laevis	Human gammaherpesvirus 8	Latent Nuclear Antigen	PHA03169 superfamily	2005	2006
 P25171	3MVD	Regulator of chromosome condensation	Crystal structure of the chromatin factor RCC1 in complex with the nucleosome core particle	Xenopus laevis	Drosophila melanogaster		Borrelia P83/100 protein superfamily, RCC1 superfamily	2010	2010
 P06701	3TU4	Regulatory protein SIR3	Crystal structure of the Sir3 BAH domain in complex with a nucleosome core particle.	Xenopus laevis	Saccharomyces cerevisiae		BAH domain/superfamily, CDC6 superfamily	2011	2011
 P06701	4JJN	Regulatory protein SIR3	Crystal structure of heterochromatin protein Sir3 in complex with a silenced yeast nucleosome	Saccharomyces cerevisiae	Saccharomyces cerevisiae		BAH domain/superfamily, CDC6 superfamily	2013	2013
@@ -31,9 +31,9 @@ Q9ULG1	6ETX	DNA helicase INO80	Cryo-EM structure of the human INO80 complex boun
 Q9H9F9	6ETX	Actin-related protein 5	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens		Nucleotide-Binding Domain of the sugar kinase/HSP70/actin superfamily, Actin, actin-2, Actin-related protein, DNA repair protein RecN, 	2017	2018
 Q9C086	6ETX	INO80 complex subunit B	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	synthetic construct		PAPA-1-like conserved region, HIT zinc finger, both superfamilies	2017	2018
 Q9Y265	6ETX	RuvB-like 1	Cryo-EM structure of the human INO80 complex bound to nucleosome	Homo sapiens	Homo sapiens		TIP49 C-terminus, DNA helicase TIP49, TBP-interacting protein superfamily, Holliday junction DNA helicase RuvB, AAA - ATPases, ATP-dependent metalloprotease FtsH, The AAA+ (ATPases Associated with a wide variety of cellular Activities) superfamily, 	2017	2018
-G0RYI5	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum		?	2018	2018
-G0RYC2	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum		?	2018	2018
-G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	les2	?	2018	2018
-G0S590	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Ies6	?	2018	2018
-G0S589	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Actin related protein 5	?	2018	2018
-	6FML		CryoEM Structure INO80core Nucleosome complex	Homo sapiens		Ino80; chain G; no uniprot	?		
+G0RYI5	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum		 	2018	2018
+G0RYC2	6FML	RuvB-like helicase	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum		 	2018	2018
+G0RY01	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	les2	 	2018	2018
+G0S590	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Ies6	 	2018	2018
+G0S589	6FML	Uncharacterized protein	CryoEM Structure INO80core Nucleosome complex	Homo sapiens	Chaetomium thermophilum	Actin related protein 5	 	2018	2018
+	6FML		CryoEM Structure INO80core Nucleosome complex	Homo sapiens		Ino80; chain G; no uniprot; aligned with 6ETX INO80	 	2018	2018
