@@ -48,7 +48,7 @@ FILES:
   PDB_release_trend*.tsv:
   
     *contains data on years/pdb_structures for histograms in Images/'PDB_release_trends.png'
-    *5 columns: YEAR, nucleosome_W/_BP, nucleosome_w/bp_cumulative, NUCLEOSOME_ONLY, NUCLEOSOME_ONLY_CUMULATIVE
+    *6 columns: year, nucleosome_w/_bp, nucleosome_w/bp_cum, nucleosome_only, nucleosome_only_cum, all_nucleosomes
     
   labeled_chains.tsv:
   
@@ -65,6 +65,7 @@ FILES:
   
     *contains count of interface residues sorted by chains (sum of all PDBs)
     *3 columns: chain, residue, count
+    
     
 SCRIPTS:
 
