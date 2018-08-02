@@ -14,21 +14,22 @@ FILES:
     *15 columns: structureId, chainId, structureTitle, pdbDoi, entityId, ligandId, ligandName, InChI, InChIKey, hetId, IC50, 
      deltaG, uniprotAcc, uniprotRecommendedName, uniprotAlternativeNames
     *merged 'Histone' and 'Molecule' entities from 'ER_diagram
-    *the file can be obtained by completing the second step from 'notes_Y.txt'(additional info can be added)
-    *5OY7 is a tetranucleosome 
-    *5T5K is not on the list as it's only 6 chains
+    *the file can be obtained by completing the second step from 'notes_Y.txt'
+    *50xv, 5oy7, 5gse, 1zbb are complexes of nucleosomes 
+    *3c9k is a model of a tubular crystal of nucleosomes
+    *5t5k is not on the list as it's only 6 chains
     
   non_histone_chains.tsv:
   
     *contains UNIPROT# of chains that are not histones found in the PDB structures from 'nucleosome_pdb'
     *9 columns: UNIPROT,	PDB,	binding_partner_name,	PDB_name,	nucleosome_Organism,	binding_parner_organism, notes, 
      CD_results, deposit_year, release_year
-    *there are 31 unique chains in total (if we count centromere protein N in 6C0W and 6BUZ), but 38 entries, as some of the 
+    *there are 31 unique chains in total (if we count centromere protein N in 6c0w and 6buz), but 38 entries, as some of the 
      binding partners occur in several PDB structures; also, 6FML's chain G is actually a catalytic domain of INO80 (Ino80), 
-     but it does not have a UNIPROT -- I distinguish it from INO80 complex subunit B of 6ETX for now (it aligned with RMSD 
+     but it does not have a UNIPROT -- I distinguish it from INO80 complex subunit B of 6etx for now (it aligned with RMSD 
      3.46 2646 atoms)
-    *there are only 20 PDB structures that contain binding partners; also, 6C0W is bound only to centromere protein N, 
-     6BUZ's binding partner is the same chain as centromere protein N, and 5x0x does not have an interface involving that
+    *there are only 20 PDB structures that contain binding partners; also, 6c0w is bound only to centromere protein N, 
+     6buz's binding partner is the same chain as centromere protein N, and 5x0x does not have an interface involving that
      involves histones with binding partners
       
   report_1.pdf:
