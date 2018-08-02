@@ -16,8 +16,12 @@ FILES:
     *merged 'Histone' and 'Molecule' entities from 'ER_diagram
     *the file can be obtained by completing the second step from 'notes_Y.txt'
     *50xv, 5oy7, 5gse, 1zbb are complexes of nucleosomes 
+    *5gse has the following inter-nucleosomal interactions:
+      *H4 [F] and H3 [K]
+      *H2a [G] and H4 [P]
+      *H2b [H] and H2b [N]
     *3c9k is a model of a tubular crystal of nucleosomes
-    *5t5k is not on the list as it's only 6 chains
+    *5t5k is not on the list as it has only 6 chains
     
   non_histone_chains.tsv:
   
@@ -34,9 +38,9 @@ FILES:
       
   report_1.pdf:
   
-    *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 31 in total; some are 
-    missing in 
-     the report)
+    *names of unique binding partner chains extracted from 'protein_ligand_merged.csv' (manually! 42 in total, counting 
+      chains that might not have interface with nucleosome, and 4 histones that are part of the dinucleosome structure with 
+      an inter-nucleosomal interface; some are missing in the report)
     *names of unique small molecules extracted from 'protein_ligand_merged.csv' (manually! omitting ions! some 
      are missing in the report)
     *tables are from the PIR server, pie charts from the PantherDB 
