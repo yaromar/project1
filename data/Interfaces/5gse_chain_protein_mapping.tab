@@ -1,0 +1,15 @@
+chain	chain_author	uniprot	seq_aln_begin	seq_aln_begin_ins	seq_aln_end	seq_aln_end_ins	db_aln_begin	db_aln_end	auth_aln_begin	auth_aln_end
+A	A	P68431	4	?	139	?	1	136	0	135
+C	C	P04908	4	?	133	?	1	130	0	129
+B	B	P62805	4	?	106	?	1	103	0	102
+E	E	P68431	4	?	139	?	1	136	0	135
+D	D	P06899	4	?	129	?	1	126	0	125
+G	G	P04908	4	?	133	?	1	130	0	129
+F	F	P62805	4	?	106	?	1	103	0	102
+H	H	P06899	4	?	129	?	1	126	0	125
+K	K	P68431	4	?	139	?	1	136	0	135
+M	M	P04908	4	?	133	?	1	130	0	129
+L	L	P62805	4	?	106	?	1	103	0	102
+O	O	P68431	4	?	139	?	1	136	0	135
+N	N	P06899	4	?	129	?	1	126	0	125
+P	P	P62805	4	?	106	?	1	103	0	102
