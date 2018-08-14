@@ -1,4 +1,4 @@
-source	target	residue	{}	{}
+source	target	residue	atomic_contacts	interface_occurence
 P84233,Histone H3.2	P06701,Regulatory protein SIR3	73	6	2
 P84233,Histone H3.2	P06701,Regulatory protein SIR3	76	16	2
 P84233,Histone H3.2	P06701,Regulatory protein SIR3	77	83	4
