@@ -1,161 +1,98 @@
-pdb	source_chain	source_UNIPROT	source_name	target_chain	target_UNIPROT	target_name	type
-1zla	K	Q9DUM3	Latent nuclear antigen	G	P06897	Histone H2A type 1	hst
-1zla	K	Q9DUM3	Latent nuclear antigen	H	P02281	Histone H2B 1.1	hst
-3mvd	K	P25171	Regulator of chromosome condensation	G	Q6AZJ8	Histone H2A	hst
-3mvd	K	P25171	Regulator of chromosome condensation	H	P02281	Histone H2B 1.1	hst
-3mvd	L	P25171	Regulator of chromosome condensation	C	P06897	Histone H2A type 1	hst
-3mvd	L	P25171	Regulator of chromosome condensation	D	P02281	Histone H2B 1.1	hst
-3tu4	K	P06701	Regulatory protein SIR3	C	P06897	Histone H2A type 1	hst
-3tu4	K	P06701	Regulatory protein SIR3	D	P02281	Histone H2B 1.1	hst
-3tu4	K	P06701	Regulatory protein SIR3	A	P84233	Histone H3.2	hst
-3tu4	K	P06701	Regulatory protein SIR3	B	P62799	Histone H4	hst
-3tu4	L	P06701	Regulatory protein SIR3	G	P06897	Histone H2A type 1	hst
-3tu4	L	P06701	Regulatory protein SIR3	H	P02281	Histone H2B 1.1	hst
-3tu4	L	P06701	Regulatory protein SIR3	E	P84233	Histone H3.2	hst
-3tu4	L	P06701	Regulatory protein SIR3	F	P62799	Histone H4	hst
-4jjn	K	P06701	Regulatory protein SIR3	C	P04912	Histone H2A.2	hst
-4jjn	K	P06701	Regulatory protein SIR3	D	P02294	Histone H2B.2	hst
-4jjn	K	P06701	Regulatory protein SIR3	A	P61830	Histone H3	hst
-4jjn	K	P06701	Regulatory protein SIR3	B	P02309	Histone H4	hst
-4jjn	L	P06701	Regulatory protein SIR3	G	P04912	Histone H2A.2	hst
-4jjn	L	P06701	Regulatory protein SIR3	H	P02294	Histone H2B.2	hst
-4jjn	L	P06701	Regulatory protein SIR3	E	P61830	Histone H3	hst
-4jjn	L	P06701	Regulatory protein SIR3	F	P02309	Histone H4	hst
-4kud	K	P06701	Regulatory protein SIR3	C	P04912	Histone H2A.2	hst
-4kud	K	P06701	Regulatory protein SIR3	D	P02293	Histone H2B.1	hst
-4kud	K	P06701	Regulatory protein SIR3	A	P61830	Histone H3	hst
-4kud	K	P06701	Regulatory protein SIR3	B	P02309	Histone H4	hst
-4kud	L	P06701	Regulatory protein SIR3	G	P04912	Histone H2A.2	hst
-4kud	L	P06701	Regulatory protein SIR3	H	P02293	Histone H2B.1	hst
-4kud	L	P06701	Regulatory protein SIR3	E	P61830	Histone H3	hst
-4kud	L	P06701	Regulatory protein SIR3	F	P02309	Histone H4	hst
-4ld9	K	P06701	Regulatory protein SIR3	G	P06897	Histone H2A type 1	hst
-4ld9	K	P06701	Regulatory protein SIR3	H	P02281	Histone H2B 1.1	hst
-4ld9	K	P06701	Regulatory protein SIR3	E	P84233	Histone H3.2	hst
-4ld9	K	P06701	Regulatory protein SIR3	F	P62799	Histone H4	hst
-4ld9	L	P06701	Regulatory protein SIR3	C	P06897	Histone H2A type 1	hst
-4ld9	L	P06701	Regulatory protein SIR3	D	P02281	Histone H2B 1.1	hst
-4ld9	L	P06701	Regulatory protein SIR3	A	P84233	Histone H3.2	hst
-4ld9	L	P06701	Regulatory protein SIR3	B	P62799	Histone H4	hst
-4r8p	K	P35226	Polycomb complex protein BMI-1	D	P02281	Histone H2B 1.1	hst
-4r8p	K	P35226	Polycomb complex protein BMI-1	A	P84233	Histone H3.2	hst
-4r8p	K	P35226	Polycomb complex protein BMI-1	B	P62799	Histone H4	hst
-4r8p	L	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	C	P06897	Histone H2A type 1	hst
-4r8p	L	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	D	P02281	Histone H2B 1.1	hst
-4r8p	L	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	B	P62799	Histone H4	hst
-4r8p	L	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	K	P35226	Polycomb complex protein BMI-1	
-4r8p	M	P35226	Polycomb complex protein BMI-1	H	P02281	Histone H2B 1.1	hst
-4r8p	M	P35226	Polycomb complex protein BMI-1	E	P84233	Histone H3.2	hst
-4r8p	M	P35226	Polycomb complex protein BMI-1	F	P62799	Histone H4	hst
-4r8p	N	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	G	P06897	Histone H2A type 1	hst
-4r8p	N	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	H	P02281	Histone H2B 1.1	hst
-4r8p	N	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	M	P35226	Polycomb complex protein BMI-1	
-4zux	b	A6ZWK1	SAGA-associated factor 11	a	Q6WNK7	Transcription and mRNA export factor SUS1	
-4zux	d	P53165	SAGA-associated factor 73	b	A6ZWK1	SAGA-associated factor 11	
-4zux	d	P53165	SAGA-associated factor 73	a	Q6WNK7	Transcription and mRNA export factor SUS1	
-4zux	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	C	P06897	Histone H2A type 1	hst
-4zux	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	D	P02281	Histone H2B 1.1	hst
-4zux	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	B	P62799	Histone H4	hst
-4zux	W	A6ZWK1	SAGA-associated factor 11	C	P06897	Histone H2A type 1	hst
-4zux	W	A6ZWK1	SAGA-associated factor 11	D	P02281	Histone H2B 1.1	hst
-4zux	W	A6ZWK1	SAGA-associated factor 11	V	Q6WNK7	Transcription and mRNA export factor SUS1	
-4zux	W	A6ZWK1	SAGA-associated factor 11	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	
-4zux	X	P0CG47	Polyubiquitin-B	D	P02281	Histone H2B 1.1	hst
-4zux	X	P0CG47	Polyubiquitin-B	A	P84233	Histone H3.2	hst
-4zux	X	P0CG47	Polyubiquitin-B	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	
-4zux	Y	P53165	SAGA-associated factor 73	W	A6ZWK1	SAGA-associated factor 11	
-4zux	Y	P53165	SAGA-associated factor 73	V	Q6WNK7	Transcription and mRNA export factor SUS1	
-4zux	Y	P53165	SAGA-associated factor 73	U	P50102	Ubiquitin carboxyl-terminal hydrolase 8	
-4zux	Z	P50102	Ubiquitin carboxyl-terminal hydrolase 8	c	P0CG47	Polyubiquitin-B	
-4zux	Z	P50102	Ubiquitin carboxyl-terminal hydrolase 8	b	A6ZWK1	SAGA-associated factor 11	
-4zux	Z	P50102	Ubiquitin carboxyl-terminal hydrolase 8	d	P53165	SAGA-associated factor 73	
-4zux	Z	P50102	Ubiquitin carboxyl-terminal hydrolase 8	a	Q6WNK7	Transcription and mRNA export factor SUS1	
-5e5a	K	P03169	55 kDa immediate-early protein 1	G	P06897	Histone H2A type 1	hst
-5e5a	K	P03169	55 kDa immediate-early protein 1	H	P02281	Histone H2B 1.1	hst
-5gse	K	P68431	Histone H3.1	F	P62805	Histone H4	hst
-5gse	N	P06899	Histone H2B type 1-J	H	P06899	Histone H2B type 1-J	hst
-5gse	P	P62805	Histone H4	G	P04908	Histone H2A type 1-B/E	hst
-5gtc	K	Q9QR71	Protein ORF73	G	P04908	Histone H2A type 1-B/E	hst
-5gtc	K	Q9QR71	Protein ORF73	H	P06899	Histone H2B type 1-J	hst
-5kgf	K	Q12888	TP53-binding protein 1	G	P0C0S8	Histone H2A type 1	hst
-5kgf	K	Q12888	TP53-binding protein 1	H	P62807	Histone H2B type 1-C/E/F/G/I	hst
-5kgf	K	Q12888	TP53-binding protein 1	F	P62799	Histone H4	hst
-5kgf	K	Q12888	TP53-binding protein 1	O	P0CG47	Polyubiquitin-B	
-5kgf	L	Q12888	TP53-binding protein 1	C	P0C0S8	Histone H2A type 1	hst
-5kgf	L	Q12888	TP53-binding protein 1	D	P62807	Histone H2B type 1-C/E/F/G/I	hst
-5kgf	L	Q12888	TP53-binding protein 1	B	P62799	Histone H4	hst
-5kgf	M	P0CG47	Polyubiquitin-B	C	P0C0S8	Histone H2A type 1	hst
-5kgf	M	P0CG47	Polyubiquitin-B	D	P62807	Histone H2B type 1-C/E/F/G/I	hst
-5kgf	M	P0CG47	Polyubiquitin-B	L	Q12888	TP53-binding protein 1	
-5kgf	O	P0CG47	Polyubiquitin-B	G	P0C0S8	Histone H2A type 1	hst
-5kgf	O	P0CG47	Polyubiquitin-B	H	P62807	Histone H2B type 1-C/E/F/G/I	hst
-5mlu	M	P14349	Gag polyprotein	C	P06897	Histone H2A type 1	hst
-5mlu	M	P14349	Gag polyprotein	D	P02281	Histone H2B 1.1	hst
-5mlu	M	P14349	Gag polyprotein	A	P84233	Histone H3.2	hst
-5mlu	M	P14349	Gag polyprotein	E	P84233	Histone H3.2	hst
-5o9g	W	P32657	Chromo domain-containing protein 1	A	P84233	Histone H3.2	hst
-5o9g	W	P32657	Chromo domain-containing protein 1	B	P62799	Histone H4	hst
-5x0y	O	P22082	Transcription regulatory protein SNF2	A	P84233	Histone H3.2	hst
-5x0y	O	P22082	Transcription regulatory protein SNF2	B	P62799	Histone H4	hst
-6buz	N	P0AEY0#Q96H22	P0AEY0:#Maltose-binding periplasmic protein#Q96H22:#Centromere protein N	A	P49450	Histone H3-like centromeric protein A	hst
-6c0w	K	Q96H22	Centromere protein N	D	P62807	Histone H2B type 1-C/E/F/G/I	hst
-6c0w	K	Q96H22	Centromere protein N	A	P49450	Histone H3-like centromeric protein A	hst
-6c0w	K	Q96H22	Centromere protein N	B	P62805	Histone H4	hst
-6etx	B	Q9Y230	RuvB-like 2	A	Q9Y265	RuvB-like 1	
-6etx	C	Q9Y265	RuvB-like 1	A	Q9Y265	RuvB-like 1	
-6etx	C	Q9Y265	RuvB-like 1	B	Q9Y230	RuvB-like 2	
-6etx	D	Q9Y230	RuvB-like 2	C	Q9Y265	RuvB-like 1	
-6etx	D	Q9Y230	RuvB-like 2	B	Q9Y230	RuvB-like 2	
-6etx	E	Q9Y265	RuvB-like 1	A	Q9Y265	RuvB-like 1	
-6etx	E	Q9Y265	RuvB-like 1	C	Q9Y265	RuvB-like 1	
-6etx	E	Q9Y265	RuvB-like 1	D	Q9Y230	RuvB-like 2	
-6etx	F	Q9Y230	RuvB-like 2	A	Q9Y265	RuvB-like 1	
-6etx	F	Q9Y230	RuvB-like 2	E	Q9Y265	RuvB-like 1	
-6etx	F	Q9Y230	RuvB-like 2	B	Q9Y230	RuvB-like 2	
-6etx	F	Q9Y230	RuvB-like 2	D	Q9Y230	RuvB-like 2	
-6etx	G	Q9ULG1	DNA helicase INO80	I	P68431	Histone H3.1	hst
-6etx	G	Q9ULG1	DNA helicase INO80	A	Q9Y265	RuvB-like 1	
-6etx	G	Q9ULG1	DNA helicase INO80	C	Q9Y265	RuvB-like 1	
-6etx	G	Q9ULG1	DNA helicase INO80	E	Q9Y265	RuvB-like 1	
-6etx	G	Q9ULG1	DNA helicase INO80	B	Q9Y230	RuvB-like 2	
-6etx	G	Q9ULG1	DNA helicase INO80	D	Q9Y230	RuvB-like 2	
-6etx	G	Q9ULG1	DNA helicase INO80	F	Q9Y230	RuvB-like 2	
-6etx	H	Q9H9F9	Actin-related protein 5	A	Q9Y265	RuvB-like 1	
-6etx	R	Q9C086	INO80 complex subunit B	G	Q9ULG1	DNA helicase INO80	
-6etx	R	Q9C086	INO80 complex subunit B	E	Q9Y265	RuvB-like 1	
-6etx	R	Q9C086	INO80 complex subunit B	D	Q9Y230	RuvB-like 2	
-6etx	R	Q9C086	INO80 complex subunit B	F	Q9Y230	RuvB-like 2	
-6fml	B	G0RYI5	RuvB-like helicase	A	G0RYI5	RuvB-like helicase	
-6fml	C	G0RYI5	RuvB-like helicase	A	G0RYI5	RuvB-like helicase	
-6fml	C	G0RYI5	RuvB-like helicase	B	G0RYI5	RuvB-like helicase	
-6fml	D	G0RYC2	RuvB-like helicase	A	G0RYI5	RuvB-like helicase	
-6fml	D	G0RYC2	RuvB-like helicase	C	G0RYI5	RuvB-like helicase	
-6fml	E	G0RYC2	RuvB-like helicase	S	P0C0S9	Histone H2A type 1	hst
-6fml	E	G0RYC2	RuvB-like helicase	T	P62807	Histone H2B type 1-C/E/F/G/I	hst
-6fml	E	G0RYC2	RuvB-like helicase	A	G0RYI5	RuvB-like helicase	
-6fml	E	G0RYC2	RuvB-like helicase	B	G0RYI5	RuvB-like helicase	
-6fml	E	G0RYC2	RuvB-like helicase	D	G0RYC2	RuvB-like helicase	
-6fml	F	G0RYC2	RuvB-like helicase	A	G0RYI5	RuvB-like helicase	
-6fml	F	G0RYC2	RuvB-like helicase	B	G0RYI5	RuvB-like helicase	
-6fml	F	G0RYC2	RuvB-like helicase	C	G0RYI5	RuvB-like helicase	
-6fml	F	G0RYC2	RuvB-like helicase	D	G0RYC2	RuvB-like helicase	
-6fml	F	G0RYC2	RuvB-like helicase	E	G0RYC2	RuvB-like helicase	
-6fml	G		Ino 80 domain	T	P62807	Histone H2B type 1-C/E/F/G/I	hst
-6fml	G		Ino 80 domain	A	G0RYI5	RuvB-like helicase	
-6fml	G		Ino 80 domain	B	G0RYI5	RuvB-like helicase	
-6fml	G		Ino 80 domain	C	G0RYI5	RuvB-like helicase	
-6fml	G		Ino 80 domain	D	G0RYC2	RuvB-like helicase	
-6fml	G		Ino 80 domain	E	G0RYC2	RuvB-like helicase	
-6fml	G		Ino 80 domain	F	G0RYC2	RuvB-like helicase	
-6fml	H	G0RY01	les2	C	G0RYI5	RuvB-like helicase	
-6fml	H	G0RY01	les2	D	G0RYC2	RuvB-like helicase	
-6fml	H	G0RY01	les2	G		Ino 80 domain	
-6fml	I	G0S590	Ies6	S	P0C0S9	Histone H2A type 1	hst
-6fml	I	G0S590	Ies6	T	P62807	Histone H2B type 1-C/E/F/G/I	hst
-6fml	I	G0S590	Ies6	Q	Q71DI3	Histone H3.2	hst
-6fml	I	G0S590	Ies6	B	G0RYI5	RuvB-like helicase	
-6fml	I	G0S590	Ies6	E	G0RYC2	RuvB-like helicase	
-6fml	J	G0S589	Actin related protein 5	Q	Q71DI3	Histone H3.2	hst
-6fml	J	G0S589	Actin related protein 5	R	P62805	Histone H4	hst
-6fml	J	G0S589	Actin related protein 5	B	G0RYI5	RuvB-like helicase	
-6fml	J	G0S589	Actin related protein 5	I	G0S590	Ies6	
+target_UNIPROT	target_name	source_UNIPROT	source_name	normalized_atomic_contacts_interface	source_occurence_PDB
+P02281	Histone H2B 1.1	A6ZWK1	SAGA-associated factor 11	127.5	1
+P06897	Histone H2A type 1	A6ZWK1	SAGA-associated factor 11	165	1
+P50102	Ubiquitin carboxyl-terminal hydrolase 8	A6ZWK1	SAGA-associated factor 11	898	1
+P53165	SAGA-associated factor 73	A6ZWK1	SAGA-associated factor 11	87	1
+G0RY01	les2	G0RYC2	RuvB-like helicase	287	1
+G0RYC2	RuvB-like helicase	G0RYC2	RuvB-like helicase	105	1
+G0S590	Ies6	G0RYC2	RuvB-like helicase	191	1
+P0C0S9	Histone H2A type 1	G0RYC2	RuvB-like helicase	16	1
+P62807	Histone H2B type 1-C/E/F/G/I	G0RYC2	RuvB-like helicase	2	1
+Unknown	Ino80 domain	G0RYC2	RuvB-like helicase	968	1
+G0RY01	les2	G0RYI5	RuvB-like helicase	371	1
+G0RYC2	RuvB-like helicase	G0RYI5	RuvB-like helicase	3061.833333	1
+G0RYI5	RuvB-like helicase	G0RYI5	RuvB-like helicase	127	1
+G0S589	Actin related protein 5	G0RYI5	RuvB-like helicase	131	1
+G0S590	Ies6	G0RYI5	RuvB-like helicase	69	1
+Unknown	Ino80 domain	G0RYI5	RuvB-like helicase	1472	1
+P62805	Histone H4	G0S589	Actin related protein 5	2	1
+Q71DI3	Histone H3.2	G0S589	Actin related protein 5	1	1
+G0S589	Actin related protein 5	G0S590	Ies6	1111	1
+P0C0S9	Histone H2A type 1	G0S590	Ies6	2	1
+P62807	Histone H2B type 1-C/E/F/G/I	G0S590	Ies6	40	1
+Q71DI3	Histone H3.2	G0S590	Ies6	2	1
+P02281	Histone H2B 1.1	P03169	55 kDa immediate-early protein 1	262	1
+P06897	Histone H2A type 1	P03169	55 kDa immediate-early protein 1	184	1
+P62805	Histone H4	P04908	Histone H2A type 1-B/E	28	1
+P02281	Histone H2B 1.1	P06701	Regulatory protein SIR3	291	4
+P02293	Histone H2B.1	P06701	Regulatory protein SIR3	290.5	4
+P02294	Histone H2B.2	P06701	Regulatory protein SIR3	210.5	4
+P02309	Histone H4	P06701	Regulatory protein SIR3	395	4
+P04912	Histone H2A.2	P06701	Regulatory protein SIR3	156.5	4
+P06897	Histone H2A type 1	P06701	Regulatory protein SIR3	143.8333333	4
+P61830	Histone H3	P06701	Regulatory protein SIR3	148.25	4
+P62799	Histone H4	P06701	Regulatory protein SIR3	363.4166667	4
+P84233	Histone H3.2	P06701	Regulatory protein SIR3	142	4
+P06899	Histone H2B type 1-J	P06899	Histone H2B type 1-J	2	1
+P49450	Histone H3-like centromeric protein A	P0AEY0#Q96H22	P0AEY0:#Maltose-binding periplasmic protein#Q96H22:#Centromere protein N	61	2
+P02281	Histone H2B 1.1	P0CG47	Polyubiquitin-B	7	2
+P0C0S8	Histone H2A type 1	P0CG47	Polyubiquitin-B	37.5	2
+P50102	Ubiquitin carboxyl-terminal hydrolase 8	P0CG47	Polyubiquitin-B	961	2
+P62807	Histone H2B type 1-C/E/F/G/I	P0CG47	Polyubiquitin-B	52	2
+P84233	Histone H3.2	P0CG47	Polyubiquitin-B	2	2
+Q12888	TP53-binding protein 1	P0CG47	Polyubiquitin-B	43	2
+P02281	Histone H2B 1.1	P14349	Gag polyprotein	165	1
+P06897	Histone H2A type 1	P14349	Gag polyprotein	282	1
+P84233	Histone H3.2	P14349	Gag polyprotein	142	1
+P02281	Histone H2B 1.1	P21827	Guanine nucleotide exchange factor SRM1	35	1
+P62799	Histone H4	P22082	Transcription regulatory protein SNF2	211	2
+P84233	Histone H3.2	P22082	Transcription regulatory protein SNF2	33	2
+P02281	Histone H2B 1.1	P25171	Regulator of chromosome condensation	92	1
+Q6AZJ8	Histone H2A	P25171	Regulator of chromosome condensation	192	1
+P62799	Histone H4	P32657	Chromo domain-containing protein 1	105	1
+P84233	Histone H3.2	P32657	Chromo domain-containing protein 1	6	1
+P02281	Histone H2B 1.1	P35226	Polycomb complex protein BMI-1	11	1
+P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	P35226	Polycomb complex protein BMI-1	994.5	1
+P62799	Histone H4	P35226	Polycomb complex protein BMI-1	22.5	1
+P84233	Histone H3.2	P35226	Polycomb complex protein BMI-1	78.5	1
+A6ZWK1	SAGA-associated factor 11	P50102	Ubiquitin carboxyl-terminal hydrolase 8	1038	1
+P02281	Histone H2B 1.1	P50102	Ubiquitin carboxyl-terminal hydrolase 8	165.5	1
+P06897	Histone H2A type 1	P50102	Ubiquitin carboxyl-terminal hydrolase 8	2	1
+P0CG47	Polyubiquitin-B	P50102	Ubiquitin carboxyl-terminal hydrolase 8	1067	1
+P53165	SAGA-associated factor 73	P50102	Ubiquitin carboxyl-terminal hydrolase 8	1526	1
+P62799	Histone H4	P50102	Ubiquitin carboxyl-terminal hydrolase 8	11	1
+Q6WNK7	Transcription and mRNA export factor SUS1	P50102	Ubiquitin carboxyl-terminal hydrolase 8	463	1
+P50102	Ubiquitin carboxyl-terminal hydrolase 8	P53165	SAGA-associated factor 73	1643	1
+P02281	Histone H2B 1.1	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	79	1
+P06897	Histone H2A type 1	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	218.5	1
+P62799	Histone H4	P61077#Q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	16	1
+P04908	Histone H2A type 1-B/E	P62805	Histone H4	28	1
+P68431	Histone H3.1	P62805	Histone H4	2	1
+P62805	Histone H4	P68431	Histone H3.1	2	1
+P0C0S8	Histone H2A type 1	Q12888	TP53-binding protein 1	149	1
+P0CG47	Polyubiquitin-B	Q12888	TP53-binding protein 1	80	1
+P62799	Histone H4	Q12888	TP53-binding protein 1	13	1
+P62807	Histone H2B type 1-C/E/F/G/I	Q12888	TP53-binding protein 1	165.5	1
+A6ZWK1	SAGA-associated factor 11	Q6WNK7	Transcription and mRNA export factor SUS1	370.5	1
+P50102	Ubiquitin carboxyl-terminal hydrolase 8	Q6WNK7	Transcription and mRNA export factor SUS1	395	1
+P53165	SAGA-associated factor 73	Q6WNK7	Transcription and mRNA export factor SUS1	215	1
+P49450	Histone H3-like centromeric protein A	Q96H22	Centromere protein N	112	1
+P62805	Histone H4	Q96H22	Centromere protein N	32	2
+P62807	Histone H2B type 1-C/E/F/G/I	Q96H22	Centromere protein N	11	2
+P02281	Histone H2B 1.1	Q9DUM3	Latent nuclear antigen	201	1
+P06897	Histone H2A type 1	Q9DUM3	Latent nuclear antigen	189	1
+P04908	Histone H2A type 1-B/E	Q9QR71	Protein ORF73	195	1
+P06899	Histone H2B type 1-J	Q9QR71	Protein ORF73	178	1
+P68431	Histone H3.1	Q9ULG1	DNA helicase INO80	6	1
+Q9C086	INO80 complex subunit B	Q9ULG1	DNA helicase INO80	18	1
+Q9C086	INO80 complex subunit B	Q9Y230	RuvB-like 2	562	1
+Q9ULG1	DNA helicase INO80	Q9Y230	RuvB-like 2	927.6666667	1
+Q9Y230	RuvB-like 2	Q9Y230	RuvB-like 2	140	1
+Q9Y265	RuvB-like 1	Q9Y230	RuvB-like 2	1235.5	1
+Q9C086	INO80 complex subunit B	Q9Y265	RuvB-like 1	424	1
+Q9H9F9	Actin-related protein 5	Q9Y265	RuvB-like 1	94	1
+Q9ULG1	DNA helicase INO80	Q9Y265	RuvB-like 1	876.8333333	1
+Q9Y230	RuvB-like 2	Q9Y265	RuvB-like 1	2590.916667	1
+Q9Y265	RuvB-like 1	Q9Y265	RuvB-like 1	55.66666667	1
+G0RY01	les2	Unknown	Ino80 domain	157	1
+P62807	Histone H2B type 1-C/E/F/G/I	Unknown	Ino80 domain	4	1
