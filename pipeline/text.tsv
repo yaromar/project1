@@ -8,8 +8,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1aoi	E	P02302	Histone H3.3C
 1aoi	B	P62799	Histone H4
 1aoi	F	P62799	Histone H4
-1aoi	I		
-1aoi	J		
+1aoi	I	NA	NA
+1aoi	J	NA	NA
 1b67	A	P48781	DNA-binding protein HMf-1
 1b67	B	P48781	DNA-binding protein HMf-1
 1b6w	A	P19267	DNA-binding protein HMf-2
@@ -21,20 +21,20 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1bh9	B	Q15544	Transcription initiation factor TFIID subunit 11
 1bh9	A	Q15543	Transcription initiation factor TFIID subunit 13
 1bob	A	Q12341	Histone acetyltransferase type B catalytic subunit
-1c3p	A	O67135	
-1c3r	A	O67135	
-1c3r	B	O67135	
-1c3s	A	O67135	
+1c3p	A	O67135	NA
+1c3r	A	O67135	NA
+1c3r	B	O67135	NA
+1c3s	A	O67135	NA
 1cg7	A	P11632	Non-histone chromosomal protein 6A
 1cm0	A	Q92831	Histone acetyltransferase KAT2B
 1cm0	B	Q92831	Histone acetyltransferase KAT2B
-1cs9	A		
-1ct6	A		
-1cvq	A		HISTONE H3
-1cw8	A		HISTONE H3
-1cwz	A		HISTONE H3
+1cs9	A	NA	NA
+1ct6	A	NA	NA
+1cvq	A	NA	HISTONE H3
+1cw8	A	NA	HISTONE H3
+1cwz	A	NA	HISTONE H3
 1dp7	P	P22670	MHC class II regulatory factor RFX1
-1dp7	D		
+1dp7	D	NA	NA
 1e6i	A	Q03330	Histone acetyltransferase GCN5
 1e6i	P	P02309	Histone H4
 1eqf	A	P21675	Transcription initiation factor TFIID subunit 1
@@ -46,9 +46,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1eqz	G	P84229	Histone H3.2
 1eqz	D	P62801	Histone H4
 1eqz	H	P62801	Histone H4
-1eqz	I		
-1eqz	J		
-1f1e	A	O93641	
+1eqz	I	NA	NA
+1eqz	J	NA	NA
+1f1e	A	O93641	NA
 1f66	C	P0C0S5	Histone H2A.Z
 1f66	G	P0C0S5	Histone H2A.Z
 1f66	D	P02281	Histone H2B 1.1
@@ -57,8 +57,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1f66	E	P84233	Histone H3.2
 1f66	B	P62806	Histone H4
 1f66	F	P62806	Histone H4
-1f66	I		
-1f66	J		
+1f66	I	NA	NA
+1f66	J	NA	NA
 1f68	A	Q92830	Histone acetyltransferase KAT2A
 1fy7	A	Q08649	Histone acetyltransferase ESA1
 1g6z	A	O60016	Histone-lysine N-methyltransferase, H3 lysine-9 specific
@@ -100,8 +100,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1id3	E	P61830	Histone H3
 1id3	B	P02309	Histone H4
 1id3	F	P02309	Histone H4
-1id3	I		
-1id3	J		
+1id3	I	NA	NA
+1id3	J	NA	NA
 1j3c	A	P17741	High mobility group protein B2
 1j3d	A	P17741	High mobility group protein B2
 1j3x	A	P17741	High mobility group protein B2
@@ -109,20 +109,20 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1j8f	B	Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2
 1j8f	C	Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2
 1jfi	A	Q14919	Dr1-associated corepressor
+1jfi	D	NA	NA
+1jfi	E	NA	NA
 1jfi	B	Q01658	Protein Dr1
 1jfi	C	P20226	TATA-box-binding protein
-1jfi	D		
-1jfi	E		
 1jm4	B	Q92831	Histone acetyltransferase KAT2B
 1jm4	A	P04610	Protein Tat
-1ju7	A		
-1jwc	A		
+1ju7	A	NA	NA
+1jwc	A	NA	NA
 1k5j	A	P05221	Nucleoplasmin
 1k5j	B	P05221	Nucleoplasmin
 1k5j	C	P05221	Nucleoplasmin
 1k5j	D	P05221	Nucleoplasmin
 1k5j	E	P05221	Nucleoplasmin
-1kks	A		
+1kks	A	NA	NA
 1kna	A	P05205	Heterochromatin protein 1
 1kna	P	P02299	Histone H3
 1kne	A	P05205	Heterochromatin protein 1
@@ -137,8 +137,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1kx3	E	P84233	Histone H3.2
 1kx3	B	P62799	Histone H4
 1kx3	F	P62799	Histone H4
-1kx3	I		
-1kx3	J		
+1kx3	I	NA	NA
+1kx3	J	NA	NA
 1kx4	C	P06897	Histone H2A type 1
 1kx4	G	P06897	Histone H2A type 1
 1kx4	D	P02281	Histone H2B 1.1
@@ -147,8 +147,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1kx4	E	P84233	Histone H3.2
 1kx4	B	P62799	Histone H4
 1kx4	F	P62799	Histone H4
-1kx4	I		
-1kx4	J		
+1kx4	I	NA	NA
+1kx4	J	NA	NA
 1kx5	C	P06897	Histone H2A type 1
 1kx5	G	P06897	Histone H2A type 1
 1kx5	D	P02281	Histone H2B 1.1
@@ -157,8 +157,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1kx5	E	P84233	Histone H3.2
 1kx5	B	P62799	Histone H4
 1kx5	F	P62799	Histone H4
-1kx5	I		
-1kx5	J		
+1kx5	I	NA	NA
+1kx5	J	NA	NA
 1lr1	A	P0ACF8	DNA-binding protein H-NS
 1lr1	B	P0ACF8	DNA-binding protein H-NS
 1m18	C	P06897	Histone H2A type 1
@@ -169,8 +169,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1m18	E	P02302	Histone H3.3C
 1m18	B	P62799	Histone H4
 1m18	F	P62799	Histone H4
-1m18	I		
-1m18	J		
+1m18	I	NA	NA
+1m18	J	NA	NA
 1m19	C	P06897	Histone H2A type 1
 1m19	G	P06897	Histone H2A type 1
 1m19	D	P02281	Histone H2B 1.1
@@ -179,8 +179,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1m19	E	P02302	Histone H3.3C
 1m19	B	P62799	Histone H4
 1m19	F	P62799	Histone H4
-1m19	I		
-1m19	J		
+1m19	I	NA	NA
+1m19	J	NA	NA
 1m1a	C	P06897	Histone H2A type 1
 1m1a	G	P06897	Histone H2A type 1
 1m1a	D	P02281	Histone H2B 1.1
@@ -189,12 +189,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1m1a	E	P02302	Histone H3.3C
 1m1a	B	P62799	Histone H4
 1m1a	F	P62799	Histone H4
-1m1a	I		
-1m1a	J		
+1m1a	I	NA	NA
+1m1a	J	NA	NA
 1m1d	B	P61830	Histone H3
 1m1d	D	P61830	Histone H3
-1m1d	A	Q27198	
-1m1d	C	Q27198	
+1m1d	A	Q27198	NA
+1m1d	C	Q27198	NA
 1mj9	A	Q08649	Histone acetyltransferase ESA1
 1mja	A	Q08649	Histone acetyltransferase ESA1
 1mjb	A	Q08649	Histone acetyltransferase ESA1
@@ -206,15 +206,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1mvx	A	O60016	Histone-lysine N-methyltransferase, H3 lysine-9 specific
 1n1j	A	P25208	Nuclear transcription factor Y subunit beta
 1n1j	B	Q13952	Nuclear transcription factor Y subunit gamma
-1n3j	A	O41094	
-1n3j	B	O41094	
+1n3j	A	O41094	NA
+1n3j	B	O41094	NA
 1n6a	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 1n6c	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 1n6j	G	Q9Y6J0	Calcineurin-binding protein cabin-1
 1n6j	A	Q02080	Myocyte-specific enhancer factor 2B
 1n6j	B	Q02080	Myocyte-specific enhancer factor 2B
-1n6j	C		
-1n6j	D		
+1n6j	C	NA	NA
+1n6j	D	NA	NA
 1n72	A	Q92831	Histone acetyltransferase KAT2B
 1ni8	A	P0ACF8	DNA-binding protein H-NS
 1ni8	B	P0ACF8	DNA-binding protein H-NS
@@ -236,8 +236,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p34	E	P84233	Histone H3.2
 1p34	B	P62799	Histone H4
 1p34	F	P62799	Histone H4
-1p34	I		
-1p34	J		
+1p34	I	NA	NA
+1p34	J	NA	NA
 1p3a	C	P06897	Histone H2A type 1
 1p3a	G	P06897	Histone H2A type 1
 1p3a	D	P02281	Histone H2B 1.1
@@ -246,8 +246,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3a	E	P84233	Histone H3.2
 1p3a	B	P62799	Histone H4
 1p3a	F	P62799	Histone H4
-1p3a	I		
-1p3a	J		
+1p3a	I	NA	NA
+1p3a	J	NA	NA
 1p3b	C	P06897	Histone H2A type 1
 1p3b	G	P06897	Histone H2A type 1
 1p3b	D	P02281	Histone H2B 1.1
@@ -256,8 +256,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3b	E	P84233	Histone H3.2
 1p3b	B	P62799	Histone H4
 1p3b	F	P62799	Histone H4
-1p3b	I		
-1p3b	J		
+1p3b	I	NA	NA
+1p3b	J	NA	NA
 1p3f	C	P06897	Histone H2A type 1
 1p3f	G	P06897	Histone H2A type 1
 1p3f	D	P02281	Histone H2B 1.1
@@ -266,8 +266,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3f	E	P84233	Histone H3.2
 1p3f	B	P62799	Histone H4
 1p3f	F	P62799	Histone H4
-1p3f	I		
-1p3f	J		
+1p3f	I	NA	NA
+1p3f	J	NA	NA
 1p3g	C	P06897	Histone H2A type 1
 1p3g	G	P06897	Histone H2A type 1
 1p3g	D	P02281	Histone H2B 1.1
@@ -276,8 +276,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3g	E	P84233	Histone H3.2
 1p3g	B	P62799	Histone H4
 1p3g	F	P62799	Histone H4
-1p3g	I		
-1p3g	J		
+1p3g	I	NA	NA
+1p3g	J	NA	NA
 1p3i	C	P06897	Histone H2A type 1
 1p3i	G	P06897	Histone H2A type 1
 1p3i	D	P02281	Histone H2B 1.1
@@ -286,8 +286,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3i	E	P84233	Histone H3.2
 1p3i	B	P62799	Histone H4
 1p3i	F	P62799	Histone H4
-1p3i	I		
-1p3i	J		
+1p3i	I	NA	NA
+1p3i	J	NA	NA
 1p3k	C	P06897	Histone H2A type 1
 1p3k	G	P06897	Histone H2A type 1
 1p3k	D	P02281	Histone H2B 1.1
@@ -296,8 +296,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3k	E	P84233	Histone H3.2
 1p3k	B	P62799	Histone H4
 1p3k	F	P62799	Histone H4
-1p3k	I		
-1p3k	J		
+1p3k	I	NA	NA
+1p3k	J	NA	NA
 1p3l	C	P06897	Histone H2A type 1
 1p3l	G	P06897	Histone H2A type 1
 1p3l	D	P02281	Histone H2B 1.1
@@ -306,8 +306,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3l	E	P84233	Histone H3.2
 1p3l	B	P62799	Histone H4
 1p3l	F	P62799	Histone H4
-1p3l	I		
-1p3l	J		
+1p3l	I	NA	NA
+1p3l	J	NA	NA
 1p3m	C	P06897	Histone H2A type 1
 1p3m	G	P06897	Histone H2A type 1
 1p3m	D	P02281	Histone H2B 1.1
@@ -316,8 +316,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3m	E	P84233	Histone H3.2
 1p3m	B	P62799	Histone H4
 1p3m	F	P62799	Histone H4
-1p3m	I		
-1p3m	J		
+1p3m	I	NA	NA
+1p3m	J	NA	NA
 1p3o	C	P06897	Histone H2A type 1
 1p3o	G	P06897	Histone H2A type 1
 1p3o	D	P02281	Histone H2B 1.1
@@ -326,8 +326,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3o	E	P84233	Histone H3.2
 1p3o	B	P62799	Histone H4
 1p3o	F	P62799	Histone H4
-1p3o	I		
-1p3o	J		
+1p3o	I	NA	NA
+1p3o	J	NA	NA
 1p3p	C	P06897	Histone H2A type 1
 1p3p	G	P06897	Histone H2A type 1
 1p3p	D	P02281	Histone H2B 1.1
@@ -336,8 +336,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1p3p	E	P84233	Histone H3.2
 1p3p	B	P62799	Histone H4
 1p3p	F	P62799	Histone H4
-1p3p	I		
-1p3p	J		
+1p3p	I	NA	NA
+1p3p	J	NA	NA
 1pdq	B	C0HL66	Histone H3.3A
 1pdq	A	P26017	Polycomb group protein Pc
 1peg	P	P61831	Histone H3
@@ -349,19 +349,19 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1pjn	A	P06180	Histone-binding protein N1/N2
 1pjn	B	P52293	Importin subunit alpha-1
 1pu9	B	P61830	Histone H3
-1pu9	A	Q27198	
+1pu9	A	Q27198	NA
 1pua	B	P61830	Histone H3
-1pua	A	Q27198	
+1pua	A	Q27198	NA
 1q14	A	P53686	NAD-dependent protein deacetylase HST2
 1q17	A	P53686	NAD-dependent protein deacetylase HST2
 1q17	B	P53686	NAD-dependent protein deacetylase HST2
 1q17	C	P53686	NAD-dependent protein deacetylase HST2
 1q1a	B	P02309	Histone H4
 1q1a	A	P53686	NAD-dependent protein deacetylase HST2
-1q2c	B		Histone H4 peptide
-1q2c	A	Q27198	
-1q2d	A	Q27198	
-1q2d	B		
+1q2c	B	NA	Histone H4 peptide
+1q2c	A	Q27198	NA
+1q2d	A	Q27198	NA
+1q2d	B	NA	NA
 1q3l	A	P05205	Heterochromatin protein 1
 1q3l	P	P68431	Histone H3.1
 1q9c	A	Q07889	Son of sevenless homolog 1
@@ -379,13 +379,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1qsm	C	Q06592	Histone acetyltransferase HPA2
 1qsm	D	Q06592	Histone acetyltransferase HPA2
 1qsn	B	P61830	Histone H3
-1qsn	A	Q27198	
+1qsn	A	Q27198	NA
 1qso	A	Q06592	Histone acetyltransferase HPA2
 1qso	B	Q06592	Histone acetyltransferase HPA2
 1qso	C	Q06592	Histone acetyltransferase HPA2
 1qso	D	Q06592	Histone acetyltransferase HPA2
-1qsr	A	Q27198	
-1qst	A	Q27198	
+1qsr	A	Q27198	NA
+1qst	A	Q27198	NA
 1r4v	A	O66665	Uncharacterized protein aq_328
 1riy	A	P36206	DNA-binding protein HU
 1roc	A	P32447	Histone chaperone ASF1
@@ -397,13 +397,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1s32	E	P84233	Histone H3.2
 1s32	B	P62799	Histone H4
 1s32	F	P62799	Histone H4
-1s32	I		
-1s32	J		
+1s32	I	NA	NA
+1s32	J	NA	NA
 1s3z	A	Q9R381	Aminoglycoside N(6')-acetyltransferase type 1
 1s3z	B	Q9R381	Aminoglycoside N(6')-acetyltransferase type 1
 1s5k	A	Q9R381	Aminoglycoside N(6')-acetyltransferase type 1
 1s5k	B	Q9R381	Aminoglycoside N(6')-acetyltransferase type 1
-1s5p	B		HISTONE H4 (RESIDUES 12-19)
+1s5p	B	NA	HISTONE H4 (RESIDUES 12-19)
 1s5p	A	P75960	NAD-dependent protein deacylase
 1s60	A	Q9R381	Aminoglycoside N(6')-acetyltransferase type 1
 1sg2	A	P0AEU7	Chaperone protein Skp
@@ -426,10 +426,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1tqe	Q	Q02080	Myocyte-specific enhancer factor 2B
 1tqe	R	Q02080	Myocyte-specific enhancer factor 2B
 1tqe	S	Q02080	Myocyte-specific enhancer factor 2B
-1tqe	C		
-1tqe	D		
-1tqe	E		
-1tqe	F		
+1tqe	C	NA	NA
+1tqe	D	NA	NA
+1tqe	E	NA	NA
+1tqe	F	NA	NA
 1tzy	A	P02263	Histone H2A-IV
 1tzy	E	P02263	Histone H2A-IV
 1tzy	B	P0C1H5	Histone H2B 7
@@ -452,8 +452,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1u35	E	P68433	Histone H3.1
 1u35	B	P62806	Histone H4
 1u35	F	P62806	Histone H4
-1u35	I		
-1u35	J		
+1u35	I	NA	NA
+1u35	J	NA	NA
 1ubq	A	P0CG48	Polyubiquitin-C
 1uhm	A	P53551	Histone H1
 1uss	A	P53551	Histone H1
@@ -461,8 +461,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1vkg	A	Q9BY41	Histone deacetylase 8
 1vkg	B	Q9BY41	Histone deacetylase 8
 1vtn	C	P55318	Hepatocyte nuclear factor 3-gamma
-1vtn	A		
-1vtn	B		
+1vtn	A	NA	NA
+1vtn	B	NA	NA
 1w0h	A	Q8IV48	3'-5' exoribonuclease 1
 1w22	A	Q9BY41	Histone deacetylase 8
 1w22	B	Q9BY41	Histone deacetylase 8
@@ -537,14 +537,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1zbb	b	P62799	Histone H4
 1zbb	F	P62799	Histone H4
 1zbb	f	P62799	Histone H4
-1zbb	I		
-1zbb	J		
+1zbb	I	NA	NA
+1zbb	J	NA	NA
 1zbh	A	Q8IV48	3'-5' exoribonuclease 1
 1zbh	B	Q8IV48	3'-5' exoribonuclease 1
 1zbh	C	Q8IV48	3'-5' exoribonuclease 1
 1zbh	D	Q8IV48	3'-5' exoribonuclease 1
-1zbh	E		
-1zbh	F		
+1zbh	E	NA	NA
+1zbh	F	NA	NA
 1zbu	A	Q8IV48	3'-5' exoribonuclease 1
 1zbu	B	Q8IV48	3'-5' exoribonuclease 1
 1zbu	C	Q8IV48	3'-5' exoribonuclease 1
@@ -565,9 +565,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 1zla	E	P84233	Histone H3.2
 1zla	B	P62799	Histone H4
 1zla	F	P62799	Histone H4
-1zla	I		
-1zla	J		
-1zla	K	Q9DUM3	
+1zla	K	Q9DUM3	NA
+1zla	I	NA	NA
+1zla	J	NA	NA
 1zr3	A	O75367	Core histone macro-H2A.1
 1zr3	B	O75367	Core histone macro-H2A.1
 1zr3	C	O75367	Core histone macro-H2A.1
@@ -632,14 +632,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2bqz	E	Q9NQR1	N-lysine methyltransferase KMT5A
 2bqz	B	Q6GMV2	SET and MYND domain-containing protein 5
 2bqz	F	Q6GMV2	SET and MYND domain-containing protein 5
-2byk	A	Q9V452	
-2byk	B	Q9V444	
-2byk	C	Q9V452	
-2byk	D	Q9V444	
-2bym	A	Q9V452	
-2bym	B	Q9V444	
-2bym	C	Q9V452	
-2bym	D	Q9V444	
+2byk	B	Q9V444	NA
+2byk	D	Q9V444	NA
+2byk	A	Q9V452	NA
+2byk	C	Q9V452	NA
+2bym	B	Q9V444	NA
+2bym	D	Q9V444	NA
+2bym	A	Q9V452	NA
+2bym	C	Q9V452	NA
 2bze	A	Q92541	RNA polymerase-associated protein RTF1 homolog
 2c1j	A	P63104	14-3-3 protein zeta/delta
 2c1j	B	P63104	14-3-3 protein zeta/delta
@@ -670,8 +670,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2cv5	E	P68431	Histone H3.1
 2cv5	B	P62805	Histone H4
 2cv5	F	P62805	Histone H4
-2cv5	I		
-2cv5	J		
+2cv5	I	NA	NA
+2cv5	J	NA	NA
 2czy	A	Q62141	Paired amphipathic helix protein Sin3b
 2czy	B	Q13127	RE1-silencing transcription factor
 2d31	B	P61769	Beta-2-microglobulin
@@ -680,11 +680,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2d31	F	P16104	Histone H2AX
 2d31	A	P17693	HLA class I histocompatibility antigen, alpha chain G
 2d31	D	P17693	HLA class I histocompatibility antigen, alpha chain G
-2dew	A		10-mer peptide from histone H3
+2dew	A	NA	10-mer peptide from histone H3
 2dew	X	Q9UM07	Protein-arginine deiminase type-4
-2dex	A		10-mer peptide from histone H3
+2dex	A	NA	10-mer peptide from histone H3
 2dex	X	Q9UM07	Protein-arginine deiminase type-4
-2dey	A		10-mer peptide from histone H4
+2dey	A	NA	10-mer peptide from histone H4
 2dey	X	Q9UM07	Protein-arginine deiminase type-4
 2dnt	A	Q9Y232	Chromodomain Y-like protein
 2dnv	A	Q9QXV1	Chromobox protein homolog 8
@@ -701,8 +701,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2dvs	A	P25440	Bromodomain-containing protein 2
 2dvs	B	P25440	Bromodomain-containing protein 2
 2dvs	C	P25440	Bromodomain-containing protein 2
-2dvs	P		histone H4
-2dvs	Q		histone H4
+2dvs	P	NA	histone H4
+2dvs	Q	NA	histone H4
 2dw4	A	O60341	Lysine-specific histone demethylase 1A
 2dyp	B	P61769	Beta-2-microglobulin
 2dyp	C	P16104	Histone H2AX
@@ -736,14 +736,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2f5k	F	Q9UBU8	Mortality factor 4-like protein 1
 2f69	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 2f69	B	Q12962	Transcription initiation factor TFIID subunit 10
-2f6j	P		histone H3, N-terminal
+2f6j	P	NA	histone H3, N-terminal
 2f6j	A	Q12830	Nucleosome-remodeling factor subunit BPTF
 2f6j	B	Q12830	Nucleosome-remodeling factor subunit BPTF
 2f6j	C	Q12830	Nucleosome-remodeling factor subunit BPTF
 2f6n	A	Q12830	Nucleosome-remodeling factor subunit BPTF
 2f6n	B	Q12830	Nucleosome-remodeling factor subunit BPTF
-2f8n	I		alpha-satellite DNA (146 bp)
-2f8n	J		alpha-satellite DNA (146 bp)
+2f8n	I	NA	alpha-satellite DNA (146 bp)
+2f8n	J	NA	alpha-satellite DNA (146 bp)
 2f8n	G	O75367	Core histone macro-H2A.1
 2f8n	K	Q8CGP6	Histone H2A type 1-H
 2f8n	H	P02281	Histone H2B 1.1
@@ -755,8 +755,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2fhd	A	P87074	DNA repair protein crb2
 2fhd	B	P87074	DNA repair protein crb2
 2fhd	C	P87074	DNA repair protein crb2
-2fj7	I		147 bp DNA containing 16 bp poly dA element
-2fj7	J		147 bp DNA containing 16 bp poly dT element
+2fj7	I	NA	147 bp DNA containing 16 bp poly dA element
+2fj7	J	NA	147 bp DNA containing 16 bp poly dT element
 2fj7	C	P06897	Histone H2A type 1
 2fj7	G	P06897	Histone H2A type 1
 2fj7	D	P02281	Histone H2B 1.1
@@ -765,7 +765,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2fj7	E	P84233	Histone H3.2
 2fj7	B	P62799	Histone H4
 2fj7	F	P62799	Histone H4
-2fsa	P		Histone H3(1-15)K4me2 peptide
+2fsa	P	NA	Histone H3(1-15)K4me2 peptide
 2fsa	A	Q12830	Nucleosome-remodeling factor subunit BPTF
 2fsa	B	Q12830	Nucleosome-remodeling factor subunit BPTF
 2fsa	C	Q12830	Nucleosome-remodeling factor subunit BPTF
@@ -779,13 +779,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2g46	D	O24165	meK27 H3 Peptide
 2g46	A	O41094	PBCV-1 histone H3-Lys 27 methyltransferase
 2g46	B	O41094	PBCV-1 histone H3-Lys 27 methyltransferase
-2g6q	B		H3K4Me3 peptide
+2g6q	B	NA	H3K4Me3 peptide
 2g6q	A	Q9ESK4	Inhibitor of growth protein 2
-2g99	C		Histone H3
-2g99	D		Histone H3
+2g99	C	NA	Histone H3
+2g99	D	NA	Histone H3
 2g99	A	P61964	WD repeat-containing protein 5
 2g99	B	P61964	WD repeat-containing protein 5
-2g9a	B		Histone H3
+2g9a	B	NA	Histone H3
 2g9a	A	P61964	WD repeat-containing protein 5
 2gf7	A	O75164	Lysine-specific demethylase 4A
 2gf7	B	O75164	Lysine-specific demethylase 4A
@@ -793,8 +793,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2gf7	D	O75164	Lysine-specific demethylase 4A
 2gfa	A	O75164	Lysine-specific demethylase 4A
 2gfa	B	O75164	Lysine-specific demethylase 4A
-2gfa	C		peptide
-2gfa	D		peptide
+2gfa	C	NA	peptide
+2gfa	D	NA	peptide
 2gh6	A	Q70I53	Histone deacetylase-like amidohydrolase
 2gh6	B	Q70I53	Histone deacetylase-like amidohydrolase
 2gh6	C	Q70I53	Histone deacetylase-like amidohydrolase
@@ -807,7 +807,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2gp5	B	O75164	Lysine-specific demethylase 4A
 2h0d	B	Q99496	E3 ubiquitin-protein ligase RING2
 2h0d	A	P35226	Polycomb complex protein BMI-1
-2h13	B		histone H3 lys-4 dimethylated
+2h13	B	NA	histone H3 lys-4 dimethylated
 2h13	A	P61964	WD repeat-containing protein 5
 2h14	A	P61964	WD repeat-containing protein 5
 2h2g	B	P61830	Histone H3
@@ -817,16 +817,16 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2h60	A	P51532	Transcription activator BRG1
 2h68	A	P61964	WD repeat-containing protein 5
 2h68	B	P61964	WD repeat-containing protein 5
-2h6k	C		Histone H3 K4-Me 9-residue peptide
-2h6k	D		Histone H3 K4-Me 9-residue peptide
+2h6k	C	NA	Histone H3 K4-Me 9-residue peptide
+2h6k	D	NA	Histone H3 K4-Me 9-residue peptide
 2h6k	A	P61964	WD repeat-containing protein 5
 2h6k	B	P61964	WD repeat-containing protein 5
-2h6n	C		Histone H3 K4-Me2 9-residue peptide
-2h6n	D		Histone H3 K4-Me2 9-residue peptide
+2h6n	C	NA	Histone H3 K4-Me2 9-residue peptide
+2h6n	D	NA	Histone H3 K4-Me2 9-residue peptide
 2h6n	A	P61964	WD repeat-containing protein 5
 2h6n	B	P61964	WD repeat-containing protein 5
-2h6q	C		Histone H3 K4-Me3 9-residue peptide
-2h6q	D		Histone H3 K4-Me3 9-residue peptide
+2h6q	C	NA	Histone H3 K4-Me3 9-residue peptide
+2h6q	D	NA	Histone H3 K4-Me3 9-residue peptide
 2h6q	A	P61964	WD repeat-containing protein 5
 2h6q	B	P61964	WD repeat-containing protein 5
 2h8n	A	P56524	Histone deacetylase 4
@@ -884,7 +884,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2jtf	A	A8MW92	PHD finger protein 20-like protein 1
 2jv0	A	Q13029	PR domain zinc finger protein 2
 2jxj	A	P29375	Lysine-specific demethylase 5A
-2k17	P		H3K4me3 peptide
+2k17	P	NA	H3K4me3 peptide
 2k17	A	Q5HZG4	Transcription initiation factor TFIID subunit 3
 2k1j	A	Q9UNL4	Inhibitor of growth protein 4
 2k3x	A	Q12432	Chromatin modification-related protein EAF3
@@ -894,22 +894,22 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2k8f	A	Q09472	Histone acetyltransferase p300
 2kdp	A	O75446	Histone deacetylase complex subunit SAP30
 2ke1	A	O43918	Autoimmune regulator
-2ke1	B		H3K4me0
+2ke1	B	NA	H3K4me0
 2kft	A	O43918	Autoimmune regulator
-2kft	B		Histone H3
+2kft	B	NA	Histone H3
 2kgg	A	P29375	Lysine-specific demethylase 5A
-2kgi	B		H3(1-9)K4me3
+2kgi	B	NA	H3(1-9)K4me3
 2kgi	A	P29375	Lysine-specific demethylase 5A
 2kjm	A	Q14493	Histone RNA hairpin-binding protein
-2kkf	B		5'-D(*CP*CP*CP*TP*GP*CP*GP*CP*AP*GP*GP*G)-3'
-2kkf	C		5'-D(*CP*CP*CP*TP*GP*CP*GP*CP*AP*GP*GP*G)-3'
+2kkf	B	NA	5'-D(*CP*CP*CP*TP*GP*CP*GP*CP*AP*GP*GP*G)-3'
+2kkf	C	NA	5'-D(*CP*CP*CP*TP*GP*CP*GP*CP*AP*GP*GP*G)-3'
 2kkf	A	Q03164	Histone-lysine N-methyltransferase 2A
 2kkr	A	O15265	Ataxin-7
 2kkt	A	Q14CW9	Ataxin-7-like protein 3
-2ktb	A		H3_Peptide
+2ktb	A	NA	H3_Peptide
 2ktb	B	Q86U86	Protein polybromo-1
 2kvm	A	Q8VDS3	Chromobox protein homolog 7
-2kvm	B		histone H3 peptide (residues 15-30) with dimethylated lysine 27
+2kvm	B	NA	histone H3 peptide (residues 15-30) with dimethylated lysine 27
 2kwj	B	P68431	Histone H3.1
 2kwj	A	Q92784	Zinc finger protein DPF3
 2kwk	B	P68431	Histone H3.1
@@ -947,9 +947,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2ld7	A	O88574	Histone deacetylase complex subunit SAP30
 2ld7	B	Q60520	Paired amphipathic helix protein Sin3a
 2lgg	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
-2lgg	B		histone H3 peptide
+2lgg	B	NA	histone H3 peptide
 2lgk	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
-2lgk	B		histone H3 peptide
+2lgk	B	NA	histone H3 peptide
 2lgl	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
 2lh0	A	P40161	Histone chaperone RTT106
 2lh0	B	P40161	Histone chaperone RTT106
@@ -977,7 +977,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2mh0	A	P15923	Transcription factor E2-alpha
 2miq	A	Q9VMJ7	Lysine-specific demethylase lid
 2mny	A	Q9UGL1	Lysine-specific demethylase 5B
-2mnz	B		H3K4me0
+2mnz	B	NA	H3K4me0
 2mnz	A	Q9UGL1	Lysine-specific demethylase 5B
 2msr	A	Q03164	Histone-lysine N-methyltransferase 2A
 2msr	B	O75475	PC4 and SFRS1-interacting protein
@@ -1006,8 +1006,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2ndp	B	A0A0F6CKR5	Histone-like DNA-binding superfamily protein
 2nog	A	Q6DFM0	ISWI protein
 2nog	B	Q6DFM0	ISWI protein
-2nqb	I		alpha-satellite DNA
-2nqb	J		alpha-satellite DNA
+2nqb	I	NA	alpha-satellite DNA
+2nqb	J	NA	alpha-satellite DNA
 2nqb	C	P84051	Histone H2A
 2nqb	G	P84051	Histone H2A
 2nqb	D	P02283	Histone H2B
@@ -1020,8 +1020,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2nxb	B	Q15059	Bromodomain-containing protein 3
 2nyr	A	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
 2nyr	B	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
-2nzd	I		DNA (145-MER)
-2nzd	J		DNA (145-MER)
+2nzd	I	NA	DNA (145-MER)
+2nzd	J	NA	DNA (145-MER)
 2nzd	C	P06897	Histone H2A type 1
 2nzd	G	P06897	Histone H2A type 1
 2nzd	D	P02281	Histone H2B 1.1
@@ -1038,11 +1038,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2o94	B	P56524	Histone deacetylase 4
 2o94	C	P56524	Histone deacetylase 4
 2o94	D	P56524	Histone deacetylase 4
-2o9k	B		H3 HISTONE
-2o9k	D		H3 HISTONE
+2o9k	B	NA	H3 HISTONE
+2o9k	D	NA	H3 HISTONE
 2o9k	A	P61964	WD repeat-containing protein 5
 2o9k	C	P61964	WD repeat-containing protein 5
-2od7	B		Acetylated histone H4 peptide
+2od7	B	NA	Acetylated histone H4 peptide
 2od7	A	P53686	NAD-dependent protein deacetylase HST2
 2oo1	A	Q15059	Bromodomain-containing protein 3
 2oo1	B	Q15059	Bromodomain-containing protein 3
@@ -1056,8 +1056,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2oq7	B	O75164	Lysine-specific demethylase 4A
 2oqb	A	Q4AE70	Histone-arginine methyltransferase CARM1
 2oqb	B	Q4AE70	Histone-arginine methyltransferase CARM1
-2os2	C		histone 3 peptide
-2os2	D		histone 3 peptide
+2os2	C	NA	histone 3 peptide
+2os2	D	NA	histone 3 peptide
 2os2	A	O75164	Lysine-specific demethylase 4A
 2os2	B	O75164	Lysine-specific demethylase 4A
 2oss	A	O60885	Bromodomain-containing protein 4
@@ -1074,22 +1074,22 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2ozu	A	Q92794	Histone acetyltransferase KAT6A
 2p0w	A	O14929	Histone acetyltransferase type B catalytic subunit
 2p0w	B	O14929	Histone acetyltransferase type B catalytic subunit
-2p0w	P		Histone peptide H4
-2p0w	Q		Histone peptide H4
-2p5b	I		Histone H3
-2p5b	J		Histone H3
+2p0w	P	NA	Histone peptide H4
+2p0w	Q	NA	Histone peptide H4
+2p5b	I	NA	Histone H3
+2p5b	J	NA	Histone H3
 2p5b	A	O75164	Lysine-specific demethylase 4A
 2p5b	B	O75164	Lysine-specific demethylase 4A
 2pie	A	O76064	E3 ubiquitin-protein ligase RNF8
-2pie	F		phosphopeptide
-2pnx	B		H3K4Me3 peptide
-2pnx	D		H3K4Me3 peptide
+2pie	F	NA	phosphopeptide
+2pnx	B	NA	H3K4Me3 peptide
+2pnx	D	NA	H3K4Me3 peptide
 2pnx	A	Q9UNL4	Inhibitor of growth protein 4
 2pnx	C	Q9UNL4	Inhibitor of growth protein 4
 2pq8	A	Q9H7Z6	Histone acetyltransferase KAT8
-2pqw	B		Histone H4
+2pqw	B	NA	Histone H4
 2pqw	A	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
-2puy	E		Histone H3
+2puy	E	NA	Histone H3
 2puy	A	Q96BD5	PHD finger protein 21A
 2puy	B	Q96BD5	PHD finger protein 21A
 2pv0	A	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
@@ -1098,15 +1098,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2pvc	A	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
 2pvc	B	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
 2pvc	C	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
-2pvc	D		Histone H3 peptide
-2pvc	E		Histone H3 peptide
-2pvc	F		Histone H3 peptide
+2pvc	D	NA	Histone H3 peptide
+2pvc	E	NA	Histone H3 peptide
+2pvc	F	NA	Histone H3 peptide
 2pxj	A	O75164	Lysine-specific demethylase 4A
 2pxj	B	O75164	Lysine-specific demethylase 4A
-2pxj	I		monomethylated Histone H3K36 peptide
-2pxj	J		monomethylated Histone H3K36 peptide
-2pyo	I		DNA (147-MER)
-2pyo	J		DNA (147-MER)
+2pxj	I	NA	monomethylated Histone H3K36 peptide
+2pxj	J	NA	monomethylated Histone H3K36 peptide
+2pyo	I	NA	DNA (147-MER)
+2pyo	J	NA	DNA (147-MER)
 2pyo	C	P84051	Histone H2A
 2pyo	G	P84051	Histone H2A
 2pyo	D	P02283	Histone H2B
@@ -1115,20 +1115,20 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2pyo	E	P02299	Histone H3
 2pyo	B	P84040	Histone H4
 2pyo	F	P84040	Histone H4
-2q8c	F		HISTONE 3 PEPTIDE
-2q8c	G		HISTONE 3 PEPTIDE
+2q8c	F	NA	HISTONE 3 PEPTIDE
+2q8c	G	NA	HISTONE 3 PEPTIDE
 2q8c	A	O75164	Lysine-specific demethylase 4A
 2q8c	B	O75164	Lysine-specific demethylase 4A
-2q8d	F		HISTONE 3 peptide
-2q8d	G		HISTONE 3 peptide
+2q8d	F	NA	HISTONE 3 peptide
+2q8d	G	NA	HISTONE 3 peptide
 2q8d	A	O75164	Lysine-specific demethylase 4A
 2q8d	B	O75164	Lysine-specific demethylase 4A
-2q8e	F		histone 3 peptide
-2q8e	G		histone 3 peptide
+2q8e	F	NA	histone 3 peptide
+2q8e	G	NA	histone 3 peptide
 2q8e	A	O75164	Lysine-specific demethylase 4A
 2q8e	B	O75164	Lysine-specific demethylase 4A
 2qec	A	Q8NQB1	Histone acetyltransferase HPA2 and related acetyltransferases
-2qic	B		H3K4ME3 PEPTIDE
+2qic	B	NA	H3K4ME3 PEPTIDE
 2qic	A	Q9UK53	Inhibitor of growth protein 1
 2qqf	B	P02309	Histone H4
 2qqf	A	P53686	NAD-dependent protein deacetylase HST2
@@ -1144,13 +1144,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2r0v	B	Q02206	Chromatin structure-remodeling complex subunit RSC4
 2r0v	C	Q02206	Chromatin structure-remodeling complex subunit RSC4
 2r0y	A	Q02206	Chromatin structure-remodeling complex subunit RSC4
-2r0y	B		Histone H3 peptide
+2r0y	B	NA	Histone H3 peptide
 2r10	A	Q02206	Chromatin structure-remodeling complex subunit RSC4
 2r10	B	Q02206	Chromatin structure-remodeling complex subunit RSC4
 2r3a	A	Q9H5I1	Histone-lysine N-methyltransferase SUV39H2
 2rc4	A	Q92794	Histone acetyltransferase KAT6A
-2rfi	P		Histone H3
-2rfi	Q		Histone H3
+2rfi	P	NA	Histone H3
+2rfi	Q	NA	Histone H3
 2rfi	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 2rfi	B	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 2rfj	A	Q58F21	Bromodomain testis-specific protein
@@ -1171,8 +1171,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2rje	A	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
 2rje	B	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
 2rje	C	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
-2rjf	B		Histone H4
-2rjf	D		Histone H4
+2rjf	B	NA	Histone H4
+2rjf	D	NA	Histone H4
 2rjf	A	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
 2rjf	C	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
 2rjf	E	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
@@ -1212,7 +1212,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2v1d	B	Q9UKL0	REST corepressor 1
 2v5w	I	P04637	Cellular tumor antigen p53
 2v5w	L	P04637	Cellular tumor antigen p53
-2v5w	G		GLYCYL-GLYCYL-GLYCINE
+2v5w	G	NA	GLYCYL-GLYCYL-GLYCINE
 2v5w	A	Q9BY41	Histone deacetylase 8
 2v5w	B	Q9BY41	Histone deacetylase 8
 2v5x	A	Q9BY41	Histone deacetylase 8
@@ -1268,8 +1268,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2vpd	C	Q9Y3Y4	Pygopus homolog 1
 2vpe	B	O00512	B-cell CLL/lymphoma 9 protein
 2vpe	D	O00512	B-cell CLL/lymphoma 9 protein
-2vpe	P		HISTONE H3 TAIL
-2vpe	R		HISTONE H3 TAIL
+2vpe	P	NA	HISTONE H3 TAIL
+2vpe	R	NA	HISTONE H3 TAIL
 2vpe	A	Q9Y3Y4	Pygopus homolog 1
 2vpe	C	Q9Y3Y4	Pygopus homolog 1
 2vpg	B	O00512	B-cell CLL/lymphoma 9 protein
@@ -1466,7 +1466,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2yu1	A	Q9Y2K7	Lysine-specific demethylase 2A
 2yu2	A	Q9Y2K7	Lysine-specific demethylase 2A
 2yuk	A	Q8NEZ4	Histone-lysine N-methyltransferase 2C
-2yyr	P		H3K4Me3 peptide
+2yyr	P	NA	H3K4Me3 peptide
 2yyr	A	Q9D0P5	Pygopus homolog 1
 2yyr	B	Q9D0P5	Pygopus homolog 1
 2z2r	A	P25293	Nucleosome assembly protein
@@ -1496,15 +1496,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 2z3f	T	O13985	Uncharacterized WD repeat-containing protein C26H5.03
 2z3y	A	O60341	Lysine-specific histone demethylase 1A
 2z5u	A	O60341	Lysine-specific histone demethylase 1A
-2zd7	C		EVDLPLSDEEPSS
+2zd7	C	NA	EVDLPLSDEEPSS
 2zd7	A	P53853	Vacuolar protein sorting-associated protein 75
 2zd7	B	P53853	Vacuolar protein sorting-associated protein 75
 2zfn	A	Q07794	Histone acetyltransferase RTT109
 2zug	A	Q91LD0	ORF115 (WSSV285) (Wsv230)
 2zug	B	Q91LD0	ORF115 (WSSV285) (Wsv230)
 3a1b	A	P68431, Q9Y6K1	P68431:, Histone H3.1, Q9Y6K1:, DNA (cytosine-5)-methyltransferase 3A
-3a6n	I		146-MER DNA
-3a6n	J		146-MER DNA
+3a6n	I	NA	146-MER DNA
+3a6n	J	NA	146-MER DNA
 3a6n	C	P04908	Histone H2A type 1-B/E
 3a6n	G	P04908	Histone H2A type 1-B/E
 3a6n	D	P06899	Histone H2B type 1-J
@@ -1518,8 +1518,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3aad	A	P21675	Transcription initiation factor TFIID subunit 1
 3abt	A	O60341	Lysine-specific histone demethylase 1A
 3abu	A	O60341	Lysine-specific histone demethylase 1A
-3afa	I		146-MER DNA
-3afa	J		146-MER DNA
+3afa	I	NA	146-MER DNA
+3afa	J	NA	146-MER DNA
 3afa	C	P04908	Histone H2A type 1-B/E
 3afa	G	P04908	Histone H2A type 1-B/E
 3afa	D	P06899	Histone H2B type 1-J
@@ -1528,8 +1528,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3afa	E	P68431	Histone H3.1
 3afa	B	P62805	Histone H4
 3afa	F	P62805	Histone H4
-3an2	I		147 mer DNA
-3an2	J		147 mer DNA
+3an2	I	NA	147 mer DNA
+3an2	J	NA	147 mer DNA
 3an2	C	P04908	Histone H2A type 1-B/E
 3an2	G	P04908	Histone H2A type 1-B/E
 3an2	D	P06899	Histone H2B type 1-J
@@ -1552,8 +1552,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3ask	R	P84243	Histone H3.3
 3asl	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
 3asl	B	P84243	Histone H3.3
-3av1	I		146-MER DNA
-3av1	J		146-MER DNA
+3av1	I	NA	146-MER DNA
+3av1	J	NA	146-MER DNA
 3av1	C	P04908	Histone H2A type 1-B/E
 3av1	G	P04908	Histone H2A type 1-B/E
 3av1	D	P06899	Histone H2B type 1-J
@@ -1562,8 +1562,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3av1	E	Q71DI3	Histone H3.2
 3av1	B	P62805	Histone H4
 3av1	F	P62805	Histone H4
-3av2	I		146-MER DNA
-3av2	J		146-MER DNA
+3av2	I	NA	146-MER DNA
+3av2	J	NA	146-MER DNA
 3av2	C	P04908	Histone H2A type 1-B/E
 3av2	G	P04908	Histone H2A type 1-B/E
 3av2	D	P06899	Histone H2B type 1-J
@@ -1575,8 +1575,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3avr	B	P68431	Histone H3.1
 3avr	A	O15550	Lysine-specific demethylase 6A
 3avs	A	O15550	Lysine-specific demethylase 6A
-3ayw	I		146-MER DNA
-3ayw	J		146-MER DNA
+3ayw	I	NA	146-MER DNA
+3ayw	J	NA	146-MER DNA
 3ayw	C	P04908	Histone H2A type 1-B/E
 3ayw	G	P04908	Histone H2A type 1-B/E
 3ayw	D	P06899	Histone H2B type 1-J
@@ -1585,8 +1585,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3ayw	E	P68431	Histone H3.1
 3ayw	B	P62805	Histone H4
 3ayw	F	P62805	Histone H4
-3aze	I		146-MER DNA
-3aze	J		146-MER DNA
+3aze	I	NA	146-MER DNA
+3aze	J	NA	146-MER DNA
 3aze	C	P04908	Histone H2A type 1-B/E
 3aze	G	P04908	Histone H2A type 1-B/E
 3aze	D	P06899	Histone H2B type 1-J
@@ -1595,8 +1595,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3aze	E	P68431	Histone H3.1
 3aze	B	P62805	Histone H4
 3aze	F	P62805	Histone H4
-3azf	I		146-MER DNA
-3azf	J		146-MER DNA
+3azf	I	NA	146-MER DNA
+3azf	J	NA	146-MER DNA
 3azf	C	P04908	Histone H2A type 1-B/E
 3azf	G	P04908	Histone H2A type 1-B/E
 3azf	D	P06899	Histone H2B type 1-J
@@ -1605,8 +1605,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azf	E	P68431	Histone H3.1
 3azf	B	P62805	Histone H4
 3azf	F	P62805	Histone H4
-3azg	I		146-MER DNA
-3azg	J		146-MER DNA
+3azg	I	NA	146-MER DNA
+3azg	J	NA	146-MER DNA
 3azg	C	P04908	Histone H2A type 1-B/E
 3azg	G	P04908	Histone H2A type 1-B/E
 3azg	D	P06899	Histone H2B type 1-J
@@ -1615,8 +1615,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azg	E	P68431	Histone H3.1
 3azg	B	P62805	Histone H4
 3azg	F	P62805	Histone H4
-3azh	I		146-MER DNA
-3azh	J		146-MER DNA
+3azh	I	NA	146-MER DNA
+3azh	J	NA	146-MER DNA
 3azh	C	P04908	Histone H2A type 1-B/E
 3azh	G	P04908	Histone H2A type 1-B/E
 3azh	D	P06899	Histone H2B type 1-J
@@ -1625,8 +1625,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azh	E	P68431	Histone H3.1
 3azh	B	P62805	Histone H4
 3azh	F	P62805	Histone H4
-3azi	I		146-MER DNA
-3azi	J		146-MER DNA
+3azi	I	NA	146-MER DNA
+3azi	J	NA	146-MER DNA
 3azi	C	P04908	Histone H2A type 1-B/E
 3azi	G	P04908	Histone H2A type 1-B/E
 3azi	D	P06899	Histone H2B type 1-J
@@ -1635,8 +1635,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azi	E	P68431	Histone H3.1
 3azi	B	P62805	Histone H4
 3azi	F	P62805	Histone H4
-3azj	I		146-MER DNA
-3azj	J		146-MER DNA
+3azj	I	NA	146-MER DNA
+3azj	J	NA	146-MER DNA
 3azj	C	P04908	Histone H2A type 1-B/E
 3azj	G	P04908	Histone H2A type 1-B/E
 3azj	D	P06899	Histone H2B type 1-J
@@ -1645,8 +1645,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azj	E	P68431	Histone H3.1
 3azj	B	P62805	Histone H4
 3azj	F	P62805	Histone H4
-3azk	I		146-MER DNA
-3azk	J		146-MER DNA
+3azk	I	NA	146-MER DNA
+3azk	J	NA	146-MER DNA
 3azk	C	P04908	Histone H2A type 1-B/E
 3azk	G	P04908	Histone H2A type 1-B/E
 3azk	D	P06899	Histone H2B type 1-J
@@ -1655,8 +1655,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azk	E	P68431	Histone H3.1
 3azk	B	P62805	Histone H4
 3azk	F	P62805	Histone H4
-3azl	I		146-MER DNA
-3azl	J		146-MER DNA
+3azl	I	NA	146-MER DNA
+3azl	J	NA	146-MER DNA
 3azl	C	P04908	Histone H2A type 1-B/E
 3azl	G	P04908	Histone H2A type 1-B/E
 3azl	D	P06899	Histone H2B type 1-J
@@ -1665,8 +1665,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azl	E	P68431	Histone H3.1
 3azl	B	P62805	Histone H4
 3azl	F	P62805	Histone H4
-3azm	I		146-MER DNA
-3azm	J		146-MER DNA
+3azm	I	NA	146-MER DNA
+3azm	J	NA	146-MER DNA
 3azm	C	P04908	Histone H2A type 1-B/E
 3azm	G	P04908	Histone H2A type 1-B/E
 3azm	D	P06899	Histone H2B type 1-J
@@ -1675,8 +1675,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3azm	E	P68431	Histone H3.1
 3azm	B	P62805	Histone H4
 3azm	F	P62805	Histone H4
-3azn	I		146-MER DNA
-3azn	J		146-MER DNA
+3azn	I	NA	146-MER DNA
+3azn	J	NA	146-MER DNA
 3azn	C	P04908	Histone H2A type 1-B/E
 3azn	G	P04908	Histone H2A type 1-B/E
 3azn	D	P06899	Histone H2B type 1-J
@@ -1702,8 +1702,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3b3g	A	Q4AE70	Histone-arginine methyltransferase CARM1
 3b3g	B	Q4AE70	Histone-arginine methyltransferase CARM1
 3b3j	A	Q4AE70	Histone-arginine methyltransferase CARM1
-3b6f	I		147-MER DNA
-3b6f	J		147-MER DNA
+3b6f	I	NA	147-MER DNA
+3b6f	J	NA	147-MER DNA
 3b6f	C	P06897	Histone H2A type 1
 3b6f	G	P06897	Histone H2A type 1
 3b6f	D	P02281	Histone H2B 1.1
@@ -1712,8 +1712,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3b6f	E	P84233	Histone H3.2
 3b6f	B	P62799	Histone H4
 3b6f	F	P62799	Histone H4
-3b6g	I		147-MER DNA
-3b6g	J		147-MER DNA
+3b6g	I	NA	147-MER DNA
+3b6g	J	NA	147-MER DNA
 3b6g	C	P06897	Histone H2A type 1
 3b6g	G	P06897	Histone H2A type 1
 3b6g	D	P02281	Histone H2B 1.1
@@ -1746,8 +1746,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3c1b	E	P84233	Histone H3.2
 3c1b	B	P62799	Histone H4
 3c1b	F	P62799	Histone H4
-3c1b	I		Palindromic 146bp Human Alpha satellite DNA
-3c1b	J		Palindromic 146bp Human Alpha satellite DNA
+3c1b	I	NA	Palindromic 146bp Human Alpha satellite DNA
+3c1b	J	NA	Palindromic 146bp Human Alpha satellite DNA
 3c1c	C	P06897	Histone H2A type 1
 3c1c	G	P06897	Histone H2A type 1
 3c1c	D	Q28D68	Histone H2B
@@ -1756,11 +1756,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3c1c	E	P84233	Histone H3.2
 3c1c	B	P62799	Histone H4
 3c1c	F	P62799	Histone H4
-3c1c	I		Palindromic 146bp Human Alpha satellite DNA
-3c1c	J		Palindromic 146bp Human Alpha satellite DNA
+3c1c	I	NA	Palindromic 146bp Human Alpha satellite DNA
+3c1c	J	NA	Palindromic 146bp Human Alpha satellite DNA
 3c5k	A	Q9UBN7	Histone deacetylase 6
-3c6w	B		H3K4me3 histone peptide
-3c6w	D		H3K4me3 histone peptide
+3c6w	B	NA	H3K4me3 histone peptide
+3c6w	D	NA	H3K4me3 histone peptide
 3c6w	A	Q8WYH8	Inhibitor of growth protein 5
 3c6w	C	Q8WYH8	Inhibitor of growth protein 5
 3c99	A	Q24572	Probable histone-binding protein Caf1
@@ -1781,7 +1781,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3cb5	A	O94267	FACT complex subunit spt16
 3cb5	B	O94267	FACT complex subunit spt16
 3cb6	A	O94267	FACT complex subunit spt16
-3cbm	B		Estrogen receptor
+3cbm	B	NA	Estrogen receptor
 3cbm	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 3cbo	B	P03372	Estrogen receptor
 3cbo	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
@@ -1827,10 +1827,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3ewf	B	Q9BY41	Histone deacetylase 8
 3ewf	C	Q9BY41	Histone deacetylase 8
 3ewf	D	Q9BY41	Histone deacetylase 8
-3ewf	I		PEPTIDIC SUBSTRATE
-3ewf	J		PEPTIDIC SUBSTRATE
-3ewf	K		PEPTIDIC SUBSTRATE
-3ewf	L		PEPTIDIC SUBSTRATE
+3ewf	I	NA	PEPTIDIC SUBSTRATE
+3ewf	J	NA	PEPTIDIC SUBSTRATE
+3ewf	K	NA	PEPTIDIC SUBSTRATE
+3ewf	L	NA	PEPTIDIC SUBSTRATE
 3ezp	A	Q9BY41	Histone deacetylase 8
 3ezp	B	Q9BY41	Histone deacetylase 8
 3ezt	A	Q9BY41	Histone deacetylase 8
@@ -1845,17 +1845,17 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3f0r	C	Q9BY41	Histone deacetylase 8
 3f2k	A	Q53H47	Histone-lysine N-methyltransferase SETMAR
 3f2k	B	Q53H47	Histone-lysine N-methyltransferase SETMAR
-3f2k	C		LYFA Peptide
+3f2k	C	NA	LYFA Peptide
 3f70	A	Q969R5	Lethal(3)malignant brain tumor-like protein 2
 3f70	B	Q969R5	Lethal(3)malignant brain tumor-like protein 2
-3f8i	D		5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
-3f8i	F		5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
-3f8i	E		5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
-3f8i	G		5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
+3f8i	D	NA	5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
+3f8i	F	NA	5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
+3f8i	E	NA	5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
+3f8i	G	NA	5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
 3f8i	A	Q8VDF2	E3 ubiquitin-protein ligase UHRF1
 3f8i	B	Q8VDF2	E3 ubiquitin-protein ligase UHRF1
-3f8j	F		5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
-3f8j	G		5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
+3f8j	F	NA	5'-D(*DCP*DCP*DAP*DTP*DGP*(5CM)P*DGP*DCP*DTP*DGP*DAP*DC)-3'
+3f8j	G	NA	5'-D(*DGP*DTP*DCP*DAP*DGP*DCP*DGP*DCP*DAP*DTP*DGP*DG)-3'
 3f8j	B	Q8VDF2	E3 ubiquitin-protein ligase UHRF1
 3f9w	E	P62805	Histone H4
 3f9w	F	P62805	Histone H4
@@ -1885,15 +1885,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3f9z	B	Q9NQR1	N-lysine methyltransferase KMT5A
 3f9z	C	Q9NQR1	N-lysine methyltransferase KMT5A
 3f9z	D	Q9NQR1	N-lysine methyltransferase KMT5A
-3fde	C		5'-D(*CP*CP*AP*TP*GP*(5CM)P*GP*CP*TP*GP*AP*C)-3'
-3fde	D		5'-D(*CP*CP*AP*TP*GP*(5CM)P*GP*CP*TP*GP*AP*C)-3'
-3fde	E		5'-D(*GP*TP*CP*AP*GP*CP*GP*CP*AP*TP*GP*G)-3'
-3fde	F		5'-D(*GP*TP*CP*AP*GP*CP*GP*CP*AP*TP*GP*G)-3'
+3fde	C	NA	5'-D(*CP*CP*AP*TP*GP*(5CM)P*GP*CP*TP*GP*AP*C)-3'
+3fde	D	NA	5'-D(*CP*CP*AP*TP*GP*(5CM)P*GP*CP*TP*GP*AP*C)-3'
+3fde	E	NA	5'-D(*GP*TP*CP*AP*GP*CP*GP*CP*AP*TP*GP*G)-3'
+3fde	F	NA	5'-D(*GP*TP*CP*AP*GP*CP*GP*CP*AP*TP*GP*G)-3'
 3fde	A	Q8VDF2	E3 ubiquitin-protein ligase UHRF1
 3fde	B	Q8VDF2	E3 ubiquitin-protein ligase UHRF1
 3fdt	A	P45973	Chromobox protein homolog 5
-3fdt	T		H3K9(me)3 peptide
-3fol	P		8 residue synthetic peptide
+3fdt	T	NA	H3K9(me)3 peptide
+3fol	P	NA	8 residue synthetic peptide
 3fol	B	P01887	Beta-2-microglobulin
 3fol	A	D2YW38	MHC
 3fpd	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
@@ -1912,15 +1912,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3gl6	B	Q92133	Histone H3
 3gl6	A	P29375	Lysine-specific demethylase 5A
 3gv4	A	Q9UBN7	Histone deacetylase 6
-3gv4	H		ubiquitin C-terminal peptide RLRGG
+3gv4	H	NA	ubiquitin C-terminal peptide RLRGG
 3gv6	A	O95503	Chromobox protein homolog 6
 3gv6	B	P84233	Histone H3.2
 3gyo	A	P40161	Histone chaperone RTT106
 3gyp	A	P40161	Histone chaperone RTT106
 3gyv	A	Q8I608	Nucleosome assembly protein 1, putative
 3gyw	A	Q8I608	Nucleosome assembly protein 1, putative
-3h6z	L		'HR(MLZ)VLR
-3h6z	M		'HR(MLZ)VLR
+3h6z	L	NA	'HR(MLZ)VLR
+3h6z	M	NA	'HR(MLZ)VLR
 3h6z	A	Q9VK33	Polycomb protein Sfmbt
 3h6z	B	Q9VK33	Polycomb protein Sfmbt
 3hfd	A	B3LB24	Nucleosome assembly protein 1
@@ -1936,8 +1936,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3hmh	A	Q8IZX4	Transcription initiation factor TFIID subunit 1-like
 3hna	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 3hna	B	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
-3hna	P		Mono-Methylated H3K9 Peptide
-3hna	Q		Mono-Methylated H3K9 Peptide
+3hna	P	NA	Mono-Methylated H3K9 Peptide
+3hna	Q	NA	Mono-Methylated H3K9 Peptide
 3hsv	M	O75367	Core histone macro-H2A.1
 3hsv	A	Q5NVK7	Speckle-type POZ protein
 3hsv	B	Q5NVK7	Speckle-type POZ protein
@@ -1957,11 +1957,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3iif	A	O75367	Core histone macro-H2A.1
 3iif	B	O75367	Core histone macro-H2A.1
 3iif	C	O75367	Core histone macro-H2A.1
-3iiw	B		Histone H3 peptide
+3iiw	B	NA	Histone H3 peptide
 3iiw	A	O75530	Polycomb protein EED
-3iiy	B		Histone H1K26 peptide
+3iiy	B	NA	Histone H1K26 peptide
 3iiy	A	O75530	Polycomb protein EED
-3ij0	B		Histone H3K9 peptide
+3ij0	B	NA	Histone H3K9 peptide
 3ij0	A	O75530	Polycomb protein EED
 3ij1	B	P62805	Histone H4
 3ij1	A	O75530	Polycomb protein EED
@@ -1977,18 +1977,18 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3jpx	A	O75530	Polycomb protein EED
 3jvk	A	Q9ESU6	Bromodomain-containing protein 4
 3jvk	C	P84243	Histone H3.3
-3jzg	B		HISTONE PEPTIDE
+3jzg	B	NA	HISTONE PEPTIDE
 3jzg	A	O75530	Polycomb protein EED
-3jzh	B		HISTONE PEPTIDE
+3jzh	B	NA	HISTONE PEPTIDE
 3jzh	A	O75530	Polycomb protein EED
 3jzn	A	O75530	Polycomb protein EED
 3k24	A	P07711	Cathepsin L1
 3k24	B	P07711	Cathepsin L1
-3k24	C		H3 peptide
-3k24	D		H3 peptide
-3k26	B		HISTONE PEPTIDE
+3k24	C	NA	H3 peptide
+3k24	D	NA	H3 peptide
+3k26	B	NA	HISTONE PEPTIDE
 3k26	A	O75530	Polycomb protein EED
-3k27	B		HISTONE PEPTIDE
+3k27	B	NA	HISTONE PEPTIDE
 3k27	A	O75530	Polycomb protein EED
 3k2o	A	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
 3k2o	B	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
@@ -2006,11 +2006,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3kmt	G	P68431	Histone H3.1
 3kmt	H	P68431	Histone H3.1
 3kmt	I	P68431	Histone H3.1
-3kqi	B		H3K4Me3 peptide
+3kqi	B	NA	H3K4Me3 peptide
 3kqi	A	O75151	Lysine-specific demethylase PHF2
 3ksy	A	Q07889	Son of sevenless homolog 1
-3kuy	I		DNA (145-MER)
-3kuy	J		DNA (145-MER)
+3kuy	I	NA	DNA (145-MER)
+3kuy	J	NA	DNA (145-MER)
 3kuy	C	P06897	Histone H2A type 1
 3kuy	G	P06897	Histone H2A type 1
 3kuy	D	P02281	Histone H2B 1.1
@@ -2028,8 +2028,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3kv9	A	Q6ZMT4	Lysine-specific demethylase 7A
 3kva	A	Q6ZMT4	Lysine-specific demethylase 7A
 3kvb	A	Q6ZMT4	Lysine-specific demethylase 7A
-3kwq	I		DNA (146-MER)
-3kwq	J		DNA (146-MER)
+3kwq	I	NA	DNA (146-MER)
+3kwq	J	NA	DNA (146-MER)
 3kwq	C	P06897	Histone H2A type 1
 3kwq	G	P06897	Histone H2A type 1
 3kwq	D	P02281	Histone H2B 1.1
@@ -2046,19 +2046,19 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3kxb	E	P84233	Histone H3.2
 3kxb	B	P62799	Histone H4
 3kxb	F	P62799	Histone H4
-3kxb	I		PALINDROMIC 146 BP DNA REPEAT 8/9 FROM HUMAN X-CHROMOSOME ALPHA SATELLITE DNA
-3kxb	J		PALINDROMIC 146 BP DNA REPEAT 8/9 FROM HUMAN X-CHROMOSOME ALPHA SATELLITE DNA
+3kxb	I	NA	PALINDROMIC 146 BP DNA REPEAT 8/9 FROM HUMAN X-CHROMOSOME ALPHA SATELLITE DNA
+3kxb	J	NA	PALINDROMIC 146 BP DNA REPEAT 8/9 FROM HUMAN X-CHROMOSOME ALPHA SATELLITE DNA
 3l42	A	P55201	Peregrin
-3ld8	C		antibody Fab fragment heavy chain
-3ld8	B		antibody Fab fragment light chain
+3ld8	C	NA	antibody Fab fragment heavy chain
+3ld8	B	NA	antibody Fab fragment light chain
 3ld8	A	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
-3ldb	C		antibody Fab fragment heavy chain
-3ldb	B		antibody Fab fragment light chain
+3ldb	C	NA	antibody Fab fragment heavy chain
+3ldb	B	NA	antibody Fab fragment light chain
 3ldb	A	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
-3lel	I		147-MER DNA
-3lel	J		147-MER DNA
-3lel	S		147-MER DNA
-3lel	T		147-MER DNA
+3lel	I	NA	147-MER DNA
+3lel	J	NA	147-MER DNA
+3lel	S	NA	147-MER DNA
+3lel	T	NA	147-MER DNA
 3lel	C	Q6AZJ8	Histone H2A
 3lel	G	Q6AZJ8	Histone H2A
 3lel	M	Q6AZJ8	Histone H2A
@@ -2075,8 +2075,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3lel	F	P62799	Histone H4
 3lel	L	P62799	Histone H4
 3lel	P	P62799	Histone H4
-3lja	I		147mer DNA
-3lja	J		147mer DNA
+3lja	I	NA	147mer DNA
+3lja	J	NA	147mer DNA
 3lja	C	P06897	Histone H2A type 1
 3lja	G	P06897	Histone H2A type 1
 3lja	D	P02281	Histone H2B 1.1
@@ -2112,8 +2112,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3lxj	D	Q9ULI0	ATPase family AAA domain-containing protein 2B
 3lyi	A	O95696	Bromodomain-containing protein 1
 3lyi	B	O95696	Bromodomain-containing protein 1
-3lz0	I		DNA (145-MER)
-3lz0	J		DNA (145-MER)
+3lz0	I	NA	DNA (145-MER)
+3lz0	J	NA	DNA (145-MER)
 3lz0	C	Q6AZJ8	Histone H2A
 3lz0	G	Q6AZJ8	Histone H2A
 3lz0	D	P02281	Histone H2B 1.1
@@ -2122,8 +2122,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3lz0	E	P84233	Histone H3.2
 3lz0	B	P62799	Histone H4
 3lz0	F	P62799	Histone H4
-3lz1	I		DNA (145-MER)
-3lz1	J		DNA (145-MER)
+3lz1	I	NA	DNA (145-MER)
+3lz1	J	NA	DNA (145-MER)
 3lz1	C	Q6AZJ8	Histone H2A
 3lz1	G	Q6AZJ8	Histone H2A
 3lz1	D	P02281	Histone H2B 1.1
@@ -2184,8 +2184,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mev	A	Q96ES7	SAGA-associated factor 29
 3mev	B	Q96ES7	SAGA-associated factor 29
 3mew	A	Q96ES7	SAGA-associated factor 29
-3mgp	I		DNA (147-MER)
-3mgp	J		DNA (147-MER)
+3mgp	I	NA	DNA (147-MER)
+3mgp	J	NA	DNA (147-MER)
 3mgp	C	Q6AZJ8	Histone H2A
 3mgp	G	Q6AZJ8	Histone H2A
 3mgp	D	P02281	Histone H2B 1.1
@@ -2194,8 +2194,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mgp	E	P84233	Histone H3.2
 3mgp	B	P62799	Histone H4
 3mgp	F	P62799	Histone H4
-3mgq	I		DNA (147-MER)
-3mgq	J		DNA (147-MER)
+3mgq	I	NA	DNA (147-MER)
+3mgq	J	NA	DNA (147-MER)
 3mgq	C	Q6AZJ8	Histone H2A
 3mgq	G	Q6AZJ8	Histone H2A
 3mgq	D	P02281	Histone H2B 1.1
@@ -2204,8 +2204,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mgq	E	P84233	Histone H3.2
 3mgq	B	P62799	Histone H4
 3mgq	F	P62799	Histone H4
-3mgr	I		DNA (147-MER)
-3mgr	J		DNA (147-MER)
+3mgr	I	NA	DNA (147-MER)
+3mgr	J	NA	DNA (147-MER)
 3mgr	C	Q6AZJ8	Histone H2A
 3mgr	G	Q6AZJ8	Histone H2A
 3mgr	D	P02281	Histone H2B 1.1
@@ -2214,8 +2214,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mgr	E	P84233	Histone H3.2
 3mgr	B	P62799	Histone H4
 3mgr	F	P62799	Histone H4
-3mgs	I		DNA (147-MER)
-3mgs	J		DNA (147-MER)
+3mgs	I	NA	DNA (147-MER)
+3mgs	J	NA	DNA (147-MER)
 3mgs	C	Q6AZJ8	Histone H2A
 3mgs	G	Q6AZJ8	Histone H2A
 3mgs	D	P02281	Histone H2B 1.1
@@ -2233,8 +2233,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mhs	E	P53165	SAGA-associated factor 73
 3mhs	B	Q6WNK7	Transcription and mRNA export factor SUS1
 3mhs	A	P50102	Ubiquitin carboxyl-terminal hydrolase 8
-3mnn	I		DNA (145-MER)
-3mnn	J		DNA (145-MER)
+3mnn	I	NA	DNA (145-MER)
+3mnn	J	NA	DNA (145-MER)
 3mnn	C	P06897	Histone H2A type 1
 3mnn	G	P06897	Histone H2A type 1
 3mnn	D	P02281	Histone H2B 1.1
@@ -2265,10 +2265,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3mts	A	O43463	Histone-lysine N-methyltransferase SUV39H1
 3mts	B	O43463	Histone-lysine N-methyltransferase SUV39H1
 3mts	C	O43463	Histone-lysine N-methyltransferase SUV39H1
-3mu6	E		DNA (5'-D(*AP*AP*AP*GP*CP*TP*AP*TP*TP*AP*TP*TP*AP*GP*CP*TP*T)-3')
-3mu6	G		DNA (5'-D(*AP*AP*AP*GP*CP*TP*AP*TP*TP*AP*TP*TP*AP*GP*CP*TP*T)-3')
-3mu6	F		DNA (5'-D(*TP*AP*AP*GP*CP*TP*AP*AP*TP*AP*AP*TP*AP*GP*CP*TP*T)-3')
-3mu6	H		DNA (5'-D(*TP*AP*AP*GP*CP*TP*AP*AP*TP*AP*AP*TP*AP*GP*CP*TP*T)-3')
+3mu6	E	NA	DNA (5'-D(*AP*AP*AP*GP*CP*TP*AP*TP*TP*AP*TP*TP*AP*GP*CP*TP*T)-3')
+3mu6	G	NA	DNA (5'-D(*AP*AP*AP*GP*CP*TP*AP*TP*TP*AP*TP*TP*AP*GP*CP*TP*T)-3')
+3mu6	F	NA	DNA (5'-D(*TP*AP*AP*GP*CP*TP*AP*AP*TP*AP*AP*TP*AP*GP*CP*TP*T)-3')
+3mu6	H	NA	DNA (5'-D(*TP*AP*AP*GP*CP*TP*AP*AP*TP*AP*AP*TP*AP*GP*CP*TP*T)-3')
 3mu6	A	Q02078	Myocyte-specific enhancer factor 2A
 3mu6	B	Q02078	Myocyte-specific enhancer factor 2A
 3mu6	C	Q02078	Myocyte-specific enhancer factor 2A
@@ -2277,8 +2277,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3muk	D	P84243	Histone H3.3
 3mul	A	Q9ESU6	Bromodomain-containing protein 4
 3mul	D	P84243	Histone H3.3
-3mvd	I		DNA (146-MER)
-3mvd	J		DNA (146-MER)
+3mvd	I	NA	DNA (146-MER)
+3mvd	J	NA	DNA (146-MER)
 3mvd	C	Q6AZJ8	Histone H2A
 3mvd	G	Q6AZJ8	Histone H2A
 3mvd	D	P02281	Histone H2B 1.1
@@ -2347,8 +2347,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3o37	B	O15164	Transcription intermediary factor 1-alpha
 3o37	C	O15164	Transcription intermediary factor 1-alpha
 3o37	D	O15164	Transcription intermediary factor 1-alpha
-3o62	I		DNA (146-MER)
-3o62	J		DNA (146-MER)
+3o62	I	NA	DNA (146-MER)
+3o62	J	NA	DNA (146-MER)
 3o62	C	P06897	Histone H2A type 1
 3o62	G	P06897	Histone H2A type 1
 3o62	D	P02281	Histone H2B 1.1
@@ -2359,11 +2359,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3o62	F	P62799	Histone H4
 3o7a	B	Q92133	Histone H3
 3o7a	A	Q86YI8	PHD finger protein 13
-3oa6	D		DNA (5'-D(*CP*TP*GP*AP*CP*CP*TP*TP*TP*GP*AP*CP*CP*TP*AP*G)-3')
-3oa6	F		DNA (5'-D(*CP*TP*GP*AP*CP*CP*TP*TP*TP*GP*AP*CP*CP*TP*AP*G)-3')
-3oa6	C		DNA (5'-D(*GP*CP*TP*AP*GP*GP*TP*CP*AP*AP*AP*GP*GP*TP*CP*A)-3')
-3oa6	E		DNA (5'-D(*GP*CP*TP*AP*GP*GP*TP*CP*AP*AP*AP*GP*GP*TP*CP*A)-3')
-3oa6	G		H4 peptide monomethylated at lysine 20
+3oa6	D	NA	DNA (5'-D(*CP*TP*GP*AP*CP*CP*TP*TP*TP*GP*AP*CP*CP*TP*AP*G)-3')
+3oa6	F	NA	DNA (5'-D(*CP*TP*GP*AP*CP*CP*TP*TP*TP*GP*AP*CP*CP*TP*AP*G)-3')
+3oa6	C	NA	DNA (5'-D(*GP*CP*TP*AP*GP*GP*TP*CP*AP*AP*AP*GP*GP*TP*CP*A)-3')
+3oa6	E	NA	DNA (5'-D(*GP*CP*TP*AP*GP*GP*TP*CP*AP*AP*AP*GP*GP*TP*CP*A)-3')
+3oa6	G	NA	H4 peptide monomethylated at lysine 20
 3oa6	A	Q8N5Y2	Male-specific lethal 3 homolog
 3oa6	B	Q8N5Y2	Male-specific lethal 3 homolog
 3ob9	A	Q8N5Y2	Male-specific lethal 3 homolog
@@ -2377,7 +2377,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3ope	B	Q9NR48	Histone-lysine N-methyltransferase ASH1L
 3opt	A	P39956	DNA damage-responsive transcriptional repressor RPH1
 3opw	A	P39956	DNA damage-responsive transcriptional repressor RPH1
-3os5	B		Dnmt1
+3os5	B	NA	Dnmt1
 3os5	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 3oxf	A	Q9H7B4	Histone-lysine N-methyltransferase SMYD3
 3oxf	B	Q9H7B4	Histone-lysine N-methyltransferase SMYD3
@@ -2390,12 +2390,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3p4f	C	Q03164	Histone-lysine N-methyltransferase 2A
 3p4f	B	Q15291	Retinoblastoma-binding protein 5
 3p4f	A	P61964	WD repeat-containing protein 5
-3p57	E		DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
-3p57	G		DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
-3p57	K		DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
-3p57	F		DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
-3p57	H		DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
-3p57	L		DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
+3p57	E	NA	DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
+3p57	G	NA	DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
+3p57	K	NA	DNA (5'-D(*A*AP*AP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*A)-3')
+3p57	F	NA	DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
+3p57	H	NA	DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
+3p57	L	NA	DNA (5'-D(*TP*TP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*TP*T)-3')
 3p57	P	Q09472	Histone acetyltransferase p300
 3p57	A	Q02078	Myocyte-specific enhancer factor 2A
 3p57	B	Q02078	Myocyte-specific enhancer factor 2A
@@ -2428,8 +2428,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3pmi	B	Q2TAK8	PWWP domain-containing protein MUM1
 3pmi	C	Q2TAK8	PWWP domain-containing protein MUM1
 3pmi	D	Q2TAK8	PWWP domain-containing protein MUM1
-3psl	C		N-alpha acetylated form of histone H3
-3psl	D		N-alpha acetylated form of histone H3
+3psl	C	NA	N-alpha acetylated form of histone H3
+3psl	D	NA	N-alpha acetylated form of histone H3
 3psl	A	P61964	WD repeat-containing protein 5
 3psl	B	P61964	WD repeat-containing protein 5
 3ptr	B	O75151	Lysine-specific demethylase PHF2
@@ -2438,18 +2438,18 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3pu8	A	O75151	Lysine-specific demethylase PHF2
 3pu8	B	O75151	Lysine-specific demethylase PHF2
 3pua	A	O75151	Lysine-specific demethylase PHF2
-3q0b	A		DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*T)-3')
+3q0b	A	NA	DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*T)-3')
 3q0b	X	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
-3q0c	B		DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*TP*T)-3')
-3q0c	C		DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*TP*T)-3')
+3q0c	B	NA	DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*TP*T)-3')
+3q0c	C	NA	DNA (5'-D(*AP*CP*TP*AP*(5CM)P*GP*TP*AP*GP*TP*T)-3')
 3q0c	A	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
 3q0c	X	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
-3q0d	C		DNA (5'-D(*CP*TP*GP*AP*CP*GP*TP*GP*GP*A)-3')
-3q0d	B		DNA (5'-D(*TP*CP*CP*AP*(5CM)P*GP*TP*CP*AP*G)-3')
+3q0d	C	NA	DNA (5'-D(*CP*TP*GP*AP*CP*GP*TP*GP*GP*A)-3')
+3q0d	B	NA	DNA (5'-D(*TP*CP*CP*AP*(5CM)P*GP*TP*CP*AP*G)-3')
 3q0d	A	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
 3q0d	X	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
-3q0f	B		DNA (5'-D(*CP*TP*GP*AP*GP*GP*AP*GP*TP*AP*T)-3')
-3q0f	C		DNA (5'-D(*TP*AP*CP*TP*(5CM)P*CP*TP*CP*AP*G)-3')
+3q0f	B	NA	DNA (5'-D(*CP*TP*GP*AP*GP*GP*AP*GP*TP*AP*T)-3')
+3q0f	C	NA	DNA (5'-D(*TP*AP*CP*TP*(5CM)P*CP*TP*CP*AP*G)-3')
 3q0f	A	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
 3q0f	X	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
 3q2e	A	Q9NSI6	Bromodomain and WD repeat-containing protein 1
@@ -2577,8 +2577,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rcw	F	O95696	Bromodomain-containing protein 1
 3rcw	G	O95696	Bromodomain-containing protein 1
 3rcw	H	O95696	Bromodomain-containing protein 1
-3reh	I		DNA (145-MER)
-3reh	J		DNA (145-MER)
+3reh	I	NA	DNA (145-MER)
+3reh	J	NA	DNA (145-MER)
 3reh	C	P06897	Histone H2A type 1
 3reh	G	P06897	Histone H2A type 1
 3reh	D	P02281	Histone H2B 1.1
@@ -2587,8 +2587,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3reh	E	P84233	Histone H3.2
 3reh	B	P62799	Histone H4
 3reh	F	P62799	Histone H4
-3rei	I		DNA (145-MER)
-3rei	J		DNA (145-MER)
+3rei	I	NA	DNA (145-MER)
+3rei	J	NA	DNA (145-MER)
 3rei	C	P06897	Histone H2A type 1
 3rei	G	P06897	Histone H2A type 1
 3rei	D	P02281	Histone H2B 1.1
@@ -2597,8 +2597,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rei	E	P84233	Histone H3.2
 3rei	B	P62799	Histone H4
 3rei	F	P62799	Histone H4
-3rej	I		DNA (146-MER)
-3rej	J		DNA (146-MER)
+3rej	I	NA	DNA (146-MER)
+3rej	J	NA	DNA (146-MER)
 3rej	C	P06897	Histone H2A type 1
 3rej	G	P06897	Histone H2A type 1
 3rej	D	P02281	Histone H2B 1.1
@@ -2607,8 +2607,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rej	E	P84233	Histone H3.2
 3rej	B	P62799	Histone H4
 3rej	F	P62799	Histone H4
-3rek	I		DNA (146-MER)
-3rek	J		DNA (146-MER)
+3rek	I	NA	DNA (146-MER)
+3rek	J	NA	DNA (146-MER)
 3rek	C	P06897	Histone H2A type 1
 3rek	G	P06897	Histone H2A type 1
 3rek	D	P02281	Histone H2B 1.1
@@ -2617,8 +2617,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rek	E	P84233	Histone H3.2
 3rek	B	P62799	Histone H4
 3rek	F	P62799	Histone H4
-3rel	I		DNA (146-MER)
-3rel	J		DNA (146-MER)
+3rel	I	NA	DNA (146-MER)
+3rel	J	NA	DNA (146-MER)
 3rel	C	P06897	Histone H2A type 1
 3rel	G	P06897	Histone H2A type 1
 3rel	D	P02281	Histone H2B 1.1
@@ -2645,8 +2645,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rq4	A	Q86Y97	Histone-lysine N-methyltransferase KMT5C
 3rqd	A	Q9BY41	Histone deacetylase 8
 3rqd	B	Q9BY41	Histone deacetylase 8
-3rqd	C		Largazole
-3rqd	D		Largazole
+3rqd	C	NA	Largazole
+3rqd	D	NA	Largazole
 3rsn	A	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
 3ru0	A	Q9H7B4	Histone-lysine N-methyltransferase SMYD3
 3ru0	B	Q9H7B4	Histone-lysine N-methyltransferase SMYD3
@@ -2654,10 +2654,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3rvh	B	O75164	Lysine-specific demethylase 4A
 3s32	A	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
 3s7b	A	Q9NRG4	N-lysine methyltransferase SMYD2
-3s7d	I		Monomethylated p53 peptide
+3s7d	I	NA	Monomethylated p53 peptide
 3s7d	A	Q9NRG4	N-lysine methyltransferase SMYD2
 3s7f	A	Q9NRG4	N-lysine methyltransferase SMYD2
-3s7f	I		p53 peptide
+3s7f	I	NA	p53 peptide
 3s7j	A	Q9NRG4	N-lysine methyltransferase SMYD2
 3s8p	A	Q4FZB7	Histone-lysine N-methyltransferase KMT5B
 3s8p	B	Q4FZB7	Histone-lysine N-methyltransferase KMT5B
@@ -2665,7 +2665,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3sff	A	Q9BY41	Histone deacetylase 8
 3sfh	A	Q9BY41	Histone deacetylase 8
 3shb	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
-3shb	B		Histone H3 peptide
+3shb	B	NA	Histone H3 peptide
 3shv	C	P16104	Histone H2AX
 3shv	D	P16104	Histone H2AX
 3shv	A	Q8NEM0	Microcephalin
@@ -2750,8 +2750,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3tob	A	Q9H7Z6	Histone acetyltransferase KAT8
 3toj	A	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
 3toj	B	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
-3tu4	I		DNA (146-MER)
-3tu4	J		DNA (146-MER)
+3tu4	I	NA	DNA (146-MER)
+3tu4	J	NA	DNA (146-MER)
 3tu4	C	P06897	Histone H2A type 1
 3tu4	G	P06897	Histone H2A type 1
 3tu4	D	P02281	Histone H2B 1.1
@@ -2835,11 +2835,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3u88	C	O75475	PC4 and SFRS1-interacting protein
 3u88	D	O75475	PC4 and SFRS1-interacting protein
 3uec	A	O15392	Baculoviral IAP repeat-containing protein 5
-3uec	B		N-TERMINAL FRAGMENT OF HISTONE H3
+3uec	B	NA	N-TERMINAL FRAGMENT OF HISTONE H3
 3ued	A	O15392	Baculoviral IAP repeat-containing protein 5
 3ued	C	O15392	Baculoviral IAP repeat-containing protein 5
-3ued	B		N-terminal fragment of histone H3
-3ued	D		N-terminal fragment of histone H3
+3ued	B	NA	N-terminal fragment of histone H3
+3ued	D	NA	N-terminal fragment of histone H3
 3uee	A	O15392	Baculoviral IAP repeat-containing protein 5
 3uee	C	O15392	Baculoviral IAP repeat-containing protein 5
 3uee	B	P68431	Histone H3.1
@@ -2862,8 +2862,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3uik	B	O15392	Baculoviral IAP repeat-containing protein 5
 3uik	P	P68431	Histone H3.1
 3uik	Q	P68431	Histone H3.1
-3ut9	I		145-mer DNA
-3ut9	J		145-mer DNA
+3ut9	I	NA	145-mer DNA
+3ut9	J	NA	145-mer DNA
 3ut9	C	P06897	Histone H2A type 1
 3ut9	G	P06897	Histone H2A type 1
 3ut9	D	P02281	Histone H2B 1.1
@@ -2872,8 +2872,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3ut9	E	P84233	Histone H3.2
 3ut9	B	P62799	Histone H4
 3ut9	F	P62799	Histone H4
-3uta	I		145-mer DNA
-3uta	J		145-mer DNA
+3uta	I	NA	145-mer DNA
+3uta	J	NA	145-mer DNA
 3uta	C	P06897	Histone H2A type 1
 3uta	G	P06897	Histone H2A type 1
 3uta	D	P02281	Histone H2B 1.1
@@ -2882,8 +2882,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3uta	E	P84233	Histone H3.2
 3uta	B	P62799	Histone H4
 3uta	F	P62799	Histone H4
-3utb	I		146-mer DNA
-3utb	J		146-mer DNA
+3utb	I	NA	146-mer DNA
+3utb	J	NA	146-mer DNA
 3utb	C	P06897	Histone H2A type 1
 3utb	G	P06897	Histone H2A type 1
 3utb	D	P02281	Histone H2B 1.1
@@ -2947,8 +2947,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3vv0	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 3w1o	A	Q9JXC6	DNA mimic protein DMP12
 3w1o	B	Q9JXC6	DNA mimic protein DMP12
-3w96	I		146-mer DNA
-3w96	J		146-mer DNA
+3w96	I	NA	146-mer DNA
+3w96	J	NA	146-mer DNA
 3w96	C	P04908	Histone H2A type 1-B/E
 3w96	G	P04908	Histone H2A type 1-B/E
 3w96	D	P06899	Histone H2B type 1-J
@@ -2957,8 +2957,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3w96	E	P68431	Histone H3.1
 3w96	B	P62805	Histone H4
 3w96	F	P62805	Histone H4
-3w97	I		146-mer DNA
-3w97	J		146-mer DNA
+3w97	I	NA	146-mer DNA
+3w97	J	NA	146-mer DNA
 3w97	C	P04908	Histone H2A type 1-B/E
 3w97	G	P04908	Histone H2A type 1-B/E
 3w97	D	P06899	Histone H2B type 1-J
@@ -2967,8 +2967,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3w97	E	P68431	Histone H3.1
 3w97	B	P62805	Histone H4
 3w97	F	P62805	Histone H4
-3w98	I		146-mer DNA
-3w98	J		146-mer DNA
+3w98	I	NA	146-mer DNA
+3w98	J	NA	146-mer DNA
 3w98	C	P04908	Histone H2A type 1-B/E
 3w98	G	P04908	Histone H2A type 1-B/E
 3w98	D	P06899	Histone H2B type 1-J
@@ -2977,8 +2977,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3w98	E	P68431	Histone H3.1
 3w98	B	P62805	Histone H4
 3w98	F	P62805	Histone H4
-3w99	I		146-mer DNA
-3w99	J		146-mer DNA
+3w99	I	NA	146-mer DNA
+3w99	J	NA	146-mer DNA
 3w99	C	P04908	Histone H2A type 1-B/E
 3w99	G	P04908	Histone H2A type 1-B/E
 3w99	D	P06899	Histone H2B type 1-J
@@ -2987,8 +2987,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3w99	E	P68431	Histone H3.1
 3w99	B	P62805	Histone H4
 3w99	F	P62805	Histone H4
-3wa9	I		DNA (146-MER)
-3wa9	J		DNA (146-MER)
+3wa9	I	NA	DNA (146-MER)
+3wa9	J	NA	DNA (146-MER)
 3wa9	C	P0C0S5	Histone H2A.Z
 3wa9	G	P0C0S5	Histone H2A.Z
 3wa9	D	P06899	Histone H2B type 1-J
@@ -2997,8 +2997,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3wa9	E	P68431	Histone H3.1
 3wa9	B	P62805	Histone H4
 3wa9	F	P62805	Histone H4
-3waa	I		DNA (146-MER)
-3waa	J		DNA (146-MER)
+3waa	I	NA	DNA (146-MER)
+3waa	J	NA	DNA (146-MER)
 3waa	C	Q71UI9	Histone H2A.V
 3waa	G	Q71UI9	Histone H2A.V
 3waa	D	P06899	Histone H2B type 1-J
@@ -3007,8 +3007,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3waa	E	P68431	Histone H3.1
 3waa	B	P62805	Histone H4
 3waa	F	P62805	Histone H4
-3wkj	I		DNA (145-MER)
-3wkj	J		DNA (145-MER)
+3wkj	I	NA	DNA (145-MER)
+3wkj	J	NA	DNA (145-MER)
 3wkj	C	P04908	Histone H2A type 1-B/E
 3wkj	G	P04908	Histone H2A type 1-B/E
 3wkj	D	Q96A08	Histone H2B type 1-A
@@ -3017,8 +3017,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3wkj	E	P68431	Histone H3.1
 3wkj	B	P62805	Histone H4
 3wkj	F	P62805	Histone H4
-3wtp	I		DNA (146-MER)
-3wtp	J		DNA (146-MER)
+3wtp	I	NA	DNA (146-MER)
+3wtp	J	NA	DNA (146-MER)
 3wtp	C	P04908	Histone H2A type 1-B/E
 3wtp	G	P04908	Histone H2A type 1-B/E
 3wtp	D	P06899	Histone H2B type 1-J
@@ -3028,8 +3028,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3wtp	B	P62805	Histone H4
 3wtp	F	P62805	Histone H4
 3wx4	A	P39510	Anti-restriction endonuclease
-3x1s	I		DNA (146-MER)
-3x1s	J		DNA (146-MER)
+3x1s	I	NA	DNA (146-MER)
+3x1s	J	NA	DNA (146-MER)
 3x1s	C	P04908	Histone H2A type 1-B/E
 3x1s	G	P04908	Histone H2A type 1-B/E
 3x1s	D	P33778	Histone H2B type 1-B
@@ -3038,8 +3038,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3x1s	E	P68431	Histone H3.1
 3x1s	B	P62805	Histone H4
 3x1s	F	P62805	Histone H4
-3x1t	I		DNA (146-MER)
-3x1t	J		DNA (146-MER)
+3x1t	I	NA	DNA (146-MER)
+3x1t	J	NA	DNA (146-MER)
 3x1t	C	Q8CGP4	Histone H2A
 3x1t	G	Q8CGP4	Histone H2A
 3x1t	D	P70696	Histone H2B type 1-A
@@ -3048,8 +3048,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3x1t	E	P68431	Histone H3.1
 3x1t	B	P62805	Histone H4
 3x1t	F	P62805	Histone H4
-3x1u	I		DNA (146-MER)
-3x1u	J		DNA (146-MER)
+3x1u	I	NA	DNA (146-MER)
+3x1u	J	NA	DNA (146-MER)
 3x1u	C	Q8CGP4	Histone H2A
 3x1u	G	Q8CGP4	Histone H2A
 3x1u	D	P33778	Histone H2B type 1-B
@@ -3058,8 +3058,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3x1u	E	P68431	Histone H3.1
 3x1u	B	P62805	Histone H4
 3x1u	F	P62805	Histone H4
-3x1v	I		DNA (146-MER)
-3x1v	J		DNA (146-MER)
+3x1v	I	NA	DNA (146-MER)
+3x1v	J	NA	DNA (146-MER)
 3x1v	C	P04908	Histone H2A type 1-B/E
 3x1v	G	P04908	Histone H2A type 1-B/E
 3x1v	D	P70696	Histone H2B type 1-A
@@ -3078,23 +3078,23 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 3zms	A	O60341	Lysine-specific histone demethylase 1A
 3zms	B	Q9UKL0	REST corepressor 1
 3zmt	A	O60341	Lysine-specific histone demethylase 1A
-3zmt	C		PEPTIDE
+3zmt	C	NA	PEPTIDE
 3zmt	B	Q9UKL0	REST corepressor 1
 3zmu	A	O60341	Lysine-specific histone demethylase 1A
-3zmu	C		PKSFLV PEPTIDE
+3zmu	C	NA	PKSFLV PEPTIDE
 3zmu	B	Q9UKL0	REST corepressor 1
 3zmv	A	O60341	Lysine-specific histone demethylase 1A
-3zmv	C		PKSFLV PEPTIDE
-3zmv	D		PKSFLV PEPTIDE
+3zmv	C	NA	PKSFLV PEPTIDE
+3zmv	D	NA	PKSFLV PEPTIDE
 3zmv	B	Q9UKL0	REST corepressor 1
 3zmz	A	O60341	Lysine-specific histone demethylase 1A
-3zmz	C		PEPTIDE
+3zmz	C	NA	PEPTIDE
 3zmz	B	Q9UKL0	REST corepressor 1
 3zn0	A	O60341	Lysine-specific histone demethylase 1A
-3zn0	C		PEPTIDE
+3zn0	C	NA	PEPTIDE
 3zn0	B	Q9UKL0	REST corepressor 1
 3zn1	A	O60341	Lysine-specific histone demethylase 1A
-3zn1	C		PEPTIDE
+3zn1	C	NA	PEPTIDE
 3zn1	B	Q9UKL0	REST corepressor 1
 3znr	A	Q8WUI4	Histone deacetylase 7
 3znr	B	Q8WUI4	Histone deacetylase 7
@@ -3209,8 +3209,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4au7	C	P62806	Histone H4
 4au7	A	Q6Q783	Histone-lysine N-methyltransferase KMT5C
 4au7	B	Q6Q783	Histone-lysine N-methyltransferase KMT5C
-4awl	I		HSP70 PROMOTER FRAGMENT
-4awl	J		HSP70 PROMOTER FRAGMENT
+4awl	I	NA	HSP70 PROMOTER FRAGMENT
+4awl	J	NA	HSP70 PROMOTER FRAGMENT
 4awl	A	P23511	Nuclear transcription factor Y subunit alpha
 4awl	B	P25208	Nuclear transcription factor Y subunit beta
 4awl	C	Q13952	Nuclear transcription factor Y subunit gamma
@@ -3504,21 +3504,21 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4g91	A	P87249	HAPB protein
 4g91	B	Q5B5Z6	Transcription factor HapC (Eurofung)
 4g91	C	C8V0B5	Transcriptional activator
-4g92	D		DNA
-4g92	E		DNA
+4g92	D	NA	DNA
+4g92	E	NA	DNA
 4g92	A	P87249	HAPB protein
 4g92	B	Q5B5Z6	Transcription factor HapC (Eurofung)
 4g92	C	C8V0B5	Transcriptional activator
 4gd4	A	O75164	Lysine-specific demethylase 4A
 4gd4	B	O75164	Lysine-specific demethylase 4A
-4gm3	I		MM-101
-4gm3	J		MM-101
-4gm3	K		MM-101
-4gm3	L		MM-101
-4gm3	M		MM-101
-4gm3	N		MM-101
-4gm3	O		MM-101
-4gm3	P		MM-101
+4gm3	I	NA	MM-101
+4gm3	J	NA	MM-101
+4gm3	K	NA	MM-101
+4gm3	L	NA	MM-101
+4gm3	M	NA	MM-101
+4gm3	N	NA	MM-101
+4gm3	O	NA	MM-101
+4gm3	P	NA	MM-101
 4gm3	A	P61964	WD repeat-containing protein 5
 4gm3	B	P61964	WD repeat-containing protein 5
 4gm3	C	P61964	WD repeat-containing protein 5
@@ -3527,19 +3527,19 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4gm3	F	P61964	WD repeat-containing protein 5
 4gm3	G	P61964	WD repeat-containing protein 5
 4gm3	H	P61964	WD repeat-containing protein 5
-4gm8	E		MM-102
-4gm8	F		MM-102
-4gm8	G		MM-102
-4gm8	H		MM-102
+4gm8	E	NA	MM-102
+4gm8	F	NA	MM-102
+4gm8	G	NA	MM-102
+4gm8	H	NA	MM-102
 4gm8	A	P61964	WD repeat-containing protein 5
 4gm8	B	P61964	WD repeat-containing protein 5
 4gm8	C	P61964	WD repeat-containing protein 5
 4gm8	D	P61964	WD repeat-containing protein 5
-4gm9	E		MM-401
-4gm9	F		MM-401
+4gm9	E	NA	MM-401
+4gm9	F	NA	MM-401
 4gm9	A	P61964	WD repeat-containing protein 5
 4gm9	B	P61964	WD repeat-containing protein 5
-4gmb	E		MM-402
+4gmb	E	NA	MM-402
 4gmb	A	P61964	WD repeat-containing protein 5
 4gnd	A	Q9BZ95	Histone-lysine N-methyltransferase NSD3
 4gnd	C	Q9BZ95	Histone-lysine N-methyltransferase NSD3
@@ -3634,7 +3634,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4i51	D	P68431	Histone H3.1
 4i51	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 4i51	B	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
-4i51	K		UNKNOWN PEPTIDE
+4i51	K	NA	UNKNOWN PEPTIDE
 4i5i	A	Q96EB6	NAD-dependent protein deacetylase sirtuin-1
 4i5i	B	Q96EB6	NAD-dependent protein deacetylase sirtuin-1
 4iao	A	P06700	NAD-dependent histone deacetylase SIR2
@@ -3649,8 +3649,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4igo	A	Q53WJ1	Lysine-specific demethylase JMJ703
 4igp	A	Q53WJ1	Lysine-specific demethylase JMJ703
 4igq	A	Q53WJ1	Lysine-specific demethylase JMJ703
-4igq	B		mathylated H3K4 substrate
-4ij8	I		helical peptide
+4igq	B	NA	mathylated H3K4 substrate
+4ij8	I	NA	helical peptide
 4ij8	A	Q9NQR1	N-lysine methyltransferase KMT5A
 4ij8	B	Q9NQR1	N-lysine methyltransferase KMT5A
 4ijd	A	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
@@ -3684,8 +3684,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4j83	B	Q12962	Transcription initiation factor TFIID subunit 10
 4j8o	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 4j8o	B	Q12962	Transcription initiation factor TFIID subunit 10
-4j8u	I		DNA
-4j8u	J		DNA
+4j8u	I	NA	DNA
+4j8u	J	NA	DNA
 4j8u	C	P06897	Histone H2A type 1
 4j8u	G	P06897	Histone H2A type 1
 4j8u	D	P02281	Histone H2B 1.1
@@ -3694,8 +3694,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4j8u	E	P84233	Histone H3.2
 4j8u	B	P62799	Histone H4
 4j8u	F	P62799	Histone H4
-4j8v	I		DNA (145-MER)
-4j8v	J		DNA (145-MER)
+4j8v	I	NA	DNA (145-MER)
+4j8v	J	NA	DNA (145-MER)
 4j8v	C	P06897	Histone H2A type 1
 4j8v	G	P06897	Histone H2A type 1
 4j8v	D	P02281	Histone H2B 1.1
@@ -3704,8 +3704,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4j8v	E	P84233	Histone H3.2
 4j8v	B	P62799	Histone H4
 4j8v	F	P62799	Histone H4
-4j8w	I		DNA (145-MER)
-4j8w	J		DNA (145-MER)
+4j8w	I	NA	DNA (145-MER)
+4j8w	J	NA	DNA (145-MER)
 4j8w	C	P06897	Histone H2A type 1
 4j8w	G	P06897	Histone H2A type 1
 4j8w	D	P02281	Histone H2B 1.1
@@ -3714,8 +3714,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4j8w	E	P84233	Histone H3.2
 4j8w	B	P62799	Histone H4
 4j8w	F	P62799	Histone H4
-4j8x	I		DNA
-4j8x	J		DNA
+4j8x	I	NA	DNA
+4j8x	J	NA	DNA
 4j8x	C	P06897	Histone H2A type 1
 4j8x	G	P06897	Histone H2A type 1
 4j8x	D	P02281	Histone H2B 1.1
@@ -3734,8 +3734,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4jhj	B	Q5EAQ1	MIF4G domain-containing protein B
 4jhk	A	Q5EAQ1	MIF4G domain-containing protein B
 4jhk	C	Q7SXI8	Sb:cb157 protein
-4jjn	I		DNA (146-MER)
-4jjn	J		DNA (146-MER)
+4jjn	I	NA	DNA (146-MER)
+4jjn	J	NA	DNA (146-MER)
 4jjn	C	P04912	Histone H2A.2
 4jjn	G	P04912	Histone H2A.2
 4jjn	D	P02294	Histone H2B.2
@@ -3750,10 +3750,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4jlg	B	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 4jna	A	A4ZPY8	DepH
 4jna	B	A4ZPY8	DepH
-4jna	H		Dimethyl FK228
-4jna	I		Dimethyl FK228
-4kgc	I		DNA (145-mer)
-4kgc	J		DNA (145-mer)
+4jna	H	NA	Dimethyl FK228
+4jna	I	NA	Dimethyl FK228
+4kgc	I	NA	DNA (145-mer)
+4kgc	J	NA	DNA (145-mer)
 4kgc	C	Q6AZJ8	Histone H2A
 4kgc	G	Q6AZJ8	Histone H2A
 4kgc	D	P02281	Histone H2B 1.1
@@ -3782,8 +3782,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4kud	E	P61830	Histone H3
 4kud	B	P02309	Histone H4
 4kud	F	P02309	Histone H4
-4kud	I		nucloesome DNA
-4kud	J		nucloesome DNA
+4kud	I	NA	nucloesome DNA
+4kud	J	NA	nucloesome DNA
 4kud	K	P06701	Regulatory protein SIR3
 4kud	L	P06701	Regulatory protein SIR3
 4kum	A	O60341	Lysine-specific histone demethylase 1A
@@ -3794,8 +3794,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4l7x	U	P68431	Histone H3.1
 4l8r	B	Q8IV48	3'-5' exoribonuclease 1
 4l8r	E	Q8IV48	3'-5' exoribonuclease 1
-4l8r	A		HISTONE MRNA STEM-LOOP
-4l8r	D		HISTONE MRNA STEM-LOOP
+4l8r	A	NA	HISTONE MRNA STEM-LOOP
+4l8r	D	NA	HISTONE MRNA STEM-LOOP
 4l8r	C	Q14493	Histone RNA hairpin-binding protein
 4ld9	C	P06897	Histone H2A type 1
 4ld9	G	P06897	Histone H2A type 1
@@ -3807,8 +3807,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4ld9	F	P62799	Histone H4
 4ld9	K	P06701	Regulatory protein SIR3
 4ld9	L	P06701	Regulatory protein SIR3
-4ld9	J		Widom 601 sequence forward
-4ld9	I		Widom 601 sequence reverse
+4ld9	J	NA	Widom 601 sequence forward
+4ld9	I	NA	Widom 601 sequence reverse
 4ljn	A	Q92794	Histone acetyltransferase KAT6A
 4lk9	A	Q92794	Histone acetyltransferase KAT6A
 4lk9	B	P68431	Histone H3.1
@@ -3885,10 +3885,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4ndy	V	A8MT69	Centromere protein X
 4ndy	W	A8MT69	Centromere protein X
 4ndy	X	A8MT69	Centromere protein X
-4ndy	E		DNA (26-MER)
-4ndy	F		DNA (26-MER)
-4ndy	O		DNA (26-MER)
-4ndy	P		DNA (26-MER)
+4ndy	E	NA	DNA (26-MER)
+4ndy	F	NA	DNA (26-MER)
+4ndy	O	NA	DNA (26-MER)
+4ndy	P	NA	DNA (26-MER)
 4ne1	A	Q8N2Z9	Centromere protein S
 4ne1	a	Q8N2Z9	Centromere protein S
 4ne1	C	Q8N2Z9	Centromere protein S
@@ -3929,14 +3929,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4ne1	W	A8MT69	Centromere protein X
 4ne1	X	A8MT69	Centromere protein X
 4ne1	Z	A8MT69	Centromere protein X
-4ne1	E		DNA (26-MER)
-4ne1	F		DNA (26-MER)
-4ne1	O		DNA (26-MER)
-4ne1	P		DNA (26-MER)
-4ne1	s		DNA (26-MER)
-4ne1	t		DNA (26-MER)
-4ne1	u		DNA (26-MER)
-4ne1	v		DNA (26-MER)
+4ne1	E	NA	DNA (26-MER)
+4ne1	F	NA	DNA (26-MER)
+4ne1	O	NA	DNA (26-MER)
+4ne1	P	NA	DNA (26-MER)
+4ne1	s	NA	DNA (26-MER)
+4ne1	t	NA	DNA (26-MER)
+4ne1	u	NA	DNA (26-MER)
+4ne1	v	NA	DNA (26-MER)
 4ne3	A	Q8N2Z9	Centromere protein S
 4ne3	B	A8MT69	Centromere protein X
 4ne5	A	Q8N2Z9	Centromere protein S
@@ -3970,11 +3970,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4nw2	C	O14646	Chromodomain-helicase-DNA-binding protein 1
 4nw2	B	P03495	Non-structural protein 1
 4nw2	D	P03495	Non-structural protein 1
-4nw3	B		5'-D(*GP*CP*CP*AP*TP*CP*GP*AP*TP*GP*GP*C)-3'
-4nw3	C		5'-D(*GP*CP*CP*AP*TP*CP*GP*AP*TP*GP*GP*C)-3'
+4nw3	B	NA	5'-D(*GP*CP*CP*AP*TP*CP*GP*AP*TP*GP*GP*C)-3'
+4nw3	C	NA	5'-D(*GP*CP*CP*AP*TP*CP*GP*AP*TP*GP*GP*C)-3'
 4nw3	A	Q03164	Histone-lysine N-methyltransferase 2A
-4o30	C		histone H3.1
-4o30	D		histone H3.1
+4o30	C	NA	histone H3.1
+4o30	D	NA	histone H3.1
 4o30	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
 4o30	B	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
 4o42	A	O14646	Chromodomain-helicase-DNA-binding protein 1
@@ -3993,10 +3993,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4o46	J	Q9YP60	Non-structural protein 1
 4o46	K	Q9YP60	Non-structural protein 1
 4o46	L	Q9YP60	Non-structural protein 1
-4o46	M		Unidentified polymer
-4o46	N		Unidentified polymer
-4o46	O		Unidentified polymer
-4o46	V		Unidentified polymer
+4o46	M	NA	Unidentified polymer
+4o46	N	NA	Unidentified polymer
+4o46	O	NA	Unidentified polymer
+4o46	V	NA	Unidentified polymer
 4o62	D	P84243	Histone H3.3
 4o62	A	Q504Y3	Zinc finger CW-type PWWP domain protein 2
 4o62	B	Q504Y3	Zinc finger CW-type PWWP domain protein 2
@@ -4048,8 +4048,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4psx	F	P02309	Histone H4
 4pt4	A	P9WMK7	DNA-binding protein HU homolog
 4pt4	B	P9WMK7	DNA-binding protein HU homolog
-4pzi	B		DNA (5'-D(*GP*CP*CP*AP*CP*CP*GP*GP*TP*GP*GP*C)-3')
-4pzi	C		DNA (5'-D(*GP*CP*CP*AP*CP*CP*GP*GP*TP*GP*GP*C)-3')
+4pzi	B	NA	DNA (5'-D(*GP*CP*CP*AP*CP*CP*GP*GP*TP*GP*GP*C)-3')
+4pzi	C	NA	DNA (5'-D(*GP*CP*CP*AP*CP*CP*GP*GP*TP*GP*GP*C)-3')
 4pzi	A	Q9UMN6	Histone-lysine N-methyltransferase 2B
 4pzr	A	Q09472	Histone acetyltransferase p300
 4pzs	A	Q09472	Histone acetyltransferase p300
@@ -4058,9 +4058,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4q6f	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 4q6f	C	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 4q6f	D	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
-4q6f	F		unmodified H3K4 peptide
-4q6f	G		unmodified H3K4 peptide
-4q6f	H		unmodified H3K4 peptide
+4q6f	F	NA	unmodified H3K4 peptide
+4q6f	G	NA	unmodified H3K4 peptide
+4q6f	H	NA	unmodified H3K4 peptide
 4qa0	A	Q9BY41	Histone deacetylase 8
 4qa0	B	Q9BY41	Histone deacetylase 8
 4qa1	A	Q9BY41	Histone deacetylase 8
@@ -4074,18 +4074,18 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4qa4	A	Q9BY41	Histone deacetylase 8
 4qa5	A	Q9BY41	Histone deacetylase 8
 4qa5	B	Q9BY41	Histone deacetylase 8
-4qa5	C		tetrapeptide substrate
-4qa5	D		tetrapeptide substrate
+4qa5	C	NA	tetrapeptide substrate
+4qa5	D	NA	tetrapeptide substrate
 4qa6	A	Q9BY41	Histone deacetylase 8
 4qa6	B	Q9BY41	Histone deacetylase 8
-4qa6	C		tetrapeptide substrate
-4qa6	D		tetrapeptide substrate
+4qa6	C	NA	tetrapeptide substrate
+4qa6	D	NA	tetrapeptide substrate
 4qa7	A	Q9BY41	Histone deacetylase 8
-4qa7	B		tetrapeptide substrate
+4qa7	B	NA	tetrapeptide substrate
 4qbm	A	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 4qbm	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
-4qbm	C		histone H4 peptide with sequence Gly-Ala-Lys(ac)-Arg-His-Arg-Lys(ac)-Val-Leu
-4qbm	D		histone H4 peptide with sequence Gly-Ala-Lys(ac)-Arg-His-Arg-Lys(ac)-Val-Leu
+4qbm	C	NA	histone H4 peptide with sequence Gly-Ala-Lys(ac)-Arg-His-Arg-Lys(ac)-Val-Leu
+4qbm	D	NA	histone H4 peptide with sequence Gly-Ala-Lys(ac)-Arg-His-Arg-Lys(ac)-Val-Leu
 4qbq	A	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
 4qbq	C	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
 4qbq	P	P68431	Histone H3.1
@@ -4095,22 +4095,22 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4qbr	P	P68431	Histone H3.1
 4qbs	A	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
 4qbs	P	P68431	Histone H3.1
-4qc1	D		acetylated histone 3 peptide (H3K14ac)
-4qc1	E		acetylated histone 3 peptide (H3K14ac)
+4qc1	D	NA	acetylated histone 3 peptide (H3K14ac)
+4qc1	E	NA	acetylated histone 3 peptide (H3K14ac)
 4qc1	A	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
 4qc1	B	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
 4qc3	A	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
 4qc3	B	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
-4qc3	C		diacetylated histone 4 peptide (H4K8acK12ac)
-4qen	D		DNA (5'-D(*AP*CP*TP*GP*AP*TP*GP*AP*GP*TP*AP*CP*CP*AP*T)-3')
-4qen	C		DNA (5'-D(*GP*GP*TP*AP*CP*TP*(5CM)P*AP*TP*CP*AP*GP*TP*AP*T)-3')
+4qc3	C	NA	diacetylated histone 4 peptide (H4K8acK12ac)
+4qen	D	NA	DNA (5'-D(*AP*CP*TP*GP*AP*TP*GP*AP*GP*TP*AP*CP*CP*AP*T)-3')
+4qen	C	NA	DNA (5'-D(*GP*GP*TP*AP*CP*TP*(5CM)P*AP*TP*CP*AP*GP*TP*AP*T)-3')
 4qen	A	Q8GZB6	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH4
-4qeo	D		DNA 5'-ACTGATGAGTACCAT-3'
-4qeo	C		DNA 5'-GGTACT(5CM)ATCAGTAT-3'
+4qeo	D	NA	DNA 5'-ACTGATGAGTACCAT-3'
+4qeo	C	NA	DNA 5'-GGTACT(5CM)ATCAGTAT-3'
 4qeo	P	Q92133	Histone H3
 4qeo	A	Q8GZB6	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH4
-4qep	D		DNA (5'-D(*AP*CP*TP*GP*CP*TP*GP*AP*GP*TP*AP*CP*CP*AP*T)-3')
-4qep	C		DNA (5'-D(*GP*GP*TP*AP*CP*TP*(5CM)P*AP*GP*CP*AP*GP*TP*AP*T)-3')
+4qep	D	NA	DNA (5'-D(*AP*CP*TP*GP*CP*TP*GP*AP*GP*TP*AP*CP*CP*AP*T)-3')
+4qep	C	NA	DNA (5'-D(*GP*GP*TP*AP*CP*TP*(5CM)P*AP*GP*CP*AP*GP*TP*AP*T)-3')
 4qep	A	Q8GZB6	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH4
 4qf2	A	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 4qf2	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
@@ -4118,8 +4118,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4qf2	D	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 4qf3	A	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
 4qf3	B	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B
-4qlc	I		DNA (167-mer)
-4qlc	J		DNA (167-mer)
+4qlc	I	NA	DNA (167-mer)
+4qlc	J	NA	DNA (167-mer)
 4qlc	C	P84051	Histone H2A
 4qlc	G	P84051	Histone H2A
 4qlc	D	P02283	Histone H2B
@@ -4136,12 +4136,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4qns	D	Q8IB67	Histone acetyltransferase GCN5, putative
 4qoz	B	Q8IV48	3'-5' exoribonuclease 1
 4qoz	E	Q8IV48	3'-5' exoribonuclease 1
-4qoz	A		histone mRNA stem-loop
-4qoz	D		histone mRNA stem-loop
+4qoz	A	NA	histone mRNA stem-loop
+4qoz	D	NA	histone mRNA stem-loop
 4qoz	C	Q14493	Histone RNA hairpin-binding protein
-4qpp	D		POLY-UNK
-4qpp	E		POLY-UNK
-4qpp	F		POLY-UNK
+4qpp	D	NA	POLY-UNK
+4qpp	E	NA	POLY-UNK
+4qpp	F	NA	POLY-UNK
 4qpp	A	Q96LA8	Protein arginine N-methyltransferase 6
 4qpp	B	Q96LA8	Protein arginine N-methyltransferase 6
 4qpp	C	Q96LA8	Protein arginine N-methyltransferase 6
@@ -4159,12 +4159,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4qqk	A	Q96LA8	Protein arginine N-methyltransferase 6
 4qu1	A	Q8N371	JmjC domain-containing protein 5
 4quc	A	Q7JXA8	RE36324p
-4quf	P		H3(1-15)K9me3 peptide
-4quf	Q		H3(1-15)K9me3 peptide
-4quf	R		H3(1-15)K9me3 peptide
-4quf	T		H3(1-15)K9me3 peptide
-4quf	U		H3(1-15)K9me3 peptide
-4quf	V		H3(1-15)K9me3 peptide
+4quf	P	NA	H3(1-15)K9me3 peptide
+4quf	Q	NA	H3(1-15)K9me3 peptide
+4quf	R	NA	H3(1-15)K9me3 peptide
+4quf	T	NA	H3(1-15)K9me3 peptide
+4quf	U	NA	H3(1-15)K9me3 peptide
+4quf	V	NA	H3(1-15)K9me3 peptide
 4quf	A	Q7JXA8	RE36324p
 4quf	B	Q7JXA8	RE36324p
 4quf	C	Q7JXA8	RE36324p
@@ -4230,8 +4230,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4r7a	B	Q09028	Histone-binding protein RBBP4
 4r7a	A	Q8IWS0	PHD finger protein 6
 4r7e	A	Q07457	E3 ubiquitin-protein ligase BRE1
-4r8p	I		DNA (147-mer)
-4r8p	J		DNA (147-mer)
+4r8p	I	NA	DNA (147-mer)
+4r8p	J	NA	DNA (147-mer)
 4r8p	C	P06897	Histone H2A type 1
 4r8p	G	P06897	Histone H2A type 1
 4r8p	D	P02281	Histone H2B 1.1
@@ -4292,10 +4292,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4tn7	C	P59997	Lysine-specific demethylase 2A
 4tn7	D	P59997	Lysine-specific demethylase 2A
 4tt2	A	Q6PL18	ATPase family AAA domain-containing protein 2
-4tt2	P		Histone H4K5Ac
+4tt2	P	NA	Histone H4K5Ac
 4tt4	A	Q6PL18	ATPase family AAA domain-containing protein 2
 4tt4	B	Q6PL18	ATPase family AAA domain-containing protein 2
-4tt4	P		Histone H3(1-21)K4Ac
+4tt4	P	NA	Histone H3(1-21)K4Ac
 4tt6	A	Q6PL18	ATPase family AAA domain-containing protein 2
 4tte	A	Q6PL18	ATPase family AAA domain-containing protein 2
 4tu4	A	Q6PL18	ATPase family AAA domain-containing protein 2
@@ -4303,16 +4303,16 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4tu6	B	Q6PL18	ATPase family AAA domain-containing protein 2
 4tu6	C	Q6PL18	ATPase family AAA domain-containing protein 2
 4tu6	D	Q6PL18	ATPase family AAA domain-containing protein 2
-4tuw	C		HISTONE MRNA 3' STEM LOOP
-4tuw	D		HISTONE MRNA 3' STEM LOOP
+4tuw	C	NA	HISTONE MRNA 3' STEM LOOP
+4tuw	D	NA	HISTONE MRNA 3' STEM LOOP
 4tuw	A	Q9VAN6	Histone RNA hairpin-binding protein
 4tuw	B	Q9VAN6	Histone RNA hairpin-binding protein
 4tux	A	Q9VAN6	Histone RNA hairpin-binding protein
 4tux	B	Q9VAN6	Histone RNA hairpin-binding protein
-4tux	C		RNA (26-MER)
-4tux	D		RNA (26-MER)
+4tux	C	NA	RNA (26-MER)
+4tux	D	NA	RNA (26-MER)
 4tv0	A	Q9VAN6	Histone RNA hairpin-binding protein
-4tv0	B		RNA (26-MER)
+4tv0	B	NA	RNA (26-MER)
 4twi	B	P02309	Histone H4
 4twi	A	O28597	NAD-dependent protein deacylase 1
 4twj	B	P02309	Histone H4
@@ -4400,14 +4400,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4v1c	G	Q9NTG7	NAD-dependent protein deacetylase sirtuin-3, mitochondrial
 4v1c	I	Q9NTG7	NAD-dependent protein deacetylase sirtuin-3, mitochondrial
 4v1c	K	Q9NTG7	NAD-dependent protein deacetylase sirtuin-3, mitochondrial
-4v1c	C		PEPTIDE
-4v1c	D		PEPTIDE
-4v1c	F		PEPTIDE
-4v1c	H		PEPTIDE
-4v1c	J		PEPTIDE
-4v1c	L		PEPTIDE
-4v2v	C		HISTONE H3.1T
-4v2v	D		HISTONE H3.1T
+4v1c	C	NA	PEPTIDE
+4v1c	D	NA	PEPTIDE
+4v1c	F	NA	PEPTIDE
+4v1c	H	NA	PEPTIDE
+4v1c	J	NA	PEPTIDE
+4v1c	L	NA	PEPTIDE
+4v2v	C	NA	HISTONE H3.1T
+4v2v	D	NA	HISTONE H3.1T
 4v2v	A	O75164	Lysine-specific demethylase 4A
 4v2v	B	O75164	Lysine-specific demethylase 4A
 4v2w	C	Q16695	Histone H3.1t
@@ -4444,8 +4444,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4wnn	D	P02293	Histone H2B.1
 4wnn	F	P02293	Histone H2B.1
 4wnn	H	P02293	Histone H2B.1
-4wu8	I		DNA (145-MER)
-4wu8	J		DNA (145-MER)
+4wu8	I	NA	DNA (145-MER)
+4wu8	J	NA	DNA (145-MER)
 4wu8	C	P06897	Histone H2A type 1
 4wu8	G	P06897	Histone H2A type 1
 4wu8	D	P02281	Histone H2B 1.1
@@ -4454,8 +4454,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4wu8	E	P84233	Histone H3.2
 4wu8	B	P62799	Histone H4
 4wu8	F	P62799	Histone H4
-4wu9	I		DNA (145-MER)
-4wu9	J		DNA (145-MER)
+4wu9	I	NA	DNA (145-MER)
+4wu9	J	NA	DNA (145-MER)
 4wu9	C	P06897	Histone H2A type 1
 4wu9	G	P06897	Histone H2A type 1
 4wu9	D	P02281	Histone H2B 1.1
@@ -4472,10 +4472,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4x23	V	Q66LH7	CENP-C
 4x23	W	Q66LH7	CENP-C
 4x23	X	Q66LH7	CENP-C
-4x23	I		DNA (147-MER)
-4x23	J		DNA (147-MER)
-4x23	S		DNA (147-MER)
-4x23	T		DNA (147-MER)
+4x23	I	NA	DNA (147-MER)
+4x23	J	NA	DNA (147-MER)
+4x23	S	NA	DNA (147-MER)
+4x23	T	NA	DNA (147-MER)
 4x23	C	P84051	Histone H2A
 4x23	G	P84051	Histone H2A
 4x23	M	P84051	Histone H2A
@@ -4492,7 +4492,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4x23	F	P84040	Histone H4
 4x23	L	P84040	Histone H4
 4x23	P	P84040	Histone H4
-4x3e	B		ALA-GLN-ARG-M3L-PHE-ALA-GLN-SER
+4x3e	B	NA	ALA-GLN-ARG-M3L-PHE-ALA-GLN-SER
 4x3e	A	O75530	Polycomb protein EED
 4x60	B	Q9BQA1	Methylosome protein 50
 4x60	A	O14744	Protein arginine N-methyltransferase 5
@@ -4506,13 +4506,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4x8p	A	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
 4xbf	A	O60341	Lysine-specific histone demethylase 1A
 4xbf	B	Q9UKL0	REST corepressor 1
-4xbf	D		RNA (5'-R(*UP*UP*AP*GP*G)-3')
+4xbf	D	NA	RNA (5'-R(*UP*UP*AP*GP*G)-3')
 4xdo	A	Q9H3R0	Lysine-specific demethylase 4C
 4xdo	B	Q9H3R0	Lysine-specific demethylase 4C
 4xdp	A	Q9H3R0	Lysine-specific demethylase 4C
 4xdp	B	Q9H3R0	Lysine-specific demethylase 4C
-4xuj	I		DNA (145-MER)
-4xuj	J		DNA (145-MER)
+4xuj	I	NA	DNA (145-MER)
+4xuj	J	NA	DNA (145-MER)
 4xuj	C	P06897	Histone H2A type 1
 4xuj	G	P06897	Histone H2A type 1
 4xuj	D	P02281	Histone H2B 1.1
@@ -4524,8 +4524,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4xyh	A	B6K598	Kinetochore protein Mis16
 4xyi	B	B6JV96	Histone H4
 4xyi	A	B6K598	Kinetochore protein Mis16
-4xzq	I		DNA (147-MER)
-4xzq	J		DNA (147-MER)
+4xzq	I	NA	DNA (147-MER)
+4xzq	J	NA	DNA (147-MER)
 4xzq	C	P06897	Histone H2A type 1
 4xzq	G	P06897	Histone H2A type 1
 4xzq	D	P02281	Histone H2B 1.1
@@ -4549,26 +4549,26 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4y4r	A	Q9H6W3	Ribosomal oxygenase 1
 4y4r	B	Q9H6W3	Ribosomal oxygenase 1
 4ygi	A	O82175	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH5
-4ygi	B		Polydeoxyribonucleotide
-4yhp	A		Fab Heavy Chain
-4yhp	C		Fab Heavy Chain
-4yhp	E		Fab Heavy Chain
-4yhp	H		Fab Heavy Chain
-4yhp	B		Fab Light Chain
-4yhp	D		Fab Light Chain
-4yhp	F		Fab Light Chain
-4yhp	L		Fab Light Chain
+4ygi	B	NA	Polydeoxyribonucleotide
+4yhp	A	NA	Fab Heavy Chain
+4yhp	C	NA	Fab Heavy Chain
+4yhp	E	NA	Fab Heavy Chain
+4yhp	H	NA	Fab Heavy Chain
+4yhp	B	NA	Fab Light Chain
+4yhp	D	NA	Fab Light Chain
+4yhp	F	NA	Fab Light Chain
+4yhp	L	NA	Fab Light Chain
 4yhp	P	P68431	Histone H3.1
 4yhp	Q	P68431	Histone H3.1
-4yhy	B		Fab Heavy Chain
-4yhy	H		Fab Heavy Chain
-4yhy	C		Fab Light Chain
-4yhy	L		Fab Light Chain
-4yhz	H		Fab Heavy Chain
-4yhz	L		Fab Light Chain
+4yhy	B	NA	Fab Heavy Chain
+4yhy	H	NA	Fab Heavy Chain
+4yhy	C	NA	Fab Light Chain
+4yhy	L	NA	Fab Light Chain
+4yhz	H	NA	Fab Heavy Chain
+4yhz	L	NA	Fab Light Chain
 4yhz	P	P68431	Histone H3.1
-4ym5	I		144 mer-DNA
-4ym5	J		144-mer DNA
+4ym5	I	NA	144 mer-DNA
+4ym5	J	NA	144-mer DNA
 4ym5	C	P04908	Histone H2A type 1-B/E
 4ym5	G	P04908	Histone H2A type 1-B/E
 4ym5	D	P06899	Histone H2B type 1-J
@@ -4577,8 +4577,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4ym5	E	P68431	Histone H3.1
 4ym5	B	P62805	Histone H4
 4ym5	F	P62805	Histone H4
-4ym6	I		145-MER DNA
-4ym6	J		145-MER DNA
+4ym6	I	NA	145-MER DNA
+4ym6	J	NA	145-MER DNA
 4ym6	C	P04908	Histone H2A type 1-B/E
 4ym6	G	P04908	Histone H2A type 1-B/E
 4ym6	D	P06899	Histone H2B type 1-J
@@ -4600,8 +4600,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4ype	B	Q9NR48	Histone-lysine N-methyltransferase ASH1L
 4ypu	A	Q9NR48	Histone-lysine N-methyltransferase ASH1L
 4ypu	B	Q9NR48	Histone-lysine N-methyltransferase ASH1L
-4ys3	I		DNA (147-MER)
-4ys3	J		DNA (147-MER)
+4ys3	I	NA	DNA (147-MER)
+4ys3	J	NA	DNA (147-MER)
 4ys3	C	P06897	Histone H2A type 1
 4ys3	G	P06897	Histone H2A type 1
 4ys3	D	P02281	Histone H2B 1.1
@@ -4657,8 +4657,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4z2m	H	P62805	Histone H4
 4z2m	J	P62805	Histone H4
 4z4p	A	O14686	Histone-lysine N-methyltransferase 2D
-4z5t	I		DNA (146-MER)
-4z5t	J		DNA (146-MER)
+4z5t	I	NA	DNA (146-MER)
+4z5t	J	NA	DNA (146-MER)
 4z5t	C	P04908	Histone H2A type 1-B/E
 4z5t	G	P04908	Histone H2A type 1-B/E
 4z5t	D	P06899	Histone H2B type 1-J
@@ -4667,8 +4667,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4z5t	E	Q6NXT2	Histone H3.3C
 4z5t	B	P62805	Histone H4
 4z5t	F	P62805	Histone H4
-4z66	I		DNA (147-MER)
-4z66	J		DNA (147-MER)
+4z66	I	NA	DNA (147-MER)
+4z66	J	NA	DNA (147-MER)
 4z66	C	P06897	Histone H2A type 1
 4z66	G	P06897	Histone H2A type 1
 4z66	D	P02281	Histone H2B 1.1
@@ -4688,10 +4688,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 4zqa	A	Q8BR65	Sin3 histone deacetylase corepressor complex component SDS3
 4zql	A	O15164	Transcription intermediary factor 1-alpha
 4zql	B	O15164	Transcription intermediary factor 1-alpha
-4zux	I		DNA (145-MER)
-4zux	J		DNA (145-MER)
-4zux	S		DNA (145-MER)
-4zux	T		DNA (145-MER)
+4zux	I	NA	DNA (145-MER)
+4zux	J	NA	DNA (145-MER)
+4zux	S	NA	DNA (145-MER)
+4zux	T	NA	DNA (145-MER)
 4zux	C	P06897	Histone H2A type 1
 4zux	G	P06897	Histone H2A type 1
 4zux	M	P06897	Histone H2A type 1
@@ -4768,8 +4768,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5anq	A	O75164	Lysine-specific demethylase 4A
 5anq	B	O75164	Lysine-specific demethylase 4A
 5arg	A	Q9NRG4	N-lysine methyltransferase SMYD2
-5av5	I		DNA (147-MER)
-5av5	J		DNA (147-MER)
+5av5	I	NA	DNA (147-MER)
+5av5	J	NA	DNA (147-MER)
 5av5	C	P04908	Histone H2A type 1-B/E
 5av5	G	P04908	Histone H2A type 1-B/E
 5av5	D	P06899	Histone H2B type 1-J
@@ -4778,8 +4778,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5av5	E	P68431	Histone H3.1
 5av5	B	P62805	Histone H4
 5av5	F	P62805	Histone H4
-5av6	I		DNA (147-MER)
-5av6	J		DNA (147-MER)
+5av6	I	NA	DNA (147-MER)
+5av6	J	NA	DNA (147-MER)
 5av6	C	P04908	Histone H2A type 1-B/E
 5av6	G	P04908	Histone H2A type 1-B/E
 5av6	D	P06899	Histone H2B type 1-J
@@ -4788,8 +4788,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5av6	E	P68431	Histone H3.1
 5av6	B	P62805	Histone H4
 5av6	F	P62805	Histone H4
-5av8	I		DNA (147-MER)
-5av8	J		DNA (147-MER)
+5av8	I	NA	DNA (147-MER)
+5av8	J	NA	DNA (147-MER)
 5av8	C	P04908	Histone H2A type 1-B/E
 5av8	G	P04908	Histone H2A type 1-B/E
 5av8	D	P06899	Histone H2B type 1-J
@@ -4798,8 +4798,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5av8	E	P68431	Histone H3.1
 5av8	B	P62805	Histone H4
 5av8	F	P62805	Histone H4
-5av9	I		DNA (147-MER)
-5av9	J		DNA (147-MER)
+5av9	I	NA	DNA (147-MER)
+5av9	J	NA	DNA (147-MER)
 5av9	C	P04908	Histone H2A type 1-B/E
 5av9	G	P04908	Histone H2A type 1-B/E
 5av9	D	P06899	Histone H2B type 1-J
@@ -4808,8 +4808,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5av9	E	P68431	Histone H3.1
 5av9	B	P62805	Histone H4
 5av9	F	P62805	Histone H4
-5avb	I		DNA (147-MER)
-5avb	J		DNA (147-MER)
+5avb	I	NA	DNA (147-MER)
+5avb	J	NA	DNA (147-MER)
 5avb	C	P04908	Histone H2A type 1-B/E
 5avb	G	P04908	Histone H2A type 1-B/E
 5avb	D	P06899	Histone H2B type 1-J
@@ -4818,8 +4818,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5avb	E	P68431	Histone H3.1
 5avb	B	P62805	Histone H4
 5avb	F	P62805	Histone H4
-5avc	I		DNA (147-MER)
-5avc	J		DNA (147-MER)
+5avc	I	NA	DNA (147-MER)
+5avc	J	NA	DNA (147-MER)
 5avc	C	P04908	Histone H2A type 1-B/E
 5avc	G	P04908	Histone H2A type 1-B/E
 5avc	D	P06899	Histone H2B type 1-J
@@ -4828,8 +4828,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5avc	E	P68431	Histone H3.1
 5avc	B	P62805	Histone H4
 5avc	F	P62805	Histone H4
-5ay8	I		DNA (146-MER)
-5ay8	J		DNA (146-MER)
+5ay8	I	NA	DNA (146-MER)
+5ay8	J	NA	DNA (146-MER)
 5ay8	C	P04908	Histone H2A type 1-B/E
 5ay8	G	P04908	Histone H2A type 1-B/E
 5ay8	D	P06899	Histone H2B type 1-J
@@ -4839,8 +4839,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5ay8	B	P62805	Histone H4
 5ay8	F	P62805	Histone H4
 5ayf	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
-5b0y	I		DNA (146-MER)
-5b0y	J		DNA (146-MER)
+5b0y	I	NA	DNA (146-MER)
+5b0y	J	NA	DNA (146-MER)
 5b0y	C	P04908	Histone H2A type 1-B/E
 5b0y	G	P04908	Histone H2A type 1-B/E
 5b0y	D	P06899	Histone H2B type 1-J
@@ -4849,8 +4849,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b0y	E	Q71DI3	Histone H3.2
 5b0y	B	P62805	Histone H4
 5b0y	F	P62805	Histone H4
-5b0z	I		DNA (146-MER)
-5b0z	J		DNA (146-MER)
+5b0z	I	NA	DNA (146-MER)
+5b0z	J	NA	DNA (146-MER)
 5b0z	C	P04908	Histone H2A type 1-B/E
 5b0z	G	P04908	Histone H2A type 1-B/E
 5b0z	D	P06899	Histone H2B type 1-J
@@ -4859,8 +4859,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b0z	E	Q71DI3	Histone H3.2
 5b0z	B	P62805	Histone H4
 5b0z	F	P62805	Histone H4
-5b1l	I		DNA (146-MER)
-5b1l	J		DNA (146-MER)
+5b1l	I	NA	DNA (146-MER)
+5b1l	J	NA	DNA (146-MER)
 5b1l	C	C0HKE8	Histone H2A type 1-O
 5b1l	G	C0HKE8	Histone H2A type 1-O
 5b1l	D	Q9D2U9	Histone H2B type 3-A
@@ -4869,8 +4869,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b1l	E	P68433	Histone H3.1
 5b1l	B	P62806	Histone H4
 5b1l	F	P62806	Histone H4
-5b1m	I		DNA (146-MER)
-5b1m	J		DNA (146-MER)
+5b1m	I	NA	DNA (146-MER)
+5b1m	J	NA	DNA (146-MER)
 5b1m	C	C0HKE8	Histone H2A type 1-O
 5b1m	G	C0HKE8	Histone H2A type 1-O
 5b1m	D	Q9D2U9	Histone H2B type 3-A
@@ -4879,8 +4879,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b1m	E	P68433	Histone H3.1
 5b1m	B	P62806	Histone H4
 5b1m	F	P62806	Histone H4
-5b24	I		DNA (145-MER)
-5b24	J		DNA (145-MER)
+5b24	I	NA	DNA (145-MER)
+5b24	J	NA	DNA (145-MER)
 5b24	C	P04908	Histone H2A type 1-B/E
 5b24	G	P04908	Histone H2A type 1-B/E
 5b24	D	P06899	Histone H2B type 1-J
@@ -4889,8 +4889,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b24	E	P68431	Histone H3.1
 5b24	B	P62805	Histone H4
 5b24	F	P62805	Histone H4
-5b2i	I		DNA (146-MER)
-5b2i	J		DNA (146-MER)
+5b2i	I	NA	DNA (146-MER)
+5b2i	J	NA	DNA (146-MER)
 5b2i	C	P04908	Histone H2A type 1-B/E
 5b2i	G	P04908	Histone H2A type 1-B/E
 5b2i	D	P06899	Histone H2B type 1-J
@@ -4899,8 +4899,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b2i	E	P68431	Histone H3.1
 5b2i	B	P62805	Histone H4
 5b2i	F	P62805	Histone H4
-5b2j	I		DNA (146-MER)
-5b2j	J		DNA (146-MER)
+5b2j	I	NA	DNA (146-MER)
+5b2j	J	NA	DNA (146-MER)
 5b2j	C	P04908	Histone H2A type 1-B/E
 5b2j	G	P04908	Histone H2A type 1-B/E
 5b2j	D	P06899	Histone H2B type 1-J
@@ -4909,8 +4909,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b2j	E	P68431	Histone H3.1
 5b2j	B	P62805	Histone H4
 5b2j	F	P62805	Histone H4
-5b31	I		DNA (146-MER)
-5b31	J		DNA (146-MER)
+5b31	I	NA	DNA (146-MER)
+5b31	J	NA	DNA (146-MER)
 5b31	C	P04908	Histone H2A type 1-B/E
 5b31	G	P0C0S5	Histone H2A.Z
 5b31	D	P06899	Histone H2B type 1-J
@@ -4919,8 +4919,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b31	E	P68431	Histone H3.1
 5b31	B	P62805	Histone H4
 5b31	F	P62805	Histone H4
-5b32	I		DNA (146-MER)
-5b32	J		DNA (146-MER)
+5b32	I	NA	DNA (146-MER)
+5b32	J	NA	DNA (146-MER)
 5b32	C	P04908	Histone H2A type 1-B/E
 5b32	G	P0C0S5	Histone H2A.Z
 5b32	D	P06899	Histone H2B type 1-J
@@ -4929,8 +4929,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b32	E	P84243	Histone H3.3
 5b32	B	P62805	Histone H4
 5b32	F	P62805	Histone H4
-5b33	I		DNA (146-MER)
-5b33	J		DNA (146-MER)
+5b33	I	NA	DNA (146-MER)
+5b33	J	NA	DNA (146-MER)
 5b33	C	P0C0S5	Histone H2A.Z
 5b33	G	P0C0S5	Histone H2A.Z
 5b33	D	P06899	Histone H2B type 1-J
@@ -4939,9 +4939,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5b33	E	P84243	Histone H3.3
 5b33	B	P62805	Histone H4
 5b33	F	P62805	Histone H4
-5b3n	A		anti-H4K20me1_scFv
-5b40	I		DNA (146-MER)
-5b40	J		DNA (146-MER)
+5b3n	A	NA	anti-H4K20me1_scFv
+5b40	I	NA	DNA (146-MER)
+5b40	J	NA	DNA (146-MER)
 5b40	C	P04908	Histone H2A type 1-B/E
 5b40	G	P04908	Histone H2A type 1-B/E
 5b40	D	P06899	Histone H2B type 1-J
@@ -5038,18 +5038,18 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5ccm	A	Q9H7B4	Histone-lysine N-methyltransferase SMYD3
 5ce6	A	A0A182DWB2	FACT-Spt16
 5ceh	A	P29375	Lysine-specific demethylase 5A
-5ceh	B		Unknown Peptide
+5ceh	B	NA	Unknown Peptide
 5chl	B	P0C0S5	Histone H2A.Z
 5chl	A	Q9VKM6	Vacuolar protein sorting-associated protein 72 homolog
 5ciu	A	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
 5ciu	B	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
 5ciu	C	Q71DI3	Histone H3.2
 5ciu	D	Q71DI3	Histone H3.2
-5ciy	C		DNA (5'-D(P*CP*CP*AP*TP*GP*CP*GP*CP*TP*GP*AP*C)-3')
-5ciy	D		DNA (5'-D(P*GP*TP*CP*AP*GP*(3DR)P*GP*CP*AP*TP*GP*G)-3')
+5ciy	C	NA	DNA (5'-D(P*CP*CP*AP*TP*GP*CP*GP*CP*TP*GP*AP*C)-3')
+5ciy	D	NA	DNA (5'-D(P*GP*TP*CP*AP*GP*(3DR)P*GP*CP*AP*TP*GP*G)-3')
 5ciy	A	P05102	Modification methylase HhaI
-5cp6	I		DNA (145-MER)
-5cp6	J		DNA (145-MER)
+5cp6	I	NA	DNA (145-MER)
+5cp6	J	NA	DNA (145-MER)
 5cp6	C	P06897	Histone H2A type 1
 5cp6	G	P06897	Histone H2A type 1
 5cp6	D	P02281	Histone H2B 1.1
@@ -5058,8 +5058,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5cp6	E	P84233	Histone H3.2
 5cp6	B	P62799	Histone H4
 5cp6	F	P62799	Histone H4
-5cpi	I		DNA (146-MER)
-5cpi	J		DNA (146-MER)
+5cpi	I	NA	DNA (146-MER)
+5cpi	J	NA	DNA (146-MER)
 5cpi	C	P04908	Histone H2A type 1-B/E
 5cpi	G	P04908	Histone H2A type 1-B/E
 5cpi	D	P06899	Histone H2B type 1-J
@@ -5068,8 +5068,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5cpi	E	P68431	Histone H3.1
 5cpi	B	P62805	Histone H4
 5cpi	F	P62805	Histone H4
-5cpj	I		DNA (146-MER)
-5cpj	J		DNA (146-MER)
+5cpj	I	NA	DNA (146-MER)
+5cpj	J	NA	DNA (146-MER)
 5cpj	C	P04908	Histone H2A type 1-B/E
 5cpj	G	P04908	Histone H2A type 1-B/E
 5cpj	D	P06899	Histone H2B type 1-J
@@ -5078,8 +5078,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5cpj	E	P68431	Histone H3.1
 5cpj	B	P62805	Histone H4
 5cpj	F	P62805	Histone H4
-5cpk	I		DNA (145-MER)
-5cpk	J		DNA (145-MER)
+5cpk	I	NA	DNA (145-MER)
+5cpk	J	NA	DNA (145-MER)
 5cpk	C	P04908	Histone H2A type 1-B/E
 5cpk	G	P04908	Histone H2A type 1-B/E
 5cpk	D	P06899	Histone H2B type 1-J
@@ -5099,12 +5099,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5cve	B	Q9BV86	N-terminal Xaa-Pro-Lys N-methyltransferase 1
 5d1b	A	Q9BY41	Histone deacetylase 8
 5d1b	B	Q9BY41	Histone deacetylase 8
-5d1c	C		HDAC8 Fluor de Lys tetrapeptide substrate
-5d1c	D		HDAC8 Fluor de Lys tetrapeptide substrate
+5d1c	C	NA	HDAC8 Fluor de Lys tetrapeptide substrate
+5d1c	D	NA	HDAC8 Fluor de Lys tetrapeptide substrate
 5d1c	A	Q9BY41	Histone deacetylase 8
 5d1c	B	Q9BY41	Histone deacetylase 8
-5d1d	C		HDAC8 Fluor de Lys tetrapeptide substrate
-5d1d	D		HDAC8 Fluor de Lys tetrapeptide substrate
+5d1d	C	NA	HDAC8 Fluor de Lys tetrapeptide substrate
+5d1d	D	NA	HDAC8 Fluor de Lys tetrapeptide substrate
 5d1d	A	Q9BY41	Histone deacetylase 8
 5d1d	B	Q9BY41	Histone deacetylase 8
 5d6w	A	O75164	Lysine-specific demethylase 4A
@@ -5134,22 +5134,22 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5day	B	Q9CA59	NAP1-related protein 1
 5dc5	A	Q9BY41	Histone deacetylase 8
 5dc5	B	Q9BY41	Histone deacetylase 8
-5dc6	C		Fluor-de-Lys tetrapeptide assay substrate
-5dc6	D		Fluor-de-Lys tetrapeptide assay substrate
+5dc6	C	NA	Fluor-de-Lys tetrapeptide assay substrate
+5dc6	D	NA	Fluor-de-Lys tetrapeptide assay substrate
 5dc6	A	Q9BY41	Histone deacetylase 8
 5dc6	B	Q9BY41	Histone deacetylase 8
-5dc7	C		Fluor-de-Lys tetrapeptide assay substrate
-5dc7	D		Fluor-de-Lys tetrapeptide assay substrate
+5dc7	C	NA	Fluor-de-Lys tetrapeptide assay substrate
+5dc7	D	NA	Fluor-de-Lys tetrapeptide assay substrate
 5dc7	A	Q9BY41	Histone deacetylase 8
 5dc7	B	Q9BY41	Histone deacetylase 8
-5dc8	C		Fluor-de-Lys tetrapeptide assay substrate
-5dc8	D		Fluor-de-Lys tetrapeptide assay substrate
+5dc8	C	NA	Fluor-de-Lys tetrapeptide assay substrate
+5dc8	D	NA	Fluor-de-Lys tetrapeptide assay substrate
 5dc8	A	Q9BY41	Histone deacetylase 8
 5dc8	B	Q9BY41	Histone deacetylase 8
 5dlx	A	O60885	Bromodomain-containing protein 4
 5dlz	A	O60885	Bromodomain-containing protein 4
-5dnm	I		DNA (145-MER)
-5dnm	J		DNA (145-MER)
+5dnm	I	NA	DNA (145-MER)
+5dnm	J	NA	DNA (145-MER)
 5dnm	C	P06897	Histone H2A type 1
 5dnm	G	P06897	Histone H2A type 1
 5dnm	D	P02281	Histone H2B 1.1
@@ -5158,8 +5158,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5dnm	E	P84233	Histone H3.2
 5dnm	B	P62799	Histone H4
 5dnm	F	P62799	Histone H4
-5dnn	I		DNA (145-MER)
-5dnn	J		DNA (145-MER)
+5dnn	I	NA	DNA (145-MER)
+5dnn	J	NA	DNA (145-MER)
 5dnn	C	P06897	Histone H2A type 1
 5dnn	G	P06897	Histone H2A type 1
 5dnn	D	P02281	Histone H2B 1.1
@@ -5224,8 +5224,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5dxj	C	Q86X55	Histone-arginine methyltransferase CARM1
 5dxj	D	Q86X55	Histone-arginine methyltransferase CARM1
 5e5a	K	P03169	55 kDa immediate-early protein 1
-5e5a	I		DNA (146-MER)
-5e5a	J		DNA (146-MER)
+5e5a	I	NA	DNA (146-MER)
+5e5a	J	NA	DNA (146-MER)
 5e5a	C	P06897	Histone H2A type 1
 5e5a	G	P06897	Histone H2A type 1
 5e5a	D	P02281	Histone H2B 1.1
@@ -5260,18 +5260,18 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5efg	D	F8W4B7	Histone deacetylase
 5efh	A	F8W4B7	Histone deacetylase
 5efh	D	F8W4B7	Histone deacetylase
-5efj	F		HC toxin
+5efj	F	NA	HC toxin
 5efj	D	F8W4B7	Histone deacetylase
-5efk	A		alpha tubulin K40 tripeptide
+5efk	A	NA	alpha tubulin K40 tripeptide
 5efk	B	F8W4B7	Histone deacetylase
 5efn	A	F8W4B7	Histone deacetylase
 5efn	B	F8W4B7	Histone deacetylase
-5efn	E		histone H4 tripeptide
-5efn	F		histone H4 tripeptide
+5efn	E	NA	histone H4 tripeptide
+5efn	F	NA	histone H4 tripeptide
 5eg2	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
 5eg2	B	Q12962	Transcription initiation factor TFIID subunit 10
-5egb	C		DNA (5'-D(*AP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*T)-3')
-5egb	D		DNA (5'-D(*TP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*G)-3')
+5egb	C	NA	DNA (5'-D(*AP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*T)-3')
+5egb	D	NA	DNA (5'-D(*TP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*G)-3')
 5egb	A	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
 5egs	A	Q96LA8	Protein arginine N-methyltransferase 6
 5egs	B	Q96LA8	Protein arginine N-methyltransferase 6
@@ -5281,10 +5281,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5egu	B	O60885	Bromodomain-containing protein 4
 5egu	C	O60885	Bromodomain-containing protein 4
 5egu	D	O60885	Bromodomain-containing protein 4
-5eh2	A		DNA (5'-D(*AP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*TP*C)-3')
-5eh2	C		DNA (5'-D(*AP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*TP*C)-3')
-5eh2	B		DNA (5'-D(*TP*GP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*G)-3')
-5eh2	D		DNA (5'-D(*TP*GP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*G)-3')
+5eh2	A	NA	DNA (5'-D(*AP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*TP*C)-3')
+5eh2	C	NA	DNA (5'-D(*AP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*CP*TP*C)-3')
+5eh2	B	NA	DNA (5'-D(*TP*GP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*G)-3')
+5eh2	D	NA	DNA (5'-D(*TP*GP*AP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*G)-3')
 5eh2	E	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
 5eh2	F	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
 5ehd	A	P06748	Nucleophosmin
@@ -5308,16 +5308,16 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5ehd	J	P06748	Nucleophosmin
 5ehd	j	P06748	Nucleophosmin
 5ei4	A	O60885	Bromodomain-containing protein 4
-5ei9	A		DNA (5'-D(*AP*TP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*C)-3')
-5ei9	C		DNA (5'-D(*AP*TP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*C)-3')
-5ei9	B		DNA (5'-D(*TP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*GP*A)-3')
-5ei9	D		DNA (5'-D(*TP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*GP*A)-3')
+5ei9	A	NA	DNA (5'-D(*AP*TP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*C)-3')
+5ei9	C	NA	DNA (5'-D(*AP*TP*CP*CP*AP*CP*GP*TP*GP*GP*CP*TP*AP*GP*GP*GP*AP*GP*GP*CP*C)-3')
+5ei9	B	NA	DNA (5'-D(*TP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*GP*A)-3')
+5ei9	D	NA	DNA (5'-D(*TP*GP*GP*CP*CP*TP*CP*CP*CP*TP*AP*GP*CP*CP*AP*CP*GP*TP*GP*GP*A)-3')
 5ei9	E	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
 5ei9	F	Q9NQV7	Histone-lysine N-methyltransferase PRDM9
-5eii	A		Fab Heavy Chain
-5eii	H		Fab Heavy Chain
-5eii	B		Fab Light Chain
-5eii	L		Fab Light Chain
+5eii	A	NA	Fab Heavy Chain
+5eii	H	NA	Fab Heavy Chain
+5eii	B	NA	Fab Light Chain
+5eii	L	NA	Fab Light Chain
 5eii	G	P32447	Histone chaperone ASF1
 5eii	I	P32447	Histone chaperone ASF1
 5eis	A	O60885	Bromodomain-containing protein 4
@@ -5389,8 +5389,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5f6l	A	Q03164	Histone-lysine N-methyltransferase 2A
 5f6l	J	Q15291	Retinoblastoma-binding protein 5
 5f6l	B	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
-5f99	I		DNA (147-MER)
-5f99	J		DNA (147-MER)
+5f99	I	NA	DNA (147-MER)
+5f99	J	NA	DNA (147-MER)
 5f99	C	P06897	Histone H2A type 1
 5f99	G	P06897	Histone H2A type 1
 5f99	D	P02281	Histone H2B 1.1
@@ -5607,8 +5607,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5g49	B	Q9ZVL3	Nuclear transcription factor Y subunit C-3
 5g4c	A	Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2
 5g4c	B	Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2
-5g4c	E		SIRT2
-5g4c	F		SIRT2
+5g4c	E	NA	SIRT2
+5g4c	F	NA	SIRT2
 5gcn	A	Q27198	HISTONE ACETYLTRANSFERASE GCN5
 5gh9	A	Q92793	CREB-binding protein
 5gh9	B	P68431	Histone H3.1
@@ -5618,8 +5618,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gsa	D	Q15910	Histone-lysine N-methyltransferase EZH2
 5gsa	A	O75530	Polycomb protein EED
 5gsa	B	O75530	Polycomb protein EED
-5gse	I		DNA (250-MER)
-5gse	J		DNA (250-MER)
+5gse	I	NA	DNA (250-MER)
+5gse	J	NA	DNA (250-MER)
 5gse	C	P04908	Histone H2A type 1-B/E
 5gse	G	P04908	Histone H2A type 1-B/E
 5gse	M	P04908	Histone H2A type 1-B/E
@@ -5634,8 +5634,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gse	F	P62805	Histone H4
 5gse	L	P62805	Histone H4
 5gse	P	P62805	Histone H4
-5gsu	I		DNA (146-MER)
-5gsu	J		DNA (146-MER)
+5gsu	I	NA	DNA (146-MER)
+5gsu	J	NA	DNA (146-MER)
 5gsu	C	Q96QV6	Histone H2A type 1-A
 5gsu	G	Q96QV6	Histone H2A type 1-A
 5gsu	D	Q96A08	Histone H2B type 1-A
@@ -5644,8 +5644,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gsu	E	P68431	Histone H3.1
 5gsu	B	P62805	Histone H4
 5gsu	F	P62805	Histone H4
-5gt0	I		DNA (146-MER)
-5gt0	J		DNA (146-MER)
+5gt0	I	NA	DNA (146-MER)
+5gt0	J	NA	DNA (146-MER)
 5gt0	C	Q96QV6	Histone H2A type 1-A
 5gt0	G	Q96QV6	Histone H2A type 1-A
 5gt0	D	P62807	Histone H2B type 1-C/E/F/G/I
@@ -5654,8 +5654,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gt0	E	P68431	Histone H3.1
 5gt0	B	P62805	Histone H4
 5gt0	F	P62805	Histone H4
-5gt3	I		DNA (146-MER)
-5gt3	J		DNA (146-MER)
+5gt3	I	NA	DNA (146-MER)
+5gt3	J	NA	DNA (146-MER)
 5gt3	C	P20671	Histone H2A type 1-D
 5gt3	G	P20671	Histone H2A type 1-D
 5gt3	D	Q96A08	Histone H2B type 1-A
@@ -5664,8 +5664,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gt3	E	P68431	Histone H3.1
 5gt3	B	P62805	Histone H4
 5gt3	F	P62805	Histone H4
-5gtc	I		DNA (146-MER)
-5gtc	J		DNA (146-MER)
+5gtc	I	NA	DNA (146-MER)
+5gtc	J	NA	DNA (146-MER)
 5gtc	C	P04908	Histone H2A type 1-B/E
 5gtc	G	P04908	Histone H2A type 1-B/E
 5gtc	D	P06899	Histone H2B type 1-J
@@ -5675,14 +5675,14 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5gtc	B	P62805	Histone H4
 5gtc	F	P62805	Histone H4
 5gtc	K	Q9QR71	Protein ORF73
-5gxq	I		DNA (146-MER)
-5gxq	J		DNA (146-MER)
+5gxq	I	NA	DNA (146-MER)
+5gxq	J	NA	DNA (146-MER)
 5gxq	C	P04908	Histone H2A type 1-B/E
 5gxq	G	P04908	Histone H2A type 1-B/E
 5gxq	D	P06899	Histone H2B type 1-J
 5gxq	H	P06899	Histone H2B type 1-J
-5gxq	A		Histone H3.6
-5gxq	E		Histone H3.6
+5gxq	A	NA	Histone H3.6
+5gxq	E	NA	Histone H3.6
 5gxq	B	P62805	Histone H4
 5gxq	F	P62805	Histone H4
 5h13	A	O75530	Polycomb protein EED
@@ -5745,8 +5745,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5hjd	N	P42568	Protein AF-9
 5hjd	Q	P42568	Protein AF-9
 5hjd	T	P42568	Protein AF-9
-5hq2	I		DNA (149-MER)
-5hq2	J		DNA (149-MER)
+5hq2	I	NA	DNA (149-MER)
+5hq2	J	NA	DNA (149-MER)
 5hq2	K	P21827	Guanine nucleotide exchange factor SRM1
 5hq2	G	P06897	Histone H2A type 1
 5hq2	H	P02281	Histone H2B 1.1
@@ -5787,11 +5787,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5i3l	B	Q92784	Zinc finger protein DPF3
 5iay	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
 5iay	B	Q96T88	E3 ubiquitin-protein ligase UHRF1
-5icn	C		GLY-ALA-6A0-ARG-HIS
+5icn	C	NA	GLY-ALA-6A0-ARG-HIS
 5icn	B	Q13547	Histone deacetylase 1
 5icn	A	Q13330	Metastasis-associated protein MTA1
-5icv	C		MET-LYS-ALA-VAL-LIG
-5icv	D		MET-LYS-ALA-VAL-LIG
+5icv	C	NA	MET-LYS-ALA-VAL-LIG
+5icv	D	NA	MET-LYS-ALA-VAL-LIG
 5icv	A	Q9H7X0	N-alpha-acetyltransferase 60
 5icv	B	Q9H7X0	N-alpha-acetyltransferase 60
 5icw	A	Q9H7X0	N-alpha-acetyltransferase 60
@@ -6004,8 +6004,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5jlb	B	P84243	Histone H3.3
 5jlb	A	Q9BYW2	Histone-lysine N-methyltransferase SETD2
 5jle	A	Q9BYW2	Histone-lysine N-methyltransferase SETD2
-5jrg	I		DNA (145-MER)
-5jrg	J		DNA (145-MER)
+5jrg	I	NA	DNA (145-MER)
+5jrg	J	NA	DNA (145-MER)
 5jrg	C	P04908	Histone H2A type 1-B/E
 5jrg	G	P04908	Histone H2A type 1-B/E
 5jrg	D	P06899	Histone H2B type 1-J
@@ -6040,8 +6040,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5jxt	W	A0A0E9NAT8	Histone H4
 5k4l	A	P29375	Lysine-specific demethylase 5A
 5k4l	B	P29375	Lysine-specific demethylase 5A
-5k4l	F		Unknown Peptide
-5k4l	G		Unknown Peptide
+5k4l	F	NA	Unknown Peptide
+5k4l	G	NA	Unknown Peptide
 5k8v	A	Q9WVG6	Histone-arginine methyltransferase CARM1
 5k8v	B	Q9WVG6	Histone-arginine methyltransferase CARM1
 5k8v	C	Q9WVG6	Histone-arginine methyltransferase CARM1
@@ -6062,8 +6062,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5kdm	D	Q1HVJ0	Major tegument protein
 5ke2	A	Q15047	Histone-lysine N-methyltransferase SETDB1
 5ke3	A	Q15047	Histone-lysine N-methyltransferase SETDB1
-5kgf	I		DNA (145-MER)
-5kgf	J		DNA (145-MER)
+5kgf	I	NA	DNA (145-MER)
+5kgf	J	NA	DNA (145-MER)
 5kgf	C	P0C0S8	Histone H2A type 1
 5kgf	G	P0C0S8	Histone H2A type 1
 5kgf	D	P62807	Histone H2B type 1-C/E/F/G/I
@@ -6106,10 +6106,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5l3e	A	O60341	Lysine-specific histone demethylase 1A
 5l3e	B	Q9UKL0	REST corepressor 1
 5l3f	A	O60341	Lysine-specific histone demethylase 1A
-5l3f	C		Polmyxin B
+5l3f	C	NA	Polmyxin B
 5l3f	B	Q9UKL0	REST corepressor 1
 5l3g	A	O60341	Lysine-specific histone demethylase 1A
-5l3g	C		polymyxin E
+5l3g	C	NA	polymyxin E
 5l3g	B	Q9UKL0	REST corepressor 1
 5l7j	A	M1Q3U6	ELP3 family
 5l7l	A	M1Q3U6	ELP3 family, ELP3 family
@@ -6229,15 +6229,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5lvr	B	Q92831	Histone acetyltransferase KAT2B
 5lw9	A	Q9UGL1	Lysine-specific demethylase 5B
 5lwb	A	Q9UGL1	Lysine-specific demethylase 5B
-5ly1	E		CP2
+5ly1	E	NA	CP2
 5ly1	A	O75164	Lysine-specific demethylase 4A
 5ly1	B	O75164	Lysine-specific demethylase 4A
 5ly1	C	O75164	Lysine-specific demethylase 4A
 5ly1	D	O75164	Lysine-specific demethylase 4A
-5ly2	E		CP2_R6Kme3
-5ly2	F		CP2_R6Kme3
-5ly2	G		CP2_R6Kme3
-5ly2	H		CP2_R6Kme3
+5ly2	E	NA	CP2_R6Kme3
+5ly2	F	NA	CP2_R6Kme3
+5ly2	G	NA	CP2_R6Kme3
+5ly2	H	NA	CP2_R6Kme3
 5ly2	A	O75164	Lysine-specific demethylase 4A
 5ly2	B	O75164	Lysine-specific demethylase 4A
 5ly2	C	O75164	Lysine-specific demethylase 4A
@@ -6257,8 +6257,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5mli	A	O60885	Bromodomain-containing protein 4
 5mlj	A	Q92830	Histone acetyltransferase KAT2A
 5mlj	B	Q92830	Histone acetyltransferase KAT2A
-5mlu	I		DNA (145-MER)
-5mlu	J		DNA (145-MER)
+5mlu	I	NA	DNA (145-MER)
+5mlu	J	NA	DNA (145-MER)
 5mlu	M	P14349	Gag polyprotein
 5mlu	C	P06897	Histone H2A type 1
 5mlu	G	P06897	Histone H2A type 1
@@ -6276,10 +6276,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5mw3	B	Q8TEK3	Histone-lysine N-methyltransferase, H3 lysine-79 specific
 5mw4	A	Q8TEK3	Histone-lysine N-methyltransferase, H3 lysine-79 specific
 5mw4	B	Q8TEK3	Histone-lysine N-methyltransferase, H3 lysine-79 specific
-5nl0	I		DNA (197-MER)
-5nl0	J		DNA (197-MER)
-5nl0	S		DNA (197-MER)
-5nl0	T		DNA (197-MER)
+5nl0	I	NA	DNA (197-MER)
+5nl0	J	NA	DNA (197-MER)
+5nl0	S	NA	DNA (197-MER)
+5nl0	T	NA	DNA (197-MER)
 5nl0	Z	P22844	Histone H1.0-B
 5nl0	C	P06897	Histone H2A type 1
 5nl0	G	P06897	Histone H2A type 1
@@ -6324,8 +6324,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5nvo	A	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
 5nvo	B	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
 5o9g	W	P32657	Chromo domain-containing protein 1
-5o9g	I		DNA (162-MER)
-5o9g	J		DNA (162-MER)
+5o9g	I	NA	DNA (162-MER)
+5o9g	J	NA	DNA (162-MER)
 5o9g	C	P06897	Histone H2A type 1
 5o9g	G	P06897	Histone H2A type 1
 5o9g	D	P02281	Histone H2B 1.1
@@ -6339,8 +6339,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5ol0	D	P04637	Cellular tumor antigen p53
 5ol0	A	Q8I6E4	NAD-dependent protein deacetylase
 5ol0	B	Q8I6E4	NAD-dependent protein deacetylase
-5omx	I		DNA (147-MER)
-5omx	J		DNA (147-MER)
+5omx	I	NA	DNA (147-MER)
+5omx	J	NA	DNA (147-MER)
 5omx	C	P06897	Histone H2A type 1
 5omx	G	P06897	Histone H2A type 1
 5omx	D	P02281	Histone H2B 1.1
@@ -6349,8 +6349,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5omx	E	P84233	Histone H3.2
 5omx	B	P62799	Histone H4
 5omx	F	P62799	Histone H4
-5ong	I		DNA (147-MER)
-5ong	J		DNA (147-MER)
+5ong	I	NA	DNA (147-MER)
+5ong	J	NA	DNA (147-MER)
 5ong	C	P06897	Histone H2A type 1
 5ong	G	P06897	Histone H2A type 1
 5ong	D	P02281	Histone H2B 1.1
@@ -6359,8 +6359,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5ong	E	P84233	Histone H3.2
 5ong	B	P62799	Histone H4
 5ong	F	P62799	Histone H4
-5onw	I		DNA (147-MER)
-5onw	J		DNA (147-MER)
+5onw	I	NA	DNA (147-MER)
+5onw	J	NA	DNA (147-MER)
 5onw	C	P06897	Histone H2A type 1
 5onw	G	P06897	Histone H2A type 1
 5onw	D	P02281	Histone H2B 1.1
@@ -6369,8 +6369,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5onw	E	P84233	Histone H3.2
 5onw	B	P62799	Histone H4
 5onw	F	P62799	Histone H4
-5oxv	J		DNA STRAND 1 (601-based sequence model)
-5oxv	I		DNA STRAND 2 (601-based sequence model)
+5oxv	J	NA	DNA STRAND 1 (601-based sequence model)
+5oxv	I	NA	DNA STRAND 2 (601-based sequence model)
 5oxv	C	P06897	Histone H2A type 1
 5oxv	G	P06897	Histone H2A type 1
 5oxv	M	P06897	Histone H2A type 1
@@ -6389,8 +6389,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5oxv	P	P62799	Histone H4
 5oy3	B	P68431	Histone H3.1
 5oy3	A	O15054	Lysine-specific demethylase 6B
-5oy7	g		DNA (619-MER)
-5oy7	h		DNA (619-MER)
+5oy7	g	NA	DNA (619-MER)
+5oy7	h	NA	DNA (619-MER)
 5oy7	a	P06897	Histone H2A type 1
 5oy7	C	P06897	Histone H2A type 1
 5oy7	e	P06897	Histone H2A type 1
@@ -6673,10 +6673,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5pnw	A	Q6B0I6	Lysine-specific demethylase 4D
 5svh	A	Q92793	CREB-binding protein
 5svh	B	P01103, Q03164	P01103:, Transcriptional activator Myb, Q03164:, Histone-lysine N-methyltransferase 2A
-5svi	C		ALA-ARG-THR-LYS-GLN-THR-ALA-ARG
-5svi	D		ALA-ARG-THR-LYS-GLN-THR-ALA-ARG
-5svi	A	Q14149	MORC family CW-type zinc finger protein 3
+5svi	C	NA	ALA-ARG-THR-LYS-GLN-THR-ALA-ARG
+5svi	D	NA	ALA-ARG-THR-LYS-GLN-THR-ALA-ARG
 5svi	B	A0A0P6K566	MORC family CW-type zinc finger protein 3
+5svi	A	Q14149	MORC family CW-type zinc finger protein 3
 5svx	B	P68431	Histone H3.1
 5svx	A	Q14149	MORC family CW-type zinc finger protein 3
 5svy	B	P68431	Histone H3.1
@@ -6699,8 +6699,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5t1i	B	Q13185	Chromobox protein homolog 3
 5t1i	C	P68431	Histone H3.1
 5t5g	A	Q9NQR1	N-lysine methyltransferase KMT5A
-5t5k	I		DNA (90-MER)
-5t5k	J		DNA (90-MER)
+5t5k	I	NA	DNA (90-MER)
+5t5k	J	NA	DNA (90-MER)
 5t5k	A	P19267	DNA-binding protein HMf-2
 5t5k	B	P19267	DNA-binding protein HMf-2
 5t5k	C	P19267	DNA-binding protein HMf-2
@@ -6819,17 +6819,17 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5u62	B	O75530	Polycomb protein EED
 5u7g	A	P45481	CREB-binding protein
 5u7g	B	P45481	CREB-binding protein
-5ucb	H		Fab Heavy Chain
-5ucb	L		Fab Light Chain
+5ucb	H	NA	Fab Heavy Chain
+5ucb	L	NA	Fab Light Chain
 5ucb	B	P32447	Histone chaperone ASF1
-5uea	A		Fab Heavy Chain
-5uea	H		Fab Heavy Chain
-5uea	B		Fab Light Chain
-5uea	L		Fab Light Chain
+5uea	A	NA	Fab Heavy Chain
+5uea	H	NA	Fab Heavy Chain
+5uea	B	NA	Fab Light Chain
+5uea	L	NA	Fab Light Chain
 5uea	D	P32447	Histone chaperone ASF1
 5uea	X	P32447	Histone chaperone ASF1
-5uek	H		Fab 12E Heavy Chain
-5uek	L		Fab 12E Light Chain
+5uek	H	NA	Fab 12E Heavy Chain
+5uek	L	NA	Fab 12E Light Chain
 5uek	A	P32447	Histone chaperone ASF1
 5umr	A	Q08945	FACT complex subunit SSRP1
 5ums	A	Q08945	FACT complex subunit SSRP1
@@ -6856,10 +6856,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5v9j	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 5v9j	B	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
 5v9p	A	P29375	Lysine-specific demethylase 5A
-5v9p	B		Lysine-specific demethylase 5A
+5v9p	B	NA	Lysine-specific demethylase 5A
 5v9t	A	P29375	Lysine-specific demethylase 5A
 5v9t	B	P29375	Lysine-specific demethylase 5A
-5v9t	G		Lysine-specific demethylase 5A
+5v9t	G	NA	Lysine-specific demethylase 5A
 5va6	C	P68431	Histone H3.1
 5va6	D	P68431	Histone H3.1
 5va6	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
@@ -6877,10 +6877,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5vbc	D	P59226	Histone H3.2
 5vbc	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
 5vbc	B	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
-5vc8	Z		DNA (5'-D(P*CP*TP*(DN))-3')
-5vc8	W		dodeca-2-deoxy-nucleotide, poorly resolved by electron density
-5vc8	X		dodeca-2-deoxy-nucleotide, poorly resolved by electron density
-5vc8	Y		dodeca-2-deoxy-nucleotide, poorly resolved by electron density
+5vc8	Z	NA	DNA (5'-D(P*CP*TP*(DN))-3')
+5vc8	W	NA	dodeca-2-deoxy-nucleotide, poorly resolved by electron density
+5vc8	X	NA	dodeca-2-deoxy-nucleotide, poorly resolved by electron density
+5vc8	Y	NA	dodeca-2-deoxy-nucleotide, poorly resolved by electron density
 5vc8	A	O96028	Histone-lysine N-methyltransferase NSD2
 5vc8	B	O96028	Histone-lysine N-methyltransferase NSD2
 5vch	A	Q6CMF0	Kap123
@@ -6898,7 +6898,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5vgi	C	O75164	Lysine-specific demethylase 4A
 5vgi	D	O75164	Lysine-specific demethylase 4A
 5vi6	A	Q9BY41	Histone deacetylase 8
-5vi6	B		Trapoxin A
+5vi6	B	NA	Trapoxin A
 5vk3	B	G0RYC6, G0SDW4	null, null
 5vk3	A	G0S8H7	Polycomb Protein EED
 5vkl	B	P04050	DNA-directed RNA polymerase II subunit RPB1
@@ -6910,7 +6910,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5vmp	C	O75164	Lysine-specific demethylase 4A
 5vmp	D	O75164	Lysine-specific demethylase 4A
 5vs7	A	Q8IK82	Bromodomain protein, putative
-5vs7	P		H4K5ac peptide
+5vs7	P	NA	H4K5ac peptide
 5vsc	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
 5vsc	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
 5vsd	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
@@ -6987,7 +6987,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wxh	C	Q5VWG9	Transcription initiation factor TFIID subunit 3
 5wyj	3G	P39990	13 kDa ribonucleoprotein-associated protein
 5wyj	3H	P39990	13 kDa ribonucleoprotein-associated protein
-5wyj	SA		18S ribosomal RNA
+5wyj	SA	NA	18S ribosomal RNA
 5wyj	SC	P33442	40S ribosomal protein S1-A
 5wyj	SM	P0CX47	40S ribosomal protein S11-A
 5wyj	SN	P48589	40S ribosomal protein S12
@@ -7006,11 +7006,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyj	SI	P26786	40S ribosomal protein S7-A
 5wyj	SJ	P0CX39	40S ribosomal protein S8-A
 5wyj	SK	O13516	40S ribosomal protein S9-A
-5wyj	5A		5ETS RNA
-5wyj	E4		Enp2
+5wyj	5A	NA	5ETS RNA
+5wyj	E4	NA	Enp2
 5wyj	E3	P38333	Essential nuclear protein 1
-5wyj	UA		Helical domain protein
-5wyj	UB		Helical domain protein
+5wyj	UA	NA	Helical domain protein
+5wyj	UB	NA	Helical domain protein
 5wyj	K1	P25586	KRR1 small subunit processome component
 5wyj	3D	Q12460	Nucleolar protein 56
 5wyj	3E	Q12499	Nucleolar protein 58
@@ -7027,8 +7027,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyj	3C	P15646	rRNA 2'-O-methyltransferase fibrillarin
 5wyj	R2	Q05022	rRNA biogenesis protein RRP5
 5wyj	U4	Q05498	rRNA-processing protein FCF1
-5wyj	S1		Sof1
-5wyj	3A		U3 RNA
+5wyj	S1	NA	Sof1
+5wyj	3A	NA	U3 RNA
 5wyj	MA	P32899	U3 small nucleolar ribonucleoprotein protein IMP3
 5wyj	MB	P53941	U3 small nucleolar ribonucleoprotein protein IMP4
 5wyj	AE	P42945	U3 small nucleolar RNA-associated protein 10
@@ -7039,19 +7039,19 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyj	CB	P53254	U3 small nucleolar RNA-associated protein 22
 5wyj	MC	P47083	U3 small nucleolar RNA-associated protein MPP10
 5wyj	Sg	P05759	Ubiquitin-40S ribosomal protein S31
-5wyj	UC		Unassigned helices
-5wyj	U2		Utp11
-5wyj	AF		Utp15
-5wyj	AG		Utp17
-5wyj	U3		Utp20
-5wyj	AA		Utp4
-5wyj	AB		Utp5
-5wyj	U1		Utp7
-5wyj	AC		Utp8
-5wyj	AD		Utp9
+5wyj	UC	NA	Unassigned helices
+5wyj	U2	NA	Utp11
+5wyj	AF	NA	Utp15
+5wyj	AG	NA	Utp17
+5wyj	U3	NA	Utp20
+5wyj	AA	NA	Utp4
+5wyj	AB	NA	Utp5
+5wyj	U1	NA	Utp7
+5wyj	AC	NA	Utp8
+5wyj	AD	NA	Utp9
 5wyk	3G	P39990	13 kDa ribonucleoprotein-associated protein
 5wyk	3H	P39990	13 kDa ribonucleoprotein-associated protein
-5wyk	SA		18S ribosomal RNA
+5wyk	SA	NA	18S ribosomal RNA
 5wyk	SC	P33442	40S ribosomal protein S1-A
 5wyk	SM	P0CX47	40S ribosomal protein S11-A
 5wyk	SO	P05756	40S ribosomal protein S13
@@ -7068,10 +7068,10 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyk	SI	P26786	40S ribosomal protein S7-A
 5wyk	SJ	P0CX39	40S ribosomal protein S8-A
 5wyk	SK	O13516	40S ribosomal protein S9-A
-5wyk	5A		5ETS RNA
-5wyk	E4		Enp2
-5wyk	UA		Helical domain protein
-5wyk	UB		Helical domain protein
+5wyk	5A	NA	5ETS RNA
+5wyk	E4	NA	Enp2
+5wyk	UA	NA	Helical domain protein
+5wyk	UB	NA	Helical domain protein
 5wyk	K1	P25586	KRR1 small subunit processome component
 5wyk	3D	Q12460	Nucleolar protein 56
 5wyk	3E	Q12499	Nucleolar protein 58
@@ -7087,8 +7087,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyk	3B	P15646	rRNA 2'-O-methyltransferase fibrillarin
 5wyk	3C	P15646	rRNA 2'-O-methyltransferase fibrillarin
 5wyk	U4	Q05498	rRNA-processing protein FCF1
-5wyk	S1		Sof1
-5wyk	3A		U3 RNA
+5wyk	S1	NA	Sof1
+5wyk	3A	NA	U3 RNA
 5wyk	MA	P32899	U3 small nucleolar ribonucleoprotein protein IMP3
 5wyk	MB	P53941	U3 small nucleolar ribonucleoprotein protein IMP4
 5wyk	AE	P42945	U3 small nucleolar RNA-associated protein 10
@@ -7098,17 +7098,17 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5wyk	BE	Q06078	U3 small nucleolar RNA-associated protein 21
 5wyk	CB	P53254	U3 small nucleolar RNA-associated protein 22
 5wyk	MC	P47083	U3 small nucleolar RNA-associated protein MPP10
-5wyk	UC		Unassigned helices
-5wyk	U2		Utp11
-5wyk	AF		Utp15
-5wyk	AG		Utp17
-5wyk	AA		Utp4
-5wyk	AB		Utp5
-5wyk	U1		Utp7
-5wyk	AC		Utp8
-5wyk	AD		Utp9
-5x0x	I		DNA (167-MER)
-5x0x	J		DNA (167-MER)
+5wyk	UC	NA	Unassigned helices
+5wyk	U2	NA	Utp11
+5wyk	AF	NA	Utp15
+5wyk	AG	NA	Utp17
+5wyk	AA	NA	Utp4
+5wyk	AB	NA	Utp5
+5wyk	U1	NA	Utp7
+5wyk	AC	NA	Utp8
+5wyk	AD	NA	Utp9
+5x0x	I	NA	DNA (167-MER)
+5x0x	J	NA	DNA (167-MER)
 5x0x	C	P06897	Histone H2A type 1
 5x0x	G	P06897	Histone H2A type 1
 5x0x	D	P02281	Histone H2B 1.1
@@ -7118,8 +7118,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5x0x	B	P62799	Histone H4
 5x0x	F	P62799	Histone H4
 5x0x	O	P22082	Transcription regulatory protein SNF2
-5x0y	I		DNA (167-MER)
-5x0y	J		DNA (167-MER)
+5x0y	I	NA	DNA (167-MER)
+5x0y	J	NA	DNA (167-MER)
 5x0y	C	P06897	Histone H2A type 1
 5x0y	G	P06897	Histone H2A type 1
 5x0y	D	P02281	Histone H2B 1.1
@@ -7138,8 +7138,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5x7v	D	Q9Y010	Nucleosome assembly protein
 5x7v	E	Q9Y010	Nucleosome assembly protein
 5x7v	F	Q9Y010	Nucleosome assembly protein
-5x7x	I		DNA (146-MER)
-5x7x	J		DNA (146-MER)
+5x7x	I	NA	DNA (146-MER)
+5x7x	J	NA	DNA (146-MER)
 5x7x	C	P04908	Histone H2A type 1-B/E
 5x7x	G	P04908	Histone H2A type 1-B/E
 5x7x	D	P06899	Histone H2B type 1-J
@@ -7157,8 +7157,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xbk	B	Q8TEX9	Importin-4
 5xbk	C	Q8TEX9	Importin-4
 5xbk	D	Q8TEX9	Importin-4
-5xf3	I		DNA (145-MER)
-5xf3	J		DNA (145-MER)
+5xf3	I	NA	DNA (145-MER)
+5xf3	J	NA	DNA (145-MER)
 5xf3	C	P04908	Histone H2A type 1-B/E
 5xf3	G	P04908	Histone H2A type 1-B/E
 5xf3	D	P06899	Histone H2B type 1-J
@@ -7167,8 +7167,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xf3	E	P68431	Histone H3.1
 5xf3	B	P62805	Histone H4
 5xf3	F	P62805	Histone H4
-5xf4	I		DNA (145-MER)
-5xf4	J		DNA (145-MER)
+5xf4	I	NA	DNA (145-MER)
+5xf4	J	NA	DNA (145-MER)
 5xf4	C	P04908	Histone H2A type 1-B/E
 5xf4	G	P04908	Histone H2A type 1-B/E
 5xf4	D	P06899	Histone H2B type 1-J
@@ -7177,8 +7177,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xf4	E	P68431	Histone H3.1
 5xf4	B	P62805	Histone H4
 5xf4	F	P62805	Histone H4
-5xf5	I		DNA (145-MER)
-5xf5	J		DNA (145-MER)
+5xf5	I	NA	DNA (145-MER)
+5xf5	J	NA	DNA (145-MER)
 5xf5	C	P04908	Histone H2A type 1-B/E
 5xf5	G	P04908	Histone H2A type 1-B/E
 5xf5	D	P06899	Histone H2B type 1-J
@@ -7187,8 +7187,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xf5	E	P68431	Histone H3.1
 5xf5	B	P62805	Histone H4
 5xf5	F	P62805	Histone H4
-5xf6	I		DNA (145-MER)
-5xf6	J		DNA (145-MER)
+5xf6	I	NA	DNA (145-MER)
+5xf6	J	NA	DNA (145-MER)
 5xf6	C	P06897	Histone H2A type 1
 5xf6	G	P06897	Histone H2A type 1
 5xf6	D	P02281	Histone H2B 1.1
@@ -7197,20 +7197,20 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xf6	E	P84233	Histone H3.2
 5xf6	B	P62799	Histone H4
 5xf6	F	P62799	Histone H4
-5xfq	C		DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
-5xfq	D		DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
+5xfq	C	NA	DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
+5xfq	D	NA	DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
 5xfq	E	P68431	Histone H3.1
 5xfq	F	P68431	Histone H3.1
 5xfq	A	Q9Z1B8	PHD finger protein 1
 5xfq	B	Q9Z1B8	PHD finger protein 1
-5xfr	E		DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
-5xfr	F		DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
+5xfr	E	NA	DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
+5xfr	F	NA	DNA (5'-D(*GP*GP*GP*CP*GP*GP*CP*CP*GP*CP*CP*CP*T)-3')
 5xfr	C	P68431	Histone H3.1
 5xfr	D	P68431	Histone H3.1
 5xfr	A	Q9Y483	Metal-response element-binding transcription factor 2
 5xfr	B	Q9Y483	Metal-response element-binding transcription factor 2
-5xm0	I		DNA (146-MER)
-5xm0	J		DNA (146-MER)
+5xm0	I	NA	DNA (146-MER)
+5xm0	J	NA	DNA (146-MER)
 5xm0	C	C0HKE1	Histone H2A type 1-B
 5xm0	G	C0HKE1	Histone H2A type 1-B
 5xm0	D	Q9D2U9	Histone H2B type 3-A
@@ -7219,8 +7219,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xm0	E	P84244	Histone H3.3
 5xm0	B	P62806	Histone H4
 5xm0	F	P62806	Histone H4
-5xm1	I		DNA (146-MER)
-5xm1	J		DNA (146-MER)
+5xm1	I	NA	DNA (146-MER)
+5xm1	J	NA	DNA (146-MER)
 5xm1	C	C0HKE1	Histone H2A type 1-B
 5xm1	G	C0HKE1	Histone H2A type 1-B
 5xm1	D	Q9D2U9	Histone H2B type 3-A
@@ -7233,23 +7233,23 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5xm2	B	Q9Y5B9	FACT complex subunit SPT16
 5xnv	B	P68431	Histone H3.1
 5xnv	A	Q9ULM3	YEATS domain-containing protein 2
-5xtz	E		THR-LYS-ALA-ALA-ARG-ALY-SER-ALA-PRO-ALA
+5xtz	E	NA	THR-LYS-ALA-ALA-ARG-ALY-SER-ALA-PRO-ALA
 5xtz	A	O95619	YEATS domain-containing protein 4
 5xtz	B	O95619	YEATS domain-containing protein 4
 5xtz	C	O95619	YEATS domain-containing protein 4
 5xtz	D	O95619	YEATS domain-containing protein 4
 5xwr	A	Q09028	Histone-binding protein RBBP4
 5xwr	B	Q09028	Histone-binding protein RBBP4
-5xwr	C		MET-SER-ARG-ARG-LYS-GLN-ALA-LYS-PRO-GLN-HIS-ILE
-5xwr	D		MET-SER-ARG-ARG-LYS-GLN-ALA-LYS-PRO-GLN-HIS-ILE
-5xxg	A		SMYD3
-5xxj	A		SMYD3
+5xwr	C	NA	MET-SER-ARG-ARG-LYS-GLN-ALA-LYS-PRO-GLN-HIS-ILE
+5xwr	D	NA	MET-SER-ARG-ARG-LYS-GLN-ALA-LYS-PRO-GLN-HIS-ILE
+5xxg	A	NA	SMYD3
+5xxj	A	NA	SMYD3
 5xxq	A	Q09028	Histone-binding protein RBBP4
 5xxq	B	Q09028	Histone-binding protein RBBP4
-5xxq	C		Zinc finger protein 827
-5xxq	D		Zinc finger protein 827
-5y0c	I		DNA (146-MER)
-5y0c	J		DNA (146-MER)
+5xxq	C	NA	Zinc finger protein 827
+5xxq	D	NA	Zinc finger protein 827
+5y0c	I	NA	DNA (146-MER)
+5y0c	J	NA	DNA (146-MER)
 5y0c	C	P04908	Histone H2A type 1-B/E
 5y0c	G	P04908	Histone H2A type 1-B/E
 5y0c	D	P06899	Histone H2B type 1-J
@@ -7258,8 +7258,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5y0c	E	P68431	Histone H3.1
 5y0c	B	P62805	Histone H4
 5y0c	F	P62805	Histone H4
-5y0d	I		DNA (146-MER)
-5y0d	J		DNA (146-MER)
+5y0d	I	NA	DNA (146-MER)
+5y0d	J	NA	DNA (146-MER)
 5y0d	C	P04908	Histone H2A type 1-B/E
 5y0d	G	P04908	Histone H2A type 1-B/E
 5y0d	D	P06899	Histone H2B type 1-J
@@ -7280,9 +7280,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5y26	B	C6Y4D0	Putative transcription factor C16C4.22
 5y27	A	P87174	DNA polymerase epsilon subunit D
 5y27	B	C6Y4D0	Putative transcription factor C16C4.22
-5y5w	E		Histone peptide H4K20(me3)
-5y5w	F		Histone peptide H4K20(me3)
-5y5w	G		Histone peptide H4K20(me3)
+5y5w	E	NA	Histone peptide H4K20(me3)
+5y5w	F	NA	Histone peptide H4K20(me3)
+5y5w	G	NA	Histone peptide H4K20(me3)
 5y5w	A	Q9Y657	Spindlin-1
 5y5w	B	Q9Y657	Spindlin-1
 5y5w	C	Q9Y657	Spindlin-1
@@ -7301,7 +7301,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5y81	C	Q06337	Chromatin modification-related protein EAF1
 5y81	E	Q06337	Chromatin modification-related protein EAF1
 5y81	H	P39995	Chromatin modification-related protein EAF5
-5y81	D		Eaf1-disorder domain
+5y81	D	NA	Eaf1-disorder domain
 5y81	A	P38811	Transcription-associated protein 1
 5y81	B	P38811	Transcription-associated protein 1
 5y8v	A	O95619	YEATS domain-containing protein 4
@@ -7311,15 +7311,15 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5y95	A	Q62141	Paired amphipathic helix protein Sin3b
 5yc4	P	P59226	Histone H3.2
 5yc4	A	Q9M2B4	PHD finger protein ALFIN-LIKE 3
-5ye3	A		2A7D9 L chain
-5ye3	B		2A7D9 VH CH1 chain
-5ye3	C		di-acetylated histone H4
-5ye4	B		1A9D7 L chain
-5ye4	D		1A9D7 L chain
-5ye4	A		1A9D7 VH CH1 chain
-5ye4	C		1A9D7 VH CH1 chain
-5ye4	E		di-acetylated histone H4
-5ye4	F		di-acetylated histone H4
+5ye3	A	NA	2A7D9 L chain
+5ye3	B	NA	2A7D9 VH CH1 chain
+5ye3	C	NA	di-acetylated histone H4
+5ye4	B	NA	1A9D7 L chain
+5ye4	D	NA	1A9D7 L chain
+5ye4	A	NA	1A9D7 VH CH1 chain
+5ye4	C	NA	1A9D7 VH CH1 chain
+5ye4	E	NA	di-acetylated histone H4
+5ye4	F	NA	di-acetylated histone H4
 5yjb	A	O60341	Lysine-specific histone demethylase 1A
 5yjb	B	Q9UKL0	REST corepressor 1
 5yje	A	P54198	Protein HIRA
@@ -7335,8 +7335,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 5yug	G	Q8W4L5	B3 domain-containing transcription repressor VAL1
 5yvx	C	P59226	Histone H3.2
 5yvx	A	Q2LAE1	Histone-lysine N-methyltransferase ASHH2
-5z30	I		DNA (146-MER)
-5z30	J		DNA (146-MER)
+5z30	I	NA	DNA (146-MER)
+5z30	J	NA	DNA (146-MER)
 5z30	C	P0C0S5	Histone H2A.Z
 5z30	G	P0C0S5	Histone H2A.Z
 5z30	D	P06899	Histone H2B type 1-J
@@ -7409,23 +7409,23 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6axj	B	P53930	Protein AF-9 homolog
 6axj	C	P53930	Protein AF-9 homolog
 6axj	D	P53930	Protein AF-9 homolog
-6ayz	B		Fab Heavy Chain
-6ayz	R		Fab Heavy Chain
-6ayz	C		Fab Light Chain
-6ayz	D		Fab Light Chain
+6ayz	B	NA	Fab Heavy Chain
+6ayz	R	NA	Fab Heavy Chain
+6ayz	C	NA	Fab Light Chain
+6ayz	D	NA	Fab Light Chain
 6ayz	A	P32447	Histone chaperone ASF1
 6ayz	M	P32447	Histone chaperone ASF1
-6az2	A		Fab Heavy Chain
-6az2	C		Fab Heavy Chain
-6az2	E		Fab Light Chain
-6az2	F		Fab Light Chain
+6az2	A	NA	Fab Heavy Chain
+6az2	C	NA	Fab Heavy Chain
+6az2	E	NA	Fab Light Chain
+6az2	F	NA	Fab Light Chain
 6az2	B	P32447	Histone chaperone ASF1
 6az2	D	P32447	Histone chaperone ASF1
 6b0u	A	P9WFK7	N-acetyltransferase Eis
 6b0u	B	P9WFK7	N-acetyltransferase Eis
 6b0u	C	P9WFK7	N-acetyltransferase Eis
-6b0u	D		Synthetic peptide ATKAPAKKA
-6b0u	E		Synthetic peptide ATKAPAKKA
+6b0u	D	NA	Synthetic peptide ATKAPAKKA
+6b0u	E	NA	Synthetic peptide ATKAPAKKA
 6b1t	A	P04133	Hexon protein
 6b1t	B	P04133	Hexon protein
 6b1t	C	P04133	Hexon protein
@@ -7492,9 +7492,9 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6bp4	A	O60016	Histone-lysine N-methyltransferase, H3 lysine-9 specific
 6bp4	B	O60016	Histone-lysine N-methyltransferase, H3 lysine-9 specific
 6bpi	A	Q15047	Histone-lysine N-methyltransferase SETDB1
-6bpi	B		MLY-SER-THR-E2G
-6buz	I		DNA (147-MER)
-6buz	J		DNA (147-MER)
+6bpi	B	NA	MLY-SER-THR-E2G
+6buz	I	NA	DNA (147-MER)
+6buz	J	NA	DNA (147-MER)
 6buz	C	P04908	Histone H2A type 1-B/E
 6buz	G	P04908	Histone H2A type 1-B/E
 6buz	D	P06899	Histone H2B type 1-J
@@ -7528,8 +7528,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6byh	A	P63208	S-phase kinase-associated protein 1
 6byh	B	P63208	S-phase kinase-associated protein 1
 6byh	G	P63208	S-phase kinase-associated protein 1
-6c0w	I		147 mer DNA
-6c0w	J		147 mer DNA
+6c0w	I	NA	147 mer DNA
+6c0w	J	NA	147 mer DNA
 6c0w	K	Q96H22	Centromere protein N
 6c0w	C	Q93077	Histone H2A type 1-C
 6c0w	G	Q93077	Histone H2A type 1-C
@@ -7548,26 +7548,26 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6c23	N	Q09028	Histone-binding protein RBBP4
 6c23	C	Q15910	Histone-lysine N-methyltransferase EZH2
 6c23	K	Q15910	Histone-lysine N-methyltransferase EZH2
-6c23	O		JARID2-substrate
+6c23	O	NA	JARID2-substrate
 6c23	L	O75530	Polycomb protein EED
 6c23	A	Q15022	Polycomb protein SUZ12
 6c23	M	Q15022	Polycomb protein SUZ12
 6c23	Q	Q15022	Polycomb protein SUZ12
 6c23	B	Q92833	Protein Jumonji
 6c23	E	Q92833	Protein Jumonji
-6c23	Z		SUZ12
+6c23	Z	NA	SUZ12
 6c23	P	Q6ZN18	Zinc finger protein AEBP2
 6c24	N	Q09028	Histone-binding protein RBBP4
 6c24	C	Q15910	Histone-lysine N-methyltransferase EZH2
 6c24	K	Q15910	Histone-lysine N-methyltransferase EZH2
-6c24	O		JARID2-substrate
+6c24	O	NA	JARID2-substrate
 6c24	L	O75530	Polycomb protein EED
 6c24	A	Q15022	Polycomb protein SUZ12
 6c24	M	Q15022	Polycomb protein SUZ12
 6c24	Q	Q15022	Polycomb protein SUZ12
 6c24	B	Q92833	Protein Jumonji
 6c24	E	Q92833	Protein Jumonji
-6c24	Z		SUZ12
+6c24	Z	NA	SUZ12
 6c24	P	Q6ZN18	Zinc finger protein AEBP2
 6cbx	A	Q9NRG4	N-lysine methyltransferase SMYD2
 6cbx	B	Q9NRG4	N-lysine methyltransferase SMYD2
@@ -7580,7 +7580,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6ced	A	Q9UBN7	Histone deacetylase 6
 6cee	A	Q9UBN7	Histone deacetylase 6
 6cef	A	Q9UBN7	Histone deacetylase 6
-6cen	D		ACE-GLY-VAL-NLE-ARG-ILE-NH2
+6cen	D	NA	ACE-GLY-VAL-NLE-ARG-ILE-NH2
 6cen	A	Q9BZ95	Histone-lysine N-methyltransferase NSD3
 6cg1	A	O75164	Lysine-specific demethylase 4A
 6cg1	B	O75164	Lysine-specific demethylase 4A
@@ -7591,7 +7591,7 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6cg2	C	O75164	Lysine-specific demethylase 4A
 6cg2	D	O75164	Lysine-specific demethylase 4A
 6cgp	A	A7YT55	Hdac6 protein
-6chg	J		H3
+6chg	J	NA	H3
 6chg	C	Q6CIT4	Histone-lysine N-methyltransferase, H3 lysine-4 specific
 6chg	D	Q6CXF3	KLLA0A08800p
 6chg	B	Q6CTQ1	KLLA0C10945p
@@ -7639,8 +7639,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6ej1	A	Q9UGL1	Lysine-specific demethylase 5B
 6ek6	A	Q9UGL1	Lysine-specific demethylase 5B
 6emq	A	O75475, Q03164	O75475:, PC4 and SFRS1-interacting protein, Q03164:, Histone-lysine N-methyltransferase 2A
-6esf	I		DNA (147-MER)
-6esf	J		DNA (147-MER)
+6esf	I	NA	DNA (147-MER)
+6esf	J	NA	DNA (147-MER)
 6esf	C	Q6AZJ8	Histone H2A
 6esf	G	Q6AZJ8	Histone H2A
 6esf	D	P02281	Histone H2B 1.1
@@ -7649,8 +7649,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6esf	E	P84233	Histone H3.2
 6esf	B	P62799	Histone H4
 6esf	F	P62799	Histone H4
-6esg	I		DNA (141-MER)
-6esg	J		DNA (141-MER)
+6esg	I	NA	DNA (141-MER)
+6esg	J	NA	DNA (141-MER)
 6esg	C	Q6AZJ8	Histone H2A
 6esg	G	Q6AZJ8	Histone H2A
 6esg	D	P02281	Histone H2B 1.1
@@ -7659,8 +7659,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6esg	E	P84233	Histone H3.2
 6esg	B	P62799	Histone H4
 6esg	F	P62799	Histone H4
-6esh	I		DNA (137-MER)
-6esh	J		DNA (137-MER)
+6esh	I	NA	DNA (137-MER)
+6esh	J	NA	DNA (137-MER)
 6esh	C	Q6AZJ8	Histone H2A
 6esh	G	Q6AZJ8	Histone H2A
 6esh	D	P02281	Histone H2B 1.1
@@ -7669,8 +7669,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6esh	E	P84233	Histone H3.2
 6esh	B	P62799	Histone H4
 6esh	F	P62799	Histone H4
-6esi	I		DNA (133-MER)
-6esi	J		DNA (133-MER)
+6esi	I	NA	DNA (133-MER)
+6esi	J	NA	DNA (133-MER)
 6esi	C	Q6AZJ8	Histone H2A
 6esi	G	Q6AZJ8	Histone H2A
 6esi	D	P02281	Histone H2B 1.1
@@ -7680,8 +7680,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6esi	B	P62799	Histone H4
 6esi	F	P62799	Histone H4
 6etx	H	Q9H9F9	Actin-related protein 5
-6etx	X		DNA (142-MER)
-6etx	Y		DNA (142-MER)
+6etx	X	NA	DNA (142-MER)
+6etx	Y	NA	DNA (142-MER)
 6etx	G	Q9ULG1	DNA helicase INO80
 6etx	K	P04908	Histone H2A type 1-B/E
 6etx	O	P04908	Histone H2A type 1-B/E
@@ -7702,17 +7702,17 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6f0y	A	P32447	Histone chaperone ASF1
 6fgn	A	Q09472, Q9H3D4	Q09472:, Histone acetyltransferase p300, Q9H3D4:, Tumor protein 63
 6fgs	A	O15350, Q09472	O15350:, Tumor protein p73, Q09472:, Histone acetyltransferase p300
-6fhu	F		ALA-ARG-TAM
-6fhu	G		ALA-ARG-TAM
-6fhu	H		ALA-ARG-TAM
+6fhu	F	NA	ALA-ARG-TAM
+6fhu	G	NA	ALA-ARG-TAM
+6fhu	H	NA	ALA-ARG-TAM
 6fhu	A	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fhu	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fhu	C	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fhu	D	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fic	T	P21675	Transcription initiation factor TFIID subunit 1
-6fkp	E		ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
-6fkp	F		ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
-6fkp	G		ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
+6fkp	E	NA	ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
+6fkp	F	NA	ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
+6fkp	G	NA	ALA-ARG-THR-ALA-ALA-THR-ALA-ARG
 6fkp	A	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fkp	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
 6fkp	C	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
@@ -7727,20 +7727,20 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6fml	N	P62805	Histone H4
 6fml	R	P62805	Histone H4
 6fml	I	G0S590	Ies6
-6fml	G		Ino80
+6fml	G	NA	Ino80
 6fml	H	G0RY01	les2
-6fml	K		Nucleosomal DNA Strand 1
-6fml	L		Nucleosomal DNA Strand 2
-6fml	A	G0RYI5	RuvB-like helicase
-6fml	B	G0RYI5	RuvB-like helicase
-6fml	C	G0RYI5	RuvB-like helicase
+6fml	K	NA	Nucleosomal DNA Strand 1
+6fml	L	NA	Nucleosomal DNA Strand 2
 6fml	D	G0RYC2	RuvB-like helicase
 6fml	E	G0RYC2	RuvB-like helicase
 6fml	F	G0RYC2	RuvB-like helicase
+6fml	A	G0RYI5	RuvB-like helicase
+6fml	B	G0RYI5	RuvB-like helicase
+6fml	C	G0RYI5	RuvB-like helicase
 6fnx	A	O60885	Bromodomain-containing protein 4
 6fo5	A	O60885	Bromodomain-containing protein 4
-6fq5	I		DNA (147-MER)
-6fq5	J		DNA (147-MER)
+6fq5	I	NA	DNA (147-MER)
+6fq5	J	NA	DNA (147-MER)
 6fq5	C	P06897	Histone H2A type 1
 6fq5	G	P06897	Histone H2A type 1
 6fq5	D	P02281	Histone H2B 1.1
@@ -7749,8 +7749,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6fq5	E	P84233	Histone H3.2
 6fq5	B	P62799	Histone H4
 6fq5	F	P62799	Histone H4
-6fq6	I		DNA (147-MER)
-6fq6	J		DNA (147-MER)
+6fq6	I	NA	DNA (147-MER)
+6fq6	J	NA	DNA (147-MER)
 6fq6	C	P06897	Histone H2A type 1
 6fq6	G	P06897	Histone H2A type 1
 6fq6	D	P02281	Histone H2B 1.1
@@ -7759,8 +7759,8 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6fq6	E	P84233	Histone H3.2
 6fq6	B	P62799	Histone H4
 6fq6	F	P62799	Histone H4
-6fq8	I		DNA (147-MER)
-6fq8	J		DNA (147-MER)
+6fq8	I	NA	DNA (147-MER)
+6fq8	J	NA	DNA (147-MER)
 6fq8	C	P06897	Histone H2A type 1
 6fq8	G	P06897	Histone H2A type 1
 6fq8	D	P02281	Histone H2B 1.1
@@ -7769,13 +7769,13 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6fq8	E	P02302	Histone H3.3C
 6fq8	B	P62799	Histone H4
 6fq8	F	P62799	Histone H4
-6fqc	E		ALA-ALA-ALA-ALA-ALA-ALA
-6fqc	D		ALA-ALA-ALA-SER-ALA-ALA-ALA
+6fqc	E	NA	ALA-ALA-ALA-ALA-ALA-ALA
+6fqc	D	NA	ALA-ALA-ALA-SER-ALA-ALA-ALA
 6fqc	A	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
 6fqc	B	Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
-6ftx	W		Chromatin-remodeling ATPase
-6ftx	I		DNA (159-MER)
-6ftx	J		DNA (160-MER)
+6ftx	W	NA	Chromatin-remodeling ATPase
+6ftx	I	NA	DNA (159-MER)
+6ftx	J	NA	DNA (160-MER)
 6ftx	C	P06897	Histone H2A type 1
 6ftx	G	P06897	Histone H2A type 1
 6ftx	D	F6TNY0	Histone H2B
@@ -7790,16 +7790,16 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6fy5	B	Q9P0M6	Core histone macro-H2A.2
 6g0l	M	P32657	Chromo domain-containing protein 1
 6g0l	W	P32657	Chromo domain-containing protein 1
-6g0l	I		DNA (176-MER)
-6g0l	J		DNA (177-MER)
+6g0l	I	NA	DNA (176-MER)
+6g0l	J	NA	DNA (177-MER)
 6g0l	C	P06897	Histone H2A type 1
 6g0l	G	P06897	Histone H2A type 1
 6g0l	A	Q92133	Histone H3
 6g0l	E	Q92133	Histone H3
-6g0l	B	P62799	Histone H4
 6g0l	D	A0A1L8G0X3	Histone H4
-6g0l	F	P62799	Histone H4
 6g0l	H	A0A1L8G0X3	Histone H4
+6g0l	B	P62799	Histone H4
+6g0l	F	P62799	Histone H4
 6g16	A	Q09028	Histone-binding protein RBBP4
 6g16	C	Q09028	Histone-binding protein RBBP4
 6g16	E	Q09028	Histone-binding protein RBBP4
@@ -7813,12 +7813,12 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6g3o	C	Q92769	Histone deacetylase 2
 6gme	A	Q7KZ85	Transcription elongation factor SPT6
 6gme	B	Q7KZ85	Transcription elongation factor SPT6
-6gmh	X		CDC73
+6gmh	X	NA	CDC73
 6gmh	I	P60899	DNA-directed RNA polymerase II subunit RPB9
 6gmh	B	I3LGP4	DNA-directed RNA polymerase subunit beta
 6gmh	H	I3LCB2	DNA-directed RNA polymerases I, II, and III subunit RPABC3
-6gmh	N		Non-template DNA
-6gmh	P		RNA
+6gmh	N	NA	Non-template DNA
+6gmh	P	NA	RNA
 6gmh	C	I3LCH3	RNA polymerase II subunit C
 6gmh	D	A0A287ADR4	RNA polymerase II subunit D
 6gmh	E	I3LSI7	RNA polymerase II subunit E
@@ -7827,11 +7827,11 @@ pdb id	Chain ID	Uniprot Acc	Uniprot Recommended Name
 6gmh	V	Q8N7H5	RNA polymerase II-associated factor 1 homolog
 6gmh	Q	Q6PD62	RNA polymerase-associated protein CTR9 homolog
 6gmh	U	Q8WVC0	RNA polymerase-associated protein LEO1
-6gmh	A		RPB1
-6gmh	J		RPB10
+6gmh	A	NA	RPB1
+6gmh	J	NA	RPB10
 6gmh	K	F1RKE4	RPB11
 6gmh	L	I3LN51	RPB12
-6gmh	T		Template DNA
+6gmh	T	NA	Template DNA
 6gmh	Y	P63272	Transcription elongation factor SPT4
 6gmh	Z	O00267	Transcription elongation factor SPT5
 6gmh	M	Q7KZ85	Transcription elongation factor SPT6
