@@ -1,8 +1,7 @@
 
 # coding: utf-8
 
-# In[3]:
-
+# In[7]:
 
 
 #NOTES:
@@ -13,18 +12,19 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[4]:
+# In[8]:
 
 
 #!/usr/bin/env python 3
 import re
 
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "../data/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[5]:
+# In[9]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[6]:
+# In[10]:
 
 
 #PARAMETERS:
@@ -80,10 +80,10 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'h5#'
                     
             else:
-                typeCount[0] += 'some histone'
+                typeCount[0] += 'some histone#'
 
 
-# In[7]:
+# In[11]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[8]:
+# In[12]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[18]:
+# In[13]:
 
 
 #PARAMETERS:
@@ -256,18 +256,18 @@ def get_chain_dictionaries(cFile, dictionary):
                     dictionary[structure][chain] = dictionary[structure][chain] + '0' #!!!!!! 
 
 
-# In[19]:
+# In[14]:
 
 
 #PARAMETERS:
 #interfaceFiles is a list of strings containing names of interface files
 #chainDictionary is a dictionary produced by 'get_chain_dictionaries'
-#interfaceDictonary is a nested dictionary with the innermost dict being interfaceDictionary['uniprotPair'] = {}
-#Example: 'P84233@P62799': {'44': ['$A#P84233#Histone H3.2#h3#1@B#P62799#Histone H4#h4#1$E#P84233#Histone H3.2#h3#1@F#P62799#Histone H4#h4#1', 17]
-#note that data of a chain is separated by #!!!!!!!!
+#interfaceDictonary is a nested dictionary with the innermost dict being interfaceDictionary['uniprotPair'] = {}, where the values are lists of the next form [chain pair data, residue number, pdb IDs] 
+#Example: 'P84233@P62799': {'44': ['A#P84233#Histone H3.2#h3#1@B#P62799#Histone H4#h4#1$E#P84233#Histone H3.2#h3#1@F#P62799#Histone H4#h4#1', 17, '1zla$q5cl']
+#note that data fields of a chain is separated by #, @ separates chains binding partner chains, $ separates chain pairs and pdb structures
 
 
-def residue_frequency(interfaceFiles, chainDictionary, interfaceDictionary):
+def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
     for file in interfaceFiles:
         pdb = file.split('/')[-1].split('_', 1)[0] 
         
@@ -278,7 +278,7 @@ def residue_frequency(interfaceFiles, chainDictionary, interfaceDictionary):
                 for line in ifh:
                     lineFields = line.split('\t', 6) #gets only the first 8 columns !!!
 
-                    chain1 = lineFields[0].split('_', 1)[0] # split treats biologica assembly chains as separate chains ???
+                    chain1 = lineFields[0].split('_', 1)[0] # the split part treats biological assembly chains as separate chains ???
                     chain2 = lineFields[4].split('_', 1)[0]
 
                     residue1 = lineFields[2]
@@ -300,9 +300,12 @@ def residue_frequency(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
                                 interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
-
+                                
+                                if(pdb not in interfaceDictionary[uniprotPair1][residue1][2]):
+                                    interfaceDictionary[uniprotPair1][residue1][2] += '$' + pdb
+                                   
                         else:
-                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1]           
+                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict        
 
                     elif(uniprotPair2 in interfaceDictionary):
 
@@ -312,21 +315,89 @@ def residue_frequency(interfaceFiles, chainDictionary, interfaceDictionary):
                             if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
                                 interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                        
 
+                                if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
+                                    interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
+                                    
                         else:
-                            interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1]
+                            interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]
 
                     else:
-                         interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1]}  
+                         interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]}  
+                            
         except IOError:
             #print("Error: " + interfaceFile + " does not appear to exist.")
             pass
 
 
-# In[20]:
+# In[15]:
+
+
+def normalize_count(interfaceDictionary):
+    
+    for pair in interfaceDictionary:
+        
+        for residue in interfaceDictionary[pair]:
+            pdbCount = len(interfaceDictionary[pair][residue][2].split('$'))
+            interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
+
+
+# In[25]:
+
+
+def average_histones(interfaceDictionary):
+    
+    avgDict = {}
+    avgDict['type'] = {}
+
+    for pair in interfaceDictionary:
+        
+        for residue in interfaceDictionary[pair]:                           
+            targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('#')
+            sourceFields = interfaceDictionary[pair][residue][0].split('@')[-1].split('#')
+            
+            if(targetFields[-2] != 'other'):
+                histoneType = targetFields[3]
+                normalizedCount = interfaceDictionary[pair][residue][3]
+                
+                if(histoneType in avgDict):
+                    
+                    if(residue in avgDict[histoneType]):
+                        avgDict[histoneType][residue] += normalizedCount
+                    
+                    else:
+                        avgDict[histoneType][residue] = normalizedCount
+                        
+                else:
+                    avgDict[histoneType] = {residue : normalizedCount}
+                    
+            elif(sourceFields[-2] != 'other'):
+                histoneType = sourceFields[3]
+                normalizedCount = interfaceDictionary[pair][residue][3]
+                
+                if(histoneType in avgDict):
+                    
+                    if(residue in avgDict[histoneType]):
+                        avgDict[histoneType][residue] += normalizedCount
+                    
+                    else:
+                        avgDict[histoneType][residue] = normalizedCount
+                        
+                else:
+                    avgDict[histoneType] = {residue : normalizedCount}
+    
+    return avgDict
+
+
+# In[ ]:
+
+
+def sum_contacts(interfaceDictionary):
+
+
+# In[26]:
 
 
 def main():
-    print('hmmm')
     chainDictionary = {}
     chainDictionary['chain'] = {}
     
@@ -338,13 +409,20 @@ def main():
     interfaceDictionary = {}
     interfaceDictionary['uniprotPair'] = {}
     
-    residue_frequency(interfaceFiles, chainDictionary, interfaceDictionary)
+    residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
     
-    print('wth')
-    print(interfaceDictionary)
+    normalize_count(interfaceDictionary)
+    
+    #for pair in interfaceDictionary:
+     #   print(pair + ': ' + str(interfaceDictionary[pair]))
+      #  print('\n')
+    
+    #avgDict = average_histones(interfaceDictionary)
+    
+    print(avgDict)
 
 
-# In[21]:
+# In[27]:
 
 
 if __name__ == "__main__":
