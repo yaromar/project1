@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[7]:
+# In[3]:
 
 
 #NOTES:
@@ -12,19 +12,19 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[8]:
+# In[4]:
 
 
 #!/usr/bin/env python 3
 import re
 
-PATH = "../data/Interfaces/"
-#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+#PATH = "../data/Interfaces/"
+PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[9]:
+# In[5]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[10]:
+# In[6]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone#'
 
 
-# In[11]:
+# In[7]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[12]:
+# In[8]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[13]:
+# In[9]:
 
 
 #PARAMETERS:
@@ -256,7 +256,7 @@ def get_chain_dictionaries(cFile, dictionary):
                     dictionary[structure][chain] = dictionary[structure][chain] + '0' #!!!!!! 
 
 
-# In[14]:
+# In[10]:
 
 
 #PARAMETERS:
@@ -329,7 +329,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[15]:
+# In[11]:
 
 
 def normalize_count(interfaceDictionary):
@@ -341,7 +341,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[25]:
+# In[12]:
 
 
 def average_histones(interfaceDictionary):
@@ -388,13 +388,75 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[ ]:
+# In[13]:
 
 
 def sum_contacts(interfaceDictionary):
+    
+    sumDict = {}
+
+    for pair in interfaceDictionary:
+        if(pair != 'uniprotPair'):
+
+            randomResidue = list(interfaceDictionary[pair].keys())[0]
+
+            targetFields = interfaceDictionary[pair][randomResidue][0].split('@')[0].split('#')
+            sourceFields = interfaceDictionary[pair][randomResidue][0].split('@')[-1].split('#')
+
+            if(targetFields[-2] != 'other'):
+                histoneType = targetFields[3]
+
+                newPair = histoneType + '@'
+                
+                if(sourceFields[-2] != 'other'):
+                    histoneType2 = sourceFields[3]
+                    newPair += histoneType2
+                    
+                else:   
+                    for field in sourceFields:
+                        newPair += field + '#'
+
+                totalCount = 0
+
+                for residue in interfaceDictionary[pair]:
+                    normalizedCount = interfaceDictionary[pair][residue][3]
+                    totalCount += normalizedCount
+                
+                if(newPair in sumDict):
+                    sumDict[newPair] += totalCount
+                
+                else:
+                    sumDict[newPair] = totalCount
+
+            elif(sourceFields[-2] != 'other'):
+                histoneType = sourceFields[3]
+
+                newPair = histoneType + '@'
+                
+                if(targetFields[-2] != 'other'):
+                    histoneType2 = targetFields[3]
+                    newPair += histoneType2
+                    
+                else:   
+                    for field in targetFields:
+                        newPair += field + '#'
+
+                totalCount = 0
+
+                for residue in interfaceDictionary[pair]:
+                    normalizedCount = interfaceDictionary[pair][residue][3]
+                    totalCount += normalizedCount
+
+                if(newPair in sumDict):
+                    sumDict[newPair] += totalCount
+                
+                else:
+                    sumDict[newPair] = totalCount
+
+    return sumDict
 
 
-# In[26]:
+# In[16]:
 
 
 def main():
@@ -412,17 +474,31 @@ def main():
     residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
     
     normalize_count(interfaceDictionary)
-    
     #for pair in interfaceDictionary:
      #   print(pair + ': ' + str(interfaceDictionary[pair]))
       #  print('\n')
     
     #avgDict = average_histones(interfaceDictionary)
+    #print(avgDict)    
     
-    print(avgDict)
+    sumDict = sum_contacts(interfaceDictionary)
+    print('target'+'\t'+'source'+'\t'+'contacts')
+    for pair in sumDict:
+        
+        chains = pair.split('@')
+        target = chains[0]
+        source = chains[1]
+        
+        contacts = sumDict[pair]
+        
+        targetFields = target.split('#')
+        sourceFields = source.split('#')
+
+        print(target + '\t' + source + '\t' + str(contacts))
+        
 
 
-# In[27]:
+# In[17]:
 
 
 if __name__ == "__main__":
