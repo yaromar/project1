@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[2]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[4]:
+# In[3]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[5]:
+# In[4]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[6]:
+# In[5]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone#'
 
 
-# In[7]:
+# In[6]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[8]:
+# In[7]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[9]:
+# In[29]:
 
 
 #PARAMETERS:
@@ -211,6 +211,7 @@ def get_chain_dictionaries(cFile, dictionary):
 
                 if(pdb in histoneCount):
                     histoneCount[pdb] += tempCount #!!!!!!
+                    
                 else:
                     histoneCount[pdb] = tempCount
 
@@ -244,19 +245,43 @@ def get_chain_dictionaries(cFile, dictionary):
                     
                     
         for structure in histoneCount:
-
+            partnerFlag = 0 ###
+            
             if(histoneCount[structure] > 3): #checks if pdb has at least a half of nucleosome!!!!!!!
-
+                
                 for chain in dictionary[structure]: #!!!!!!
                     dictionary[structure][chain] = dictionary[structure][chain] + '1' #!!!!!!
+                    
+                    chainType = dictionary[structure][chain].split('#')[-2] ###
 
-            else: #!!!!!!
+                    if(partnerFlag == 0 and chainType == 'other'):
+                        partnerFlag = 1
+                
+                if(partnerFlag == 0):
+                    print(structure + '\t' + 'nucleosome' + '\t' + 'no bp')
+                    
+                else:
+                    print(structure + '\t' + 'nucleosome' + '\t' + 'yes bp')
+            
+            elif(histoneCount[structure] > 0): #!!!!!!
 
                 for chain in dictionary[structure]: #!!!!!
                     dictionary[structure][chain] = dictionary[structure][chain] + '0' #!!!!!! 
+                    
+                    chainType = dictionary[structure][chain].split('#')[-2] ###
+                 
+                    if(partnerFlag == 0 and chainType == 'other'):
+                        partnerFlag = 1
+                
+                if(partnerFlag == 0):
+                    print(structure + '\t' + 'histone' + '\t' + 'no bp')
+                
+                else:
+                    print(structure + '\t' + 'histone' + '\t' + 'yes bp')
+            
 
 
-# In[10]:
+# In[30]:
 
 
 #PARAMETERS:
@@ -329,7 +354,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[11]:
+# In[31]:
 
 
 def normalize_count(interfaceDictionary):
@@ -341,7 +366,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[12]:
+# In[32]:
 
 
 def average_histones(interfaceDictionary):
@@ -388,7 +413,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[13]:
+# In[33]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -456,7 +481,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[16]:
+# In[34]:
 
 
 def main():
@@ -471,9 +496,9 @@ def main():
     interfaceDictionary = {}
     interfaceDictionary['uniprotPair'] = {}
     
-    residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
+    #residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
     
-    normalize_count(interfaceDictionary)
+    #normalize_count(interfaceDictionary)
     #for pair in interfaceDictionary:
      #   print(pair + ': ' + str(interfaceDictionary[pair]))
       #  print('\n')
@@ -481,24 +506,24 @@ def main():
     #avgDict = average_histones(interfaceDictionary)
     #print(avgDict)    
     
-    sumDict = sum_contacts(interfaceDictionary)
-    print('target'+'\t'+'source'+'\t'+'contacts')
-    for pair in sumDict:
+    #sumDict = sum_contacts(interfaceDictionary)
+    #print('target'+'\t'+'source'+'\t'+'contacts')
+    #for pair in sumDict:
         
-        chains = pair.split('@')
-        target = chains[0]
-        source = chains[1]
+        #chains = pair.split('@')
+        #target = chains[0]
+        #source = chains[1]
         
-        contacts = sumDict[pair]
+        #contacts = sumDict[pair]
         
-        targetFields = target.split('#')
-        sourceFields = source.split('#')
+        #targetFields = target.split('#')
+        #sourceFields = source.split('#')
 
-        print(target + '\t' + source + '\t' + str(contacts))
+        #print(target + '\t' + source + '\t' + str(contacts))
         
 
 
-# In[17]:
+# In[35]:
 
 
 if __name__ == "__main__":
