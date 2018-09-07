@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[42]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[3]:
+# In[43]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[4]:
+# In[44]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[5]:
+# In[45]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone#'
 
 
-# In[6]:
+# In[46]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[7]:
+# In[47]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[29]:
+# In[62]:
 
 
 #PARAMETERS:
@@ -147,8 +147,8 @@ def get_file(pdb, parameter):
 #dictionary is nested with the innermost dict being dictionary['pdb'] = {}
 
 #RESULTS:
-#The format of the end-product dictionary is: {pdb : {AlexChain: myChain#UNIPROT#name#type#nucleosome(bool)}}
-#Example: {1alq : {'G': 'E#P02302#Histone H3.3C#H3#1'}}
+#The format of the end-product dictionary is: {pdb : {AlexChain: myChain#UNIPROT#name#type#nucleosome(bool)#bindingPartner(bool)}}
+#Example: {1alq : {'G': 'E#P02302#Histone H3.3C#H3#1#0'}}
 
 
 def get_chain_dictionaries(cFile, dictionary): 
@@ -208,12 +208,18 @@ def get_chain_dictionaries(cFile, dictionary):
 
                 tempType = histoneTypeAndCount[0]
                 tempCount = histoneTypeAndCount[1]
-
-                if(pdb in histoneCount):
-                    histoneCount[pdb] += tempCount #!!!!!!
+                
+                
+                #######################
+                if(tempCount):
                     
-                else:
-                    histoneCount[pdb] = tempCount
+                    if(pdb in histoneCount):
+                        
+                        if(tempType not in histoneCount[pdb]):
+                            histoneCount[pdb].append(tempType) #!!!!!!
+
+                    else:
+                        histoneCount[pdb] = [tempType]
 
                         
                         
@@ -246,42 +252,46 @@ def get_chain_dictionaries(cFile, dictionary):
                     
         for structure in histoneCount:
             partnerFlag = 0 ###
+            uniqueHistoneNum = len(histoneCount[structure])
             
-            if(histoneCount[structure] > 3): #checks if pdb has at least a half of nucleosome!!!!!!!
+            if(uniqueHistoneNum > 3): #checks if pdb has at least a half of nucleosome!!!!!!!
                 
-                for chain in dictionary[structure]: #!!!!!!
-                    dictionary[structure][chain] = dictionary[structure][chain] + '1' #!!!!!!
-                    
-                    chainType = dictionary[structure][chain].split('#')[-2] ###
+                for chain in dictionary[structure]:
+                    chainType = dictionary[structure][chain].split('#')[-2]
 
+                    dictionary[structure][chain] += '1#' #!!!!!!
+                    
                     if(partnerFlag == 0 and chainType == 'other'):
                         partnerFlag = 1
-                
+                    
                 if(partnerFlag == 0):
+                    dictionary[structure][chain] += '0'
                     print(structure + '\t' + 'nucleosome' + '\t' + 'no bp')
                     
                 else:
+                    dictionary[structure][chain] += '1'
                     print(structure + '\t' + 'nucleosome' + '\t' + 'yes bp')
             
-            elif(histoneCount[structure] > 0): #!!!!!!
+            elif(uniqueHistoneNum > 0): #!!!!!!
 
                 for chain in dictionary[structure]: #!!!!!
-                    dictionary[structure][chain] = dictionary[structure][chain] + '0' #!!!!!! 
-                    
                     chainType = dictionary[structure][chain].split('#')[-2] ###
-                 
+
+                    dictionary[structure][chain] += '0#' #!!!!!! 
+
                     if(partnerFlag == 0 and chainType == 'other'):
                         partnerFlag = 1
-                
+
                 if(partnerFlag == 0):
+                    dictionary[structure][chain] += '0'
                     print(structure + '\t' + 'histone' + '\t' + 'no bp')
-                
+
                 else:
+                    dictionary[structure][chain] += '1'
                     print(structure + '\t' + 'histone' + '\t' + 'yes bp')
-            
 
 
-# In[30]:
+# In[63]:
 
 
 #PARAMETERS:
@@ -354,7 +364,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[31]:
+# In[64]:
 
 
 def normalize_count(interfaceDictionary):
@@ -366,7 +376,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[32]:
+# In[65]:
 
 
 def average_histones(interfaceDictionary):
@@ -413,7 +423,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[33]:
+# In[66]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -481,7 +491,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[34]:
+# In[67]:
 
 
 def main():
@@ -523,7 +533,7 @@ def main():
         
 
 
-# In[35]:
+# In[68]:
 
 
 if __name__ == "__main__":

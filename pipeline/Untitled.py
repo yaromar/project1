@@ -1,11 +1,10 @@
 
 # coding: utf-8
 
-# In[21]:
+# In[17]:
 
 
 def main():
-    
     
     with open ('processedPDBlist.tsv', 'r') as pfh:
         pfh.readline() #skips header
@@ -15,9 +14,9 @@ def main():
         
         for line in pfh:
             lineFields = line.split('\t') #gets only the first 8 columns !!!
-            year = lineFields[2].split('-', 1)[0]
-            pdbType = lineFields[3].strip() + '#' + lineFields[4].strip()
-            
+            year = lineFields[3].split('-', 1)[0]
+            pdbType = lineFields[1].strip() + '#' + lineFields[2].strip()
+
             if(pdbType in depDict):
                 
                 if(year in depDict[pdbType]):
@@ -31,12 +30,15 @@ def main():
                 
         for pdbType in depDict:
             print('###################' + pdbType + '###################')
+            cumSum = 0
             
             for year in depDict[pdbType]:
-                print(year + '\t' + str(depDict[pdbType][year]))
+                cumSum += depDict[pdbType][year]
+                print(year + '\t' + str(depDict[pdbType][year]) + '\t' + str(cumSum))
+                
 
 
-# In[22]:
+# In[18]:
 
 
 if __name__ == "__main__":
