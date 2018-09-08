@@ -1,0 +1,6 @@
+alias getpdb='~/Desktop/project1/my_scripts/getpdb.sh'
+alias navigator='~/anaconda3/bin/anaconda-navigator'
+alias conda='~/anaconda3/bin/conda'
+alias ipython='~/anaconda3/bin/ipython'
+alias python='~/anaconda3/bin/python'
+alias notebook='~/anaconda3/bin/jupyter-lab --script' 
