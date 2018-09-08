@@ -30,6 +30,7 @@ h2a	K#P03169#55 kDa immediate-early protein 1#other#1##	5e5a#	nucleosome
 h2a	K#P06701#Regulatory protein SIR3#other#1##	4jjn#4kud#	nucleosome
 h2a	K#P25171#Regulator of chromosome condensation#other#1##	3mvd#	nucleosome
 h2a	K#Q12888#TP53-binding protein 1#other#1##	5kgf#	nucleosome
+h2a	K#Q9DUM3#NA#other#1#1#	1zla#	nucleosome
 h2a	K#Q9QR71#Protein ORF73#other#1#1#	5gtc#	nucleosome
 h2a	L#P06701#Regulatory protein SIR3#other#1#1#	3tu4#4ld9#	nucleosome
 h2a	M#P14349#Gag polyprotein#other#1##	5mlu#	nucleosome
@@ -53,6 +54,7 @@ h2b	K#P25171#Regulator of chromosome condensation#other#1##	3mvd#	nucleosome
 h2b	K#P35226#Polycomb complex protein BMI-1#other#1##	4r8p#	nucleosome
 h2b	K#Q12888#TP53-binding protein 1#other#1##	5kgf#	nucleosome
 h2b	K#Q96H22#Centromere protein N#other#1##	6c0w#	nucleosome
+h2b	K#Q9DUM3#NA#other#1#1#	1zla#	nucleosome
 h2b	K#Q9QR71#Protein ORF73#other#1#1#	5gtc#	nucleosome
 h2b	M#P14349#Gag polyprotein#other#1##	5mlu#	nucleosome
 h2b	N#P61077, Q99496#P61077:, Ubiquitin-conjugating enzyme E2 D3, Q99496:, E3 ubiquitin-protein ligase RING2#other#1##	4r8p#	nucleosome
@@ -539,7 +541,6 @@ h2a	C#Q9BTT0#Acidic leucine-rich nuclear phosphoprotein 32 family member E#other
 h2a	E#Q08649#Histone acetyltransferase ESA1#other#0##	5j9q#	histone
 h2a	I#P25293#Nucleosome assembly protein#other#0##	5g2e#	histone
 h2a	I#Q15906#Vacuolar protein sorting-associated protein 72 homolog#other#0#1#	5fug#	histone
-h2a	K#Q9DUM3#NA#other#1#1#	1zla#	histone
 h2b	A#P01903#HLA class II histocompatibility antigen, DR alpha chain#other#0##	6biy#	histone
 h2b	A#Q12373#HAT1-interacting factor 1#other#0##	5bt1#	histone
 h2b	A#Q9BV86#N-terminal Xaa-Pro-Lys N-methyltransferase 1#other#0#1#	5cve#	histone
@@ -547,7 +548,6 @@ h2b	B#P13760#HLA class II histocompatibility antigen, DRB1-4 beta chain#other#0#
 h2b	C#Q9BTT0#Acidic leucine-rich nuclear phosphoprotein 32 family member E#other#0##	4cay#	histone
 h2b	I#P25293#Nucleosome assembly protein#other#0##	5g2e#	histone
 h2b	I#Q15906#Vacuolar protein sorting-associated protein 72 homolog#other#0#1#	5fug#	histone
-h2b	K#Q9DUM3#NA#other#1#1#	1zla#	histone
 h3	A#B9RU15#Probable Histone-lysine N-methyltransferase ATXR5#other#0#1#	4o30#	histone
 h3	A#F7BJB9#MORC family CW-type zinc finger protein 3#other#0##	5ix1#5ix2#	histone
 h3	A#G0S8H7#putative polycomb protein Eed#other#0#1#	5kjh#5m5g#5wfc#5kkl#	histone
