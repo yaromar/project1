@@ -561,7 +561,11 @@ def main():
     
     sumDict = sum_contacts(interfaceDictionary)
     print('target' + '\t' + 'source' + '\t' + 'contacts')
+<<<<<<< HEAD
+    pdbList = '1zla, 1aoi,1eqz,1f66,1hio,1hq3,1id3,1kx3,1kx4,1kx5,1m18,1m19,1m1a,1p34,1p3a,1p3b,1p3f,1p3g,1p3i,1p3k,1p3l,1p3m,1p3o,1p3p,1s32,1tzy,1u35,1zbb,2aro,2cv5,2f8n,2fj7,2hio,2nqb,2nzd,2pyo,3a6n,3afa,3an2,3av1,3av2,3ayw,3aze,3azf,3azg,3azh,3azi,3azj,3azk,3azl,3azm,3azn,3b6f,3b6g,3c1b,3c1c,3kuy,3kwq,3kxb,3lel,3lja,3lz0,3lz1,3mgp,3mgq,3mgr,3mgs,3mnn,3mvd,3o62,3reh,3rei,3rej,3rek,3rel,3tu4,3ut9,3uta,3utb,3w96,3w97,3w98,3w99,3wa9,3waa,3wkj,3wtp,3x1s,3x1t,3x1u,3x1v,4j8u,4j8v,4j8w,4j8x,4jjn,4kgc,4kud,4ld9,4qlc,4r8p,4wu8,4wu9,4x23,4xuj,4xzq,4ym5,4ym6,4ys3,4z5t,4z66,4zux,5av5,5av6,5av8,5av9,5avb,5avc,5ay8,5b0y,5b0z,5b1l,5b1m,5b24,5b2i,5b2j,5b31,5b32,5b33,5b40,5cp6,5cpi,5cpj,5cpk,5dnm,5dnn,5e5a,5f99,5gse,5gsu,5gt0,5gt3,5gtc,5gxq,5hq2,5jrg,5kgf,5mlu,5nl0,5o9g,5omx,5ong,5onw,5oxv,5oy7,5x0x,5x0y,5x7x,5xf3,5xf4,5xf5,5xf6,5xm0,5xm1,6buz,6c0w,6esf,6esg,6esh,6esi,6etx,6fml,6fq5,6fq6,6fq8'.split(',')
+=======
     pdbList = '1zla,1aoi,1eqz,1f66,1hio,1hq3,1id3,1kx3,1kx4,1kx5,1m18,1m19,1m1a,1p34,1p3a,1p3b,1p3f,1p3g,1p3i,1p3k,1p3l,1p3m,1p3o,1p3p,1s32,1tzy,1u35,1zbb,2aro,2cv5,2f8n,2fj7,2hio,2nqb,2nzd,2pyo,3a6n,3afa,3an2,3av1,3av2,3ayw,3aze,3azf,3azg,3azh,3azi,3azj,3azk,3azl,3azm,3azn,3b6f,3b6g,3c1b,3c1c,3kuy,3kwq,3kxb,3lel,3lja,3lz0,3lz1,3mgp,3mgq,3mgr,3mgs,3mnn,3mvd,3o62,3reh,3rei,3rej,3rek,3rel,3tu4,3ut9,3uta,3utb,3w96,3w97,3w98,3w99,3wa9,3waa,3wkj,3wtp,3x1s,3x1t,3x1u,3x1v,4j8u,4j8v,4j8w,4j8x,4jjn,4kgc,4kud,4ld9,4qlc,4r8p,4wu8,4wu9,4x23,4xuj,4xzq,4ym5,4ym6,4ys3,4z5t,4z66,4zux,5av5,5av6,5av8,5av9,5avb,5avc,5ay8,5b0y,5b0z,5b1l,5b1m,5b24,5b2i,5b2j,5b31,5b32,5b33,5b40,5cp6,5cpi,5cpj,5cpk,5dnm,5dnn,5e5a,5f99,5gse,5gsu,5gt0,5gt3,5gtc,5gxq,5hq2,5jrg,5kgf,5mlu,5nl0,5o9g,5omx,5ong,5onw,5oxv,5oy7,5x0x,5x0y,5x7x,5xf3,5xf4,5xf5,5xf6,5xm0,5xm1,6buz,6c0w,6esf,6esg,6esh,6esi,6etx,6fml,6fq5,6fq6,6fq8'.split(',')
+>>>>>>> 54724c322954ce35f6e527a13ae6b8197413692e
 
     for pair in sumDict:
         chains = pair.split('@')
