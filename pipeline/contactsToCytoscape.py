@@ -392,7 +392,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[139]:
+# In[143]:
 
 
 def average_histones(interfaceDictionary):
@@ -406,7 +406,7 @@ def average_histones(interfaceDictionary):
             targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('|')
             sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') #[-1]
             
-            if(targetFields[3]): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
+            if(targetFields[3] != 'other'): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
                 histoneType = targetFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
                 
@@ -421,7 +421,7 @@ def average_histones(interfaceDictionary):
                 else:
                     avgDict[histoneType] = {residue : normalizedCount}
                     
-            elif(sourceFields[-2] != 'other' and sourceFields[-3] != 'other'):#MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
+            elif(sourceFields[3] != 'other'):#MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
                 histoneType = sourceFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
                 
@@ -439,7 +439,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[140]:
+# In[144]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -573,7 +573,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[141]:
+# In[145]:
 
 
 def main():
@@ -633,7 +633,7 @@ def main():
         
 
 
-# In[142]:
+# In[146]:
 
 
 if __name__ == "__main__":
