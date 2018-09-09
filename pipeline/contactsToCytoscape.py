@@ -261,8 +261,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 for chain in dictionary[structure]:
                     chainFields = dictionary[structure][chain].split('|')
 
-                    chainType = chainFields[-2]
-                    #chainName = chainFields[1] + '\t' + chainFields[2]
+                    chainType = chainFields[3]
 
                     dictionary[structure][chain] += 'nucleosome:1|' #!!!!!!
                     
@@ -279,15 +278,13 @@ def get_chain_dictionaries(cFile, dictionary):
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1|'
-
             
             else: #!!!!!!
 
                 for chain in dictionary[structure]: #!!!!!
                     chainFields = dictionary[structure][chain].split('|')
                     
-                    chainType = chainFields[-2]
-                    #chainName = chainFields[1] + '\t' + chainFields[2]
+                    chainType = chainFields[3]
                     
                     dictionary[structure][chain] += 'nucleosome:0|' #!!!!!! 
 
@@ -303,7 +300,6 @@ def get_chain_dictionaries(cFile, dictionary):
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1|'
-
 
 # In[137]:
 
@@ -447,7 +443,7 @@ def sum_contacts(interfaceDictionary):
     sumDict = {}
 
     for pair in interfaceDictionary:
-        
+
         if(pair != 'uniprotPair'):
             
             targetFields = []
@@ -456,13 +452,11 @@ def sum_contacts(interfaceDictionary):
             nucleosomeFlag = 0
             for residue in interfaceDictionary[pair]:
                 pairs = interfaceDictionary[pair][residue][0].split('$')
-                
+
                 for instance in pairs:
                     targetFields = instance.split('@')[0].split('|')
                     sourceFields = instance.split('@')[1].split('|') 
                     
-                    print(targetFields)
-                    print(sourceFields)
                     if(targetFields[4].split(':')[1] == '1' or sourceFields[4].split(':')[1] == '1'):
                         nucleosomeFlag = 1
                         break
