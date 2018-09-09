@@ -311,7 +311,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[182]:
+# In[188]:
 
 
 #PARAMETERS:
@@ -381,12 +381,12 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                     else:
                          interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]}  
                             
-        except IOError:
+        except (IOError, KeyError) as e:
             #print("Error: " + interfaceFile + " does not appear to exist.")
             pass
 
 
-# In[183]:
+# In[189]:
 
 
 def normalize_count(interfaceDictionary):
@@ -398,7 +398,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[184]:
+# In[190]:
 
 
 def average_histones(interfaceDictionary):
@@ -445,7 +445,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[185]:
+# In[191]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -578,7 +578,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[186]:
+# In[192]:
 
 
 def main():
@@ -638,7 +638,7 @@ def main():
         
 
 
-# In[187]:
+# In[193]:
 
 
 if __name__ == "__main__":
