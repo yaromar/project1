@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[38]:
+# In[130]:
 
 
 #NOTES:
@@ -12,19 +12,19 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[39]:
+# In[131]:
 
 
 #!/usr/bin/env python 3
 import re
 
-#PATH = "../data/Interfaces/"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "../data/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[40]:
+# In[132]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[41]:
+# In[133]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[42]:
+# In[134]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[43]:
+# In[135]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[60]:
+# In[136]:
 
 
 #PARAMETERS:
@@ -305,7 +305,7 @@ def get_chain_dictionaries(cFile, dictionary):
                         dictionary[structure][chain] += 'bp:1|'
 
 
-# In[61]:
+# In[137]:
 
 
 #PARAMETERS:
@@ -380,7 +380,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[62]:
+# In[138]:
 
 
 def normalize_count(interfaceDictionary):
@@ -392,7 +392,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[63]:
+# In[139]:
 
 
 def average_histones(interfaceDictionary):
@@ -406,7 +406,7 @@ def average_histones(interfaceDictionary):
             targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('|')
             sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') #[-1]
             
-            if(targetFields[-2] != 'other' and targetFields[-3] != 'other'): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
+            if(targetFields[3]): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
                 histoneType = targetFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
                 
@@ -439,7 +439,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[89]:
+# In[140]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -460,7 +460,9 @@ def sum_contacts(interfaceDictionary):
                 for instance in pairs:
                     targetFields = instance.split('@')[0].split('|')
                     sourceFields = instance.split('@')[1].split('|') 
-            
+                    
+                    print(targetFields)
+                    print(sourceFields)
                     if(targetFields[4].split(':')[1] == '1' or sourceFields[4].split(':')[1] == '1'):
                         nucleosomeFlag = 1
                         break
@@ -571,7 +573,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[90]:
+# In[141]:
 
 
 def main():
@@ -631,7 +633,7 @@ def main():
         
 
 
-# In[91]:
+# In[142]:
 
 
 if __name__ == "__main__":
