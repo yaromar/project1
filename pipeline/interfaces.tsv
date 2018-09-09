@@ -24,7 +24,7 @@ h2a	K|P06701|Regulatory protein SIR3|other|nucleosome:1|bp:1|	3tu4|4ld9	nucleoso
 h2a	K|Q9DUM3|NA|other|nucleosome:1|bp:1|	1zla	nucleosome
 h2a	K|Q9QR71|Protein ORF73|other|nucleosome:1|bp:1|	5gtc	nucleosome
 h2a	L|P25171|Regulator of chromosome condensation|other|nucleosome:1|bp:1|	3mvd	nucleosome
-h2a	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3 Q99496:	E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
+h2a	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3 Q99496: E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
 h2a	L|Q12888|TP53-binding protein 1|other|nucleosome:1|bp:1|	5kgf	nucleosome
 h2a	M|P0CG47|Polyubiquitin-B|other|nucleosome:1|bp:1|	5kgf	nucleosome
 h2a	M|P14349|Gag polyprotein|other|nucleosome:1|bp:1|	5mlu	nucleosome
@@ -43,7 +43,7 @@ h2b	K|Q96H22|Centromere protein N|other|nucleosome:1|bp:1|	6c0w	nucleosome
 h2b	K|Q9DUM3|NA|other|nucleosome:1|bp:1|	1zla	nucleosome
 h2b	K|Q9QR71|Protein ORF73|other|nucleosome:1|bp:1|	5gtc	nucleosome
 h2b	L|P25171|Regulator of chromosome condensation|other|nucleosome:1|bp:1|	3mvd	nucleosome
-h2b	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3 Q99496:	E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
+h2b	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3 Q99496: E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
 h2b	L|Q12888|TP53-binding protein 1|other|nucleosome:1|bp:1|	5kgf	nucleosome
 h2b	M|P0CG47|Polyubiquitin-B|other|nucleosome:1|bp:1|	5kgf	nucleosome
 h2b	M|P14349|Gag polyprotein|other|nucleosome:1|bp:1|	5mlu	nucleosome
@@ -65,7 +65,7 @@ h4	J|G0S589|Actin related protein 5|other|nucleosome:1|bp:1|	6fml	nucleosome
 h4	K|P06701|Regulatory protein SIR3|other|nucleosome:1|bp:1|	3tu4|4ld9	nucleosome
 h4	K|P35226|Polycomb complex protein BMI-1|other|nucleosome:1|bp:1|	4r8p	nucleosome
 h4	K|Q96H22|Centromere protein N|other|nucleosome:1|bp:1|	6c0w	nucleosome
-h4	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3	Q99496:	E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
+h4	L|P61077 Q99496|P61077: Ubiquitin-conjugating enzyme E2 D3 Q99496:E3 ubiquitin-protein ligase RING2|other|nucleosome:1|bp:1|	4r8p	nucleosome
 h4	L|Q12888|TP53-binding protein 1|other|nucleosome:1|bp:1|	5kgf	nucleosome
 h4	M|Q9NQR1|N-lysine methyltransferase KMT5A|other|nucleosome:1|bp:1|	5hq2	nucleosome
 h4	O|P22082|Transcription regulatory protein SNF2|other|nucleosome:1|bp:1|	5x0y	nucleosome
@@ -424,4 +424,4 @@ I|P25293|Nucleosome assembly protein|other|nucleosome:0|bp:1|	J|P25293|Nucleosom
 I|Q9Y294|Histone chaperone ASF1A|other|nucleosome:0|bp:1|	L|P49736|DNA replication licensing factor MCM2|other|nucleosome:0|bp:1|	5c3i	histone
 some histone	A|O75530|Polycomb protein EED|other|nucleosome:0|bp:1|	3iiw|3iiy|3ij0|3k27|3k26|3jzg|3jzh	histone
 X|Q9UM07|Protein-arginine deiminase type-4|other|nucleosome:0|bp:1|	X|Q9UM07|Protein-arginine deiminase type-4|other|nucleosome:0|bp:1|	2dew|2dey	histone
-A|O15392|Baculoviral IAP repeat-containing protein 5|other|nucleosome:0|bp:1|	B|O15392|Baculoviral IAP repeat-containing protein 5|other|nucleosome:0|bp:1|	3uec|3ued|3uii|3uihistone	
+A|O15392|Baculoviral IAP repeat-containing protein 5|other|nucleosome:0|bp:1|	B|O15392|Baculoviral IAP repeat-containing protein 5|other|nucleosome:0|bp:1|	3uec|3ued|3uii|3uik	histone	

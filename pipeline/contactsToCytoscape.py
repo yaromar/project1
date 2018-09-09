@@ -18,8 +18,8 @@
 #!/usr/bin/env python 3
 import re
 
-#PATH = "../data/Interfaces/"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "../data/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
