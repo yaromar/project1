@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[160]:
+# In[181]:
 
 
 #PARAMETERS:
@@ -251,63 +251,67 @@ def get_chain_dictionaries(cFile, dictionary):
 
                     
                     
-                    
-        for structure in histoneCount:
-            partnerFlag = 0 ###
-            uniqueHistoneNum = len(histoneCount[structure])
+        for structure in list(dictionary):
             
-            if(uniqueHistoneNum > 3): #checks if pdb has at least a half of a nucleosome!!!!!!!
-                
-                for chain in dictionary[structure]:
-                    chainFields = dictionary[structure][chain].split('|')
-
-                    chainType = chainFields[3]##
-                    #chainName = chainFields[1] + '\t' + chainFields[2]
-
-                    dictionary[structure][chain] += 'nucleosome:1|' #!!!!!!
-                    
-                    if(partnerFlag == 0 and chainType == 'other'):
-                        partnerFlag = 1
-                    
-                    
-                if(partnerFlag == 0):
-                    
-                    for chain in dictionary[structure]:
-                        dictionary[structure][chain] += 'bp:0|'
-                        print(dictionary[structure][chain])
-
-                else:
-                    
-                    for chain in dictionary[structure]:
-                        dictionary[structure][chain] += 'bp:1|'
-                        print(dictionary[structure][chain])
+            if(structure in histoneCount):
+                uniqueHistoneNum = len(histoneCount[structure])
+                partnerFlag = 0
             
-            else: #!!!!!!
+                if(uniqueHistoneNum > 3): #checks if pdb has at least a half of a nucleosome!!!!!!!
 
-                for chain in dictionary[structure]: #!!!!!
-                    chainFields = dictionary[structure][chain].split('|')
-                    
-                    chainType = chainFields[3]
-                    #chainName = chainFields[1] + '\t' + chainFields[2]
-                    
-                    dictionary[structure][chain] += 'nucleosome:0|' #!!!!!! 
-
-                    if(partnerFlag == 0 and chainType == 'other'):
-                        partnerFlag = 1
-
-                if(partnerFlag == 0):
-                    
                     for chain in dictionary[structure]:
-                        dictionary[structure][chain] += 'bp:0|'
-                        print(dictionary[structure][chain])
-                else:
-                    
-                    for chain in dictionary[structure]:
-                        dictionary[structure][chain] += 'bp:1|'
-                        print(dictionary[structure][chain])
+                        chainFields = dictionary[structure][chain].split('|')
+
+                        chainType = chainFields[3]##
+                        #chainName = chainFields[1] + '\t' + chainFields[2]
+
+                        dictionary[structure][chain] += 'nucleosome:1|' #!!!!!!
+
+                        if(partnerFlag == 0 and chainType == 'other'):
+                            partnerFlag = 1
 
 
-# In[161]:
+                    if(partnerFlag == 0):
+
+                        for chain in dictionary[structure]:
+                            dictionary[structure][chain] += 'bp:0|'
+                            print(dictionary[structure][chain])
+
+                    else:
+
+                        for chain in dictionary[structure]:
+                            dictionary[structure][chain] += 'bp:1|'
+                            print(dictionary[structure][chain])
+
+                else: #!!!!!!
+
+                    for chain in dictionary[structure]: #!!!!!
+                        chainFields = dictionary[structure][chain].split('|')
+
+                        chainType = chainFields[3]
+                        #chainName = chainFields[1] + '\t' + chainFields[2]
+
+                        dictionary[structure][chain] += 'nucleosome:0|' #!!!!!! 
+
+                        if(partnerFlag == 0 and chainType == 'other'):
+                            partnerFlag = 1
+
+                    if(partnerFlag == 0):
+
+                        for chain in dictionary[structure]:
+                            dictionary[structure][chain] += 'bp:0|'
+                            print(dictionary[structure][chain])
+                    else:
+
+                        for chain in dictionary[structure]:
+                            dictionary[structure][chain] += 'bp:1|'
+                            print(dictionary[structure][chain])
+            
+            else:
+                del dictionary[structure]
+
+
+# In[182]:
 
 
 #PARAMETERS:
@@ -382,7 +386,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[162]:
+# In[183]:
 
 
 def normalize_count(interfaceDictionary):
@@ -394,7 +398,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[163]:
+# In[184]:
 
 
 def average_histones(interfaceDictionary):
@@ -406,7 +410,7 @@ def average_histones(interfaceDictionary):
         
         for residue in interfaceDictionary[pair]:                           
             targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('|')
-            sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') #[-1]
+            sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') 
             
             if(targetFields[3] != 'other'): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
                 histoneType = targetFields[3]
@@ -441,7 +445,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[164]:
+# In[185]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -463,8 +467,7 @@ def sum_contacts(interfaceDictionary):
                     targetFields = instance.split('@')[0].split('|')
                     sourceFields = instance.split('@')[1].split('|') 
                     
-                    print(targetFields)
-                    print(sourceFields)
+
                     if(targetFields[4].split(':')[1] == '1' or sourceFields[4].split(':')[1] == '1'):
                         nucleosomeFlag = 1
                         break
@@ -575,7 +578,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[165]:
+# In[186]:
 
 
 def main():
@@ -635,7 +638,7 @@ def main():
         
 
 
-# In[166]:
+# In[187]:
 
 
 if __name__ == "__main__":
