@@ -381,7 +381,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                     else:
                          interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]}  
                             
-        except IOError:
+        except (IOError, KeyError) as e:
             #print("Error: " + interfaceFile + " does not appear to exist.")
             pass
 
