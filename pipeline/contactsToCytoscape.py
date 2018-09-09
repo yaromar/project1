@@ -18,8 +18,8 @@
 #!/usr/bin/env python 3
 import re
 
-#PATH = "../data/Interfaces/"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "../data/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
@@ -261,12 +261,8 @@ def get_chain_dictionaries(cFile, dictionary):
                 for chain in dictionary[structure]:
                     chainFields = dictionary[structure][chain].split('|')
 
-<<<<<<< HEAD
                     chainType = chainFields[3]##
                     #chainName = chainFields[1] + '\t' + chainFields[2]
-=======
-                    chainType = chainFields[3]
->>>>>>> d1bbcbdec63cef568af5a07573e399f54e8216c3
 
                     dictionary[structure][chain] += 'nucleosome:1|' #!!!!!!
                     
@@ -278,11 +274,13 @@ def get_chain_dictionaries(cFile, dictionary):
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:0|'
+                        print(dictionary[structure][chain])
 
                 else:
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1|'
+                        print(dictionary[structure][chain])
             
             else: #!!!!!!
 
@@ -290,10 +288,7 @@ def get_chain_dictionaries(cFile, dictionary):
                     chainFields = dictionary[structure][chain].split('|')
                     
                     chainType = chainFields[3]
-<<<<<<< HEAD
                     #chainName = chainFields[1] + '\t' + chainFields[2]
-=======
->>>>>>> d1bbcbdec63cef568af5a07573e399f54e8216c3
                     
                     dictionary[structure][chain] += 'nucleosome:0|' #!!!!!! 
 
@@ -304,18 +299,15 @@ def get_chain_dictionaries(cFile, dictionary):
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:0|'
-
+                        print(dictionary[structure][chain])
                 else:
                     
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1|'
+                        print(dictionary[structure][chain])
 
-<<<<<<< HEAD
 
 # In[161]:
-=======
-# In[137]:
->>>>>>> d1bbcbdec63cef568af5a07573e399f54e8216c3
 
 
 #PARAMETERS:
@@ -457,7 +449,7 @@ def sum_contacts(interfaceDictionary):
     sumDict = {}
 
     for pair in interfaceDictionary:
-
+        
         if(pair != 'uniprotPair'):
             
             targetFields = []
@@ -466,11 +458,13 @@ def sum_contacts(interfaceDictionary):
             nucleosomeFlag = 0
             for residue in interfaceDictionary[pair]:
                 pairs = interfaceDictionary[pair][residue][0].split('$')
-
+                
                 for instance in pairs:
                     targetFields = instance.split('@')[0].split('|')
                     sourceFields = instance.split('@')[1].split('|') 
                     
+                    print(targetFields)
+                    print(sourceFields)
                     if(targetFields[4].split(':')[1] == '1' or sourceFields[4].split(':')[1] == '1'):
                         nucleosomeFlag = 1
                         break
