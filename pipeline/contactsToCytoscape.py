@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[130]:
+# In[147]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[131]:
+# In[148]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[132]:
+# In[149]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[133]:
+# In[150]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[134]:
+# In[151]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[135]:
+# In[152]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[136]:
+# In[160]:
 
 
 #PARAMETERS:
@@ -261,7 +261,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 for chain in dictionary[structure]:
                     chainFields = dictionary[structure][chain].split('|')
 
-                    chainType = chainFields[-2]
+                    chainType = chainFields[3]##
                     #chainName = chainFields[1] + '\t' + chainFields[2]
 
                     dictionary[structure][chain] += 'nucleosome:1|' #!!!!!!
@@ -286,7 +286,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 for chain in dictionary[structure]: #!!!!!
                     chainFields = dictionary[structure][chain].split('|')
                     
-                    chainType = chainFields[-2]
+                    chainType = chainFields[3]
                     #chainName = chainFields[1] + '\t' + chainFields[2]
                     
                     dictionary[structure][chain] += 'nucleosome:0|' #!!!!!! 
@@ -305,7 +305,7 @@ def get_chain_dictionaries(cFile, dictionary):
                         dictionary[structure][chain] += 'bp:1|'
 
 
-# In[137]:
+# In[161]:
 
 
 #PARAMETERS:
@@ -380,7 +380,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[138]:
+# In[162]:
 
 
 def normalize_count(interfaceDictionary):
@@ -392,7 +392,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[143]:
+# In[163]:
 
 
 def average_histones(interfaceDictionary):
@@ -439,7 +439,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[144]:
+# In[164]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -573,7 +573,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[145]:
+# In[165]:
 
 
 def main():
@@ -633,7 +633,7 @@ def main():
         
 
 
-# In[146]:
+# In[166]:
 
 
 if __name__ == "__main__":
