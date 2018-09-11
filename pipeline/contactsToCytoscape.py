@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[343]:
+# In[383]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[344]:
+# In[384]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[345]:
+# In[385]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[346]:
+# In[386]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[347]:
+# In[387]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[348]:
+# In[388]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[349]:
+# In[389]:
 
 
 #PARAMETERS:
@@ -148,7 +148,7 @@ def get_file(pdb, parameter):
 
 #RESULTS: 
 #The format of the end-product dictionary is: {pdb : {AlexChain: myChain|UNIPROT|name|type|process|function|organism|nucleosome(bool)|bindingPartner(bool)}}
-#Example: {1alq : {'G': 'E|P02302|Histone H3.3C|H3|1212|4141|1|0'}}
+#Example: {1alq : {'G': 'E|P02302|Histone H3.3C|H3|1212|4141|human|1|0'}}
 
 
 def get_chain_dictionaries(cFile, dictionary): 
@@ -306,7 +306,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[350]:
+# In[390]:
 
 
 #PARAMETERS:
@@ -381,7 +381,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[351]:
+# In[391]:
 
 
 def normalize_count(interfaceDictionary):
@@ -393,7 +393,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[352]:
+# In[392]:
 
 
 def average_histones(interfaceDictionary):
@@ -440,7 +440,7 @@ def average_histones(interfaceDictionary):
     return avgDict
 
 
-# In[353]:
+# In[393]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -572,7 +572,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[379]:
+# In[402]:
 
 
 def main():
@@ -623,30 +623,29 @@ def main():
             targetFields = target.split('|')
             sourceFields = source.split('|')      
             contacts = sumDict[pair][0]   
-            
          
         if(len(targetFields) > 1 and targetFields[6].split(':')[1] == '1'):
             if(len(sourceFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
             else:
-                print(source + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
+                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
         elif(len(sourceFields) > 1 and sourceFields[6].split(':')[1] == '1'):
             if(len(targetFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
             else:
-                print(target + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
+                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
         elif(len(sourceFields) == 1 and len(targetFields) == 1):
-            print(target + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
+            print(target + ';' + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
         else:
             if(len(targetFields) > 1 and len(sourceFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
             elif(len(targetFields) > 1):
-                print(source + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
             else:
-                print(target + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
 
 
-# In[380]:
+# In[403]:
 
 
 if __name__ == "__main__":
