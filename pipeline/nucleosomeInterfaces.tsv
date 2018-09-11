@@ -88,19 +88,8 @@ Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	1936
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	SAGA-associated factor 73	d	P53165	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	3169
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	858
-h2a						h2a						1aoi|1zla|1zbb|3tu4|5hq2|1kx3|4zux|5oxv|5oy7|3kwq|5mlu|4ld9|4xzq|5x0x|6fq5	NA	7116.238095238095
-h2a						h2b						1aoi|1p3k|5g2e|5mlu|1kx3|1zbb|1zla|3tu4|4zux|5e5a|5oy7|3kwq|4ld9|6fq5|2fj7|5oxv|5o9g|6fq6|3b6f|5nl0|5x0y|1p3m|4xzq|1kx4|1m18|3b6g|4r8p|1kx5|1p3l|4z66|5f99|3o62|5onw	NA	0
-h2a						h3						1eqz|2hio|1hq3|1hio|1tzy	NA	0
-h2a						h4						1eqz|2hio|1hio|1hq3	NA	0
-h2b						h2a						2f8n	NA	0
-h2b						h2b						1eqz|1hq3	NA	0
-h2b						h3						3an2	NA	0
-h2b						h4						1eqz|2hio|1hio|1hq3	NA	0
-h3						h2a						1aoi|1m18|6fq8|1m19|1m1a	NA	0
-h3						h2b						1aoi	NA	0
-h3						h3						1aoi|1m18|1m19|6fq8	NA	0
-h3						h4						1aoi|1m18|6fq8|1m1a	NA	0
-h4						h2a						1aoi|5mlu|1kx3|1p3b|1zbb|1zla|3tu4|4zux|5f99|5oxv|5oy7|1kx5|1m18|1p3f|3kwq|4r8p|1p34|1p3o|1p3a|4ld9|1p3i|5omx|2fj7|4xzq|4z66|6fq8	NA	0
-h4						h2b						1aoi|5mlu|2f8n|4kgc|4ld9|4xzq|4zux|5f99|1kx3|1p3b|1zbb|1zla|5hq2|5oy7|6fq8|3kwq|2fj7|5e5a|5oxv|4z66|6fq5|1p3i|3tu4|1p3f|5onw|3b6g|6esf	NA	0
-h4						h4						2dvq	NA	0
-some histone						some histone						1ku5	NA	0
+h2a						Histone H4		P62805				5gse	nucleosome	28
+h2b						Histone H2B type 1-J		P06899				5gse	nucleosome	2
+h3						Histone H4		P62805				5gse	nucleosome	2
+h4						Histone H2A type 1-B/E		P04908				5gse	nucleosome	28
+h4						Histone H3.1		P68431				5gse	nucleosome	2

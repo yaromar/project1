@@ -1,20 +1,4 @@
 target_name	target_chain	target_uniprot	target_process	target_function	target_organism	source_name	source_chain	source_uniprot	source_process	source_function	source_organism	interface_PDBs	nucleosome/histone	atomic_contacts
-h2a						h2a						1aoi|1zla|1zbb|3tu4|5hq2|1kx3|4zux|5oxv|5oy7|3kwq|5mlu|4ld9|4xzq|5x0x|6fq5	NA	0
-h2a						h2b						1aoi|1p3k|5g2e|5mlu|1kx3|1zbb|1zla|3tu4|4zux|5e5a|5oy7|3kwq|4ld9|6fq5|2fj7|5oxv|5o9g|6fq6|3b6f|5nl0|5x0y|1p3m|4xzq|1kx4|1m18|3b6g|4r8p|1kx5|1p3l|4z66|5f99|3o62|5onw	NA	0
-h2a						h3						1eqz|2hio|1hq3|1hio|1tzy	NA	0
-h2a						h4						1eqz|2hio|1hio|1hq3	NA	0
-h2b						h2a						2f8n	NA	0
-h2b						h2b						1eqz|1hq3	NA	0
-h2b						h3						3an2	NA	0
-h2b						h4						1eqz|2hio|1hio|1hq3	NA	0
-h3						h2a						1aoi|1m18|6fq8|1m19|1m1a	NA	0
-h3						h2b						1aoi	NA	0
-h3						h3						1aoi|1m18|1m19|6fq8	NA	0
-h3						h4						1aoi|1m18|6fq8|1m1a	NA	0
-h4						h2a						1aoi|5mlu|1kx3|1p3b|1zbb|1zla|3tu4|4zux|5f99|5oxv|5oy7|1kx5|1m18|1p3f|3kwq|4r8p|1p34|1p3o|1p3a|4ld9|1p3i|5omx|2fj7|4xzq|4z66|6fq8	NA	0
-h4						h2b						1aoi|5mlu|2f8n|4kgc|4ld9|4xzq|4zux|5f99|1kx3|1p3b|1zbb|1zla|5hq2|5oy7|6fq8|3kwq|2fj7|5e5a|5oxv|4z66|6fq5|1p3i|3tu4|1p3f|5onw|3b6g|6esf	NA	0
-h4						h4						2dvq	NA	0
-some histone						some histone						1ku5	NA	0
 14-3-3 protein zeta/delta	B	P63104	6605#7165#8039#10941#19221#30168#43066#43488#51683#61024#90128#90168#1900740	3723#5515#8134#19901#19904#31625#42802#44325#45296	Homo sapiens	14-3-3 protein zeta/delta	A	P63104	6605#7165#8039#10941#19221#30168#43066#43488#51683#61024#90128#90168#1900740	3723#5515#8134#19901#19904#31625#42802#44325#45296	Homo sapiens	2c1j	histone	374
 B-cell CLL/lymphoma 9 protein	B	O00512	60070	3713#8013	Homo sapiens	Pygopus homolog 1	A	Q9Y3Y4	NA	NA	Homo sapiens	2vpg	histone	322
 Baculoviral IAP repeat-containing protein 5	B	O15392	6351#6355#6468#6915#7049#7059#7346#7605#8284#9966#10466#16567#19221#31503#42981#43066#45892#51301#90307#1990001	4842#4869#5515#8017#8536#19899#30414#42802#46872#51087	Homo sapiens	Baculoviral IAP repeat-containing protein 5	A	O15392	6351#6355#6468#6915#7049#7059#7346#7605#8284#9966#10466#16567#19221#31503#42981#43066#45892#51301#90307#1990001	4842#4869#5515#8017#8536#19899#30414#42802#46872#51087	Homo sapiens	3uee|3uii|3uik	histone	769
