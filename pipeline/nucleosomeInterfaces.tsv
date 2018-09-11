@@ -1,95 +1,93 @@
 target_name	target_chain	target_uniprot	target_process	target_function	target_organism	source_name	source_chain	source_uniprot	source_process	source_function	source_organism	interface_PDBs	nucleosome/histone	atomic_contacts
+h2a		h2a				55 kDa immediate-early protein 1	K	P03169	NA	NA	Human betaherpesvirus 5	5e5a	nucleosome	184
+h2b		h2b				55 kDa immediate-early protein 1	K	P03169	NA	NA	Human betaherpesvirus 5	5e5a	nucleosome	262
+h3		h3				Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	6fml	nucleosome	1
+h4		h4				Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	6fml	nucleosome	2
+h2a		h2a				CENP-C	U	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	317
+h2b		h2b				CENP-C	U	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	155
+h3		h3				CENP-C	V	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	215
+h4		h4				CENP-C	V	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	69
+h2b		h2b				Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	11
+h3		h3				Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	112
+h4		h4				Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	32
+h3		h3				Chromo domain-containing protein 1	W	P32657	1178#6325#6351#6355#6363#6368#6369#16584#34728#42766#43044#60303#71441#71894#1900050#1902275#2000104#2000616	166#182#3677#4386#5524#8094#16787#31490#35064#44212#70615	Saccharomyces cerevisiae	5o9g	nucleosome	6
+h4		h4				Chromo domain-containing protein 1	W	P32657	1178#6325#6351#6355#6363#6368#6369#16584#34728#42766#43044#60303#71441#71894#1900050#1902275#2000104#2000616	166#182#3677#4386#5524#8094#16787#31490#35064#44212#70615	Saccharomyces cerevisiae	5o9g	nucleosome	105
+h3		h3				DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	6etx	nucleosome	6
+INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	6etx	nucleosome	18
+h2a		h2a				Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	282
+h2b		h2b				Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	165
+h3		h3				Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	142
+h2b		h2b				Guanine nucleotide exchange factor SRM1	K	P21827	54#6407#7049#16973#19236#51301	5085#5087	Saccharomyces cerevisiae	5hq2	nucleosome	70
+h4		h4				Histone H2A type 1-B/E		P04908				5gse	nucleosome	28
+h2b		h2b				Histone H2B type 1-J		P06899				5gse	nucleosome	2
+h4		h4				Histone H3.1		P68431				5gse	nucleosome	2
+h2a		h2a				Histone H4		P62805				5gse	nucleosome	28
+h3		h3				Histone H4		P62805				5gse	nucleosome	2
 Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	1111
-Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	RuvB-like helicase	B	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	131
+h2a		h2a				Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	2
+h2b		h2b				Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	40
+h3		h3				Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	2
+h2b		h2b				Ino80	G	Ino80	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	6fml	nucleosome	4
+les2	H	G0RY01	NA	NA	Chaetomium thermophilum	Ino80	G	Ino80	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	6fml	nucleosome	157
+h2a		h2a				latent nuclear antigen	K	Q9DUM3	NA	NA	Human gammaherpesvirus 8	1zla	nucleosome	189
+h2b		h2b				latent nuclear antigen	K	Q9DUM3	NA	NA	Human gammaherpesvirus 8	1zla	nucleosome	201
+h4		h4				N-lysine methyltransferase KMT5A	M	Q9NQR1	NA	18024	Homo sapiens	5hq2	nucleosome	228
+h4		h4				NA	A	NA	NA	3677#46982	Homo sapiens	5gxq	nucleosome	2809
+h3		h3				P0AEY0:#Maltose-binding periplasmic protein#Q96H22:#Centromere protein N	N	P0AEY0#Q96H22	7059#8643#51382#55085	15144	Escherichia coli,Homo sapiens	6buz	nucleosome	61
+h2a		h2a				P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	405
+h2b		h2b				P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	158
+h4		h4				P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	16
+h2b		h2b				Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	20
+h3		h3				Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	157
+h4		h4				Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	28
+P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	1876
+h2a		h2a				Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	5kgf	nucleosome	75
+h2b		h2b				Polyubiquitin-B	c	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	14
+h2b		h2b				Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	5kgf	nucleosome	98
+h3		h3				Polyubiquitin-B	X	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	2
+Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	Polyubiquitin-B	c	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	2028
+h2a		h2a				Protein ORF73	K	Q9QR71	NA	NA	Human gammaherpesvirus 8	5gtc	nucleosome	195
+h2b		h2b				Protein ORF73	K	Q9QR71	NA	NA	Human gammaherpesvirus 8	5gtc	nucleosome	178
+h2a		h2a				Regulator of chromosome condensation	L	P25171	NA	NA	Drosophila melanogaster	3mvd	nucleosome	384
+h2b		h2b				Regulator of chromosome condensation	L	P25171	NA	NA	Drosophila melanogaster	3mvd	nucleosome	184
+h2a		h2a				Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	615.5
+h2b		h2b				Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	1498
+h3		h3				Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	770
+h4		h4				Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	1951
 Actin-related protein 5	H	Q9H9F9	6281#6302#6310#6351#6355#6974#16579#70914	5515	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	94
 DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	2037
+INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	RuvB-like 1	E	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	424
+RuvB-like 1	C	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	83
+RuvB-like 2	B	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	7513
 DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	RuvB-like 2	B	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	6etx	nucleosome	1756
-h2a						55 kDa immediate-early protein 1	K	P03169	NA	NA	Human betaherpesvirus 5	5e5a	nucleosome	184
-h2a						CENP-C	U	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	317
-h2a						Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	282
-h2a						Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	2
-h2a						latent nuclear antigen	K	Q9DUM3	NA	NA	Human gammaherpesvirus 8	1zla	nucleosome	189
-h2a						NA	A	NA	NA	3677#46982	Homo sapiens	5gxq	nucleosome	501
-h2a						P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	405
-h2a						Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	5kgf	nucleosome	75
-h2a						Protein ORF73	K	Q9QR71	NA	NA	Human gammaherpesvirus 8	5gtc	nucleosome	195
-h2a						Regulator of chromosome condensation	L	P25171	NA	NA	Drosophila melanogaster	3mvd	nucleosome	384
-h2a						Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	615.5
-h2a						RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	16
-h2a						SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	328
-h2a						TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	298
-h2a						Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	2
-h2b						55 kDa immediate-early protein 1	K	P03169	NA	NA	Human betaherpesvirus 5	5e5a	nucleosome	262
-h2b						CENP-C	U	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	155
-h2b						Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	11
-h2b						Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	165
-h2b						Guanine nucleotide exchange factor SRM1	K	P21827	54#6407#7049#16973#19236#51301	5085#5087	Saccharomyces cerevisiae	5hq2	nucleosome	70
-h2b						Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	40
-h2b						Ino80	G	NA	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	6fml	nucleosome	4
-h2b						latent nuclear antigen	K	Q9DUM3	NA	NA	Human gammaherpesvirus 8	1zla	nucleosome	201
-h2b						P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	158
-h2b						Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	20
-h2b						Polyubiquitin-B	c	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	14
-h2b						Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	5kgf	nucleosome	98
-h2b						Protein ORF73	K	Q9QR71	NA	NA	Human gammaherpesvirus 8	5gtc	nucleosome	178
-h2b						Regulator of chromosome condensation	L	P25171	NA	NA	Drosophila melanogaster	3mvd	nucleosome	184
-h2b						Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	1498
-h2b						RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	2
-h2b						SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	253
-h2b						TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	323
-h2b						Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	318
-h3						Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	6fml	nucleosome	1
-h3						CENP-C	V	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	215
-h3						Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	112
-h3						Chromo domain-containing protein 1	W	P32657	1178#6325#6351#6355#6363#6368#6369#16584#34728#42766#43044#60303#71441#71894#1900050#1902275#2000104#2000616	166#182#3677#4386#5524#8094#16787#31490#35064#44212#70615	Saccharomyces cerevisiae	5o9g	nucleosome	6
-h3						DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	6etx	nucleosome	6
-h3						Gag polyprotein	M	P14349	19076#46718#75521	NA	Simian foamy virus	5mlu	nucleosome	142
-h3						Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	6fml	nucleosome	2
-h3						P0AEY0:#Maltose-binding periplasmic protein#Q96H22:#Centromere protein N	N	P0AEY0#Q96H22	7059#8643#51382#55085	15144	Escherichia coli,Homo sapiens	6buz	nucleosome	61
-h3						Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	157
-h3						Polyubiquitin-B	X	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	2
-h3						Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	770
-h3						Transcription regulatory protein SNF2	O	P22082	NA	5524#42393	Saccharomyces cerevisiae	5x0y	nucleosome	33
-h4						Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	6fml	nucleosome	2
-h4						CENP-C	V	Q66LH7	51382	19237	Rattus norvegicus	4x23	nucleosome	69
-h4						Centromere protein N	K	Q96H22	7059#51382	NA	Homo sapiens	6c0w	nucleosome	32
-h4						Chromo domain-containing protein 1	W	P32657	1178#6325#6351#6355#6363#6368#6369#16584#34728#42766#43044#60303#71441#71894#1900050#1902275#2000104#2000616	166#182#3677#4386#5524#8094#16787#31490#35064#44212#70615	Saccharomyces cerevisiae	5o9g	nucleosome	105
-h4						N-lysine methyltransferase KMT5A	M	Q9NQR1	NA	18024	Homo sapiens	5hq2	nucleosome	228
-h4						NA	A	NA	NA	3677#46982	Homo sapiens	5gxq	nucleosome	2809
-h4						P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	4r8p	nucleosome	16
-h4						Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	28
-h4						Regulatory protein SIR3	K	P06701	NA	3682	Saccharomyces cerevisiae	3tu4|4ld9	nucleosome	1951
-h4						TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	26
-h4						Transcription regulatory protein SNF2	O	P22082	NA	5524#42393	Saccharomyces cerevisiae	5x0y	nucleosome	211
-h4						Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	11
+INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	RuvB-like 2	D	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	6etx	nucleosome	562
+RuvB-like 2	D	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	RuvB-like 2	B	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	6etx	nucleosome	220
+Actin related protein 5	J	G0S589	NA	NA	Chaetomium thermophilum	RuvB-like helicase	B	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	131
+h2a		h2a				RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	16
+h2b		h2b				RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	2
 Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	191
 Ies6	I	G0S590	6338	NA	Chaetomium thermophilum	RuvB-like helicase	B	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	69
 Ino80	G	NA	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	RuvB-like helicase	D	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	1969
 Ino80	G	NA	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	RuvB-like helicase	A	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	2900
-INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	DNA helicase INO80	G	Q9ULG1	6281#6338#6351	3677#5524#16887	Homo sapiens	6etx	nucleosome	18
-INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	RuvB-like 1	E	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	424
-INO80 complex subunit B	R	Q9C086	6281#6310#6338#6351#6355#6974#16579	5515#46872	synthetic construct	RuvB-like 2	D	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	6etx	nucleosome	562
-les2	H	G0RY01	NA	NA	Chaetomium thermophilum	Ino80	G	NA	6281#6338#6351	3677#5524#16887	Chaetomium thermophilum	6fml	nucleosome	157
 les2	H	G0RY01	NA	NA	Chaetomium thermophilum	RuvB-like helicase	D	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	287
 les2	H	G0RY01	NA	NA	Chaetomium thermophilum	RuvB-like helicase	C	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	371
-NA	E	NA	NA	3677#46982	Homo sapiens	NA	A	NA	NA	3677#46982	Homo sapiens	4yhp|4yhz|5gxq	nucleosome	6420.5
-P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	L	P61077#Q99496	122#209#6281#6464#6511#6513#6625#6915#6974#16567#30509#43161#51865#70936#70979#1903955	166#4842#5515#5524#16740#61631	Homo sapiens	Polycomb complex protein BMI-1	K	P35226	NA	NA	Homo sapiens	4r8p	nucleosome	1876
-Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	123
-RuvB-like 1	C	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	83
-RuvB-like 2	B	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	RuvB-like 1	A	Q9Y265	492#6281#6310#6325#6338#6351#6355#6357#6974#7049#7283#16579#32508#34080#40008#43967#43968#51301#90263#1903508#1904837#1904874	166#1094#3678#3713#4003#4386#5515#5524#16787#16887#17025#43141#43531#45296#51117	Homo sapiens	6etx	nucleosome	7513
-RuvB-like 2	D	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	RuvB-like 2	B	Q9Y230	492#6281#6310#6325#6338#6351#6355#6457#6974#32508#34644#35066#40008#43967#43968#45944#71169#71392#71733#71899#90090#1903507#1904874	166#979#980#1094#3678#3714#4003#4386#5515#5524#8013#16787#16887#17025#31490#42802#42803#43141#43531#51082#51117	Homo sapiens	6etx	nucleosome	220
 RuvB-like helicase	E	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	RuvB-like helicase	D	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	172
 RuvB-like helicase	D	G0RYC2	492#6281#6325#6338#6351#6355#6357#6364#6974#32508#43486	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	RuvB-like helicase	A	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	8365
 RuvB-like helicase	B	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	RuvB-like helicase	A	G0RYI5	492#6281#6325#6338#6351#6355#6357#6974#32508#43044#43486#60303	166#3678#4386#5515#5524#16787#43140#43141	Chaetomium thermophilum	6fml	nucleosome	193
-SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	723
+h2a		h2a				SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	328
+h2b		h2b				SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	253
 SAGA-associated factor 73	d	P53165	NA	NA	Saccharomyces cerevisiae	SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	141
-SAGA-associated factor 73	d	P53165	NA	NA	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	314
-Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	Polyubiquitin-B	c	P0CG47	NA	NA	Homo sapiens	4zux	nucleosome	2028
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	1936
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	SAGA-associated factor 73	d	P53165	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	3169
+h2a		h2a				TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	298
+h2b		h2b				TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	323
+h4		h4				TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	26
+Polyubiquitin-B	M	P0CG47	NA	NA	Homo sapiens	TP53-binding protein 1	L	Q12888	NA	NA	Homo sapiens	5kgf	nucleosome	123
+SAGA-associated factor 11	b	A6ZWK1	NA	NA	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	723
+SAGA-associated factor 73	d	P53165	NA	NA	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	314
 Ubiquitin carboxyl-terminal hydrolase 8	Z	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	Transcription and mRNA export factor SUS1	a	Q6WNK7	NA	NA	Saccharomyces cerevisiae	4zux	nucleosome	858
-h2a						Histone H4		P62805				5gse	nucleosome	28
-h2b						Histone H2B type 1-J		P06899				5gse	nucleosome	2
-h3						Histone H4		P62805				5gse	nucleosome	2
-h4						Histone H2A type 1-B/E		P04908				5gse	nucleosome	28
-h4						Histone H3.1		P68431				5gse	nucleosome	2
+h3		h3				Transcription regulatory protein SNF2	O	P22082	NA	5524#42393	Saccharomyces cerevisiae	5x0y	nucleosome	33
+h4		h4				Transcription regulatory protein SNF2	O	P22082	NA	5524#42393	Saccharomyces cerevisiae	5x0y	nucleosome	211
+h2a		h2a				Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	2
+h2b		h2b				Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	318
+h4		h4				Ubiquitin carboxyl-terminal hydrolase 8	U	P50102	6351#6355#6508#6511#8380#16578#16579#34729#51568	4843#5515#8233#8234#8270#16787#32947#36459#46872	Saccharomyces cerevisiae	4zux	nucleosome	11
