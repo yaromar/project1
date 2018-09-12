@@ -407,14 +407,14 @@ def average_histones(interfaceDictionary):
             targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('|')
             sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') 
             
-            if(targetFields[3] != 'other'): #MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
+            if(targetFields[3] != 'other'): 
                 histoneType = targetFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
                 
                 if(histoneType in avgDict):
                     
                     if(residue in avgDict[histoneType]):
-                        avgDict[histoneType][residue] += normalizedCount
+                        avgDict[histoneType][residue] += normalizedCount ###normalize again!!
                     
                     else:
                         avgDict[histoneType][residue] = normalizedCount
@@ -422,7 +422,7 @@ def average_histones(interfaceDictionary):
                 else:
                     avgDict[histoneType] = {residue : normalizedCount}
                     
-            elif(sourceFields[3] != 'other'):#MAKE ENTRIES HAVE THE SAME NUMBER OF ELEMENTS!!!
+            elif(sourceFields[3] != 'other'):
                 histoneType = sourceFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
                 
