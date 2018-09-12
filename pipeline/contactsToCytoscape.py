@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[383]:
+# In[14]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[384]:
+# In[15]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[385]:
+# In[16]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[386]:
+# In[17]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[387]:
+# In[18]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[388]:
+# In[19]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[389]:
+# In[20]:
 
 
 #PARAMETERS:
@@ -306,7 +306,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[390]:
+# In[21]:
 
 
 #PARAMETERS:
@@ -381,7 +381,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[391]:
+# In[22]:
 
 
 def normalize_count(interfaceDictionary):
@@ -393,14 +393,14 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[392]:
+# In[31]:
 
 
 def average_histones(interfaceDictionary):
     
     avgDict = {}
     avgDict['type'] = {}
-
+    
     for pair in interfaceDictionary:
         
         for residue in interfaceDictionary[pair]:                           
@@ -414,13 +414,14 @@ def average_histones(interfaceDictionary):
                 if(histoneType in avgDict):
                     
                     if(residue in avgDict[histoneType]):
-                        avgDict[histoneType][residue] += normalizedCount ###normalize again!!
-                    
+                        avgDict[histoneType][residue][0] += normalizedCount 
+                        avgDict[histoneType][residue][1] += 1 #for normalization
+                        
                     else:
-                        avgDict[histoneType][residue] = normalizedCount
+                        avgDict[histoneType][residue] = [normalizedCount, 1]
                         
                 else:
-                    avgDict[histoneType] = {residue : normalizedCount}
+                    avgDict[histoneType] = {residue : [normalizedCount, 1]}
                     
             elif(sourceFields[3] != 'other'):
                 histoneType = sourceFields[3]
@@ -429,18 +430,32 @@ def average_histones(interfaceDictionary):
                 if(histoneType in avgDict):
                     
                     if(residue in avgDict[histoneType]):
-                        avgDict[histoneType][residue] += normalizedCount
-                    
+                        avgDict[histoneType][residue][0] += normalizedCount 
+                        avgDict[histoneType][residue][1] += 1 #for normalization
+                        
                     else:
-                        avgDict[histoneType][residue] = normalizedCount
+                        avgDict[histoneType][residue] = [normalizedCount, 1]
                         
                 else:
-                    avgDict[histoneType] = {residue : normalizedCount}
+                    avgDict[histoneType] = {residue : [normalizedCount, 1]}
     
-    return avgDict
+    avgDict2 = {}
+    avgDict2['type'] = {}
+    
+    for histoneType in avgDict:
+        
+        for residue in avgDict[histoneType]:
+            
+            if(histoneType in avgDict2):
+                histoneType2[residue] = avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]
+
+            else:
+                histoneType2 = {residue : avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]}
+    
+    return avgDict2
 
 
-# In[393]:
+# In[32]:
 
 
 def sum_contacts(interfaceDictionary):
@@ -572,7 +587,7 @@ def sum_contacts(interfaceDictionary):
     return sumDict
 
 
-# In[402]:
+# In[33]:
 
 
 def main():
@@ -645,7 +660,7 @@ def main():
                 print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
 
 
-# In[403]:
+# In[34]:
 
 
 if __name__ == "__main__":
