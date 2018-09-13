@@ -306,7 +306,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[69]:
+# In[4]:
 
 
 #PARAMETERS:
@@ -335,46 +335,120 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                     residue1 = lineFields[2]
                     residue2 = lineFields[6]
-
-                    uniprot1 = chainDictionary[pdb][chain1].split('|', 2)[1]
-                    uniprot2 = chainDictionary[pdb][chain2].split('|', 2)[1]
-
+                    
+                    fields1 = chainDictionary[pdb][chain1].split('|', 5)
+                    fields2 = chainDictionary[pdb][chain2].split('|', 5)
+                    
+                    uniprot1 = fields1[1]
+                    uniprot2 = fields2[1]
+                    
+                    type1 = fields1[3]
+                    type2 = fields2[3]
+                    
                     uniprotPair1 = uniprot1 + '@' + uniprot2
-                    uniprotPair2 = uniprot2 + '@' + uniprot1
-
                     chainPair1 = chainDictionary[pdb][chain1] + '@' + chainDictionary[pdb][chain2]
+                    
+                    uniprotPair2 = uniprot2 + '@' + uniprot1
                     chainPair2 = chainDictionary[pdb][chain2] + '@' + chainDictionary[pdb][chain1]
+                    
+                    if(type1 != 'other'):                    
+                        
+                        if(uniprotPair1 in interfaceDictionary):
+                            
+                            if(residue1 in interfaceDictionary[uniprotPair1]):
+                                interfaceDictionary[uniprotPair1][residue1][1] += 1  
 
-                    if(uniprotPair1 in interfaceDictionary):
+                                if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
+                                    interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
 
+                                    if(pdb not in interfaceDictionary[uniprotPair1][residue1][2]):
+                                        interfaceDictionary[uniprotPair1][residue1][2] += '$' + pdb
+
+                            else:
+                                interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict      
+                        
+                        elif(uniprotPair2 not in interfaceDictionary):
+                            interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]} 
+                                
+                        else:
+                                
+                            if(residue2 in interfaceDictionary[uniprotPair2]):
+                                    interfaceDictionary[uniprotPair2][residue2][1] += 1  
+
+                                    if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
+                                        interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                      
+
+                                        if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
+                                            interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
+
+                            else:
+                                interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]    #format of the innermost dict             
+                    
+                    elif(uniprotPair1 not in interfaceDictionary):
+                        
+                        if(uniprotPair2 in interfaceDictionary):
+                            
+                            if(residue2 in interfaceDictionary[uniprotPair2]):
+                                interfaceDictionary[uniprotPair2][residue2][1] += 1  
+
+                                if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
+                                    interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                       
+
+                                    if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
+                                        interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
+
+                            else:
+                                interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]    #format of the innermost dict     
+                        
+                        else:
+                            interfaceDictionary[uniprotPair2] = {residue2 : [chainPair2, 1, pdb]} 
+                    
+                    else:
+                            
                         if(residue1 in interfaceDictionary[uniprotPair1]):
                             interfaceDictionary[uniprotPair1][residue1][1] += 1  
 
                             if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
                                 interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
-                                
+
                                 if(pdb not in interfaceDictionary[uniprotPair1][residue1][2]):
                                     interfaceDictionary[uniprotPair1][residue1][2] += '$' + pdb
+
+                        else:
+                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict      
+
+
+                        
+#                     if(uniprotPair1 in interfaceDictionary):
+
+#                         if(residue1 in interfaceDictionary[uniprotPair1]):
+#                             interfaceDictionary[uniprotPair1][residue1][1] += 1  
+
+#                             if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
+#                                 interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
+                                
+#                                 if(pdb not in interfaceDictionary[uniprotPair1][residue1][2]):
+#                                     interfaceDictionary[uniprotPair1][residue1][2] += '$' + pdb
                                    
-                        else:
-                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict        
+#                         else:
+#                             interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict        
 
-                    elif(uniprotPair2 in interfaceDictionary):
+#                     elif(uniprotPair2 in interfaceDictionary):
 
-                        if(residue2 in interfaceDictionary[uniprotPair2]):
-                            interfaceDictionary[uniprotPair2][residue2][1] += 1
+#                         if(residue2 in interfaceDictionary[uniprotPair2]):
+#                             interfaceDictionary[uniprotPair2][residue2][1] += 1
 
-                            if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
-                                interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                        
+#                             if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
+#                                 interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                        
 
-                                if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
-                                    interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
+#                                 if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
+#                                     interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
                                     
-                        else:
-                            interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]
+#                         else:
+#                             interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]
 
-                    else:
-                         interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]}  
+#                     else:
+#                          interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]}  
                             
         except (IOError, KeyError) as e:
             #print("Error: " + interfaceFile + " does not appear to exist.")
@@ -609,14 +683,14 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
     normalize_count(interfaceDictionary)
-#     for pair in interfaceDictionary:
-#         for residue in interfaceDictionary[pair]:
-#             uniprots = pair.split('@')
-#             chains = str(interfaceDictionary[pair][residue][0]).split('@')
-#             name1 = chains[0].split('|')[2]
-#             name2 = chains[-1].split('|')[2]
-#             count = str(interfaceDictionary[pair][residue][3])
-#             print(uniprots[0] + '@' + name1 + '@' + uniprots[1] + '@' + name2 + '@' + residue + '@' + count)
+    for pair in interfaceDictionary:
+        for residue in interfaceDictionary[pair]:
+            uniprots = pair.split('@')
+            chains = str(interfaceDictionary[pair][residue][0]).split('@')
+            name1 = chains[0].split('|')[2]
+            name2 = chains[-1].split('|')[2]
+            count = str(interfaceDictionary[pair][residue][3])
+            print(uniprots[0] + '@' + name1 + '@' + uniprots[1] + '@' + name2 + '@' + residue + '@' + count)
     
     avgDict = average_histones(interfaceDictionary)
 #     for entry in avgDict:
@@ -644,25 +718,25 @@ def main():
             sourceFields = source.split('|')      
             contacts = sumDict[pair][0]   
          
-        if(len(targetFields) > 1 and targetFields[6].split(':')[1] == '1'):
-            if(len(sourceFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
-            else:
-                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
-        elif(len(sourceFields) > 1 and sourceFields[6].split(':')[1] == '1'):
-            if(len(targetFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
-            else:
-                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
-        elif(len(sourceFields) == 1 and len(targetFields) == 1):
-            print(target + ';' + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
-        else:
-            if(len(targetFields) > 1 and len(sourceFields) > 1):
-                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
-            elif(len(targetFields) > 1):
-                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
-            else:
-                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+  #       if(len(targetFields) > 1 and targetFields[6].split(':')[1] == '1'):
+#             if(len(sourceFields) > 1):
+#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+#             else:
+#                 print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
+#         elif(len(sourceFields) > 1 and sourceFields[6].split(':')[1] == '1'):
+#             if(len(targetFields) > 1):
+#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+#             else:
+#                 print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
+#         elif(len(sourceFields) == 1 and len(targetFields) == 1):
+#             print(target + ';' + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
+#         else:
+#             if(len(targetFields) > 1 and len(sourceFields) > 1):
+#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+#             elif(len(targetFields) > 1):
+#                 print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+#             else:
+#                 print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
 
 
 # In[60]:
