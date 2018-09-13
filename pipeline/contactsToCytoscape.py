@@ -212,7 +212,7 @@ def get_chain_dictionaries(cFile, dictionary):
 
                 tempType = histoneTypeAndCount[0]
                 tempCount = histoneTypeAndCount[1]
-
+                
                 #######################
                 if(tempCount): #if the chain is a [part of a] histone
                     
@@ -222,10 +222,7 @@ def get_chain_dictionaries(cFile, dictionary):
                             histoneCount[pdb].append(tempType) #!!!!!!
 
                     else:
-                        histoneCount[pdb] = [tempType]
-
-                        
-                        
+                        histoneCount[pdb] = [tempType]       
                         
                 try: #adds a chain entry to the dict only if there exists a corresponding chain in the mapping file
                     alexChain = list(tempDict[pdb].keys())[list(tempDict[pdb].values()).index(chain)]
@@ -416,7 +413,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                         else:
                             interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict      
-
+#CHECK FOR REDUNDANCY!!!
 
                         
 #                     if(uniprotPair1 in interfaceDictionary):
@@ -683,14 +680,14 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
     normalize_count(interfaceDictionary)
-    for pair in interfaceDictionary:
-        for residue in interfaceDictionary[pair]:
-            uniprots = pair.split('@')
-            chains = str(interfaceDictionary[pair][residue][0]).split('@')
-            name1 = chains[0].split('|')[2]
-            name2 = chains[-1].split('|')[2]
-            count = str(interfaceDictionary[pair][residue][3])
-            print(uniprots[0] + '@' + name1 + '@' + uniprots[1] + '@' + name2 + '@' + residue + '@' + count)
+#     for pair in interfaceDictionary:
+#         for residue in interfaceDictionary[pair]:
+#             uniprots = pair.split('@')
+#             chains = str(interfaceDictionary[pair][residue][0]).split('@')
+#             name1 = chains[0].split('|')[2]
+#             name2 = chains[-1].split('|')[2]
+#             count = str(interfaceDictionary[pair][residue][3])
+#             print(uniprots[0] + '@' + name1 + '@' + uniprots[1] + '@' + name2 + '@' + residue + '@' + count)
     
     avgDict = average_histones(interfaceDictionary)
 #     for entry in avgDict:
