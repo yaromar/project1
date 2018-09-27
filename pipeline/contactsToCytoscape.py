@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[62]:
+# In[33]:
 
 
 #NOTES:
@@ -12,7 +12,7 @@
 #it MUST have 'NA' in uniprot and name blanks
 
 
-# In[63]:
+# In[34]:
 
 
 #!/usr/bin/env python 3
@@ -24,7 +24,7 @@ CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
 
-# In[64]:
+# In[35]:
 
 
 #PARAMETERS:
@@ -45,7 +45,7 @@ def file_check(file):
         return 0
 
 
-# In[65]:
+# In[36]:
 
 
 #PARAMETERS:
@@ -83,7 +83,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[66]:
+# In[37]:
 
 
 #PARAMETERS: 
@@ -115,7 +115,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[67]:
+# In[38]:
 
 
 #PARAMETERS: 
@@ -139,7 +139,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[68]:
+# In[39]:
 
 
 #PARAMETERS:
@@ -303,7 +303,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[4]:
+# In[40]:
 
 
 #PARAMETERS:
@@ -322,16 +322,25 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
         try:
             
             with open (file, 'r') as ifh:
-                ifh.readline() #skips header
-
+                ifh.readline()
+                
+                atomList1 = [] #atomic count
+                atomList2 = [] #atomic count   
+                
                 for line in ifh:
-                    lineFields = line.split('\t', 7) #gets only the first 8 columns !!!
+                    lineFields = line.split('\t')
 
                     chain1 = lineFields[0].split('_', 1)[0] # the split part treats biological assembly chains as separate chains ???
                     chain2 = lineFields[4].split('_', 1)[0]
 
                     residue1 = lineFields[2]
                     residue2 = lineFields[6]
+                    
+                    atom1 = lineFields[3] #atomic count
+                    atom2 = lineFields[7] #atomic count
+                    
+                    atomEntry1 = chain1 + residue1 + atom1 #atomic count
+                    atomEntry2 = chain2 + residue2 + atom2 #atomic count
                     
                     fields1 = chainDictionary[pdb][chain1].split('|', 5)
                     fields2 = chainDictionary[pdb][chain2].split('|', 5)
@@ -353,8 +362,11 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                         if(uniprotPair1 in interfaceDictionary):
                             
                             if(residue1 in interfaceDictionary[uniprotPair1]):
-                                interfaceDictionary[uniprotPair1][residue1][1] += 1  
-
+                                
+                                if(atomEntry1 not in atomList1): #atomic count
+                                    interfaceDictionary[uniprotPair1][residue1][1] += 1  
+                                    atomList1.append(atomEntry1) #atomic count
+                                    
                                 if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
                                     interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
 
@@ -363,31 +375,40 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             else:
                                 interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict      
-                        
+                                atomList1.append(atomEntry1) #atomic count
+                                
                         elif(uniprotPair2 not in interfaceDictionary):
                             interfaceDictionary[uniprotPair1] = {residue1 : [chainPair1, 1, pdb]} 
-                                
+                            atomList1.append(atomEntry1)#atomic count
+                            
                         else:
                                 
                             if(residue2 in interfaceDictionary[uniprotPair2]):
+                                
+                                if(atomEntry2 not in atomList2): #atomic count
                                     interfaceDictionary[uniprotPair2][residue2][1] += 1  
+                                    atomList2.append(atomEntry2) #atomic count
+                                    
+                                if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
+                                    interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                      
 
-                                    if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
-                                        interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                      
-
-                                        if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
-                                            interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
+                                    if(pdb not in interfaceDictionary[uniprotPair2][residue2][2]):
+                                        interfaceDictionary[uniprotPair2][residue2][2] += '$' + pdb
 
                             else:
                                 interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]    #format of the innermost dict             
-                    
+                                atomList2.append(atomEntry2) #atomic count
+                                
                     elif(uniprotPair1 not in interfaceDictionary):
                         
                         if(uniprotPair2 in interfaceDictionary):
                             
                             if(residue2 in interfaceDictionary[uniprotPair2]):
-                                interfaceDictionary[uniprotPair2][residue2][1] += 1  
-
+                                
+                                if(atomEntry2 not in atomList2): #atomic count
+                                    interfaceDictionary[uniprotPair2][residue2][1] += 1  
+                                    atomList2.append(atomEntry2) #atomic count
+                                    
                                 if(chainPair2 not in interfaceDictionary[uniprotPair2][residue2][0]):
                                     interfaceDictionary[uniprotPair2][residue2][0] += '$' + chainPair2                       
 
@@ -396,15 +417,20 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             else:
                                 interfaceDictionary[uniprotPair2][residue2] = [chainPair2, 1, pdb]    #format of the innermost dict     
-                        
+                                atomList2.append(atomEntry2) #atomic count
+                                
                         else:
                             interfaceDictionary[uniprotPair2] = {residue2 : [chainPair2, 1, pdb]} 
-                    
+                            atomList2.append(atomEntry2) #atomic count    
+                            
                     else:
                             
                         if(residue1 in interfaceDictionary[uniprotPair1]):
-                            interfaceDictionary[uniprotPair1][residue1][1] += 1  
-
+                            
+                            if(atomEntry1 not in atomList1): #atomic count
+                                interfaceDictionary[uniprotPair1][residue1][1] += 1  
+                                atomList1.append(atomEntry1) #atomic count
+                                
                             if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
                                 interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
 
@@ -412,7 +438,8 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     interfaceDictionary[uniprotPair1][residue1][2] += '$' + pdb
 
                         else:
-                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict      
+                            interfaceDictionary[uniprotPair1][residue1] = [chainPair1, 1, pdb]    #format of the innermost dict    
+                            atomList1.append(atomEntry1) #atomic count
 #CHECK FOR REDUNDANCY!!!
 
                         
@@ -452,7 +479,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[70]:
+# In[41]:
 
 
 def normalize_count(interfaceDictionary):
@@ -464,7 +491,7 @@ def normalize_count(interfaceDictionary):
             interfaceDictionary[pair][residue].append(interfaceDictionary[pair][residue][1] / pdbCount) #[3] is normalized by uniprot pair
 
 
-# In[57]:
+# In[46]:
 
 
 def average_histones(interfaceDictionary):
@@ -477,7 +504,7 @@ def average_histones(interfaceDictionary):
         for residue in interfaceDictionary[pair]:                           
             targetFields = interfaceDictionary[pair][residue][0].split('@')[0].split('|')
             sourceFields = interfaceDictionary[pair][residue][0].split('@')[1].split('|') 
-            
+
             if(targetFields[3] != 'other'): 
                 histoneType = targetFields[3]
                 normalizedCount = interfaceDictionary[pair][residue][3]
@@ -518,21 +545,22 @@ def average_histones(interfaceDictionary):
         for residue in avgDict[histoneType]:
             
             if(histoneType in avgDict2):
-                histoneType2[residue] = avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]
+                avgDict2[residue] = avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]
 
             else:
-                histoneType2 = {residue : avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]}
-    
+                avgDict2[histoneType] = {residue : avgDict[histoneType][residue][0] / avgDict[histoneType][residue][1]}
+
     return avgDict2
 
 
-# In[58]:
+# In[48]:
 
 
 def sum_contacts(interfaceDictionary):
     
     sumDict = {}
-
+    histoneDict = {}
+    
     for pair in interfaceDictionary:
         
         if(pair != 'uniprotPair'):
@@ -580,7 +608,7 @@ def sum_contacts(interfaceDictionary):
                     histoneType2 = sourceFields[3]
                                  
                     newPair += histoneType2
-                    
+                
                 else:   
                     
                     for field in sourceFields:
@@ -600,7 +628,13 @@ def sum_contacts(interfaceDictionary):
                 
                 else:
                     sumDict[newPair] = [totalCount, pdbList]
-
+                
+                if(newPair in histoneDict):
+                    histoneDict[newPair] += 1
+                    
+                else:
+                    histoneDict = {newPair : 1}
+                
             elif(sourceFields[3] != 'other'):
                 histoneType = sourceFields[3]
                 
@@ -623,7 +657,13 @@ def sum_contacts(interfaceDictionary):
                 
                 else:
                     sumDict[newPair] = [totalCount, pdbList]
+                  
+                if(newPair in histoneDict):
+                    histoneDict[newPair] += 1
                     
+                else:
+                    histoneDict = {newPair : 1}
+                
             else:
                 newPair = ''
                 
@@ -652,13 +692,25 @@ def sum_contacts(interfaceDictionary):
                 
                 else:
                     sumDict[newPair] = [totalCount, pdbList]
+                
+                if(newPair in histoneDict):
+                    histoneDict[newPair] += 1
+                    
+                else:
+                    histoneDict = {newPair : 1}
+                    
             
+            
+            
+            
+            for pair in histoneDict:
+                sumDict[pair][0] = sumDict[pair][0] / histoneDict[pair]
             #####Have to account for the case when an interface between two non-histone chains is already in the dictionary, but is stored in a reverse order!!!!
 
     return sumDict
 
 
-# In[61]:
+# In[49]:
 
 
 def main():
@@ -689,11 +741,9 @@ def main():
 #             count = str(interfaceDictionary[pair][residue][3])
 #             print(uniprots[0] + '@' + name1 + '@' + uniprots[1] + '@' + name2 + '@' + residue + '@' + count)
     
-    avgDict = average_histones(interfaceDictionary)
-#     for entry in avgDict:
-#         for pair in avgDict[entry]:
-#             print(entry + '\t' + pair + ': ' + str(avgDict[entry][pair]))
-#             print('\n')
+#     avgDict = average_histones(interfaceDictionary)
+#     for entry in avgDict:       
+#         print(entry + '\t' + str(avgDict[entry]))
         
     sumDict = sum_contacts(interfaceDictionary)
     for pair in sumDict:
@@ -714,29 +764,29 @@ def main():
             targetFields = target.split('|')
             sourceFields = source.split('|')      
             contacts = sumDict[pair][0]   
-         
-  #       if(len(targetFields) > 1 and targetFields[6].split(':')[1] == '1'):
-#             if(len(sourceFields) > 1):
-#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
-#             else:
-#                 print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
-#         elif(len(sourceFields) > 1 and sourceFields[6].split(':')[1] == '1'):
-#             if(len(targetFields) > 1):
-#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
-#             else:
-#                 print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
-#         elif(len(sourceFields) == 1 and len(targetFields) == 1):
-#             print(target + ';' + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
-#         else:
-#             if(len(targetFields) > 1 and len(sourceFields) > 1):
-#                 print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
-#             elif(len(targetFields) > 1):
-#                 print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
-#             else:
-#                 print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+         ######
+        if(len(targetFields) > 1 and targetFields[6].split(':')[1] == '1'):
+            if(len(sourceFields) > 1):
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+            else:
+                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))   
+        elif(len(sourceFields) > 1 and sourceFields[6].split(':')[1] == '1'):
+            if(len(targetFields) > 1):
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))
+            else:
+                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'nucleosome' + ';' + str(contacts))          
+        elif(len(sourceFields) == 1 and len(targetFields) == 1):
+            print(target + ';' + ';' + ';' + ';' + ';' + ';' + source + ';' + ';' + ';' + ';' + ';' + ';' + pdbIDs + ';' + 'NA' + ';' + str(contacts))
+        else:
+            if(len(targetFields) > 1 and len(sourceFields) > 1):
+                print(sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+            elif(len(targetFields) > 1):
+                print(source + ';' + ';' + ';' + ';' + ';' + ';' + targetFields[2] + ';' + targetFields[0] + ';' + targetFields[1] + ';' + targetFields[4] + ';' + targetFields[5] + ';' + targetFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
+            else:
+                print(target + ';' + ';' + ';' + ';' + ';' + ';' + sourceFields[2] + ';' + sourceFields[0] + ';' + sourceFields[1] + ';' + sourceFields[4] + ';' + sourceFields[5] + ';' + sourceFields[6].split('nucleosome')[0] + ';' + pdbIDs + ';' + 'histone' + ';' + str(contacts))
 
 
-# In[60]:
+# In[26]:
 
 
 if __name__ == "__main__":

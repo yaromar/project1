@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<vizmap documentVersion="3.0" id="VizMap-2018_09_25-12_42">
+<vizmap documentVersion="3.0" id="VizMap-2018_09_27-16_56">
     <visualStyle name="BioPAX">
         <network>
             <visualProperty name="NETWORK_DEPTH" default="0.0"/>
@@ -148,10 +148,10 @@
             <visualProperty name="NODE_FILL_COLOR" default="#FFFFFF">
                 <discreteMapping attributeType="string" attributeName="name">
                     <discreteMappingEntry value="#FF9966" attributeValue="DNA"/>
-                    <discreteMappingEntry value="#009900" attributeValue="h2a"/>
-                    <discreteMappingEntry value="#3366FF" attributeValue="h2b"/>
-                    <discreteMappingEntry value="#CCCC00" attributeValue="h3"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="h4"/>
+                    <discreteMappingEntry value="#CCCC00" attributeValue="h2a"/>
+                    <discreteMappingEntry value="#FF0000" attributeValue="h2b"/>
+                    <discreteMappingEntry value="#3366FF" attributeValue="h3"/>
+                    <discreteMappingEntry value="#009900" attributeValue="h4"/>
                 </discreteMapping>
             </visualProperty>
             <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_3" default="C,C,c,0.00,0.00"/>
@@ -257,10 +257,10 @@
             <visualProperty name="EDGE_UNSELECTED_PAINT">
                 <discreteMapping attributeType="string" attributeName="type">
                     <discreteMappingEntry value="#FF9966" attributeValue="DNA"/>
-                    <discreteMappingEntry value="#009900" attributeValue="h2a"/>
-                    <discreteMappingEntry value="#3366FF" attributeValue="h2b"/>
-                    <discreteMappingEntry value="#CCCC00" attributeValue="h3"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="h4"/>
+                    <discreteMappingEntry value="#CCCC00" attributeValue="h2a"/>
+                    <discreteMappingEntry value="#FF0000" attributeValue="h2b"/>
+                    <discreteMappingEntry value="#3366FF" attributeValue="h3"/>
+                    <discreteMappingEntry value="#009900" attributeValue="h4"/>
                 </discreteMapping>
             </visualProperty>
             <visualProperty name="EDGE_CURVED" default="false"/>
