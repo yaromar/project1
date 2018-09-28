@@ -18,8 +18,8 @@
 #!/usr/bin/env python 3
 import re
 
-#PATH = "../data/Interfaces/"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "../data/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "text.tsv"
 PDB_LIST = "pdbList.txt"
 
@@ -353,8 +353,9 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                         if(uniprotPair1 in interfaceDictionary):
                             
                             if(residue1 in interfaceDictionary[uniprotPair1]):
-                                interfaceDictionary[uniprotPair1][residue1][1] += 1  
-
+                                #'interfaceDictionary[uniprotPair1][residue1][1] += 1  #]
+                                []
+                                
                                 if(chainPair1 not in interfaceDictionary[uniprotPair1][residue1][0]):
                                     interfaceDictionary[uniprotPair1][residue1][0] += '$' + chainPair1                       
 
