@@ -1,0 +1,78 @@
+SGF73	interacts with	SUS1
+SGF73	interacts with	SGF11
+SRM1	interacts with	h2b
+CENPN	interacts with	DNA
+CENPN	interacts with	h4
+CENPN	interacts with	h3
+CENPN	interacts with	h2b
+UL123	interacts with	h2b
+UL123	interacts with	h2a
+SGF11	interacts with	SUS1
+SGF11	interacts with	h2b
+SGF11	interacts with	h2a
+RuvB-like 2	interacts with	RuvB-like 1
+RuvB-like 2	interacts with	h2b
+RuvB-like 2	interacts with	h2a
+Protein ORF73	interacts with	h2b
+Protein ORF73	interacts with	h2a
+LANA	interacts with	h2b
+LANA	interacts with	h2a
+GAG	interacts with	h3
+GAG	interacts with	h2b
+GAG	interacts with	h2a
+CENP-C	interacts with	h4
+CENP-C	interacts with	h3
+CENP-C	interacts with	h2b
+CENP-C	interacts with	h2a
+BMI-1	interacts with	h4
+BMI-1	interacts with	h3
+BMI-1	interacts with	h2b
+TP53BP1	interacts with	h2b
+TP53BP1	interacts with	h2a
+TP53BP1	interacts with	h4
+Polyubiquitin-B	interacts with	TP53BP1
+Polyubiquitin-B	interacts with	h3
+Polyubiquitin-B	interacts with	h2b
+Polyubiquitin-B	interacts with	h2a
+UBP8	interacts with	SUS1
+UBP8	interacts with	SGF73
+UBP8	interacts with	Polyubiquitin-B
+UBP8	interacts with	h4
+UBP8	interacts with	h2b
+UBP8	interacts with	h2a
+UBP8	interacts with	DNA
+SUS1	interacts with	DNA
+Snf2	interacts with	h4
+Snf2	interacts with	h3
+Snf2	interacts with	DNA
+Sir3	interacts with	h4
+Sir3	interacts with	h3
+Sir3	interacts with	h2b
+Sir3	interacts with	h2a
+Sir3	interacts with	DNA
+RNF2	interacts with	h4
+RNF2	interacts with	h2b
+RNF2	interacts with	h2a
+RNF2	interacts with	BMI-1
+RNF2	interacts with	DNA
+RCC	interacts with	h2b
+RCC	interacts with	h2a
+RCC	interacts with	DNA
+KMT5A	interacts with	h4
+KMT5A	interacts with	DNA
+INO80	interacts with	RuvB-like 2
+INO80	interacts with	RuvB-like 1
+INO80	interacts with	h3
+INO80	interacts with	h2b
+INO80	interacts with	DNA
+Chd1	interacts with	h4
+Chd1	interacts with	h3
+Chd1	interacts with	DNA
+DNA	interacts with	H1/H5
+ACTR5	interacts with	RuvB-like 2
+ACTR5	interacts with	RuvB-like 1
+ACTR5	interacts with	h4
+ACTR5	interacts with	h3
+ACTR5	interacts with	h2b
+ACTR5	interacts with	h2a
+ACTR5	interacts with	DNA

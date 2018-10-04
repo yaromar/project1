@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<vizmap documentVersion="3.0" id="VizMap-2018_09_28-11_58">
+<vizmap documentVersion="3.0" id="VizMap-2018_10_04-14_12">
     <visualStyle name="BioPAX_0">
         <network>
             <visualProperty name="NETWORK_BACKGROUND_PAINT" default="#FFFFFF"/>
@@ -138,7 +138,7 @@
                 </discreteMapping>
             </visualProperty>
             <visualProperty name="NODE_LABEL" default="">
-                <passthroughMapping attributeType="string" attributeName="name"/>
+                <passthroughMapping attributeType="string" attributeName="shared name"/>
             </visualProperty>
             <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_9" default="0.0"/>
             <visualProperty name="COMPOUND_NODE_PADDING" default="10.0"/>
@@ -185,65 +185,66 @@
             </visualProperty>
             <visualProperty name="EDGE_WIDTH" default="1.0">
                 <discreteMapping attributeType="float" attributeName="atomic_count">
-                    <discreteMappingEntry value="1.0" attributeValue="2.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="720.0"/>
-                    <discreteMappingEntry value="1.0" attributeValue="3.0"/>
-                    <discreteMappingEntry value="1.0" attributeValue="5.0"/>
-                    <discreteMappingEntry value="1.0" attributeValue="7.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="8.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="2321.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="11.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="12.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="17.5"/>
-                    <discreteMappingEntry value="2.0" attributeValue="18.5"/>
-                    <discreteMappingEntry value="2.0" attributeValue="22.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="23.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="24.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="25.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="26.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="27.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="29.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="30.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="32.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="33.5"/>
-                    <discreteMappingEntry value="2.0" attributeValue="37.0"/>
-                    <discreteMappingEntry value="2.0" attributeValue="41.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="42.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="43.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="44.5"/>
-                    <discreteMappingEntry value="3.0" attributeValue="46.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="49.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="50.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="52.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="54.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="56.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="58.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="59.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="61.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="70.0"/>
-                    <discreteMappingEntry value="3.0" attributeValue="73.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="84.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="86.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="91.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="92.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="97.0"/>
-                    <discreteMappingEntry value="4.0" attributeValue="99.5"/>
-                    <discreteMappingEntry value="4.0" attributeValue="104.5"/>
-                    <discreteMappingEntry value="4.0" attributeValue="108.5"/>
-                    <discreteMappingEntry value="5.0" attributeValue="128.5"/>
-                    <discreteMappingEntry value="5.0" attributeValue="144.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="219.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="236.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="237.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="241.5"/>
-                    <discreteMappingEntry value="1.0" attributeValue="1.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="286.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="398.0"/>
-                    <discreteMappingEntry value="1.0" attributeValue="1.5"/>
-                    <discreteMappingEntry value="6.0" attributeValue="407.5"/>
-                    <discreteMappingEntry value="6.0" attributeValue="409.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="432.0"/>
-                    <discreteMappingEntry value="6.0" attributeValue="460.0"/>
+                    <discreteMappingEntry value="2.0" attributeValue="2.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="720.0"/>
+                    <discreteMappingEntry value="2.0" attributeValue="3.0"/>
+                    <discreteMappingEntry value="2.0" attributeValue="5.0"/>
+                    <discreteMappingEntry value="2.0" attributeValue="7.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="8.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="2321.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="11.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="12.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="17.5"/>
+                    <discreteMappingEntry value="3.0" attributeValue="18.5"/>
+                    <discreteMappingEntry value="3.0" attributeValue="22.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="23.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="24.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="25.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="26.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="27.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="29.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="30.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="32.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="33.5"/>
+                    <discreteMappingEntry value="3.0" attributeValue="37.0"/>
+                    <discreteMappingEntry value="3.0" attributeValue="41.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="42.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="43.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="44.5"/>
+                    <discreteMappingEntry value="4.0" attributeValue="46.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="49.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="50.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="52.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="54.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="56.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="58.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="59.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="61.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="70.0"/>
+                    <discreteMappingEntry value="4.0" attributeValue="73.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="84.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="86.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="91.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="92.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="97.0"/>
+                    <discreteMappingEntry value="5.0" attributeValue="99.5"/>
+                    <discreteMappingEntry value="5.0" attributeValue="104.5"/>
+                    <discreteMappingEntry value="5.0" attributeValue="108.5"/>
+                    <discreteMappingEntry value="5.0" attributeValue="112.0"/>
+                    <discreteMappingEntry value="6.0" attributeValue="128.5"/>
+                    <discreteMappingEntry value="6.0" attributeValue="144.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="219.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="236.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="237.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="241.5"/>
+                    <discreteMappingEntry value="2.0" attributeValue="1.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="286.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="398.0"/>
+                    <discreteMappingEntry value="2.0" attributeValue="1.5"/>
+                    <discreteMappingEntry value="7.0" attributeValue="407.5"/>
+                    <discreteMappingEntry value="7.0" attributeValue="409.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="432.0"/>
+                    <discreteMappingEntry value="7.0" attributeValue="460.0"/>
                 </discreteMapping>
             </visualProperty>
             <visualProperty name="EDGE_SOURCE_ARROW_SHAPE" default="NONE"/>

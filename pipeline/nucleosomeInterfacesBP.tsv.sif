@@ -1,0 +1,66 @@
+SGF73	interacts with	SUS1
+SGF73	interacts with	SGF11
+KMT5A	interacts with	H4
+Snf2	interacts with	H4
+Snf2	interacts with	H3
+Chd1	interacts with	H4
+Chd1	interacts with	H3
+SRM1	interacts with	H2b
+INO80	interacts with	RuvB-like 2
+INO80	interacts with	RuvB-like 1
+INO80	interacts with	H3
+INO80	interacts with	H2b
+CENPN	interacts with	H4
+CENPN	interacts with	H3
+CENPN	interacts with	H2b
+BMI-1	interacts with	H4
+BMI-1	interacts with	H3
+BMI-1	interacts with	H2b
+UL123	interacts with	H2b
+UBP8	interacts with	SUS1
+UBP8	interacts with	SGF73
+UBP8	interacts with	Polyubiquitin-B
+UBP8	interacts with	H4
+UBP8	interacts with	H2b
+UBP8	interacts with	H2a
+TP53BP1	interacts with	H4
+TP53BP1	interacts with	H2b
+TP53BP1	interacts with	H2a
+Sir3	interacts with	H4
+Sir3	interacts with	H3
+Sir3	interacts with	H2b
+Sir3	interacts with	H2a
+SGF11	interacts with	SUS1
+SGF11	interacts with	H2b
+SGF11	interacts with	H2a
+RuvB-like 2	interacts with	RuvB-like 1
+RuvB-like 2	interacts with	H2b
+RuvB-like 2	interacts with	H2a
+RNF2	interacts with	BMI-1
+RNF2	interacts with	H4
+RNF2	interacts with	H2b
+RNF2	interacts with	H2a
+RCC	interacts with	H2b
+RCC	interacts with	H2a
+Protein ORF73	interacts with	H2b
+Protein ORF73	interacts with	H2a
+Polyubiquitin-B	interacts with	TP53BP1
+Polyubiquitin-B	interacts with	H3
+Polyubiquitin-B	interacts with	H2b
+Polyubiquitin-B	interacts with	H2a
+LANA	interacts with	H2b
+LANA	interacts with	H2a
+GAG	interacts with	H3
+GAG	interacts with	H2b
+GAG	interacts with	H2a
+CENPC	interacts with	H4
+CENPC	interacts with	H3
+CENPC	interacts with	H2b
+CENPC	interacts with	H2a
+H2a	interacts with	UL123
+ACTR5	interacts with	RuvB-like 2
+ACTR5	interacts with	RuvB-like 1
+ACTR5	interacts with	H4
+ACTR5	interacts with	H3
+ACTR5	interacts with	H2b
+ACTR5	interacts with	H2a

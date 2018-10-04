@@ -1,0 +1,25 @@
+SGF11	interacts with	SUS1
+SGF73	interacts with	SUS1
+SGF73	interacts with	SGF11
+RuvB-like 2	interacts with	RuvB-like 1
+Polyubiquitin-B	interacts with	TP53BP1
+H1/H5	interacts with	DNA
+UBP8	interacts with	SUS1
+UBP8	interacts with	SGF73
+UBP8	interacts with	Polyubiquitin-B
+UBP8	interacts with	DNA
+SUS1	interacts with	DNA
+Snf2	interacts with	DNA
+Sir3	interacts with	DNA
+RNF2	interacts with	BMI-1
+RNF2	interacts with	DNA
+RCC	interacts with	DNA
+KMT5A	interacts with	DNA
+INO80	interacts with	RuvB-like 2
+INO80	interacts with	RuvB-like 1
+INO80	interacts with	DNA
+Chd1	interacts with	DNA
+CENPN	interacts with	DNA
+ACTR5	interacts with	RuvB-like 2
+ACTR5	interacts with	RuvB-like 1
+ACTR5	interacts with	DNA
