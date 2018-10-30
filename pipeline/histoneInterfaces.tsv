@@ -47,9 +47,11 @@ h3		h3				Fab Light Chain	L	Fab Light Chain	NA	NA	Homo sapiens	4yhp|4yhz	h3	126	
 h3		h3				FACT complex subunit SPT16	B	Q9Y5B9	NA	NA	Homo sapiens	4z2m	h3	67	histone
 h4		h4				FACT complex subunit SPT16	B	Q9Y5B9	NA	NA	Homo sapiens	4z2m	h4	90	histone
 h3		h3				HAT A1	A	Q27198	NA	4402	Tetrahymena thermophila	1m1d|1pu9|1qsn|1pua	h3	197	histone
+h4		h4				HAT A1			NA	4402		1q2c	h4	197	histone
 h2a		h2a				HAT1-interacting factor 1	B	Q12373	6325#6334#6348#6351#6355#16573	5515#42393#42803	Saccharomyces cerevisiae	5bt1	h2a	61	histone
 h2b		h2b				HAT1-interacting factor 1	B	Q12373	6325#6334#6348#6351#6355#16573	5515#42393#42803	Saccharomyces cerevisiae	5bt1	h2b	150	histone
 h2a		h2a				Helicase SWR1	C	Q05471	NA	NA	Saccharomyces cerevisiae	4m6b	h2a	140	histone
+h2b		h2b				Helicase SWR1	C	Q05471	NA	NA	Saccharomyces cerevisiae	4m6b	h2b	?	histone
 h3		h3				Hepatoma-derived growth factor-related protein 2	A	Q7Z4V5	NA	NA	Homo sapiens	3qj6	h3	27	histone
 h4		h4				Hepatoma-derived growth factor-related protein 2	B	Q7Z4V5	NA	NA	Homo sapiens	3qby	h4	10	histone
 h3		h3				Heterochromatin protein 1	A	P05205	NA	NA	Drosophila melanogaster	1kna|5kog	h3	212	histone
