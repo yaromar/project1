@@ -59,7 +59,7 @@ PDB	TYPE	BINDING_PARTNER?	DEPOSIT_DATE
 3b6g	nucleosome	no bp	2007-10-29
 3c1b	nucleosome	no bp	2008-01-22
 3c1c	nucleosome	no bp	2008-01-22
-3c9k	nucleosome	no bo	2008-02-16
+3c9k	nucleosome	no bp	2008-02-16
 3a6n	nucleosome	no bp	2009-09-04
 3kuy	nucleosome	no bp	2009-11-28
 3kwq	nucleosome	no bp	2009-12-01
@@ -284,6 +284,7 @@ PDB	TYPE	BINDING_PARTNER?	DEPOSIT_DATE
 3g7l	histone	yes bp	2009-02-10
 3gl6	histone	yes bp	2009-03-11
 3gv6	histone	yes bp	2009-03-30
+3h91	histone	yes bp	2009-04-29
 3hna	histone	yes bp	2009-05-30
 3hsv	histone	yes bp	2009-06-10
 2wp1	histone	yes bp	2009-08-02
@@ -554,7 +555,6 @@ PDB	TYPE	BINDING_PARTNER?	DEPOSIT_DATE
 5ix2	histone	yes bp	2016-03-23
 5j3v	histone	yes bp	2016-03-31
 5g2e	histone	yes bp	2016-04-07
-5j9q	histone	yes bp	2016-04-11
 5j9s	histone	yes bp	2016-04-11
 5ja4	histone	yes bp	2016-04-11
 5jhn	histone	yes bp	2016-04-21
