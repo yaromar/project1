@@ -1,4 +1,34 @@
 target_name	target_chain	target_uniprot	target_pathway	target_function	target_organism	source_name	source_chain	source_uniprot	source_pathway	souce_function	source_organsm	Pdb	Histone	atomic_count	type
+<<<<<<< HEAD
+Beta-2-microglobulin	B	P61769	1895#1916#2237#2376#2474#2479#2480#2481#2726#6826#6955#10977#19885#32092#33077#33216#42026#42493#43312#44267#45087#45646#46686#48260#50690#50776#55072#60333#71281#71283#1900121#1900122#1900390#1904434#1904437	5515#42802	Homo sapiens	Leukocyte immunoglobulin-like receptor subfamily B member 2	D	Q8N423	NA	NA	Homo sapiens	2dyp		76	histone
+Death domain-associated protein 6	C	Q9UER7	NA	NA	Homo sapiens	Major tegument protein	D	Q1HVJ0	NA	NA	Human gammaherpesvirus 4	5kdm		58	histone
+DNA (cytosine-5)-methyltransferase 3A	C	Q9Y6K1	6306#10468	8168#9008	Homo sapiens	DNA (cytosine-5)-methyltransferase 3-like	D	Q9UJW3	6306	19899#30234	Homo sapiens	4u7t		265	histone
+DNA replication licensing factor MCM2	C	P49736	6270#1905775	3677#5524	Homo sapiens	Histone chaperone ASF1B	D	Q9NVP2	6333	NA	Homo sapiens	5bnx|5bo0		10	histone
+h1		h1				Chromobox protein homolog 3	A	Q13185	45892	NA	Homo sapiens	3tzd	h1	60	histone
+h1		h1				Lethal(3)malignant brain tumor-like protein 1	A	Q9Y468	6355	NA	Homo sapiens	2rhi	h1	6	histone
+h2a		h2a				Acidic leucine-rich nuclear phosphoprotein 32 family member E	C	Q9BTT0	NA	NA	Homo sapiens	4cay	h2a	52	histone
+h2a		h2a				E3 ubiquitin-protein ligase RNF169	C	Q8NCN4	NA	NA	Homo sapiens	5vey	h2a	217	histone
+h2a		h2a				HAT1-interacting factor 1	B	Q12373	6325#6334#6348#6351#6355#16573	5515#42393#42803	Saccharomyces cerevisiae	5bt1	h2a	61	histone
+h2a		h2a				Helicase SWR1	C	Q05471	NA	NA	Saccharomyces cerevisiae	4m6b	h2a	140	histone
+h2a		h2a				HLA class I histocompatibility antigen, alpha chain G	D	P17693	NA	NA	Homo sapiens	1ydp|2d31	h2a	155	histone
+h2a		h2a				Mediator of DNA damage checkpoint protein 1	A	Q14676	NA	NA	Homo sapiens	2azm	h2a	24	histone
+h2a		h2a				Microcephalin	A	Q8NEM0	NA	NA	Homo sapiens	3shv|3szm|3u3z	h2a	58	histone
+h2a		h2a				Nucleosome assembly protein	J	P25293	6334	NA	Saccharomyces cerevisiae	5g2e	h2a	73	histone
+h2a		h2a				PAX-interacting protein 1	A	Q6ZW49	NA	NA	Homo sapiens	3sqd	h2a	30	histone
+h2a		h2a				Peregrin	A	P55201	NA	NA	Homo sapiens	4qyl	h2a	34	histone
+h2a		h2a				Regulator of Ty1 transposition protein 107	B	P38850	NA	NA	Saccharomyces cerevisiae	3t7k	h2a	44	histone
+h2a		h2a				Sex comb on midleg-like protein 2	A	Q9UQR0	6355	NA	Homo sapiens	4edu	h2a	16	histone
+h2a		h2a				Speckle-type POZ protein	B,A	Q5NVK7,O43791	NA,NA	NA,NA	Pongo abelii,Homo sapiens	3hsv,3ivb	h2a	60	histone
+h2a		h2a				Vacuolar protein sorting-associated protein 72 homolog	A,I	Q9VKM6,Q15906	6338#6355#43486,6338#6355#43486	NA,NA	Drosophila melanogaster,Homo sapiens	5chl,5fug	h2a	183.5	histone
+h2b		h2b				Acidic leucine-rich nuclear phosphoprotein 32 family member E	C	Q9BTT0	NA	NA	Homo sapiens	4cay	h2b	76	histone
+h2b		h2b				HAT1-interacting factor 1	B	Q12373	6325#6334#6348#6351#6355#16573	5515#42393#42803	Saccharomyces cerevisiae	5bt1	h2b	150	histone
+h2b		h2b				HLA class II histocompatibility antigen, DR alpha chain	A	P01903	6955#19882	NA	Homo sapiens	6biy	h2b	140	histone
+h2b		h2b				HLA class II histocompatibility antigen, DRB1-4 beta chain	B	P13760	6955#19882	NA	Homo sapiens	6biy	h2b	56	histone
+h2b		h2b				N-terminal Xaa-Pro-Lys N-methyltransferase 1	A	Q9BV86	6480#7051#7059#16571#18011#18012#18013#18016#32259#35572#35573	5515#8168#8276#16740#42054#71885	Homo sapiens	5cve	h2b	29	histone
+h2b		h2b				Nucleosome assembly protein	J	P25293	6334	NA	Saccharomyces cerevisiae	5g2e	h2b	13	histone
+h2b		h2b				Vacuolar protein sorting-associated protein 72 homolog	I	Q15906	6338#6355#43486	NA	Homo sapiens	5fug	h2b	94	histone
+=======
+>>>>>>> b8cd18b115415902b953d5f8ede7cedff7b042b7
 h3		h3				14-3-3 protein zeta/delta	A	P63104	6605#7165#8039#10941#19221#30168#43066#43488#51683#61024#90128#90168#1900740	3723#5515#8134#19901#19904#31625#42802#44325#45296	Homo sapiens	2c1j|2c1n	h3	98	histone
 h3		h3				A612L protein	A	O41094	32259	8168#42802	Paramecium bursaria Chlorella virus 1	3kmt	h3	45	histone
 h2a		h2a				Acidic leucine-rich nuclear phosphoprotein 32 family member E	C	Q9BTT0	NA	NA	Homo sapiens	4cay	h2a	52	histone
@@ -16,13 +46,19 @@ h4		h4				Bromodomain-containing protein 4	A	O60885	NA	NA	Homo sapiens	3uvw|3uw9
 h4		h4				Bromodomain-containing protein 9	B	Q9H8M2	NA	NA	Homo sapiens	4yy6|4yyi|4yyg	h4	75.83333333333333	histone
 h3		h3				Chd1	W,A	P32657,Q10103	1178#6325#6351#6355#6363#6368#6369#16584#34728#42766#43044#60303#71441#71894#1900050#1902275#2000104#2000616,NA	166#182#3677#4386#5524#8094#16787#31490#35064#44212#70615,NA	Saccharomyces cerevisiae,Schizosaccharomyces pombe	5o9g,2rsn	h3	104.5	nucleosome,histone
 h3		h3				Chromobox protein homolog 1	A	P83916	45892	NA	Homo sapiens	5t1g	h3	30	histone
+<<<<<<< HEAD
+h3		h3				Chromobox protein homolog 2				NA		3h91	h3	?	histone
+h3		h3				Chromobox protein homolog 3	A	Q13185	45892	NA	Homo sapiens	2l11	h3	106	histone
+=======
 h3		h3				Chromobox protein homolog 1	A	P83917	NA	NA	Mus musculus	1guw	h3	105	histone
 h1		h1				Chromobox protein homolog 3	A	Q13185	45892	NA	Homo sapiens	3tzd	h1	60	histone
+>>>>>>> b8cd18b115415902b953d5f8ede7cedff7b042b7
 h3		h3				Chromobox protein homolog 3	B	Q13185	45892	NA	Homo sapiens	5t1i	h3	88	histone
 h3		h3				Chromobox protein homolog 3	A	Q13185	45892	NA	Homo sapiens	2l11	h3	106	histone
 h3		h3				Chromobox protein homolog 5	A	Q61686	NA	NA	Mus musculus	2rvn	h3	84	histone
 h3		h3				Chromobox protein homolog 6	A	O95503	NA	NA	Homo sapiens	3gv6	h3	38	histone
 h3		h3				Chromobox protein homolog 7	A	O95931	NA	NA	Homo sapiens	2l12|2l1b	h3	241	histone
+h3		h3				Chromobox protein homolog 8				NA		3i91	h3	?	histone
 h3		h3				Chromodomain-helicase-DNA-binding protein 1	A	O14646	NA	NA	Homo sapiens	2b2t|2b2v|2b2u|2b2w	h3	42.5	histone
 h3		h3				Chromodomain-helicase-DNA-binding protein 4	A	Q14839	NA	NA	Homo sapiens	2l75	h3	134	histone
 h3		h3				CREB-binding protein	A	Q92793	NA	NA	Homo sapiens	5gh9	h3	35	histone
@@ -213,6 +249,8 @@ h3		h3				Zinc finger CW-type PWWP domain protein 2	B	Q504Y3	NA	8270	Homo sapien
 h3		h3				Zinc finger MYND domain-containing protein 11	A	Q8R5C8	NA	NA	Mus musculus	4n4h	h3	50	histone
 h3		h3				Zinc finger protein DPF3	A	Q92784	NA	8270	Homo sapiens	2kwj|5i3l|5szb|2kwk	h3	265.49999999999994	histone
 h4		h4				Zinc finger protein DPF3	A	Q92784	NA	8270	Homo sapiens	2kwn|2kwo	h4	243	histone
+<<<<<<< HEAD
+=======
 Pygopus homolog 1	A	Q9Y3Y4	NA	NA	Homo sapiens	B-cell CLL/lymphoma 9 protein	B	O00512	60070	3713#8013	Homo sapiens	2vpg		74	histone
 HLA class I histocompatibility antigen, alpha chain G	A	P17693	NA	NA	Homo sapiens	Beta-2-microglobulin	B	P61769	1895#1916#2237#2376#2474#2479#2480#2481#2726#6826#6955#10977#19885#32092#33077#33216#42026#42493#43312#44267#45087#45646#46686#48260#50690#50776#55072#60333#71281#71283#1900121#1900122#1900390#1904434#1904437	5515#42802	Homo sapiens	1ydp|2d31|2dyp		357	histone
 Histone acetyltransferase ESA1	E	Q08649	6355#16573	4402	Saccharomyces cerevisiae	Chromatin modification-related protein EAF6	F	P47128	6281#6325#6351#6355#6974#16573	4402	Saccharomyces cerevisiae	5j9q		2	histone
@@ -224,6 +262,7 @@ Histone chaperone ASF1A	I	Q9Y294	6333	NA	Homo sapiens	DNA replication licensing 
 Polyubiquitin-B	B	P0CG47	NA	NA	Homo sapiens	E3 ubiquitin-protein ligase RNF169	C	Q8NCN4	NA	NA	Homo sapiens	5vey		181	histone
 Chromatin modification-related protein EAF6	F	P47128	6281#6325#6351#6355#6974#16573	4402	Saccharomyces cerevisiae	Enhancer of polycomb-like protein 1	G	P43572	6357	NA	Saccharomyces cerevisiae	5j9q		216	histone
 Histone acetyltransferase ESA1	E	Q08649	6355#16573	4402	Saccharomyces cerevisiae	Enhancer of polycomb-like protein 1	G	P43572	6357	NA	Saccharomyces cerevisiae	5j9q		469	histone
+>>>>>>> b8cd18b115415902b953d5f8ede7cedff7b042b7
 Hepatoma-derived growth factor-related protein 2	C	Q7Z4V5	NA	NA	Homo sapiens	Hepatoma-derived growth factor-related protein 2	B	Q7Z4V5	NA	NA	Homo sapiens	3qby		85	histone
 Histone acetyltransferase ESA1	A	Q08649	6355#16573	4402	Saccharomyces cerevisiae	Histone acetyltransferase ESA1	A	Q08649	6355#16573	4402	Saccharomyces cerevisiae	3to6		214	histone
 Histone acetyltransferase RTT109	A	Q07794	6351#6355#6974#10468#10526#16573#30702#43007#43618#43966#97043#1990414#2001032	4402#5515#10484#16740#32931	Saccharomyces cerevisiae	Histone acetyltransferase RTT109	A	Q07794	6351#6355#6974#10468#10526#16573#30702#43007#43618#43966#97043#1990414#2001032	4402#5515#10484#16740#32931	Saccharomyces cerevisiae	3q33		52	histone

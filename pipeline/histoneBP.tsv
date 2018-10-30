@@ -14,8 +14,6 @@ Bromodomain-containing protein 3	Q15059	5hjc
 Bromodomain-containing protein 4	O60885	3uvw|3uw9|3uvy|5nnc|5nnd
 Bromodomain-containing protein 4	Q9ESU6	3jvk|3muk|3mul
 Bromodomain-containing protein 9	Q9H8M2	4yy6|4yyg|4yyi|4yyk
-Chromatin modification-related protein EAF6	P47128	5j9q
-Chromatin modification-related protein YNG2	P38806	5j9q
 Chromo domain-containing protein 1	Q10103	2rsn
 Chromobox protein homolog 1	P83916	5t1g
 Chromobox protein homolog 1	P83917	1guw
@@ -23,6 +21,7 @@ Chromobox protein homolog 3	Q13185	2l11|3tzd|5t1i
 Chromobox protein homolog 5	Q61686	2rvn
 Chromobox protein homolog 6	O95503	3gv6
 Chromobox protein homolog 7	O95931	2l12|2l1b
+Chromobox protein homolog 8	?	3i91
 Chromodomain-helicase-DNA-binding protein 1	O14646	2b2t|2b2u|2b2w|2b2v
 Chromodomain-helicase-DNA-binding protein 4	Q14839	2l75
 CREB-binding protein	Q92793	4n3w|4n4f|5gh9
@@ -37,7 +36,6 @@ DNA replication licensing factor MCM2	P49736	4uuz|5bnv|5c3i|5bnx
 E3 ubiquitin-protein ligase RNF169	Q8NCN4	5vey
 E3 ubiquitin-protein ligase TRIM33	Q9UPN9	3u5n|3u5o|5mr8
 E3 ubiquitin-protein ligase UHRF1	Q96T88	2l3r|3sou|3sow|3zvy
-Enhancer of polycomb-like protein 1	P43572	5j9q
 Fab Light Chain	Fab Light Chain	4yhp|4yhz
 FACT complex subunit SPT16	Q9Y5B9	4z2m
 HAT A1	Q27198	1m1d|1qsn|1pu9|1pua
@@ -47,7 +45,6 @@ Helicase SWR1	Q05471	4m6b
 Hepatoma-derived growth factor-related protein 2	Q7Z4V5	3qby|3qj6
 Heterochromatin protein 1	P05205	1kna|5kog
 Histone acetyltransferase ESA1	Q08649	3to6
-Histone acetyltransferase ESA1	Q08649	3to6|5j9q
 Histone acetyltransferase GCN5	Q03330	1e6i
 Histone acetyltransferase KAT6A	Q92794	3v43|4lk9|4llb
 Histone acetyltransferase KAT6B	Q8WYB5	5u2j
