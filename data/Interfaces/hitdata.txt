@@ -1,0 +1,11 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-3767367D2547497F-BD6DA604E18DDB8
+#datatype	hitsConcise Results
+#status	0
+#Start time	2018-12-20T16:39:44	Run time	0:00:00:16
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - Q9DUM3	superfamily	223003	840	1019	3.78219e-18	88.1039	cl27451	PHA03169 superfamily	N	 - 
+Q#2 - P25171	superfamily	332518	33	423	6.78156e-53	188.894	cl27697	RCC1 superfamily	 - 	 - 
+Q#2 - P25171	superfamily	114011	419	508	0.000198171	43.8378	cl26956	Borrelia_P83 superfamily	NC	 - 
