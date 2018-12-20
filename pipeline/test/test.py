@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[9]:
+# In[17]:
 
 
 #!/usr/bin/env python 3
@@ -13,7 +13,7 @@ CHAIN_FILE = "chains.tsv"
 PDB_LIST = "pdbList.tsv"
 
 
-# In[10]:
+# In[18]:
 
 
 #PARAMETERS:
@@ -30,11 +30,11 @@ def file_check(file):
         return 1
     
     except IOError:
-        print("Error: " + file + " does not appear to exist.")
+        #print("Error: " + file + " does not appear to exist.")
         return 0
 
 
-# In[11]:
+# In[19]:
 
 
 #PARAMETERS:
@@ -72,7 +72,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[12]:
+# In[20]:
 
 
 #PARAMETERS: 
@@ -104,7 +104,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[13]:
+# In[21]:
 
 
 #PARAMETERS:
@@ -152,7 +152,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 
             except IOError:
                 pass
-                print("Error: " + file + " does not appear to exist.")
+                #print("Error: " + file + " does not appear to exist.")
         
         
         
@@ -203,7 +203,7 @@ def get_chain_dictionaries(cFile, dictionary):
                             dictionary[pdb] = {alexChain : str(tempDict[pdb][alexChain]) + '|' + uniprot + '|' + name + '|' + 'other|'} #!!!!
                         
                 except ValueError:
-                    print("Error: " + str(ValueError) + ", in " + pdb)               
+                    #print("Error: " + str(ValueError) + ", in " + pdb)               
                     pass
 
                     
@@ -262,7 +262,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[14]:
+# In[22]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -301,7 +301,6 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot1):
                                         if(int(residue1) >= int(lineFields[3]) and int(residue1) <= int(lineFields[4])):
-                                            print(residue1, lineFields[3], lineFields[4])
                                             print(type2 + '\t' + lineFields[8])
                             hitFile.seek(0)
                        
@@ -312,18 +311,17 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot2):
                                         if(int(residue2) >= int(lineFields[3]) and int(residue2) <= int(lineFields[4])):
-                                            print(residue2, lineFields[3], lineFields[4])
                                             print(type1 + '\t' + lineFields[8])
                             hitFile.seek(0)                            
       
                            
                   
         except (IOError, KeyError) as e:
-            print("Error: " + file + " does not appear to exist.")
+            #print("Error: " + file + " does not appear to exist.")
             pass
 
 
-# In[15]:
+# In[23]:
 
 
 def main():
@@ -344,7 +342,7 @@ def main():
     
 
 
-# In[16]:
+# In[24]:
 
 
 if __name__ == "__main__":

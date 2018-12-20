@@ -1,20 +1,920 @@
 structureId	chainId	uniprotAcc	uniprotRecommendedName
-1zla	A	P84233	Histone H3.2	
-1zla	D	P02281	Histone H2B 1.1
-1zla	G	P06897	Histone H2A type 1
-1zla	B	P62799	Histone H4		
-1zla	E	P84233	Histone H3.2
-1zla	H	P02281	Histone H2B 1.1
-1zla	C	P06897	Histone H2A type 1
-1zla	K	Q9DUM3	NA
-1zla	F	P62799	Histone H4
-3mvd	F	P62799	Histone H4
-3mvd	A	P84233	Histone H3.2		
-3mvd	D	P02281	Histone H2B 1.1
-3mvd	L	P25171	Regulator of chromosome condensation
-3mvd	G	Q6AZJ8	NA
-3mvd	B	P62799	Histone H4
-3mvd	E	P84233	Histone H3.2
-3mvd	H	P02281	Histone H2B 1.1
-3mvd	C	Q6AZJ8	NA
-3mvd	K	P25171	Regulator of chromosome condensation
+1E6I	P	P02309	Histone H4
+1E6I	A	Q03330	Histone acetyltransferase GCN5
+1GUW	B	P68433	Histone H3.1
+1GUW	A	P83917	Chromobox protein homolog 1
+1KNA	P	P02299	Histone H3
+1KNA	A	P05205	Heterochromatin protein 1
+1KNE	P	P02299	Histone H3
+1KNE	A	P05205	Heterochromatin protein 1
+1O9S	K	P68431	Histone H3.1
+1O9S	L	P68431	Histone H3.1
+1O9S	A	Q8WTS6	Histone-lysine N-methyltransferase SETD7
+1O9S	B	Q8WTS6	Histone-lysine N-methyltransferase SETD7
+1PDQ	B	C0HL67	Histone H3.3B
+1PDQ	A	P26017	Polycomb group protein Pc
+1PEG	P	P61831	Histone H3
+1PEG	Q	P61831	Histone H3
+1PEG	A	Q8X225	Histone-lysine N-methyltransferase, H3 lysine-9 specific dim-5
+1PEG	B	Q8X225	Histone-lysine N-methyltransferase, H3 lysine-9 specific dim-5
+1Q1A	B	P02309	Histone H4
+1Q1A	A	P53686	NAD-dependent protein deacetylase HST2
+1ZKK	E	P62805	Histone H4
+1ZKK	F	P62805	Histone H4
+1ZKK	G	P62805	Histone H4
+1ZKK	H	P62805	Histone H4
+1ZKK	A	Q9NQR1	N-lysine methyltransferase KMT5A
+1ZKK	B	Q9NQR1	N-lysine methyltransferase KMT5A
+1ZKK	C	Q9NQR1	N-lysine methyltransferase KMT5A
+1ZKK	D	Q9NQR1	N-lysine methyltransferase KMT5A
+2AZM	C	P16104	Histone H2AX
+2AZM	D	P16104	Histone H2AX
+2AZM	A	Q14676	Mediator of DNA damage checkpoint protein 1
+2AZM	B	Q14676	Mediator of DNA damage checkpoint protein 1
+2B2T	A	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2T	B	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2T	C	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2T	D	P68431	Histone H3.1
+2B2U	A	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2U	B	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2U	C	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2U	D	P68431	Histone H3.1
+2B2V	A	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2V	B	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2V	C	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2V	D	P68431	Histone H3.1
+2B2W	A	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2W	B	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2W	C	O14646	Chromodomain-helicase-DNA-binding protein 1
+2B2W	D	P68431	Histone H3.1
+2C1J	A	P63104	14-3-3 protein zeta/delta
+2C1J	B	P63104	14-3-3 protein zeta/delta
+2C1J	C	P68431	Histone H3.1
+2C1J	D	P68431	Histone H3.1
+2C1N	A	P63104	14-3-3 protein zeta/delta
+2C1N	B	P63104	14-3-3 protein zeta/delta
+2C1N	C	P68431	Histone H3.1
+2C1N	E	P68431	Histone H3.1
+2CNX	A	P61964	WD repeat-containing protein 5
+2CNX	P	P68431	Histone H3.1
+2CO0	A	P61964	WD repeat-containing protein 5
+2CO0	C	P61964	WD repeat-containing protein 5
+2CO0	B	P68431	Histone H3.1
+2CO0	D	P68431	Histone H3.1
+2DVQ	P	P02309	Histone H4
+2DVQ	Q	P02309	Histone H4
+2DVQ	A	P25440	Bromodomain-containing protein 2
+2DVQ	B	P25440	Bromodomain-containing protein 2
+2DVQ	C	P25440	Bromodomain-containing protein 2
+2DVR	P	P02309	Histone H4
+2DVR	Q	P02309	Histone H4
+2DVR	A	P25440	Bromodomain-containing protein 2
+2DVR	B	P25440	Bromodomain-containing protein 2
+2DVR	C	P25440	Bromodomain-containing protein 2
+2DVS	A	P25440	Bromodomain-containing protein 2
+2DVS	B	P25440	Bromodomain-containing protein 2
+2DVS	C	P25440	Bromodomain-containing protein 2
+2E3K	Q	P02309	Histone H4
+2E3K	R	P02309	Histone H4
+2E3K	A	P25440	Bromodomain-containing protein 2
+2E3K	B	P25440	Bromodomain-containing protein 2
+2E3K	C	P25440	Bromodomain-containing protein 2
+2E3K	D	P25440	Bromodomain-containing protein 2
+2H2G	B	P61830	Histone H3
+2H2G	A	Q9WYW0	NAD-dependent protein deacetylase
+2H2H	B	P02309	Histone H4
+2H2H	A	Q9WYW0	NAD-dependent protein deacetylase
+2H6K	A	P61964	WD repeat-containing protein 5
+2H6K	B	P61964	WD repeat-containing protein 5
+2H6N	A	P61964	WD repeat-containing protein 5
+2H6N	B	P61964	WD repeat-containing protein 5
+2H6Q	A	P61964	WD repeat-containing protein 5
+2H6Q	B	P61964	WD repeat-containing protein 5
+2IG0	B	P62805	Histone H4
+2IG0	A	Q12888	TP53-binding protein 1
+2KWJ	B	P68431	Histone H3.1
+2KWJ	A	Q92784	Zinc finger protein DPF3
+2KWK	B	P68431	Histone H3.1
+2KWK	A	Q92784	Zinc finger protein DPF3
+2KWN	B	P62805	Histone H4
+2KWN	A	Q92784	Zinc finger protein DPF3
+2KWO	B	P62805	Histone H4
+2KWO	A	Q92784	Zinc finger protein DPF3
+2L11	A	Q13185	Chromobox protein homolog 3
+2L11	B	Q92133	NA
+2L12	A	O95931	Chromobox protein homolog 7
+2L12	B	Q92133	NA
+2L1B	A	O95931	Chromobox protein homolog 7
+2L1B	B	Q92133	NA
+2L3R	B	Q3BDD9	NA
+2L3R	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
+2L75	B	P68431	Histone H3.1
+2L75	A	Q14839	Chromodomain-helicase-DNA-binding protein 4
+2LBM	A	P46100	Transcriptional regulator ATRX
+2LBM	C	P68431	Histone H3.1
+2LVM	B	P62805	Histone H4
+2LVM	A	Q12888	TP53-binding protein 1
+2NDF	A	P42568	Protein AF-9
+2NDF	B	P68431	Histone H3.1
+2NDG	A	P42568	Protein AF-9
+2NDG	B	P68431	Histone H3.1
+2OQ6	A	O75164	Lysine-specific demethylase 4A
+2OQ6	B	O75164	Lysine-specific demethylase 4A
+2OQ6	C	P68431	Histone H3.1
+2OQ6	D	P68431	Histone H3.1
+2QQS	A	O75164	Lysine-specific demethylase 4A
+2QQS	B	O75164	Lysine-specific demethylase 4A
+2QQS	C	P62805	Histone H4
+2QQS	D	P62805	Histone H4
+2RHI	B	P16401	Histone H1.5
+2RHI	A	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
+2RI7	P	P68431	Histone H3.1
+2RI7	A	Q12830	Nucleosome-remodeling factor subunit BPTF
+2RJE	P	P62805	Histone H4
+2RJE	Q	P62805	Histone H4
+2RJE	A	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
+2RJE	B	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
+2RJE	C	Q9Y468	Lethal(3)malignant brain tumor-like protein 1
+2RR4	B	A8K4Y7	NA
+2RR4	A	Q9H0M4	Zinc finger CW-type PWWP domain protein 1
+2RS9	B	P55201	Peregrin
+2RS9	A	P62805	Histone H4
+2RSN	B	P61830	Histone H3
+2RSN	A	Q10103	Chromo domain-containing protein 1
+2RVN	B	P84244	Histone H3.3
+2RVN	A	Q61686	Chromobox protein homolog 5
+2UXN	A	O60341	Lysine-specific histone demethylase 1A
+2UXN	E	P68431	Histone H3.1
+2UXN	B	Q9UKL0	REST corepressor 1
+2V83	A	P21784	V(D)J recombination-activating protein 2
+2V83	B	P21784	V(D)J recombination-activating protein 2
+2V83	C	P21784	V(D)J recombination-activating protein 2
+2V83	D	P68431	Histone H3.1
+2V83	E	P68431	Histone H3.1
+2V85	A	P21784	V(D)J recombination-activating protein 2
+2V85	B	P21784	V(D)J recombination-activating protein 2
+2V85	D	P68431	Histone H3.1
+2V85	E	P68431	Histone H3.1
+2V86	A	P21784	V(D)J recombination-activating protein 2
+2V86	B	P21784	V(D)J recombination-activating protein 2
+2V86	D	P84228	Histone H3.2
+2V86	E	P84228	Histone H3.2
+2V87	A	P21784	V(D)J recombination-activating protein 2
+2V87	B	P21784	V(D)J recombination-activating protein 2
+2V87	D	P84228	Histone H3.2
+2V87	E	P84228	Histone H3.2
+2V88	A	P21784	V(D)J recombination-activating protein 2
+2V88	B	P21784	V(D)J recombination-activating protein 2
+2V88	D	P68431	Histone H3.1
+2V88	F	P68431	Histone H3.1
+2V89	A	P21784	V(D)J recombination-activating protein 2
+2V89	B	P21784	V(D)J recombination-activating protein 2
+2V89	D	P68431	Histone H3.1
+2V89	E	P68431	Histone H3.1
+2VNF	B	P68431	Histone H3.1
+2VNF	D	P68431	Histone H3.1
+2VNF	A	Q9UNL4	Inhibitor of growth protein 4
+2VNF	C	Q9UNL4	Inhibitor of growth protein 4
+2VPG	B	O00512	B-cell CLL/lymphoma 9 protein
+2VPG	D	O00512	B-cell CLL/lymphoma 9 protein
+2VPG	P	P68431	Histone H3.1
+2VPG	R	P68431	Histone H3.1
+2VPG	A	Q9Y3Y4	Pygopus homolog 1
+2VPG	C	Q9Y3Y4	Pygopus homolog 1
+2W5Z	C	P68433	Histone H3.1
+2W5Z	A	Q03164	Histone-lysine N-methyltransferase 2A
+2WP1	P	P68433	Histone H3.1
+2WP1	Q	P68433	Histone H3.1
+2WP1	A	Q91Y44	Bromodomain testis-specific protein
+2WP1	B	Q91Y44	Bromodomain testis-specific protein
+2WP2	P	P62806	Histone H4
+2WP2	Q	P62806	Histone H4
+2WP2	A	Q91Y44	Bromodomain testis-specific protein
+2WP2	B	Q91Y44	Bromodomain testis-specific protein
+2X0L	A	O60341	Lysine-specific histone demethylase 1A
+2X0L	C	P68431	Histone H3.1
+2X0L	B	Q9UKL0	REST corepressor 1
+2X4W	A	P55201	Peregrin
+2X4W	B	Q71DI3	Histone H3.2
+2X4X	A	P55201	Peregrin
+2X4X	C	P55201	Peregrin
+2X4X	E	P55201	Peregrin
+2X4X	G	P55201	Peregrin
+2X4X	B	Q71DI3	Histone H3.2
+2X4X	D	Q71DI3	Histone H3.2
+2X4X	F	Q71DI3	Histone H3.2
+2X4X	H	Q71DI3	Histone H3.2
+2X4Y	A	P55201	Peregrin
+2X4Y	C	P55201	Peregrin
+2X4Y	E	P55201	Peregrin
+2X4Y	G	P55201	Peregrin
+2X4Y	I	P55201	Peregrin
+2X4Y	K	P55201	Peregrin
+2X4Y	M	P55201	Peregrin
+2X4Y	O	P55201	Peregrin
+2X4Y	B	Q71DI3	Histone H3.2
+2X4Y	D	Q71DI3	Histone H3.2
+2X4Y	F	Q71DI3	Histone H3.2
+2X4Y	H	Q71DI3	Histone H3.2
+2X4Y	J	Q71DI3	Histone H3.2
+2X4Y	L	Q71DI3	Histone H3.2
+2X4Y	N	Q71DI3	Histone H3.2
+2X4Y	P	Q71DI3	Histone H3.2
+2XL3	A	P61965	WD repeat-containing protein 5
+2XL3	B	P61965	WD repeat-containing protein 5
+2XL3	D	P68433	Histone H3.1
+2XL3	F	P68433	Histone H3.1
+2XL3	C	Q8BX09	Retinoblastoma-binding protein 5
+2XL3	E	Q8BX09	Retinoblastoma-binding protein 5
+2XYI	B	P84040	Histone H4
+2XYI	A	Q24572	Probable histone-binding protein Caf1
+2YBA	C	P02299	Histone H3
+2YBA	D	P02299	Histone H3
+2YBA	A	Q24572	Probable histone-binding protein Caf1
+2YBA	B	Q24572	Probable histone-binding protein Caf1
+3AVR	A	O15550	Lysine-specific demethylase 6A
+3AVR	B	P68431	Histone H3.1
+3C9C	B	P84040	Histone H4
+3C9C	A	Q24572	Probable histone-binding protein Caf1
+3DB3	B	Q71DI3	Histone H3.2
+3DB3	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3F9W	E	P62805	Histone H4
+3F9W	F	P62805	Histone H4
+3F9W	G	P62805	Histone H4
+3F9W	H	P62805	Histone H4
+3F9W	A	Q9NQR1	N-lysine methyltransferase KMT5A
+3F9W	B	Q9NQR1	N-lysine methyltransferase KMT5A
+3F9W	C	Q9NQR1	N-lysine methyltransferase KMT5A
+3F9W	D	Q9NQR1	N-lysine methyltransferase KMT5A
+3FDT	A	P45973	Chromobox protein homolog 5
+3GL6	A	P29375	Lysine-specific demethylase 5A
+3GL6	B	Q92133	NA
+3GV6	A	O95503	Chromobox protein homolog 6
+3GV6	B	P84233	Histone H3.2
+3H91	A	Q14781	Chromobox protein homolog 2
+3H91	B	Q14781	Chromobox protein homolog 2
+3H91	C	Q92133	NA
+3H91	D	Q92133	NA
+3I90	A	O95503	Chromobox protein homolog 6
+3I90	B	O95503	Chromobox protein homolog 6
+3I91	A	Q9HC52	Chromobox protein homolog 8
+3I91	B	Q9HC52	Chromobox protein homolog 8
+3IIW	A	O75530	Polycomb protein EED
+3IIY	A	O75530	Polycomb protein EED
+3IJ0	A	O75530	Polycomb protein EED
+3IJ1	A	O75530	Polycomb protein EED
+3IJ1	B	P62805	Histone H4
+3JPX	A	O75530	Polycomb protein EED
+3JPX	B	P62805	Histone H4
+3JVK	C	P84243	Histone H3.3
+3JVK	A	Q9ESU6	Bromodomain-containing protein 4
+3KMT	A	O41094	NA
+3KMT	B	O41094	NA
+3KMT	C	O41094	NA
+3KMT	G	P68431	Histone H3.1
+3KMT	H	P68431	Histone H3.1
+3KMT	I	P68431	Histone H3.1
+3KV4	B	Q6NXT2	Histone H3.3C
+3KV4	A	Q9UPP1	Histone lysine demethylase PHF8
+3ME9	C	Q92133	NA
+3ME9	D	Q92133	NA
+3ME9	A	Q96ES7	SAGA-associated factor 29
+3ME9	B	Q96ES7	SAGA-associated factor 29
+3MEA	B	Q92133	NA
+3MEA	A	Q96ES7	SAGA-associated factor 29
+3MO8	A	P55201	Peregrin
+3MO8	B	Q71DI3	Histone H3.2
+3MP1	A	P0AEX9#P25554	P0AEX9:#Maltose/maltodextrin-binding periplasmic protein#P25554:#SAGA-associated factor 29
+3MP1	P	P68431	Histone H3.1
+3MUK	D	P84243	Histone H3.3
+3MUK	A	Q9ESU6	Bromodomain-containing protein 4
+3MUL	D	P84243	Histone H3.3
+3MUL	A	Q9ESU6	Bromodomain-containing protein 4
+3O34	A	O15164	Transcription intermediary factor 1-alpha
+3O34	B	P68431	Histone H3.1
+3O35	A	O15164	Transcription intermediary factor 1-alpha
+3O35	B	O15164	Transcription intermediary factor 1-alpha
+3O35	D	P68431	Histone H3.1
+3O35	E	P68431	Histone H3.1
+3O36	A	O15164	Transcription intermediary factor 1-alpha
+3O36	B	O15164	Transcription intermediary factor 1-alpha
+3O36	D	P62805	Histone H4
+3O36	E	P62805	Histone H4
+3O37	A	O15164	Transcription intermediary factor 1-alpha
+3O37	B	O15164	Transcription intermediary factor 1-alpha
+3O37	C	O15164	Transcription intermediary factor 1-alpha
+3O37	D	O15164	Transcription intermediary factor 1-alpha
+3O37	E	P68431	Histone H3.1
+3O37	F	P68431	Histone H3.1
+3O37	G	P68431	Histone H3.1
+3O37	H	P68431	Histone H3.1
+3O7A	A	Q86YI8	PHD finger protein 13
+3O7A	B	Q92133	NA
+3QBY	H	P62805	Histone H4
+3QBY	A	Q7Z4V5	Hepatoma-derived growth factor-related protein 2
+3QBY	B	Q7Z4V5	Hepatoma-derived growth factor-related protein 2
+3QBY	C	Q7Z4V5	Hepatoma-derived growth factor-related protein 2
+3QJ6	T	P68431	Histone H3.1
+3QJ6	A	Q7Z4V5	Hepatoma-derived growth factor-related protein 2
+3QO2	P	P68431	Histone H3.1
+3QO2	Q	P68431	Histone H3.1
+3QO2	R	P68431	Histone H3.1
+3QO2	S	P68431	Histone H3.1
+3QO2	A	Q99549	M-phase phosphoprotein 8
+3QO2	B	Q99549	M-phase phosphoprotein 8
+3QO2	C	Q99549	M-phase phosphoprotein 8
+3QO2	D	Q99549	M-phase phosphoprotein 8
+3QZS	C	P62805	Histone H4
+3QZS	D	P62805	Histone H4
+3QZS	A	Q12830	Nucleosome-remodeling factor subunit BPTF
+3QZS	B	Q12830	Nucleosome-remodeling factor subunit BPTF
+3QZT	B	P62805	Histone H4
+3QZT	A	Q12830	Nucleosome-remodeling factor subunit BPTF
+3QZV	C	P62805	Histone H4
+3QZV	A	Q12830	Nucleosome-remodeling factor subunit BPTF
+3RIG	C	P68431	Histone H3.1
+3RIG	D	P68431	Histone H3.1
+3RIG	A	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+3RIG	B	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+3RIY	C	P68431	Histone H3.1
+3RIY	D	P68431	Histone H3.1
+3RIY	A	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+3RIY	B	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+3SOU	D	P68431	Histone H3.1
+3SOU	E	P68431	Histone H3.1
+3SOU	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3SOU	B	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3SOW	C	P68431	Histone H3.1
+3SOW	D	P68431	Histone H3.1
+3SOW	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3SOW	B	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3SQD	C	P16104	Histone H2AX
+3SQD	D	P16104	Histone H2AX
+3SQD	A	Q6ZW49	PAX-interacting protein 1
+3SQD	B	Q6ZW49	PAX-interacting protein 1
+3T7K	C	P04911	Histone H2A.1
+3T7K	D	P04911	Histone H2A.1
+3T7K	A	P38850	Regulator of Ty1 transposition protein 107
+3T7K	B	P38850	Regulator of Ty1 transposition protein 107
+3TO6	B	P02309	Histone H4
+3TO6	A	Q08649	Histone acetyltransferase ESA1
+3TZD	T	P10412	Histone H1.4
+3TZD	A	Q13185	Chromobox protein homolog 3
+3U31	B	P68431	Histone H3.1
+3U31	A	Q8IE47	NAD-dependent protein deacylase Sir2A
+3U3D	B	P68431	Histone H3.1
+3U3D	A	Q8IE47	NAD-dependent protein deacylase Sir2A
+3U4S	A	O75164	Lysine-specific demethylase 4A
+3U4S	B	O75164	Lysine-specific demethylase 4A
+3U4S	C	P68431	Histone H3.1
+3U4S	D	P68431	Histone H3.1
+3U5N	C	P68431	Histone H3.1
+3U5N	D	P68431	Histone H3.1
+3U5N	A	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5N	B	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	I	P68431	Histone H3.1
+3U5O	J	P68431	Histone H3.1
+3U5O	K	P68431	Histone H3.1
+3U5O	L	P68431	Histone H3.1
+3U5O	M	P68431	Histone H3.1
+3U5O	N	P68431	Histone H3.1
+3U5O	O	P68431	Histone H3.1
+3U5O	P	P68431	Histone H3.1
+3U5O	A	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	B	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	C	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	D	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	E	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	F	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	G	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3U5O	H	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+3UEC	A	O15392	Baculoviral IAP repeat-containing protein 5
+3UED	A	O15392	Baculoviral IAP repeat-containing protein 5
+3UED	C	O15392	Baculoviral IAP repeat-containing protein 5
+3UEE	A	O15392	Baculoviral IAP repeat-containing protein 5
+3UEE	C	O15392	Baculoviral IAP repeat-containing protein 5
+3UEE	B	P68431	Histone H3.1
+3UEE	D	P68431	Histone H3.1
+3UEF	A	O15392	Baculoviral IAP repeat-containing protein 5
+3UEF	C	O15392	Baculoviral IAP repeat-containing protein 5
+3UEF	B	P68431	Histone H3.1
+3UEF	D	P68431	Histone H3.1
+3UII	A	O15392	Baculoviral IAP repeat-containing protein 5
+3UII	B	O15392	Baculoviral IAP repeat-containing protein 5
+3UII	P	P68431	Histone H3.1
+3UII	Q	P68431	Histone H3.1
+3UP5	A	H3JQW0	2-oxo-Delta(3)-4,5,5-trimethylcyclopentenylacetyl-CoA monooxygenase
+3UP5	B	H3JQW0	2-oxo-Delta(3)-4,5,5-trimethylcyclopentenylacetyl-CoA monooxygenase
+3UVW	A	O60885	Bromodomain-containing protein 4
+3UVW	B	P62805	Histone H4
+3UVX	A	O60885	Bromodomain-containing protein 4
+3UVX	B	P62805	Histone H4
+3UVY	A	O60885	Bromodomain-containing protein 4
+3UVY	B	P62805	Histone H4
+3UW9	A	O60885	Bromodomain-containing protein 4
+3UW9	B	O60885	Bromodomain-containing protein 4
+3UW9	C	O60885	Bromodomain-containing protein 4
+3UW9	D	O60885	Bromodomain-containing protein 4
+3UW9	E	P62805	Histone H4
+3UW9	F	P62805	Histone H4
+3V43	Q	P68431	Histone H3.1
+3V43	A	Q92794	Histone acetyltransferase KAT6A
+3ZVY	C	P68431	Histone H3.1
+3ZVY	D	P68431	Histone H3.1
+3ZVY	A	Q96T88	E3 ubiquitin-protein ligase UHRF1
+3ZVY	B	Q96T88	E3 ubiquitin-protein ligase UHRF1
+4A0J	A	O15392	Baculoviral IAP repeat-containing protein 5
+4A0J	B	O15392	Baculoviral IAP repeat-containing protein 5
+4A0J	C	P68431	Histone H3.1
+4A0J	D	P68431	Histone H3.1
+4A7J	A	P61964	WD repeat-containing protein 5
+4A7J	B	P68431	Histone H3.1
+4AU7	C	P62806	Histone H4
+4AU7	A	Q6Q783	Histone-lysine N-methyltransferase KMT5C
+4AU7	B	Q6Q783	Histone-lysine N-methyltransferase KMT5C
+4BD3	B	P68431	Histone H3.1
+4BD3	A	Q5T6S3	PHD finger protein 19
+4C1Q	C	P68431	Histone H3.1
+4C1Q	A	Q96EQ9	Histone-lysine N-methyltransferase PRDM9
+4C1Q	B	Q96EQ9	Histone-lysine N-methyltransferase PRDM9
+4DOW	C	P62806	Histone H4
+4DOW	D	P62806	Histone H4
+4DOW	A	Q9Z1N2	Origin recognition complex subunit 1
+4DOW	B	Q9Z1N2	Origin recognition complex subunit 1
+4EDU	T	Q9BTM1	Histone H2A.J
+4EDU	A	Q9UQR0	Sex comb on midleg-like protein 2
+4EZH	C	P68431	Histone H3.1
+4EZH	D	P68431	Histone H3.1
+4EZH	A	Q5NCY0	Lysine-specific demethylase 6B
+4EZH	B	Q5NCY0	Lysine-specific demethylase 6B
+4F4U	C	P68431	Histone H3.1
+4F4U	D	P68431	Histone H3.1
+4F4U	A	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+4F4U	B	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+4F56	C	P68431	Histone H3.1
+4F56	D	P68431	Histone H3.1
+4F56	A	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+4F56	B	Q9NXA8	NAD-dependent protein deacylase sirtuin-5, mitochondrial
+4FT2	P	P68431	Histone H3.1
+4FT2	A	Q9AXT8	DNA (cytosine-5)-methyltransferase 1
+4FT2	B	Q9AXT8	DNA (cytosine-5)-methyltransferase 1
+4FT4	P	P59226	Histone H3.2
+4FT4	Q	P59226	Histone H3.2
+4FT4	A	Q9AXT8	DNA (cytosine-5)-methyltransferase 1
+4FT4	B	Q9AXT8	DNA (cytosine-5)-methyltransferase 1
+4FWF	E	P68431	Histone H3.1
+4FWF	A	Q8NB78	Lysine-specific histone demethylase 1B
+4GNE	B	P84243	Histone H3.3
+4GNE	A	Q9BZ95	Histone-lysine N-methyltransferase NSD3
+4GNF	C	P84243	Histone H3.3
+4GNF	A	Q9BZ95	Histone-lysine N-methyltransferase NSD3
+4GNG	B	P84243	Histone H3.3
+4GNG	F	P84243	Histone H3.3
+4GNG	A	Q9BZ95	Histone-lysine N-methyltransferase NSD3
+4GNG	D	Q9BZ95	Histone-lysine N-methyltransferase NSD3
+4GQB	A	O14744	Protein arginine N-methyltransferase 5
+4GQB	C	P62805	Histone H4
+4GQB	B	Q9BQA1	Methylosome protein 50
+4GU0	E	P84243	Histone H3.3
+4GU0	F	P84243	Histone H3.3
+4GU0	A	Q8NB78	Lysine-specific histone demethylase 1B
+4GU0	B	Q8NB78	Lysine-specific histone demethylase 1B
+4GU0	C	Q8NB78	Lysine-specific histone demethylase 1B
+4GU0	D	Q8NB78	Lysine-specific histone demethylase 1B
+4GUR	C	P84243	Histone H3.3
+4GUR	B	Q49A26	Putative oxidoreductase GLYR1
+4GUR	A	Q8NB78	Lysine-specific histone demethylase 1B
+4H75	B	Q5TEC6	NA
+4H75	A	Q9Y657	Spindlin-1
+4HON	F	P68431	Histone H3.1
+4HON	G	P68431	Histone H3.1
+4HON	A	Q6B0I6	Lysine-specific demethylase 4D
+4HON	B	Q6B0I6	Lysine-specific demethylase 4D
+4I51	C	P68431	Histone H3.1
+4I51	D	P68431	Histone H3.1
+4I51	A	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
+4I51	B	Q9H9B1	Histone-lysine N-methyltransferase EHMT1
+4IUR	C	P59226	Histone H3.2
+4IUR	A	Q9XI47	Protein SAWADEE HOMEODOMAIN HOMOLOG 1
+4IUR	B	Q9XI47	Protein SAWADEE HOMEODOMAIN HOMOLOG 1
+4L58	B	P84243	Histone H3.3
+4L58	A	Q8IZD2	Inactive histone-lysine N-methyltransferase 2E
+4L7X	U	P68431	Histone H3.1
+4L7X	A	Q9BTC0	Death-inducer obliterator 1
+4LK9	B	P68431	Histone H3.1
+4LK9	A	Q92794	Histone acetyltransferase KAT6A
+4LKA	B	P68431	Histone H3.1
+4LKA	A	Q92794	Histone acetyltransferase KAT6A
+4LLB	C	P68431	Histone H3.1
+4LLB	D	P68431	Histone H3.1
+4LLB	A	Q92794	Histone acetyltransferase KAT6A
+4LLB	B	Q92794	Histone acetyltransferase KAT6A
+4LXL	A	O94953	Lysine-specific demethylase 4B
+4LXL	D	P68431	Histone H3.1
+4M38	E	P62805	Histone H4
+4M38	F	P62805	Histone H4
+4M38	A	Q582G4	Protein arginine N-methyltransferase 7
+4M38	B	Q582G4	Protein arginine N-methyltransferase 7
+4MZF	A	Q71DI3	Histone H3.2
+4MZF	B	Q9Y657	Spindlin-1
+4MZG	A	Q71DI3	Histone H3.2
+4MZG	C	Q71DI3	Histone H3.2
+4MZG	B	Q9Y657	Spindlin-1
+4MZG	D	Q9Y657	Spindlin-1
+4MZH	B	Q71DI3	Histone H3.2
+4MZH	A	Q9Y657	Spindlin-1
+4N4H	B	P68431	Histone H3.1
+4N4H	A	Q8R5C8	Zinc finger MYND domain-containing protein 11
+4N4I	B	P84243	Histone H3.3
+4N4I	A	Q8R5C8	Zinc finger MYND domain-containing protein 11
+4O62	D	P84243	Histone H3.3
+4O62	A	Q504Y3	Zinc finger CW-type PWWP domain protein 2
+4O62	B	Q504Y3	Zinc finger CW-type PWWP domain protein 2
+4O62	C	Q504Y3	Zinc finger CW-type PWWP domain protein 2
+4OUC	B	Q71DI3	Histone H3.2
+4OUC	A	Q8TF76	Serine/threonine-protein kinase haspin
+4QBQ	P	P68431	Histone H3.1
+4QBQ	A	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4QBQ	C	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4QBR	E	P68431	Histone H3.1
+4QBR	P	P68431	Histone H3.1
+4QBR	A	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4QBR	C	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4QEO	A	Q8GZB6	Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH4
+4QEO	P	Q92133	NA
+4QQ4	C	P84243	Histone H3.3
+4QQ4	D	P84243	Histone H3.3
+4QQ4	A	Q14149	MORC family CW-type zinc finger protein 3
+4QQ4	B	Q14149	MORC family CW-type zinc finger protein 3
+4QUT	B	P62805	Histone H4
+4QUT	A	Q6PL18	ATPase family AAA domain-containing protein 2
+4QUU	B	P62805	Histone H4
+4QUU	A	Q6PL18	ATPase family AAA domain-containing protein 2
+4QWN	A	P59997	Lysine-specific demethylase 2A
+4QWN	B	P59997	Lysine-specific demethylase 2A
+4QWN	C	P59997	Lysine-specific demethylase 2A
+4QWN	D	P59997	Lysine-specific demethylase 2A
+4QWN	E	P84228	Histone H3.2
+4QWN	F	P84228	Histone H3.2
+4QX7	A	P59997	Lysine-specific demethylase 2A
+4QX7	B	P59997	Lysine-specific demethylase 2A
+4QX7	C	P59997	Lysine-specific demethylase 2A
+4QX7	D	P59997	Lysine-specific demethylase 2A
+4QX7	E	P84228	Histone H3.2
+4QX7	F	P84228	Histone H3.2
+4QYD	A	P55201	Peregrin
+4QYD	B	P62805	Histone H4
+4QYL	E	P0C0S8	Histone H2A type 1
+4QYL	F	P0C0S8	Histone H2A type 1
+4QYL	G	P0C0S8	Histone H2A type 1
+4QYL	H	P0C0S8	Histone H2A type 1
+4QYL	A	P55201	Peregrin
+4QYL	B	P55201	Peregrin
+4QYL	C	P55201	Peregrin
+4QYL	D	P55201	Peregrin
+4TMP	A	P42568	Protein AF-9
+4TMP	C	P42568	Protein AF-9
+4TMP	B	P84243	Histone H3.3
+4TMP	D	P84243	Histone H3.3
+4TWI	A	O28597	NAD-dependent protein deacylase 1
+4TWI	B	P02309	Histone H4
+4TWJ	A	O30124	NAD-dependent protein deacylase 2
+4TWJ	B	P02309	Histone H4
+4U7T	F	P84243	Histone H3.3
+4U7T	G	P84243	Histone H3.3
+4U7T	B	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
+4U7T	D	Q9UJW3	DNA (cytosine-5)-methyltransferase 3-like
+4U7T	A	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4U7T	C	Q9Y6K1	DNA (cytosine-5)-methyltransferase 3A
+4U9W	E	P62805	Histone H4
+4U9W	F	P62805	Histone H4
+4U9W	G	P62805	Histone H4
+4U9W	H	P62805	Histone H4
+4U9W	A	Q86UY6	N-alpha-acetyltransferase 40
+4U9W	B	Q86UY6	N-alpha-acetyltransferase 40
+4U9W	C	Q86UY6	N-alpha-acetyltransferase 40
+4U9W	D	Q86UY6	N-alpha-acetyltransferase 40
+4UP0	F	P68431	Histone H3.1
+4UP0	A	Q86UU0#Q9BRQ0	Q86UU0:#B-cell CLL/lymphoma 9-like protein#Q9BRQ0:#Pygopus homolog 2
+4UY4	C	P68431	Histone H3.1
+4UY4	D	P68431	Histone H3.1
+4UY4	A	Q56A73	Spindlin-4
+4UY4	B	Q56A73	Spindlin-4
+4YY6	Z	P62805	Histone H4
+4YY6	A	Q9H8M2	Bromodomain-containing protein 9
+4YYD	Z	P62805	Histone H4
+4YYD	A	Q9H8M2	Bromodomain-containing protein 9
+4YYG	B	P62805	Histone H4
+4YYG	A	Q9H8M2	Bromodomain-containing protein 9
+4YYH	Y	P62805	Histone H4
+4YYH	Z	P62805	Histone H4
+4YYH	A	Q9H8M2	Bromodomain-containing protein 9
+4YYH	B	Q9H8M2	Bromodomain-containing protein 9
+4YYI	C	P62805	Histone H4
+4YYI	F	P62805	Histone H4
+4YYI	A	Q9H8M2	Bromodomain-containing protein 9
+4YYI	B	Q9H8M2	Bromodomain-containing protein 9
+4YYI	D	Q9H8M2	Bromodomain-containing protein 9
+4YYI	E	Q9H8M2	Bromodomain-containing protein 9
+4YYJ	C	P62805	Histone H4
+4YYJ	F	P62805	Histone H4
+4YYJ	A	Q9H8M2	Bromodomain-containing protein 9
+4YYJ	B	Q9H8M2	Bromodomain-containing protein 9
+4YYJ	D	Q9H8M2	Bromodomain-containing protein 9
+4YYJ	E	Q9H8M2	Bromodomain-containing protein 9
+4YYK	C	P62805	Histone H4
+4YYK	F	P62805	Histone H4
+4YYK	A	Q9H8M2	Bromodomain-containing protein 9
+4YYK	B	Q9H8M2	Bromodomain-containing protein 9
+4YYK	D	Q9H8M2	Bromodomain-containing protein 9
+4YYK	E	Q9H8M2	Bromodomain-containing protein 9
+4YYM	A	P21675	Transcription initiation factor TFIID subunit 1
+4YYM	B	P21675	Transcription initiation factor TFIID subunit 1
+4YYM	Z	P62805	Histone H4
+4YYN	A	P21675	Transcription initiation factor TFIID subunit 1
+4YYN	B	P21675	Transcription initiation factor TFIID subunit 1
+4YYN	Z	P62805	Histone H4
+5C13	D	P68431	Histone H3.1
+5C13	F	P68431	Histone H3.1
+5C13	H	P68431	Histone H3.1
+5C13	P	P68431	Histone H3.1
+5C13	A	Q5VWG9	Transcription initiation factor TFIID subunit 3
+5C13	C	Q5VWG9	Transcription initiation factor TFIID subunit 3
+5C13	E	Q5VWG9	Transcription initiation factor TFIID subunit 3
+5C13	G	Q5VWG9	Transcription initiation factor TFIID subunit 3
+5CIU	C	Q71DI3	Histone H3.2
+5CIU	D	Q71DI3	Histone H3.2
+5CIU	A	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
+5CIU	B	Q9UBC3	DNA (cytosine-5)-methyltransferase 3B
+5CVD	D	P49450	Histone H3-like centromeric protein A
+5CVD	E	P49450	Histone H3-like centromeric protein A
+5CVD	A	Q9BV86	N-terminal Xaa-Pro-Lys N-methyltransferase 1
+5CVD	B	Q9BV86	N-terminal Xaa-Pro-Lys N-methyltransferase 1
+5CVE	D	P02283	Histone H2B
+5CVE	E	P02283	Histone H2B
+5CVE	A	Q9BV86	N-terminal Xaa-Pro-Lys N-methyltransferase 1
+5CVE	B	Q9BV86	N-terminal Xaa-Pro-Lys N-methyltransferase 1
+5D6Y	A	O75164	Lysine-specific demethylase 4A
+5D6Y	B	O75164	Lysine-specific demethylase 4A
+5D6Y	C	O75164	Lysine-specific demethylase 4A
+5D6Y	D	O75164	Lysine-specific demethylase 4A
+5D6Y	E	O75164	Lysine-specific demethylase 4A
+5D6Y	F	O75164	Lysine-specific demethylase 4A
+5D6Y	a	P68431	Histone H3.1
+5D6Y	b	P68431	Histone H3.1
+5D6Y	c	P68431	Histone H3.1
+5D6Y	d	P68431	Histone H3.1
+5D7E	A	P35189	Transcription initiation factor TFIID subunit 14
+5D7E	C	P61830	Histone H3
+5DAH	A	P55197	Protein AF-10
+5DAH	B	P55197	Protein AF-10
+5DAH	C	P68431	Histone H3.1
+5DAH	D	P68431	Histone H3.1
+5DWQ	F	P84243	Histone H3.3
+5DWQ	G	P84243	Histone H3.3
+5DWQ	A	Q86X55	Histone-arginine methyltransferase CARM1
+5DWQ	B	Q86X55	Histone-arginine methyltransferase CARM1
+5DWQ	C	Q86X55	Histone-arginine methyltransferase CARM1
+5DWQ	D	Q86X55	Histone-arginine methyltransferase CARM1
+5DX0	F	P84243	Histone H3.3
+5DX0	G	P84243	Histone H3.3
+5DX0	H	P84243	Histone H3.3
+5DX0	I	P84243	Histone H3.3
+5DX0	A	Q86X55	Histone-arginine methyltransferase CARM1
+5DX0	B	Q86X55	Histone-arginine methyltransferase CARM1
+5DX0	C	Q86X55	Histone-arginine methyltransferase CARM1
+5DX0	D	Q86X55	Histone-arginine methyltransferase CARM1
+5F6K	D	Q15291	Retinoblastoma-binding protein 5
+5F6K	F	Q15291	Retinoblastoma-binding protein 5
+5F6K	M	Q6NXT2	Histone H3.3C
+5F6K	C	Q8NEZ4	Histone-lysine N-methyltransferase 2C
+5F6K	E	Q8NEZ4	Histone-lysine N-methyltransferase 2C
+5F6K	A	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
+5F6K	B	Q9UBL3	Set1/Ash2 histone methyltransferase complex subunit ASH2
+5FB0	A	P23497	Nuclear autoantigen Sp-100
+5FB0	C	P23497	Nuclear autoantigen Sp-100
+5FB0	D	P68431	Histone H3.1
+5FB0	F	P68431	Histone H3.1
+5FB1	A	P23497	Nuclear autoantigen Sp-100
+5FB1	C	P68431	Histone H3.1
+5FFW	A	P55201	Peregrin
+5FFW	B	P55201	Peregrin
+5FFW	C	P62805	Histone H4
+5FWE	A	O75164	Lysine-specific demethylase 4A
+5FWE	B	O75164	Lysine-specific demethylase 4A
+5FWE	C	P62805	Histone H4
+5FWE	D	P62805	Histone H4
+5H6Q	A	O60341	Lysine-specific histone demethylase 1A
+5H6Q	C	P68431	Histone H3.1
+5H6Q	B	Q9UKL0	REST corepressor 1
+5HH7	P	P59226	Histone H3.2
+5HH7	A	Q9SU24	Origin of replication complex subunit 1B
+5HJB	A	P42568	Protein AF-9
+5HJB	B	P68431	Histone H3.1
+5HJC	B	P68431	Histone H3.1
+5HJC	A	Q15059	Bromodomain-containing protein 3
+5HJD	A	P42568	Protein AF-9
+5HJD	C	P42568	Protein AF-9
+5HJD	E	P42568	Protein AF-9
+5HJD	G	P42568	Protein AF-9
+5HJD	K	P42568	Protein AF-9
+5HJD	N	P42568	Protein AF-9
+5HJD	Q	P42568	Protein AF-9
+5HJD	T	P42568	Protein AF-9
+5HJD	B	P68431	Histone H3.1
+5HJD	D	P68431	Histone H3.1
+5HJD	F	P68431	Histone H3.1
+5HJD	H	P68431	Histone H3.1
+5HJD	I	P68431	Histone H3.1
+5HJD	J	P68431	Histone H3.1
+5HJD	L	P68431	Histone H3.1
+5HJD	M	P68431	Histone H3.1
+5HYN	B	O75530	Polycomb protein EED
+5HYN	G	O75530	Polycomb protein EED
+5HYN	L	O75530	Polycomb protein EED
+5HYN	R	O75530	Polycomb protein EED
+5HYN	D	P68431	Histone H3.1
+5HYN	I	P68431	Histone H3.1
+5HYN	O	P68431	Histone H3.1
+5HYN	T	P68431	Histone H3.1
+5HYN	C	Q15022	Polycomb protein SUZ12
+5HYN	H	Q15022	Polycomb protein SUZ12
+5HYN	M	Q15022	Polycomb protein SUZ12
+5HYN	S	Q15022	Polycomb protein SUZ12
+5HYN	A	Q15910	Histone-lysine N-methyltransferase EZH2
+5HYN	F	Q15910	Histone-lysine N-methyltransferase EZH2
+5HYN	K	Q15910	Histone-lysine N-methyltransferase EZH2
+5HYN	Q	Q15910	Histone-lysine N-methyltransferase EZH2
+5HYN	E	Q92833	Protein Jumonji
+5HYN	J	Q92833	Protein Jumonji
+5HYN	P	Q92833	Protein Jumonji
+5HYN	U	Q92833	Protein Jumonji
+5I3L	C	P68431	Histone H3.1
+5I3L	A	Q92784	Zinc finger protein DPF3
+5I3L	B	Q92784	Zinc finger protein DPF3
+5IQL	B	P68431	Histone H3.1
+5IQL	A	Q9ULM3	YEATS domain-containing protein 2
+5IX1	A	F7BJB9	MORC family CW-type zinc finger protein 3
+5IX1	B	F7BJB9	MORC family CW-type zinc finger protein 3
+5IX1	P	P68433	Histone H3.1
+5IX1	Q	P68433	Histone H3.1
+5IX2	A	F7BJB9	MORC family CW-type zinc finger protein 3
+5IX2	B	F7BJB9	MORC family CW-type zinc finger protein 3
+5IX2	P	P68433	Histone H3.1
+5IX2	Q	P68433	Histone H3.1
+5J9S	B	P68431	Histone H3.1
+5J9S	A	Q03111	Protein ENL
+5JHN	F	P68431	Histone H3.1
+5JHN	G	P68431	Histone H3.1
+5JHN	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JHN	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JIN	F	P68431	Histone H3.1
+5JIN	G	P68431	Histone H3.1
+5JIN	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JIN	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JIY	F	P68431	Histone H3.1
+5JIY	G	P68431	Histone H3.1
+5JIY	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JIY	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JJ0	F	P68431	Histone H3.1
+5JJ0	G	P68431	Histone H3.1
+5JJ0	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JJ0	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5JJY	B	P84243	Histone H3.3
+5JJY	A	Q9BYW2	Histone-lysine N-methyltransferase SETD2
+5KGF	C	P0C0S8	Histone H2A type 1
+5KGF	G	P0C0S8	Histone H2A type 1
+5KGF	M	P0CG47	Polyubiquitin-B
+5KGF	O	P0CG47	Polyubiquitin-B
+5KGF	B	P62799	Histone H4
+5KGF	F	P62799	Histone H4
+5KGF	D	P62807	Histone H2B type 1-C/E/F/G/I
+5KGF	H	P62807	Histone H2B type 1-C/E/F/G/I
+5KGF	A	P84233	Histone H3.2
+5KGF	E	P84233	Histone H3.2
+5KGF	K	Q12888	TP53-binding protein 1
+5KGF	L	Q12888	TP53-binding protein 1
+5KJH	B	G0RYC6#G0SDW4	null#null
+5KJH	A	G0S8H7	NA
+5KJH	D	P68431	Histone H3.1
+5KKL	B	G0RYC6#G0SDW4#P68431	null#null#P68431:#Histone H3.1
+5KKL	A	G0S8H7	NA
+5KKL	D	P68431	Histone H3.1
+5KOG	P	P02299	Histone H3
+5KOG	A	P05205	Heterochromatin protein 1
+5MR8	C	P68431	Histone H3.1
+5MR8	A	Q9UPN9	E3 ubiquitin-protein ligase TRIM33
+5NNC	A	O60885	Bromodomain-containing protein 4
+5NNC	B	O60885	Bromodomain-containing protein 4
+5NNC	C	P68431	Histone H3.1
+5NNC	D	P68431	Histone H3.1
+5NND	A	O60885	Bromodomain-containing protein 4
+5NND	B	O60885	Bromodomain-containing protein 4
+5NND	D	P68431	Histone H3.1
+5NND	E	P68431	Histone H3.1
+5OY3	A	O15054	Lysine-specific demethylase 6B
+5OY3	B	P68431	Histone H3.1
+5SVX	B	P68431	Histone H3.1
+5SVX	A	Q14149	MORC family CW-type zinc finger protein 3
+5SVY	B	P68431	Histone H3.1
+5SVY	A	Q14149	MORC family CW-type zinc finger protein 3
+5SZB	H	P68431	Histone H3.1
+5SZB	A	Q92784	Zinc finger protein DPF3
+5T0K	P	P68431	Histone H3.1
+5T0K	Q	P68431	Histone H3.1
+5T0K	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5T0K	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5T0M	C	P68431	Histone H3.1
+5T0M	P	P68431	Histone H3.1
+5T0M	A	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5T0M	B	Q96KQ7	Histone-lysine N-methyltransferase EHMT2
+5T1G	B	P68431	Histone H3.1
+5T1G	A	P83916	Chromobox protein homolog 1
+5T1I	C	P68431	Histone H3.1
+5T1I	A	Q13185	Chromobox protein homolog 3
+5T1I	B	Q13185	Chromobox protein homolog 3
+5T8R	E	P68431	Histone H3.1
+5T8R	G	P68431	Histone H3.1
+5T8R	A	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
+5T8R	B	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
+5T8R	C	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
+5T8R	D	Q9UIF9	Bromodomain adjacent to zinc finger domain protein 2A
+5TBN	C	P68431	Histone H3.1
+5TBN	A	Q9BVI0	PHD finger protein 20
+5TDR	A	P36124	SET domain-containing protein 3
+5TDR	B	P68431	Histone H3.1
+5TDW	A	P36124	SET domain-containing protein 3
+5TDW	B	P68431	Histone H3.1
+5TEG	D	P62805	Histone H4
+5TEG	E	P62805	Histone H4
+5TEG	A	Q9NQR1	N-lysine methyltransferase KMT5A
+5TEG	B	Q9NQR1	N-lysine methyltransferase KMT5A
+5U2J	C	P68431	Histone H3.1
+5U2J	D	P68431	Histone H3.1
+5U2J	A	Q8WYB5	Histone acetyltransferase KAT6B
+5U2J	B	Q8WYB5	Histone acetyltransferase KAT6B
+5VA6	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VA6	B	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VA6	C	P68431	Histone H3.1
+5VA6	D	P68431	Histone H3.1
+5VAB	A	I1N521	NA
+5VAB	F	P68431	Histone H3.1
+5VAC	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VAC	C	Q71DI3	Histone H3.2
+5VAH	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VAH	B	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VAH	C	P59226	Histone H3.2
+5VAH	D	P59226	Histone H3.2
+5VBC	A	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VBC	B	B9RU15	Probable Histone-lysine N-methyltransferase ATXR5
+5VBC	C	P59226	Histone H3.2
+5VBC	D	P59226	Histone H3.2
+5VEY	A	P04908#P06899	P04908:#Histone H2A type 1-B/E#P06899:#Histone H2B type 1-J
+5VEY	B	P0CG47	Polyubiquitin-B
+5VEY	C	Q8NCN4	E3 ubiquitin-protein ligase RNF169
+5WFC	B	G0RYC6#G0SDW4	null#null
+5WFC	A	G0S8H7	NA
+5WFC	D	P68431	Histone H3.1
+5WLE	C	P68431	Histone H3.1
+5WLE	A	Q9VG78	NA
+5WVO	C	P26358	DNA (cytosine-5)-methyltransferase 1
+5WVO	A	P62979	Ubiquitin-40S ribosomal protein S27a
+5WVO	B	P62979	Ubiquitin-40S ribosomal protein S27a
+5WVO	D	P68431	Histone H3.1
+5WXG	P	P68431	Histone H3.1
+5WXG	A	Q5VWG9	Transcription initiation factor TFIID subunit 3
+5X60	A	O60341	Lysine-specific histone demethylase 1A
+5X60	C	P68431	Histone H3.1
+5X60	B	Q9UKL0	REST corepressor 1
+5XFQ	E	P68431	Histone H3.1
+5XFQ	F	P68431	Histone H3.1
+5XFQ	A	Q9Z1B8	PHD finger protein 1
+5XFQ	B	Q9Z1B8	PHD finger protein 1
+5XFR	C	P68431	Histone H3.1
+5XFR	D	P68431	Histone H3.1
+5XFR	A	Q9Y483	Metal-response element-binding transcription factor 2
+5XFR	B	Q9Y483	Metal-response element-binding transcription factor 2
+5Y20	P	P68431	Histone H3.1
+5Y20	A	Q9FFF5	PHD finger protein ALFIN-LIKE 1
+5YC4	P	P59226	Histone H3.2
+5YC4	A	Q9M2B4	PHD finger protein ALFIN-LIKE 3
+5YKO	P	P59226	Histone H3.2
+5YKO	A	Q8GUI6	Probable lysine-specific demethylase JMJ14
+5YVX	C	P59226	Histone H3.2
+5YVX	A	Q2LAE1	Histone-lysine N-methyltransferase ASHH2
+6ASZ	P	P02299	Histone H3
+6ASZ	A	P05205	Heterochromatin protein 1
+6AT0	P	P02299	Histone H3
+6AT0	A	P05205	Heterochromatin protein 1
+6AXJ	A	P53930	Protein AF-9 homolog
+6AXJ	B	P53930	Protein AF-9 homolog
+6AXJ	C	P53930	Protein AF-9 homolog
+6AXJ	D	P53930	Protein AF-9 homolog
+6AXJ	E	P68431	Histone H3.1
+6AXJ	F	P68431	Histone H3.1
+6AXJ	G	P68431	Histone H3.1
+6AXJ	H	P68431	Histone H3.1
+6BHD	B	P68431	Histone H3.1
+6BHD	A	Q15047	Histone-lysine N-methyltransferase SETDB1
+6BHI	B	P68431	Histone H3.1
+6BHI	A	Q15047	Histone-lysine N-methyltransferase SETDB1
