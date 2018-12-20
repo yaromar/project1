@@ -1,19 +1,19 @@
 
 # coding: utf-8
 
-# In[17]:
+# In[67]:
 
 
-#!/usr/bin/env python 3
+!/usr/bin/env python 3
 import re
 
-PATH = "./"
-#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+#PATH = "./"
+PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "chains.tsv"
 PDB_LIST = "pdbList.tsv"
 
 
-# In[18]:
+# In[68]:
 
 
 #PARAMETERS:
@@ -30,11 +30,11 @@ def file_check(file):
         return 1
     
     except IOError:
-        #print("Error: " + file + " does not appear to exist.")
+        print("Error: " + file + " does not appear to exist.")
         return 0
 
 
-# In[19]:
+# In[69]:
 
 
 #PARAMETERS:
@@ -72,7 +72,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[20]:
+# In[70]:
 
 
 #PARAMETERS: 
@@ -104,7 +104,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[21]:
+# In[71]:
 
 
 #PARAMETERS:
@@ -262,7 +262,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[22]:
+# In[90]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -273,6 +273,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
         try:
             
             with open (file, 'r') as ifh:
+     
                 with open ('hitdata.txt', 'r') as hitFile:
                     ifh.readline()
                 
@@ -321,7 +322,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[23]:
+# In[91]:
 
 
 def main():
@@ -338,11 +339,9 @@ def main():
     interfaceDictionary = {}
     interfaceDictionary['uniprotPair'] = {}
     residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
-    
-    
 
 
-# In[24]:
+# In[92]:
 
 
 if __name__ == "__main__":
