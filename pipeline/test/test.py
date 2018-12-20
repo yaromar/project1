@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[40]:
+# In[9]:
 
 
 #!/usr/bin/env python 3
@@ -13,7 +13,7 @@ CHAIN_FILE = "chains.tsv"
 PDB_LIST = "pdbList.tsv"
 
 
-# In[41]:
+# In[10]:
 
 
 #PARAMETERS:
@@ -34,7 +34,7 @@ def file_check(file):
         return 0
 
 
-# In[42]:
+# In[11]:
 
 
 #PARAMETERS:
@@ -72,7 +72,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[43]:
+# In[12]:
 
 
 #PARAMETERS: 
@@ -104,7 +104,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[44]:
+# In[13]:
 
 
 #PARAMETERS:
@@ -262,7 +262,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[132]:
+# In[14]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -319,11 +319,11 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                            
                   
         except (IOError, KeyError) as e:
-            print("Error: " + interfaceFile + " does not appear to exist.")
+            print("Error: " + file + " does not appear to exist.")
             pass
 
 
-# In[133]:
+# In[15]:
 
 
 def main():
@@ -344,7 +344,7 @@ def main():
     
 
 
-# In[134]:
+# In[16]:
 
 
 if __name__ == "__main__":
