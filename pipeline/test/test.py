@@ -4,7 +4,7 @@
 # In[67]:
 
 
-!/usr/bin/env python 3
+#!/usr/bin/python
 import re
 
 #PATH = "./"
@@ -262,7 +262,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[90]:
+# In[93]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -302,7 +302,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot1):
                                         if(int(residue1) >= int(lineFields[3]) and int(residue1) <= int(lineFields[4])):
-                                            print(type2 + '\t' + lineFields[8])
+                                            print(type2 + '\t' + lineFields[8] + '\t' + lineFields[1])
                             hitFile.seek(0)
                        
                         elif(type2 == 'other' and type1 != 'other'):
@@ -312,7 +312,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot2):
                                         if(int(residue2) >= int(lineFields[3]) and int(residue2) <= int(lineFields[4])):
-                                            print(type1 + '\t' + lineFields[8])
+                                            print(type1 + '\t' + lineFields[8] + '\t' + lineFields[1])
                             hitFile.seek(0)                            
       
                            
@@ -322,7 +322,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[91]:
+# In[94]:
 
 
 def main():
@@ -341,7 +341,7 @@ def main():
     residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
 
 
-# In[92]:
+# In[95]:
 
 
 if __name__ == "__main__":
