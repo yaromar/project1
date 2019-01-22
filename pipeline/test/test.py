@@ -1,10 +1,10 @@
 
 # coding: utf-8
 
-# In[67]:
+# In[1]:
 
 
-#!/usr/bin/python
+#!/usr/bin/env python 3
 import re
 
 #PATH = "./"
@@ -13,7 +13,7 @@ CHAIN_FILE = "chains.tsv"
 PDB_LIST = "pdbList.tsv"
 
 
-# In[68]:
+# In[2]:
 
 
 #PARAMETERS:
@@ -34,7 +34,7 @@ def file_check(file):
         return 0
 
 
-# In[69]:
+# In[3]:
 
 
 #PARAMETERS:
@@ -72,7 +72,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[70]:
+# In[4]:
 
 
 #PARAMETERS: 
@@ -104,7 +104,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[71]:
+# In[5]:
 
 
 #PARAMETERS:
@@ -262,7 +262,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[93]:
+# In[6]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -302,7 +302,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot1):
                                         if(int(residue1) >= int(lineFields[3]) and int(residue1) <= int(lineFields[4])):
-                                            print(type2 + '\t' + lineFields[8] + '\t' + lineFields[1])
+                                            print(type2 + '\t' + lineFields[8] + '\t' + lineFields[1] + '\t' + uniprot1)
                             hitFile.seek(0)
                        
                         elif(type2 == 'other' and type1 != 'other'):
@@ -312,7 +312,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     lineFields = li.split('\t')
                                     if(lineFields[0].split(' - ')[1] == uniprot2):
                                         if(int(residue2) >= int(lineFields[3]) and int(residue2) <= int(lineFields[4])):
-                                            print(type1 + '\t' + lineFields[8] + '\t' + lineFields[1])
+                                            print(type1 + '\t' + lineFields[8] + '\t' + lineFields[1] + '\t' + uniprot2)
                             hitFile.seek(0)                            
       
                            
@@ -322,7 +322,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[94]:
+# In[7]:
 
 
 def main():
@@ -341,7 +341,7 @@ def main():
     residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
 
 
-# In[95]:
+# In[8]:
 
 
 if __name__ == "__main__":
