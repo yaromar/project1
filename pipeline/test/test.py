@@ -1,19 +1,20 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[354]:
 
 
 #!/usr/bin/env python 3
 import re
 
-#PATH = "./"
+
 PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "chains.tsv"
-PDB_LIST = "pdbList.tsv"
+#PDB_LIST = "pdbList.tsv"
+PDB_LIST = '1PHO.txt'
 
 
-# In[2]:
+# In[355]:
 
 
 #PARAMETERS:
@@ -34,7 +35,7 @@ def file_check(file):
         return 0
 
 
-# In[3]:
+# In[356]:
 
 
 #PARAMETERS:
@@ -72,7 +73,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[4]:
+# In[357]:
 
 
 #PARAMETERS: 
@@ -104,7 +105,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[5]:
+# In[358]:
 
 
 #PARAMETERS:
@@ -262,7 +263,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[6]:
+# In[359]:
 
 
 def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
@@ -322,7 +323,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[7]:
+# In[360]:
 
 
 def main():
@@ -341,7 +342,7 @@ def main():
     residue_count(interfaceFiles, chainDictionary, interfaceDictionary)
 
 
-# In[8]:
+# In[361]:
 
 
 if __name__ == "__main__":
