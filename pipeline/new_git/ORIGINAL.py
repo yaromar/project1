@@ -1,17 +1,17 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
-# In[13]:
+# In[1]:
 
 
 #!/usr/bin/env python 3
 import re
 import csv
 
-PATH = "./"
-#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+#PATH = "./"
+PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "chains.csv"
-PDB_LIST = "pdbList.txt"
+PDB_LIST = "histonesID.txt"
 
 
 # In[2]:
@@ -35,7 +35,7 @@ def file_check(file):
         return 0
 
 
-# In[16]:
+# In[3]:
 
 
 #PARAMETERS:
@@ -78,7 +78,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[17]:
+# In[4]:
 
 
 #PARAMETERS: 
@@ -110,7 +110,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[18]:
+# In[5]:
 
 
 #PARAMETERS: 
@@ -134,7 +134,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[50]:
+# In[6]:
 
 
 #PARAMETERS:
@@ -195,7 +195,7 @@ def get_chain_dictionaries(cFile, dictionary):
         if(pdb in tempDict): #continues only if a mapping file exists
             chain = cLine["chainId"]
             organism = cLine["source"]
-            uniprot = cLine["uniprotAcc"]
+            uniprot = cLine["uniprotAcc"].lower()
             name = cLine["uniprotRecommendedName"]
 
             histoneTypeAndCount = ['', 0]
@@ -260,12 +260,12 @@ def get_chain_dictionaries(cFile, dictionary):
                         partnerFlag = 1
                         
                 if(partnerFlag == 0):
-                    print(structure + '\t' + 'nucleosome' + '\t' + 'no')
+                    #print(structure + '\t' + 'nucleosome' + '\t' + 'no')
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:0'
 
                 else:
-                    print(structure + '\t' + 'nucleosome' + '\t' + 'yes')
+                    #print(structure + '\t' + 'nucleosome' + '\t' + 'yes')
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1'
 
@@ -282,12 +282,12 @@ def get_chain_dictionaries(cFile, dictionary):
                         partnerFlag = 1
 
                 if(partnerFlag == 0):
-                    print(structure + '\t' + 'histone' + '\t' + 'no')
+                    #print(structure + '\t' + 'histone' + '\t' + 'no')
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:0'
 
                 else:
-                    print(structure + '\t' + 'histone' + '\t' + 'yes')
+                    #print(structure + '\t' + 'histone' + '\t' + 'yes')
                     for chain in dictionary[structure]:
                         dictionary[structure][chain] += 'bp:1'
 
@@ -295,7 +295,7 @@ def get_chain_dictionaries(cFile, dictionary):
             del dictionary[structure]
 
 
-# In[60]:
+# In[7]:
 
 
 #PARAMETERS:
@@ -316,77 +316,75 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             
             with open (file, 'r') as ifh:
                 ifh.readline()
-                
-                atomList1 = [] #atomic count
-                atomList2 = [] #atomic count   
-                
-                for line in ifh:
-                    lineFields = line.split('\t')
+             
+                with open('results.tsv', 'a') as rfh:
+                    
+                    for line in ifh:
+                        lineFields = line.split('\t')
 
-                    chain1 = lineFields[0].split('_', 1)[0] # the split part treats biological assembly chains as separate chains ???
-                    chain2 = lineFields[4].split('_', 1)[0]
-                    
-                    fields1 = chainDictionary[pdb][chain1].split('|')
-                    fields2 = chainDictionary[pdb][chain2].split('|')
-                    
-                    uniprot1 = fields1[1]
-                    uniprot2 = fields2[1]
-                    
-                    type1 = fields1[3]
-                    type2 = fields2[3]
-                    nucleosome = int(fields1[5].split(':')[1])
-                    bp = int(fields1[6].split(':')[1])
-                    
-                    if(nucleosome and bp and type1 != 'other' and type2 == 'other'):
+                        chain1 = lineFields[0].split('_', 1)[0] # the split part treats biological assembly chains as separate chains ???
+                        chain2 = lineFields[4].split('_', 1)[0]
 
-                        residue1 = lineFields[2]
-                        residue2 = lineFields[6]
-                        
-                        with open('hitdata.txt', 'r') as hfh:
-                            hfh.readline()
-                            
-                            for line in hfh:
-                                fields = line.split('\t')
-                                uniprot = fields[0].split(' - ')[1]
-                                start = int(fields[3])
-                                end = int(fields[4])
-                                domtype = fields[1]
-                                name = fields[8]
-                                if(uniprot2 == uniprot):
-                                    if(domtype == 'specific'):
-                                        if(int(residue2) >= int(start) and int(residue2) <= int(end)):
-                                            hfields = chainDictionary[pdb][chain1].split('|')
-                                            pfields = chainDictionary[pdb][chain2].split('|')
-                                            print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                            hfh.seek(0)
-                    
-                    
-                    if(nucleosome and bp and type2 != 'other' and type1 == 'other'):
+                        fields1 = chainDictionary[pdb][chain1].split('|')
+                        fields2 = chainDictionary[pdb][chain2].split('|')
 
-                        residue1 = lineFields[2]
-                        residue2 = lineFields[6]
-                        
-                        with open('hitdata.txt', r) as hfh:
-                            hfh.readline()
-                            
-                            for line in hfh:
-                                fields = line.split('\t')
-                                uniprot = fields[0].split(' - ')[1]
-                                start = int(fields[3])
-                                end = int(fields[4])
-                                domtype = fields[1]
-                                name = fields[8]
-                                if(uniprot1 == uniprot):
-                                    if(domtype == 'specific'):
-                                        if(int(residue1) >= int(start) and int(residue1) <= int(end)):
-                                            hfields = chainDictionary[pdb][chain2].split('|')
-                                            pfields = chainDictionary[pdb][chain1].split('|')
-                                            print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                            hfh.seek(0)                            
-                            
-                       # uniprotPair1 = type1 + '|' + residue1 + '@' + uniprot2 + '|' + 
-                        #chainPair1 = chainDictionary[pdb][chain1] + '|' + residue1 + '@' + chainDictionary[pdb][chain2] + '|' + residue2
-                    
+                        uniprot1 = fields1[1]
+                        uniprot2 = fields2[1]
+
+                        type1 = fields1[3]
+                        type2 = fields2[3]
+                        nucleosome = int(fields1[5].split(':')[1])
+                        bp = int(fields1[6].split(':')[1])
+
+                        if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
+
+                            residue1 = lineFields[2]
+                            residue2 = lineFields[6]
+
+                            with open('hitdata.txt', 'r') as hfh:
+                                hfh.readline()
+
+                                for line in hfh:
+                                    fields = line.split('\t')
+                                    uniprot = fields[0].split(' - ')[1]
+                                    start = int(fields[3])
+                                    end = int(fields[4])
+                                    domtype = fields[1]
+                                    name = fields[8]
+                                    if(uniprot2 == uniprot):
+                                        if(domtype == 'specific'):
+                                            if(int(residue2) >= int(start) and int(residue2) <= int(end)):
+                                                hfields = chainDictionary[pdb][chain1].split('|')
+                                                pfields = chainDictionary[pdb][chain2].split('|')
+                                                rfh.write(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + ', ' + name + '\t' + pfields[4] + '\n')
+                                                #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                hfh.seek(0)
+
+
+                        if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
+
+                            residue1 = lineFields[2]
+                            residue2 = lineFields[6]
+
+                            with open('hitdata.txt', 'r') as hfh:
+                                hfh.readline()
+
+                                for line in hfh:
+                                    fields = line.split('\t')
+                                    uniprot = fields[0].split(' - ')[1]
+                                    start = int(fields[3])
+                                    end = int(fields[4])
+                                    domtype = fields[1]
+                                    name = fields[8]
+                                    if(uniprot1 == uniprot):
+                                        if(domtype == 'specific'):
+                                            if(int(residue1) >= int(start) and int(residue1) <= int(end)):
+                                                hfields = chainDictionary[pdb][chain2].split('|')
+                                                pfields = chainDictionary[pdb][chain1].split('|')
+                                                rfh.write(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + ', ' + name + '\t' + pfields[4] + '\n')
+                                                #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                hfh.seek(0)                            
+
           
                             
         except (IOError, KeyError) as e:
@@ -394,7 +392,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[61]:
+# In[8]:
 
 
 def main():
@@ -416,21 +414,9 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[62]:
+# In[9]:
 
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
