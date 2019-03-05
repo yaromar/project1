@@ -1,0 +1,3 @@
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - P25171	specific	277112	0	1000	6.72398e-33	123.98	cd15642	testdomain3mvd	 - 	cl22851
+Q#2 - Q9DUM3	specific	277112	0	1000	6.72398e-33	123.98	cd15642	testdomain1zla	 - 	cl22851

@@ -1,0 +1,10 @@
+chain	chain_author	uniprot	seq_aln_begin	seq_aln_begin_ins	seq_aln_end	seq_aln_end_ins	db_aln_begin	db_aln_end	auth_aln_begin	auth_aln_end
+C	A	288992	1	?	135	?	2	136	401	535
+E	C	30268540	1	?	129	?	2	130	801	929
+D	B	P62799	1	?	102	?	1	102	1	102
+G	E	288992	1	?	135	?	2	136	601	735
+F	D	296216	1	?	125	?	2	126	1198	1322
+I	G	30268540	1	?	129	?	2	130	1001	1129
+H	F	P62799	1	?	102	?	1	102	201	302
+K	K	5669894	1	?	22	?	1	22	1	22
+J	H	296216	1	?	125	?	2	126	1398	1522
