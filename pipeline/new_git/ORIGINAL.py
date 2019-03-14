@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[133]:
+# In[143]:
 
 
 #!/usr/bin/env python 3
@@ -9,12 +9,12 @@ import re
 import csv
 
 #PATH = "./"
-#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "chains.csv"
 PDB_LIST = "allPDBids.txt"
 
 
-# In[134]:
+# In[144]:
 
 
 #PARAMETERS:
@@ -35,7 +35,7 @@ def file_check(file):
         return 0
 
 
-# In[135]:
+# In[145]:
 
 
 #PARAMETERS:
@@ -78,7 +78,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[136]:
+# In[146]:
 
 
 #PARAMETERS:
@@ -121,7 +121,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[137]:
+# In[147]:
 
 
 #PARAMETERS: 
@@ -152,7 +152,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[138]:
+# In[148]:
 
 
 #PARAMETERS: 
@@ -176,7 +176,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[139]:
+# In[149]:
 
 
 #PARAMETERS:
@@ -347,7 +347,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[140]:
+# In[150]:
 
 
 #PARAMETERS:
@@ -463,7 +463,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[141]:
+# In[151]:
 
 
 def main():
@@ -485,7 +485,7 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[142]:
+# In[152]:
 
 
 if __name__ == "__main__":
