@@ -1,7 +1,7 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[133]:
 
 
 #!/usr/bin/env python 3
@@ -9,12 +9,12 @@ import re
 import csv
 
 #PATH = "./"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "chains.csv"
-PDB_LIST = "histonesID.txt"
+PDB_LIST = "allPDBids.txt"
 
 
-# In[2]:
+# In[134]:
 
 
 #PARAMETERS:
@@ -35,7 +35,7 @@ def file_check(file):
         return 0
 
 
-# In[3]:
+# In[135]:
 
 
 #PARAMETERS:
@@ -78,7 +78,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[4]:
+# In[136]:
 
 
 #PARAMETERS:
@@ -121,7 +121,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[5]:
+# In[137]:
 
 
 #PARAMETERS: 
@@ -136,7 +136,6 @@ def is_histone2(name, typeCount):
 def get_files(pdbList, files, parameter):
     
     with open(pdbList, 'r') as pfh:
-        pfh.readline()
         
         if(parameter == 'mapping'):
             
@@ -153,7 +152,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[6]:
+# In[138]:
 
 
 #PARAMETERS: 
@@ -177,7 +176,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[7]:
+# In[139]:
 
 
 #PARAMETERS:
@@ -185,9 +184,7 @@ def get_file(pdb, parameter):
 #dictionary is nested with the innermost dict being dictionary['pdb'] = {}
 
 #RESULTS: 
-#The format of the end-product dictionary is: {pdb : {AlexChain: myChain|UNIPROT|name|type|process|function|organism|nucleosome(bool)|bindingPartner(bool)}}
-#Example: {1alq : {'G': 'E|P02302|Histone H3.3C|H3|1212|4141|human|1|0'}}
-
+#Example: {1alq : {'G': 'A|p84233|Histone H3.2|H3|Xenopus laevis|nucleosome:1|bp:1|1'}}
 
 def get_chain_dictionaries(cFile, dictionary): 
     
@@ -199,6 +196,9 @@ def get_chain_dictionaries(cFile, dictionary):
     tempDict = {}
     tempDict['pdb'] = {}
 
+    tempDict2 = {}
+    tempDict2['pdb'] = {}
+    
     mappingFiles = [] 
     get_files(PDB_LIST, mappingFiles, 'mapping')
 
@@ -212,15 +212,18 @@ def get_chain_dictionaries(cFile, dictionary):
                 pdb = file.split('/')[-1].split('_', 1)[0]
 
                 for mLine in mfh:
-                    chainPair = mLine.split('\t', 2)
+                    chainPair = mLine.split('\t')
                     alexChain = chainPair[0]
                     myChain = chainPair[1]
-
+                    alignment = int(chainPair[7]) - int(chainPair[3])
+                    
                     if(pdb in tempDict):
                         tempDict[pdb][alexChain] = myChain
+                        tempDict2[pdb][alexChain] = alignment
 
                     else:
                         tempDict[pdb] = {alexChain : myChain}
+                        tempDict2[pdb] = {alexChain : alignment}
 
         except IOError:
             pass
@@ -236,7 +239,7 @@ def get_chain_dictionaries(cFile, dictionary):
             chain = cLine["chainId"]
             organism = cLine["source"]
             uniprot = cLine["uniprotAcc"].lower()
-            name = cLine["uniprotRecommendedName"]  
+            name = cLine["uniprotRecommendedName"]
 
             histoneTypeAndCount = ['', 0]
 
@@ -305,15 +308,17 @@ def get_chain_dictionaries(cFile, dictionary):
                             partnerFlag = 1
 
                     if(partnerFlag == 0):
-                        #print(structure + '\t' + 'nucleosome' + '\t' + 'no')
                         for chain in dictionary[structure]:
-                            dictionary[structure][chain] += 'bp:0'
-                            rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'no' + '\n')
+                            dictionary[structure][chain] += 'bp:0|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain])
+
+                            #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'no' + '\n')
                     else:
-                        #print(structure + '\t' + 'nucleosome' + '\t' + 'yes')
                         for chain in dictionary[structure]:
-                            dictionary[structure][chain] += 'bp:1'
-                            rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'yes' + '\n')
+                            dictionary[structure][chain] += 'bp:1|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain])  
+                           
+                            #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'yes' + '\n')
                 else: #!!!!!!
 
                     for chain in dictionary[structure]: #!!!!!
@@ -327,20 +332,22 @@ def get_chain_dictionaries(cFile, dictionary):
                             partnerFlag = 1
 
                     if(partnerFlag == 0):
-                        #print(structure + '\t' + 'histone' + '\t' + 'no')
                         for chain in dictionary[structure]:
-                            dictionary[structure][chain] += 'bp:0'
-                            rfh.write(structure + '\t' + 'histone' + '\t' + 'no' + '\n')
+                            dictionary[structure][chain] += 'bp:0|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain])
+                           
+                            #rfh.write(structure + '\t' + 'histone' + '\t' + 'no' + '\n')
                     else:
-                        #print(structure + '\t' + 'histone' + '\t' + 'yes')
                         for chain in dictionary[structure]:
-                            dictionary[structure][chain] += 'bp:1'
-                            rfh.write(structure + '\t' + 'histone' + '\t' + 'yes' + '\n')
+                            dictionary[structure][chain] += 'bp:1|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain]) 
+                           
+                            #rfh.write(structure + '\t' + 'histone' + '\t' + 'yes' + '\n')
             else:
                 del dictionary[structure]
 
 
-# In[8]:
+# In[140]:
 
 
 #PARAMETERS:
@@ -356,7 +363,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
     
     for file in interfaceFiles:
         pdb = file.split('/')[-1].split('_', 1)[0] 
-        
+
         try:
             
             with open (file, 'r') as ifh:
@@ -372,16 +379,21 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                         fields1 = chainDictionary[pdb][chain1].split('|')
                         fields2 = chainDictionary[pdb][chain2].split('|')
-                        
+
                         myChain1 = fields1[0]
                         myChain2 = fields2[0]
                         
                         type1 = fields1[3]
                         type2 = fields2[3]
-                        nucleosome = int(fields1[5].split(':')[1])
+                        
+                        #nucleosome = int(fields1[5].split(':')[1])
                         bp = int(fields1[6].split(':')[1])
+                        
+                        align1 = int(fields1[7])
+                        align2 = int(fields2[7])
 
-                        if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
+                        #if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
+                        if(bp and type1 != 'other' and type2 == 'other'):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
@@ -402,16 +414,19 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     domtype = fields[1]
                                     name = fields[8]
                                     if(pdb2 == pdb and chain == myChain2):
+  
                                         if(domtype == 'specific'):
                                             if(int(residue2) >= int(start) and int(residue2) <= int(end)):
                                                 hfields = chainDictionary[pdb][chain1].split('|')
                                                 pfields = chainDictionary[pdb][chain2].split('|')
-                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
+                                                alignedRes = int(residue1) + align1
+                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
                                                 #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
                                 hfh.seek(0)
 
 
-                        if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
+                        #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
+                        elif(bp and type2 != 'other' and type1 == 'other'):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
@@ -431,11 +446,13 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                     domtype = fields[1]
                                     name = fields[8]
                                     if(pdb2 == pdb and chain == myChain1):
+
                                         if(domtype == 'specific'):
                                             if(int(residue1) >= int(start) and int(residue1) <= int(end)):
                                                 hfields = chainDictionary[pdb][chain2].split('|')
                                                 pfields = chainDictionary[pdb][chain1].split('|')
-                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
+                                                alignedRes = int(residue2) + align2
+                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
                                                 #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
                                 hfh.seek(0)                            
 
@@ -446,7 +463,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[9]:
+# In[141]:
 
 
 def main():
@@ -468,9 +485,21 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[10]:
+# In[142]:
 
 
 if __name__ == "__main__":
     main()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
