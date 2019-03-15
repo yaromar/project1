@@ -1,7 +1,7 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
-# In[143]:
+# In[23]:
 
 
 #!/usr/bin/env python 3
@@ -10,11 +10,11 @@ import csv
 
 #PATH = "./"
 PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
-CHAIN_FILE = "chains.csv"
-PDB_LIST = "allPDBids.txt"
+CHAIN_FILE = "histoneChains.csv"
+PDB_LIST = "histonesID.txt"
 
 
-# In[144]:
+# In[24]:
 
 
 #PARAMETERS:
@@ -35,7 +35,7 @@ def file_check(file):
         return 0
 
 
-# In[145]:
+# In[25]:
 
 
 #PARAMETERS:
@@ -78,7 +78,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[146]:
+# In[26]:
 
 
 #PARAMETERS:
@@ -121,7 +121,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[147]:
+# In[27]:
 
 
 #PARAMETERS: 
@@ -152,7 +152,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[148]:
+# In[28]:
 
 
 #PARAMETERS: 
@@ -176,7 +176,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[149]:
+# In[29]:
 
 
 #PARAMETERS:
@@ -347,7 +347,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[150]:
+# In[30]:
 
 
 #PARAMETERS:
@@ -463,7 +463,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[151]:
+# In[31]:
 
 
 def main():
@@ -485,21 +485,9 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[152]:
+# In[32]:
 
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
