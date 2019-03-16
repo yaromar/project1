@@ -1,22 +1,22 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
-# In[42]:
+# In[31]:
 
 
 #!/usr/bin/env python 3
 import re
 import csv
 
-PATH = "./"
-#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+#PATH = "./"
+PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "histoneChains.csv"
 #CHAIN_FILE = "tempChains.csv"
 PDB_LIST = "histonesID.txt"
 #PDB_LIST = "tempID.txt"
 
 
-# In[43]:
+# In[32]:
 
 
 #PARAMETERS:
@@ -37,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[44]:
+# In[33]:
 
 
 #PARAMETERS:
@@ -80,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[45]:
+# In[34]:
 
 
 #PARAMETERS:
@@ -123,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[46]:
+# In[35]:
 
 
 #PARAMETERS: 
@@ -154,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[47]:
+# In[36]:
 
 
 #PARAMETERS: 
@@ -178,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[48]:
+# In[37]:
 
 
 #PARAMETERS:
@@ -367,7 +367,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[67]:
+# In[38]:
 
 
 #PARAMETERS:
@@ -418,40 +418,46 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                         mmCIFend1 = int(fields1[9])
                         mmCIFend2 = int(fields2[9])
                         
+                        uniprotStart1 = mmCIFstart1 + align1
+                        uniprotStart2 = mmCIFstart2 + align2
+                        
+                        uniprotEnd1 = mmCIFend1 + align1
+                        uniprotEnd2 = mmCIFend2 + align2
+                        
                         #if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
                         if(bp and type1 != 'other' and type2 == 'other'):
                             
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
+                            if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1<= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1<= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 127 and 1<= uniprotEnd1 <= 127) or (type1 == 'H3' and 1 <= uniprotStart1 <= 136 and 1<= uniprotEnd1 <= 136) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1<= uniprotEnd1 <= 103)):
+                                if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
 
-                            if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
-                                
-                                with open('hitdata.txt', 'r') as hfh:
-                                    hfh.readline()
+                                    with open('hitdata.txt', 'r') as hfh:
+                                        hfh.readline()
 
-                                    for line in hfh:
-                                        fields = line.split('\t')
-
-
-                                        pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
-                                        chain = fields[0].split(' - ')[1][4]  ###
+                                        for line in hfh:
+                                            fields = line.split('\t')
 
 
-                                        start = int(fields[3])
-                                        end = int(fields[4])
-                                        domtype = fields[1]
-                                        name = fields[8]
-                                        
-                                        if(pdb2 == pdb and chain == myChain2):
-                                            
-                                            if(domtype == 'specific'):
-                                                if(int(residue2) >= int(start) and int(residue2) <= int(end)):
-                                                    hfields = chainDictionary[pdb][chain1].split('|')
-                                                    pfields = chainDictionary[pdb][chain2].split('|')
-                                                    alignedRes = int(residue1) + align1
-                                                    rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
-                                                    #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                                    hfh.seek(0)
+                                            pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
+                                            chain = fields[0].split(' - ')[1][4]  ###
+
+
+                                            start = int(fields[3])
+                                            end = int(fields[4])
+                                            domtype = fields[1]
+                                            name = fields[8]
+
+                                            if(pdb2 == pdb and chain == myChain2):
+
+                                                if(domtype == 'specific'):
+                                                    if(int(residue2) >= int(start) and int(residue2) <= int(end)):
+                                                        hfields = chainDictionary[pdb][chain1].split('|')
+                                                        pfields = chainDictionary[pdb][chain2].split('|')
+                                                        alignedRes = int(residue1) + align1
+                                                        rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
+                                                        #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                        hfh.seek(0)
 
 
                         #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
@@ -459,33 +465,33 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
-                            
-                            if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
-                                
-                                with open('hitdata.txt', 'r') as hfh:
-                                    hfh.readline()
+                            if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1<= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1<= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 127 and 1<= uniprotEnd2 <= 127) or (type2 == 'H3' and 1 <= uniprotStart2 <= 136 and 1<= uniprotEnd2 <= 136) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1<= uniprotEnd2 <= 103)):
+                                if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
 
-                                    for line in hfh:
-                                        fields = line.split('\t')
+                                    with open('hitdata.txt', 'r') as hfh:
+                                        hfh.readline()
+
+                                        for line in hfh:
+                                            fields = line.split('\t')
 
 
-                                        pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
-                                        chain = fields[0].split(' - ')[1][4]  ###
+                                            pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
+                                            chain = fields[0].split(' - ')[1][4]  ###
 
-                                        start = int(fields[3])
-                                        end = int(fields[4])
-                                        domtype = fields[1]
-                                        name = fields[8]
-                                        if(pdb2 == pdb and chain == myChain1):
+                                            start = int(fields[3])
+                                            end = int(fields[4])
+                                            domtype = fields[1]
+                                            name = fields[8]
+                                            if(pdb2 == pdb and chain == myChain1):
 
-                                            if(domtype == 'specific'):
-                                                if(int(residue1) >= int(start) and int(residue1) <= int(end)):
-                                                    hfields = chainDictionary[pdb][chain2].split('|')
-                                                    pfields = chainDictionary[pdb][chain1].split('|')
-                                                    alignedRes = int(residue2) + align2
-                                                    rfh.write(hfields[1] +'\t' + hfields[2] + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
-                                                    #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                                    hfh.seek(0)                            
+                                                if(domtype == 'specific'):
+                                                    if(int(residue1) >= int(start) and int(residue1) <= int(end)):
+                                                        hfields = chainDictionary[pdb][chain2].split('|')
+                                                        pfields = chainDictionary[pdb][chain1].split('|')
+                                                        alignedRes = int(residue2) + align2
+                                                        rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
+                                                        #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                        hfh.seek(0)                            
 
           
                             
@@ -494,7 +500,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[68]:
+# In[39]:
 
 
 def main():
@@ -516,21 +522,9 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[69]:
+# In[40]:
 
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
