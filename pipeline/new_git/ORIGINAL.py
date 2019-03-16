@@ -1,20 +1,22 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
-# In[23]:
+# In[42]:
 
 
 #!/usr/bin/env python 3
 import re
 import csv
 
-#PATH = "./"
-PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
+PATH = "./"
+#PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
 CHAIN_FILE = "histoneChains.csv"
+#CHAIN_FILE = "tempChains.csv"
 PDB_LIST = "histonesID.txt"
+#PDB_LIST = "tempID.txt"
 
 
-# In[24]:
+# In[43]:
 
 
 #PARAMETERS:
@@ -35,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[25]:
+# In[44]:
 
 
 #PARAMETERS:
@@ -78,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[26]:
+# In[45]:
 
 
 #PARAMETERS:
@@ -121,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[27]:
+# In[46]:
 
 
 #PARAMETERS: 
@@ -152,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[28]:
+# In[47]:
 
 
 #PARAMETERS: 
@@ -176,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[29]:
+# In[48]:
 
 
 #PARAMETERS:
@@ -184,7 +186,7 @@ def get_file(pdb, parameter):
 #dictionary is nested with the innermost dict being dictionary['pdb'] = {}
 
 #RESULTS: 
-#Example: {1alq : {'G': 'A|p84233|Histone H3.2|H3|Xenopus laevis|nucleosome:1|bp:1|1'}}
+#Example: {1alq : {'G': 'A|p84233|Histone H3.2|H3|Xenopus laevis|nucleosome:1|bp:1|1|1|135'}}
 
 def get_chain_dictionaries(cFile, dictionary): 
     
@@ -216,14 +218,16 @@ def get_chain_dictionaries(cFile, dictionary):
                     alexChain = chainPair[0]
                     myChain = chainPair[1]
                     alignment = int(chainPair[7]) - int(chainPair[3])
+                    mmCIFstart = int(chainPair[3])
+                    mmCIFend = int(chainPair[5])
                     
                     if(pdb in tempDict):
                         tempDict[pdb][alexChain] = myChain
-                        tempDict2[pdb][alexChain] = alignment
+                        tempDict2[pdb][alexChain] = [alignment, mmCIFstart, mmCIFend]
 
                     else:
                         tempDict[pdb] = {alexChain : myChain}
-                        tempDict2[pdb] = {alexChain : alignment}
+                        tempDict2[pdb] = {alexChain : [alignment, mmCIFstart, mmCIFend]}
 
         except IOError:
             pass
@@ -310,13 +314,21 @@ def get_chain_dictionaries(cFile, dictionary):
                     if(partnerFlag == 0):
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:0|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain])
-
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])
+                            
                             #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'no' + '\n')
                     else:
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:1|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain])  
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])  
                            
                             #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'yes' + '\n')
                 else: #!!!!!!
@@ -334,20 +346,28 @@ def get_chain_dictionaries(cFile, dictionary):
                     if(partnerFlag == 0):
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:0|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain])
-                           
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])
+                            
                             #rfh.write(structure + '\t' + 'histone' + '\t' + 'no' + '\n')
                     else:
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:1|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain]) 
-                           
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
+                            dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(tempDict2[structure][chain][2]) 
+                            
                             #rfh.write(structure + '\t' + 'histone' + '\t' + 'yes' + '\n')
             else:
                 del dictionary[structure]
 
 
-# In[30]:
+# In[67]:
 
 
 #PARAMETERS:
@@ -391,38 +411,47 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                         
                         align1 = int(fields1[7])
                         align2 = int(fields2[7])
-
+                        
+                        mmCIFstart1 = int(fields1[8])
+                        mmCIFstart2 = int(fields2[8])
+                        
+                        mmCIFend1 = int(fields1[9])
+                        mmCIFend2 = int(fields2[9])
+                        
                         #if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
                         if(bp and type1 != 'other' and type2 == 'other'):
-
+                            
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
 
-                            with open('hitdata.txt', 'r') as hfh:
-                                hfh.readline()
+                            if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
+                                
+                                with open('hitdata.txt', 'r') as hfh:
+                                    hfh.readline()
 
-                                for line in hfh:
-                                    fields = line.split('\t')
-                                    
-                                    
-                                    pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
-                                    chain = fields[0].split(' - ')[1][4]  ###
-                                    
-                                    
-                                    start = int(fields[3])
-                                    end = int(fields[4])
-                                    domtype = fields[1]
-                                    name = fields[8]
-                                    if(pdb2 == pdb and chain == myChain2):
-  
-                                        if(domtype == 'specific'):
-                                            if(int(residue2) >= int(start) and int(residue2) <= int(end)):
-                                                hfields = chainDictionary[pdb][chain1].split('|')
-                                                pfields = chainDictionary[pdb][chain2].split('|')
-                                                alignedRes = int(residue1) + align1
-                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
-                                                #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                                hfh.seek(0)
+                                    for line in hfh:
+                                        fields = line.split('\t')
+
+
+                                        pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
+                                        chain = fields[0].split(' - ')[1][4]  ###
+
+
+                                        start = int(fields[3])
+                                        end = int(fields[4])
+                                        domtype = fields[1]
+                                        name = fields[8]
+                                        
+                                        if(pdb2 == pdb and chain == myChain2):
+                                            
+                                            if(domtype == 'specific'):
+                                                if(int(residue2) >= int(start) and int(residue2) <= int(end)):
+                                                    hfields = chainDictionary[pdb][chain1].split('|')
+                                                    pfields = chainDictionary[pdb][chain2].split('|')
+                                                    alignedRes = int(residue1) + align1
+                                                    rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
+                                                    #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                    hfh.seek(0)
 
 
                         #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
@@ -430,31 +459,33 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
+                            
+                            if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
+                                
+                                with open('hitdata.txt', 'r') as hfh:
+                                    hfh.readline()
 
-                            with open('hitdata.txt', 'r') as hfh:
-                                hfh.readline()
+                                    for line in hfh:
+                                        fields = line.split('\t')
 
-                                for line in hfh:
-                                    fields = line.split('\t')
 
-                                    
-                                    pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
-                                    chain = fields[0].split(' - ')[1][4]  ###
-                                    
-                                    start = int(fields[3])
-                                    end = int(fields[4])
-                                    domtype = fields[1]
-                                    name = fields[8]
-                                    if(pdb2 == pdb and chain == myChain1):
+                                        pdb2 = fields[0].split(' - ')[1][0:4].lower() ###
+                                        chain = fields[0].split(' - ')[1][4]  ###
 
-                                        if(domtype == 'specific'):
-                                            if(int(residue1) >= int(start) and int(residue1) <= int(end)):
-                                                hfields = chainDictionary[pdb][chain2].split('|')
-                                                pfields = chainDictionary[pdb][chain1].split('|')
-                                                alignedRes = int(residue2) + align2
-                                                rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
-                                                #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                                hfh.seek(0)                            
+                                        start = int(fields[3])
+                                        end = int(fields[4])
+                                        domtype = fields[1]
+                                        name = fields[8]
+                                        if(pdb2 == pdb and chain == myChain1):
+
+                                            if(domtype == 'specific'):
+                                                if(int(residue1) >= int(start) and int(residue1) <= int(end)):
+                                                    hfields = chainDictionary[pdb][chain2].split('|')
+                                                    pfields = chainDictionary[pdb][chain1].split('|')
+                                                    alignedRes = int(residue2) + align2
+                                                    rfh.write(hfields[1] +'\t' + hfields[2] + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\n')
+                                                    #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                                    hfh.seek(0)                            
 
           
                             
@@ -463,7 +494,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[31]:
+# In[68]:
 
 
 def main():
@@ -485,9 +516,21 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[32]:
+# In[69]:
 
 
 if __name__ == "__main__":
     main()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
