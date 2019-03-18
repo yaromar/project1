@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[31]:
+# In[13]:
 
 
 #!/usr/bin/env python 3
@@ -16,7 +16,7 @@ PDB_LIST = "histonesID.txt"
 #PDB_LIST = "tempID.txt"
 
 
-# In[32]:
+# In[14]:
 
 
 #PARAMETERS:
@@ -37,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[33]:
+# In[15]:
 
 
 #PARAMETERS:
@@ -80,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[34]:
+# In[16]:
 
 
 #PARAMETERS:
@@ -123,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[35]:
+# In[17]:
 
 
 #PARAMETERS: 
@@ -154,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[36]:
+# In[18]:
 
 
 #PARAMETERS: 
@@ -178,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[37]:
+# In[19]:
 
 
 #PARAMETERS:
@@ -222,9 +222,12 @@ def get_chain_dictionaries(cFile, dictionary):
                     mmCIFend = int(chainPair[5])
                     
                     if(pdb in tempDict):
-                        tempDict[pdb][alexChain] = myChain
-                        tempDict2[pdb][alexChain] = [alignment, mmCIFstart, mmCIFend]
-
+                        if(alexChain in tempDict[pdb]):
+                            tempDict2[pdb][alexChain].extend([alignment, mmCIFstart, mmCIFend])
+                        else:
+                            tempDict[pdb][alexChain] = myChain
+                            tempDict2[pdb][alexChain] = [alignment, mmCIFstart, mmCIFend]
+                        
                     else:
                         tempDict[pdb] = {alexChain : myChain}
                         tempDict2[pdb] = {alexChain : [alignment, mmCIFstart, mmCIFend]}
@@ -314,22 +317,21 @@ def get_chain_dictionaries(cFile, dictionary):
                     if(partnerFlag == 0):
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:0|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])
+                            for element in tempDict2[structure][chain]:
+                                dictionary[structure][chain] += str(element)
+                                dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(len(tempDict2[structure][chain]) / 3)
+                            rfh.write(str(dictionary[structure][chain]) + '\n')
                             
                             #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'no' + '\n')
                     else:
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:1|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])  
-                           
+                            for element in tempDict2[structure][chain]:
+                                dictionary[structure][chain] += str(element)
+                                dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(len(tempDict2[structure][chain]) / 3)
+                            rfh.write(str(dictionary[structure][chain]) + '\n')
                             #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'yes' + '\n')
                 else: #!!!!!!
 
@@ -346,28 +348,26 @@ def get_chain_dictionaries(cFile, dictionary):
                     if(partnerFlag == 0):
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:0|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][2])
-                            
+                            for element in tempDict2[structure][chain]:
+                                dictionary[structure][chain] += str(element)
+                                dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(len(tempDict2[structure][chain]) / 3)
+                            rfh.write(str(dictionary[structure][chain]) + '\n')
                             #rfh.write(structure + '\t' + 'histone' + '\t' + 'no' + '\n')
                     else:
                         for chain in dictionary[structure]:
                             dictionary[structure][chain] += 'bp:1|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][0])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][1])
-                            dictionary[structure][chain] += '|'
-                            dictionary[structure][chain] += str(tempDict2[structure][chain][2]) 
-                            
+                            for element in tempDict2[structure][chain]:
+                                dictionary[structure][chain] += str(element)
+                                dictionary[structure][chain] += '|'
+                            dictionary[structure][chain] += str(len(tempDict2[structure][chain]) / 3)
+                            rfh.write(str(dictionary[structure][chain]) + '\n')
                             #rfh.write(structure + '\t' + 'histone' + '\t' + 'yes' + '\n')
             else:
                 del dictionary[structure]
 
 
-# In[38]:
+# In[20]:
 
 
 #PARAMETERS:
@@ -429,7 +429,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                             
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
-                            if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1<= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1<= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 127 and 1<= uniprotEnd1 <= 127) or (type1 == 'H3' and 1 <= uniprotStart1 <= 136 and 1<= uniprotEnd1 <= 136) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1<= uniprotEnd1 <= 103)):
+                            if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1 <= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1 <= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 131 and 1 <= uniprotEnd1 <= 131) or (type1 == 'H3' and 1 <= uniprotStart1 <= 184 and 1 <= uniprotEnd1 <= 184) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1 <= uniprotEnd1 <= 103)):
                                 if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
 
                                     with open('hitdata.txt', 'r') as hfh:
@@ -458,14 +458,15 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                                         rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
                                                         #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
                                         hfh.seek(0)
-
+                            #else:
+                             #   print(pdb + '\t' + fields1[0] + '\t' + fields1[2] + '\t' + str(uniprotStart1) + '\t' + str(uniprotEnd1) + '\n')
 
                         #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
                         elif(bp and type2 != 'other' and type1 == 'other'):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
-                            if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1<= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1<= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 127 and 1<= uniprotEnd2 <= 127) or (type2 == 'H3' and 1 <= uniprotStart2 <= 136 and 1<= uniprotEnd2 <= 136) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1<= uniprotEnd2 <= 103)):
+                            if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1 <= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1 <= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 131 and 1 <= uniprotEnd2 <= 131) or (type2 == 'H3' and 1 <= uniprotStart2 <= 184 and 1 <= uniprotEnd2 <= 184) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1 <= uniprotEnd2 <= 103)):
                                 if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
 
                                     with open('hitdata.txt', 'r') as hfh:
@@ -492,7 +493,8 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                                         rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
                                                         #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
                                         hfh.seek(0)                            
-
+                            #else:
+                             #   print(pdb + '\t' + fields2[0] + '\t' + fields2[2] + '\t' + str(uniprotStart2) + '\t' + str(uniprotEnd2) + '\n')
           
                             
         except (IOError, KeyError) as e:
@@ -500,7 +502,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[39]:
+# In[21]:
 
 
 def main():
@@ -522,7 +524,7 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[40]:
+# In[22]:
 
 
 if __name__ == "__main__":

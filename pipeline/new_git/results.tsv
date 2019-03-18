@@ -2478,6 +2478,7 @@ p68433	Histone H3.1	Homo sapiens	H3_6	q03164	Histone-lysine N-methyltransferase 
 p68433	Histone H3.1	Homo sapiens	H3_7	q03164	Histone-lysine N-methyltransferase 2A	SET	Homo sapiens	H3	7	2w5z
 p68433	Histone H3.1	Homo sapiens	H3_8	q03164	Histone-lysine N-methyltransferase 2A	SET	Homo sapiens	H3	8	2w5z
 p68433	Histone H3.1	Homo sapiens	H3_9	q03164	Histone-lysine N-methyltransferase 2A	SET	Homo sapiens	H3	9	2w5z
+p68433	Histone H3.1	Mus musculus	H3_10	p83917	Chromobox protein homolog 1	Chromo	Mus musculus	H3	10	1guw
 p68433	Histone H3.1	Mus musculus	H3_17	q91y44	Bromodomain testis-specific protein	Bromo_Brdt_II_like	Mus musculus	H3	17	2wp1
 p68433	Histone H3.1	Mus musculus	H3_18	q91y44	Bromodomain testis-specific protein	Bromo_Brdt_II_like	Mus musculus	H3	18	2wp1
 p68433	Histone H3.1	Mus musculus	H3_2	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	2	5ix1
@@ -2494,11 +2495,15 @@ p68433	Histone H3.1	Mus musculus	H3_4	f7bjb9	MORC family CW-type zinc finger pro
 p68433	Histone H3.1	Mus musculus	H3_4	p61965	WD repeat-containing protein 5	WD40	Mus musculus	H3	4	2xl3
 p68433	Histone H3.1	Mus musculus	H3_5	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	5	5ix2
 p68433	Histone H3.1	Mus musculus	H3_5	p61965	WD repeat-containing protein 5	WD40	Mus musculus	H3	5	2xl3
+p68433	Histone H3.1	Mus musculus	H3_5	p83917	Chromobox protein homolog 1	Chromo	Mus musculus	H3	5	1guw
 p68433	Histone H3.1	Mus musculus	H3_6	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	6	5ix1
 p68433	Histone H3.1	Mus musculus	H3_6	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	6	5ix2
 p68433	Histone H3.1	Mus musculus	H3_6	p61965	WD repeat-containing protein 5	WD40	Mus musculus	H3	6	2xl3
+p68433	Histone H3.1	Mus musculus	H3_6	p83917	Chromobox protein homolog 1	Chromo	Mus musculus	H3	6	1guw
 p68433	Histone H3.1	Mus musculus	H3_7	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	7	5ix1
 p68433	Histone H3.1	Mus musculus	H3_7	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	7	5ix2
+p68433	Histone H3.1	Mus musculus	H3_7	p83917	Chromobox protein homolog 1	Chromo	Mus musculus	H3	7	1guw
+p68433	Histone H3.1	Mus musculus	H3_8	p83917	Chromobox protein homolog 1	Chromo	Mus musculus	H3	8	1guw
 p68433	Histone H3.1	Mus musculus	H3_9	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	9	5ix1
 p68433	Histone H3.1	Mus musculus	H3_9	f7bjb9	MORC family CW-type zinc finger protein 3	zf-CW	Mus musculus	H3	9	5ix2
 p84040	Histone H4	Drosophila melanogaster	H4_32	q24572	Probable histone-binding protein Caf1	CAF1C_H4-bd	Drosophila melanogaster	H4	32	3c9c
@@ -3402,6 +3407,20 @@ q6cmu6	Histone H4	Kluyveromyces lactis	H4_92	q6cl77	SCM3	Scm3	Kluyveromyces lact
 q6cmu6	Histone H4	Kluyveromyces lactis	H4_94	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H4	94	2yfv
 q6cmu6	Histone H4	Kluyveromyces lactis	H4_95	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H4	95	2yfv
 q6cmu6	Histone H4	Kluyveromyces lactis	H4_98	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H4	98	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_136	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	136	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_139	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	139	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_140	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	140	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_143	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	143	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_144	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	144	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_147	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	147	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_148	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	148	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_151	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	151	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_154	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	154	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_155	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	155	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_158	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	158	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_159	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	159	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_161	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	161	2yfv
+q6cti2	Histone H3-like centromeric protein CSE4	Kluyveromyces lactis	H3_162	q6cl77	SCM3	Scm3	Kluyveromyces lactis	H3	162	2yfv
 q6nxt2	Histone H3.3C	Homo sapiens	H3_11	q9upp1	Histone lysine demethylase PHF8	JmjC	Homo sapiens	H3	11	3kv4
 q6nxt2	Histone H3.3C	Homo sapiens	H3_12	q9upp1	Histone lysine demethylase PHF8	JmjC	Homo sapiens	H3	12	3kv4
 q6nxt2	Histone H3.3C	Homo sapiens	H3_2	q8nez4	Histone-lysine N-methyltransferase 2C	SET	Homo sapiens	H3	2	5f6k
