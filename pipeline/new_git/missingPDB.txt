@@ -26,104 +26,20 @@ WRONG ALIGNMENTS IN ALEX FILES?:
 6biz -- homo
 
 
-NO DOMAIN INTERACTION:
-1m1d
-1pu9
-1pua
-1qsn
-2azm
-2dvs
-2g6q
-2ig0
-2lvm
-2pnx
-2qic
-2r0y
-2rjf
-2uxn
-2v1d
-2vnf
-2x0l
-2yyr
-3b95
-3c6w
-3iiw
-3iiy
-3ij0
-3ij1
-3jpx
-3jzg
-3jzh
-3k27
-3o37
-3r45
-3t6r
-4cay
-4dow
-4fwf
-4gu0
-4gur
-4gus
-4hsu
-4iut
-4iuu
-4iuv
-4m38
-4pl6
-4pli
-4pll
-4q6f
-4qbq
-4qbr
-4qbs
-4qwn
-4qx7
-4qx8
-4qxb
-4qxc
-4qxh
-4rmh
-4tn7
-4uuz
-4yy6
-4yyd
-4yyg
-4yyh
-4yyi
-4yyj
-4yyk
-4z0r
-4z2m
-5bnv
-5bt1
-5d7e
-5h6q
-5h6r
-5iok
-5j3v
-5m5g
-5mr8
-5t8r
-5tbn
-5tdr
-5tdw
-5u2j
-5vab
-5ve8
-5vnb
-5vs7
-5w0v
-5x60
-5xbk
-5y20
-5y5w
-5yc3
-5yc4
-5znp
-5znr
-6e83
-6e86
-6min
-6mio
-6miq
-6mlc
+CHIMERIC CHAINS:
+2idc
+2jss
+2l5a
+3a1b -- homo
+3mp1
+3mp6
+4kha
+4nft -- homo
+4up0 -- homo
+4m6b
+5iit -- homo
+5kjh
+5kkl -- homo
+5lnc -- homo
+5vey -- homo
+5wfc
