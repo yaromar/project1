@@ -1,13 +1,11 @@
 2idc	histone	yes	no
 2jss	histone	yes	no
-2l43	histone	no	yes
 2l5a	histone	yes	no
 3a1b	histone	yes	yes
 3mp1	histone	yes	no
 3mp6	histone	yes	no
 4kha	histone	yes	no
 4nft	histone	yes	yes
-4r8p	nucleosome	yes	yes
 4up0	histone	yes	yes
 4m6b	histone	yes	no
 5iit	histone	yes	yes
@@ -16,8 +14,11 @@
 5lnc	histone	yes	yes
 5vey	histone	yes	yes
 5wfc	histone	yes	no
+2l43	histone	no	yes
+6a7u	histone	no	yes
 5z23	nucleosome	no	yes
 5zbx	nucleosome	no	yes
-6a7u	histone	no	yes
-6buz	nucleosome	yes	yes
 
+
+Missing 
+3c9k	nucleosome	no

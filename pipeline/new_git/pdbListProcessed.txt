@@ -4,6 +4,7 @@
 4jjn	nucleosome	yes
 4kud	nucleosome	yes
 4ld9	nucleosome	yes
+4r8p	nucleosome	yes
 4x23	nucleosome	yes
 4zux	nucleosome	yes
 5e5a	nucleosome	yes
@@ -21,6 +22,7 @@
 6a5t	nucleosome	yes
 6a5u	nucleosome	yes
 6a5v	nucleosome	yes
+6buz	nucleosome	yes
 6c0w	nucleosome	yes
 6fml	nucleosome	yes
 6ftx	nucleosome	yes

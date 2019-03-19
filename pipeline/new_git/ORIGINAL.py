@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[13]:
+# In[43]:
 
 
 #!/usr/bin/env python 3
@@ -10,13 +10,13 @@ import csv
 
 #PATH = "./"
 PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
-CHAIN_FILE = "histoneChains.csv"
+CHAIN_FILE = "nucleosomes/nucleosomeChains.csv"
 #CHAIN_FILE = "tempChains.csv"
-PDB_LIST = "histonesID.txt"
+PDB_LIST = "nucleosomes/nucleosomesID.txt"
 #PDB_LIST = "tempID.txt"
 
 
-# In[14]:
+# In[44]:
 
 
 #PARAMETERS:
@@ -37,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[15]:
+# In[45]:
 
 
 #PARAMETERS:
@@ -80,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[16]:
+# In[46]:
 
 
 #PARAMETERS:
@@ -123,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[17]:
+# In[47]:
 
 
 #PARAMETERS: 
@@ -154,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[18]:
+# In[48]:
 
 
 #PARAMETERS: 
@@ -178,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[19]:
+# In[49]:
 
 
 #PARAMETERS:
@@ -367,7 +367,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[20]:
+# In[53]:
 
 
 #PARAMETERS:
@@ -429,7 +429,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                             
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
-                            if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1 <= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1 <= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 131 and 1 <= uniprotEnd1 <= 131) or (type1 == 'H3' and 1 <= uniprotStart1 <= 184 and 1 <= uniprotEnd1 <= 184) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1 <= uniprotEnd1 <= 103)):
+                            if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1 <= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1 <= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 133 and 1 <= uniprotEnd1 <= 133) or (type1 == 'H3' and 1 <= uniprotStart1 <= 184 and 1 <= uniprotEnd1 <= 184) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1 <= uniprotEnd1 <= 103)):
                                 if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
 
                                     with open('hitdata.txt', 'r') as hfh:
@@ -466,10 +466,10 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
-                            if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1 <= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1 <= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 131 and 1 <= uniprotEnd2 <= 131) or (type2 == 'H3' and 1 <= uniprotStart2 <= 184 and 1 <= uniprotEnd2 <= 184) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1 <= uniprotEnd2 <= 103)):
+                            if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1 <= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1 <= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 133 and 1 <= uniprotEnd2 <= 133) or (type2 == 'H3' and 1 <= uniprotStart2 <= 184 and 1 <= uniprotEnd2 <= 184) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1 <= uniprotEnd2 <= 103)):
                                 if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
 
-                                    with open('hitdata.txt', 'r') as hfh:
+                                    with open('nucleosomes/hitdata.txt', 'r') as hfh:
                                         hfh.readline()
 
                                         for line in hfh:
@@ -502,7 +502,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[21]:
+# In[54]:
 
 
 def main():
@@ -524,7 +524,7 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[22]:
+# In[55]:
 
 
 if __name__ == "__main__":
