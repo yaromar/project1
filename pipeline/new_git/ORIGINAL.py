@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[43]:
+# In[36]:
 
 
 #!/usr/bin/env python 3
@@ -16,7 +16,7 @@ PDB_LIST = "nucleosomes/nucleosomesID.txt"
 #PDB_LIST = "tempID.txt"
 
 
-# In[44]:
+# In[37]:
 
 
 #PARAMETERS:
@@ -37,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[45]:
+# In[38]:
 
 
 #PARAMETERS:
@@ -80,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[46]:
+# In[39]:
 
 
 #PARAMETERS:
@@ -123,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[47]:
+# In[40]:
 
 
 #PARAMETERS: 
@@ -154,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[48]:
+# In[41]:
 
 
 #PARAMETERS: 
@@ -178,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[49]:
+# In[42]:
 
 
 #PARAMETERS:
@@ -367,7 +367,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 del dictionary[structure]
 
 
-# In[53]:
+# In[64]:
 
 
 #PARAMETERS:
@@ -388,9 +388,9 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             
             with open (file, 'r') as ifh:
                 ifh.readline()
-             
+
                 with open('results.tsv', 'a') as rfh:
-                    
+                                     
                     for line in ifh:
                         lineFields = line.split('\t')
 
@@ -432,9 +432,10 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                             if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1 <= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1 <= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 133 and 1 <= uniprotEnd1 <= 133) or (type1 == 'H3' and 1 <= uniprotStart1 <= 184 and 1 <= uniprotEnd1 <= 184) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1 <= uniprotEnd1 <= 103)):
                                 if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
 
-                                    with open('hitdata.txt', 'r') as hfh:
+                                    with open('nucleosomes/hitdata.txt', 'r') as hfh:
                                         hfh.readline()
-
+                                        domainFlag = 0
+                                        
                                         for line in hfh:
                                             fields = line.split('\t')
 
@@ -455,11 +456,19 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                                         hfields = chainDictionary[pdb][chain1].split('|')
                                                         pfields = chainDictionary[pdb][chain2].split('|')
                                                         alignedRes = int(residue1) + align1
+                                                        domainFlag = 1
                                                         rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
                                                         #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue1 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
                                         hfh.seek(0)
-                            #else:
-                             #   print(pdb + '\t' + fields1[0] + '\t' + fields1[2] + '\t' + str(uniprotStart1) + '\t' + str(uniprotEnd1) + '\n')
+                                        if(not domainFlag):
+                                            hfields = chainDictionary[pdb][chain1].split('|')
+                                            pfields = chainDictionary[pdb][chain2].split('|')
+                                            alignedRes = int(residue1) + align1
+                                            rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + 'NA' + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
+                                else:
+                                    print(pdb, type1, residue1, mmCIFstart1, mmCIFend1)
+                            else:
+                                print(pdb + '\t' + fields1[0] + '\t' + fields1[2] + '\t' + str(uniprotStart1) + '\t' + str(uniprotEnd1) + '\n')
 
                         #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
                         elif(bp and type2 != 'other' and type1 == 'other'):
@@ -471,7 +480,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
 
                                     with open('nucleosomes/hitdata.txt', 'r') as hfh:
                                         hfh.readline()
-
+                                        domainFlag = 0
                                         for line in hfh:
                                             fields = line.split('\t')
 
@@ -491,18 +500,26 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                                         pfields = chainDictionary[pdb][chain1].split('|')
                                                         alignedRes = int(residue2) + align2
                                                         rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + name + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
+                                                        domaingFlag = 1
                                                         #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
-                                        hfh.seek(0)                            
-                            #else:
-                             #   print(pdb + '\t' + fields2[0] + '\t' + fields2[2] + '\t' + str(uniprotStart2) + '\t' + str(uniprotEnd2) + '\n')
-          
-                            
+                                        hfh.seek(0)
+                                        if(not domainFlag):
+                                            hfields = chainDictionary[pdb][chain2].split('|')
+                                            alignedRes = int(residue2) + align2
+                                            pfields = chainDictionary[pdb][chain1].split('|')
+                                            rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + 'NA' + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
+                                else:
+                                    print(pdb, type2, residue2, mmCIFstart2, mmCIFend2)
+                            else:
+                                print(pdb + '\t' + fields2[0] + '\t' + fields2[2] + '\t' + str(uniprotStart2) + '\t' + str(uniprotEnd2) + '\n')
+
         except (IOError, KeyError) as e:
-            #print("Error: " + interfaceFile + " does not appear to exist.")
+            #print("Error: " + file + " does not appear to exist.")
+            print(e)
             pass
 
 
-# In[54]:
+# In[65]:
 
 
 def main():
@@ -524,7 +541,7 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[55]:
+# In[66]:
 
 
 if __name__ == "__main__":

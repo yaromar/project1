@@ -1,6 +1,820 @@
-histone_uniprot	histone_name	histone_organism	histone_node_uniprot	partner_uniprot	partner_name	partner_domain	partner_organism	histone_generic	histone_residue_uniprot	pdb	histone_residue_aligned	histone_node_aligned
-p0c0s8	Histone H2A type 1	Homo sapiens	H2A_72	g0ryc2	RuvB-like helicase	TIP49	Chaetomium thermophilum	H2A	72	6fml	72	H2A_72
-p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_50	g0ryc2	RuvB-like helicase	TIP49	Chaetomium thermophilum	H2B	50	6fml	50	H2B_50
-p68431	Histone H3.1	Homo sapiens	H3_41	q9ulg1	Chromatin-remodeling ATPase INO80	SNF2_N	Homo sapiens	H3	41	6hts	41	H3_41
-p68431	Histone H3.1	Homo sapiens	H3_47	q9ulg1	Chromatin-remodeling ATPase INO80	SNF2_N	Homo sapiens	H3	47	6hts	47	H3_47
-p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	RNAP_II_RPB1_N	Komagataella phaffii	H3	84	6a5v	84	H3_84
+a0a310ttq1	Histone H3	Xenopus laevis	H3_77	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	77	6j99
+a0a310ttq1	Histone H3	Xenopus laevis	H3_78	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	78	6j99
+a0a310ttq1	Histone H3	Xenopus laevis	H3_80	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	80	6j99
+a0a310ttq1	Histone H3	Xenopus laevis	H3_81	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	81	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_100	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	100	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_100	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	100	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_100	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H2B	100	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_100	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	100	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	106	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	106	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	106	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	106	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	106	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H2B	106	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2B	106	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2B	106	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	106	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_106	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	106	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	107	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	107	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	107	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	107	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	107	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2B	107	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_107	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	107	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	109	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	109	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H2B	109	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	109	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	109	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	109	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_109	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	109	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	110	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	110	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	110	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	110	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	110	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	110	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	110	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	110	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2B	110	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2B	110	4r8p
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	110	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	110	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	110	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_110	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	110	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_111	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	111	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_112	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	112	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_112	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	112	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_112	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	112	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_112	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	112	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_112	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	112	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	113	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	113	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	113	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	113	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	113	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	113	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_113	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	113	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	114	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	114	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	114	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	114	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	114	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	114	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	114	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	114	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	114	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	114	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	114	6nog
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	114	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_114	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	114	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	116	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	116	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	116	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	116	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	116	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_116	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	116	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	117	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	117	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	117	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	117	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	117	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	117	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	117	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	p62979	Ubiquitin-40S ribosomal protein S27a	NA	Homo sapiens	H2B	117	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	117	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	117	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	117	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_117	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	117	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_119	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	119	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	120	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	120	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	p0cg47	Polyubiquitin-B	NA	Homo sapiens	H2B	120	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	120	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	120	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	120	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	120	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_120	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	120	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_121	p0cg47	Polyubiquitin-B	NA	Homo sapiens	H2B	121	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_121	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	121	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_121	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	121	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_121	p62979	Ubiquitin-40S ribosomal protein S27a	NA	Homo sapiens	H2B	121	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_123	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	123	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_124	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2B	124	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_44	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	44	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_44	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	44	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	45	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	45	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	45	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	45	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	45	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	45	6nog
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	45	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_45	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	45	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_47	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	47	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_47	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	47	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_47	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	47	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_47	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	47	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_47	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	47	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	48	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	48	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	48	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	48	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	48	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	48	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	48	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	48	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	48	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	48	6nog
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	48	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_48	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	48	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	49	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	49	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	49	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	49	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	p14349	Gag polyprotein	NA	Simian foamy virus	H2B	49	5mlu
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	49	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	49	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	49	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	49	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	49	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	49	6nog
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	49	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_49	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	49	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	50	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	50	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	50	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	50	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	50	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	50	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	50	6nn6
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_50	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2B	50	1zla
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_51	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	51	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_51	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	51	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_51	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	51	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_51	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	51	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_52	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2B	52	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_52	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2B	52	4zux
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_52	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2B	52	5e5a
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_52	p21827	Guanine nucleotide exchange factor SRM1	ATS1	Saccharomyces cerevisiae	H2B	52	5hq2
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_52	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2B	52	3mvd
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_93	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	93	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_93	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	93	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_96	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	96	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_96	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	96	4ld9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_96	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	96	6j99
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_96	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	96	6nj9
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_96	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2B	96	6nqa
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_97	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	97	3tu4
+p02281	Histone H2B 1.1	Xenopus laevis	H2B_97	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	97	4ld9
+p02283	Histone H2B	Drosophila melanogaster	H2B_102	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	102	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_103	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	103	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_104	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	104	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_106	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	106	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_107	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	107	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_111	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	111	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_42	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	42	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_45	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	45	4x23
+p02283	Histone H2B	Drosophila melanogaster	H2B_46	q66lh7	CENP-C	NA	Rattus norvegicus	H2B	46	4x23
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_100	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	100	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_103	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	103	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_109	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	109	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_109	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	109	6gej
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_109	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	109	6gen
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_110	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	110	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_110	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	110	6gej
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_110	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	110	6gen
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_112	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	112	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_113	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	113	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_113	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	113	6gej
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_113	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2B	113	6gen
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_115	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	115	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_116	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	116	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_117	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	117	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_119	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	119	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_120	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	120	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_48	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	48	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_51	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	51	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_52	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	52	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_96	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	96	4kud
+p02293	Histone H2B.1	Saccharomyces cerevisiae	H2B_99	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	99	4kud
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_100	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	100	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_103	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	103	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_109	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	109	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_110	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	110	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_112	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	112	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_113	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	113	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_115	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	115	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_116	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	116	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_117	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	117	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_119	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	119	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_119	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	119	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_120	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	120	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_122	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	122	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_52	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	52	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_95	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	95	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_96	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	96	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_96	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	96	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_99	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2B	99	4jjn
+p02294	Histone H2B.2	Saccharomyces cerevisiae	H2B_99	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2B	99	4jjn
+p02299	Histone H3	Drosophila melanogaster	H3_126	q66lh7	CENP-C	NA	Rattus norvegicus	H3	126	4x23
+p02299	Histone H3	Drosophila melanogaster	H3_127	q66lh7	CENP-C	NA	Rattus norvegicus	H3	127	4x23
+p02299	Histone H3	Drosophila melanogaster	H3_129	q66lh7	CENP-C	NA	Rattus norvegicus	H3	129	4x23
+p02299	Histone H3	Drosophila melanogaster	H3_130	q66lh7	CENP-C	NA	Rattus norvegicus	H3	130	4x23
+p02299	Histone H3	Drosophila melanogaster	H3_133	q66lh7	CENP-C	NA	Rattus norvegicus	H3	133	4x23
+p02302	Histone H3.3C	Xenopus laevis	H3_70	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	70	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_74	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	74	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_77	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	77	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_78	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	78	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_81	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	81	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_82	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	82	6ftx
+p02302	Histone H3.3C	Xenopus laevis	H3_84	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	84	6ftx
+p02309	Histone H4	Saccharomyces cerevisiae	H4_13	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	13	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_14	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	14	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_14	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	14	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_15	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	15	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_15	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	15	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_16	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	16	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_16	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	16	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_17	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	17	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_17	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	17	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_18	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	18	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_18	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	18	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_19	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	19	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_19	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	19	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_20	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	20	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_20	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	20	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_21	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	21	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_21	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	21	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_22	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	22	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_22	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	22	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_22	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	22	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_22	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	22	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_23	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	23	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_23	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	23	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_24	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	24	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_24	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	24	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_24	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	24	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_25	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	25	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_25	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	25	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_72	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	72	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_72	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	72	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_75	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	75	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_75	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	75	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_76	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	76	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_76	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	76	4kud
+p02309	Histone H4	Saccharomyces cerevisiae	H4_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	78	4jjn
+p02309	Histone H4	Saccharomyces cerevisiae	H4_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	78	4kud
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_18	c4qzq7	DNA-directed RNA polymerase subunit beta	NA	Komagataella phaffii	H2A	18	6a5r
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_20	c4qzq7	DNA-directed RNA polymerase subunit beta	NA	Komagataella phaffii	H2A	20	6a5r
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_21	c4qzq7	DNA-directed RNA polymerase subunit beta	NA	Komagataella phaffii	H2A	21	6a5r
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_24	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	24	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_54	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	54	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_57	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	57	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_58	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	58	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_61	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	61	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_62	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	62	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_65	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	65	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_66	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	66	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_69	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	69	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_91	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	91	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_93	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	93	5gtc
+p04908	Histone H2A type 1-B/E	Homo sapiens	H2A_94	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2A	94	5gtc
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_111	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	111	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_111	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	111	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_112	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	112	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_112	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	112	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_113	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	113	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_113	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	113	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_118	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	118	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_118	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	118	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_59	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	59	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_59	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	59	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_63	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	63	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_63	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	63	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_67	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	67	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_67	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	67	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_70	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	70	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_70	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	70	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_71	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	71	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_71	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	71	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_74	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	74	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_74	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	74	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_75	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	75	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_75	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	75	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_76	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	76	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_76	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	76	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_83	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	83	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_83	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	83	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_87	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	87	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_87	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	87	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_88	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	88	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_88	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	88	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_91	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	91	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_91	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	91	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_92	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	92	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_92	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	92	6gen
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_94	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	94	6gej
+p04911	Histone H2A.1	Saccharomyces cerevisiae	H2A_94	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H2A	94	6gen
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_52	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H2A	52	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_58	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	58	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_59	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	59	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_59	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	59	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_62	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	62	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_62	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	62	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_63	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	63	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_63	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	63	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_66	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	66	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_67	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	67	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_67	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	67	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_92	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	92	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_92	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	92	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_94	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	94	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_94	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	94	4kud
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_95	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	95	4jjn
+p04912	Histone H2A.2	Saccharomyces cerevisiae	H2A_95	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	95	4kud
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_24	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	24	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_25	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	25	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_54	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	54	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_57	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	57	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_58	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	58	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_61	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	61	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_62	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	62	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_65	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	65	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_66	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	66	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_69	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	69	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_91	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	91	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_93	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	93	1zla
+p06897	Histone H2A type 1	Expression vector pET3-H2A	H2A_94	q9dum3	latent nuclear antigen	NA	Human gammaherpesvirus 8	H2A	94	1zla
+p06897	Histone H2A type 1	Xenopus laevis	H2A_109	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	109	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_113	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	113	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_119	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	119	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_120	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	120	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_20	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	20	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_23	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	23	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_23	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	23	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_23	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	23	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_24	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	24	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_25	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	25	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_25	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	25	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_25	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	25	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_25	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	25	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_54	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	54	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	57	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	57	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	57	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	57	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	57	6nj9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	57	6nn6
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	57	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_57	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	57	6nqa
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	58	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	58	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	58	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	58	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	58	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	58	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	58	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H2A	58	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	58	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	58	6nj9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	58	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_58	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	58	6nqa
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	61	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	61	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	61	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	61	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	61	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	61	6nj9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	61	6nn6
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	61	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_61	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	61	6nqa
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	62	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	62	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	62	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	62	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	62	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	62	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	62	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	62	6nj9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_62	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	62	6nqa
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	65	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	65	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	65	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	65	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	65	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	65	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	65	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	65	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	65	6nj9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	65	6nn6
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	65	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_65	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	65	6nqa
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	66	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	66	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	66	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	66	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	66	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_66	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	66	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_68	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	68	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_68	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	68	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	69	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	69	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	69	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	69	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	69	6nn6
+p06897	Histone H2A type 1	Xenopus laevis	H2A_69	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	69	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_70	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	70	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	a6zwk1	SAGA-associated factor 11	NA	Saccharomyces cerevisiae	H2A	72	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	a6zwk1	SAGA-associated factor 11	Sgf11	Saccharomyces cerevisiae	H2A	72	4zux
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	72	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	72	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	72	6nn6
+p06897	Histone H2A type 1	Xenopus laevis	H2A_72	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	72	6nog
+p06897	Histone H2A type 1	Xenopus laevis	H2A_73	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	73	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_73	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	73	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_75	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	75	6ftx
+p06897	Histone H2A type 1	Xenopus laevis	H2A_89	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	89	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_89	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	89	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_90	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	90	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_90	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	90	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_90	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	90	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_91	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	91	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_91	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	91	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_91	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	91	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_91	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	91	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_91	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	91	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_92	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	92	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_92	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	92	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_92	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	92	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_92	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	RING-HC_RING2	Homo sapiens	H2A	92	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_93	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	93	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_93	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	93	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_93	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	93	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_93	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	93	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_93	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	93	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_94	p03169	55 kDa immediate-early protein 1	NA	Human betaherpesvirus 5	H2A	94	5e5a
+p06897	Histone H2A type 1	Xenopus laevis	H2A_94	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	94	3tu4
+p06897	Histone H2A type 1	Xenopus laevis	H2A_94	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H2A	94	4ld9
+p06897	Histone H2A type 1	Xenopus laevis	H2A_94	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	94	5mlu
+p06897	Histone H2A type 1	Xenopus laevis	H2A_94	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H2A	94	4r8p
+p06897	Histone H2A type 1	Xenopus laevis	H2A_95	p14349	Gag polyprotein	NA	Simian foamy virus	H2A	95	5mlu
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_106	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	106	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_107	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	107	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_110	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	110	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_114	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	114	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_117	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	117	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_121	c4qzq7	DNA-directed RNA polymerase subunit beta	NA	Komagataella phaffii	H2B	121	6a5r
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_122	c4qzq7	DNA-directed RNA polymerase subunit beta	NA	Komagataella phaffii	H2B	122	6a5r
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_48	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	48	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_49	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	49	5gtc
+p06899	Histone H2B type 1-J	Homo sapiens	H2B_50	q9qr71	Protein LANA1	NA	Human gammaherpesvirus 8	H2B	50	5gtc
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_16	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	16	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_20	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	20	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_21	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2A	21	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_51	g0s590	Ies6	NA	Chaetomium thermophilum	H2A	51	6fml
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_58	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	58	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_62	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	62	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_65	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	65	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_66	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	66	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_72	g0ryc2	RuvB-like helicase	NA	Chaetomium thermophilum	H2A	72	6fml
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_72	g0ryc2	RuvB-like helicase	TIP49	Chaetomium thermophilum	H2A	72	6fml
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_90	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	90	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_91	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	91	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_92	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	92	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_93	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	93	5kgf
+p0c0s8	Histone H2A type 1	Homo sapiens	H2A_94	q12888	TP53-binding protein 1	NA	Homo sapiens	H2A	94	5kgf
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_79	p0aey0#q96h22	P0AEY0:#Maltose/maltodextrin-binding periplasmic protein#Q96H22:#Centromere protein N	CENP-N	Escherichia coli,Homo sapiens	H3	79	6buz
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_79	q96h22	Centromere protein N	CENP-N	Homo sapiens	H3	79	6c0w
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_80	p0aey0#q96h22	P0AEY0:#Maltose/maltodextrin-binding periplasmic protein#Q96H22:#Centromere protein N	CENP-N	Escherichia coli,Homo sapiens	H3	80	6buz
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_80	q96h22	Centromere protein N	CENP-N	Homo sapiens	H3	80	6c0w
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_81	q96h22	Centromere protein N	CENP-N	Homo sapiens	H3	81	6c0w
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_82	p0aey0#q96h22	P0AEY0:#Maltose/maltodextrin-binding periplasmic protein#Q96H22:#Centromere protein N	CENP-N	Escherichia coli,Homo sapiens	H3	82	6buz
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_82	q96h22	Centromere protein N	CENP-N	Homo sapiens	H3	82	6c0w
+p49450	Histone H3-like centromeric protein A	Homo sapiens	H3_83	q96h22	Centromere protein N	CENP-N	Homo sapiens	H3	83	6c0w
+p61830	Histone H3	Saccharomyces cerevisiae	H3_49	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	49	6gej
+p61830	Histone H3	Saccharomyces cerevisiae	H3_49	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	49	6gen
+p61830	Histone H3	Saccharomyces cerevisiae	H3_52	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	52	6gej
+p61830	Histone H3	Saccharomyces cerevisiae	H3_52	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	52	6gen
+p61830	Histone H3	Saccharomyces cerevisiae	H3_53	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	53	6gej
+p61830	Histone H3	Saccharomyces cerevisiae	H3_53	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	53	6gen
+p61830	Histone H3	Saccharomyces cerevisiae	H3_56	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	56	6gej
+p61830	Histone H3	Saccharomyces cerevisiae	H3_56	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	56	6gen
+p61830	Histone H3	Saccharomyces cerevisiae	H3_57	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	57	6gej
+p61830	Histone H3	Saccharomyces cerevisiae	H3_57	q03433	Vacuolar protein sorting-associated protein 71	NA	Saccharomyces cerevisiae	H3	57	6gen
+p61830	Histone H3	Saccharomyces cerevisiae	H3_74	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	74	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_74	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	74	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_77	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	77	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_77	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	77	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_77	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	77	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	78	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	78	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_78	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	78	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_78	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	78	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_79	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	79	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_79	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	79	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_79	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	79	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_79	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	79	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_80	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	80	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_80	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	80	4kud
+p61830	Histone H3	Saccharomyces cerevisiae	H3_81	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	81	4jjn
+p61830	Histone H3	Saccharomyces cerevisiae	H3_81	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	81	4kud
+p62799	Histone H4	Xenopus laevis	H4_14	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	14	3tu4
+p62799	Histone H4	Xenopus laevis	H4_14	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	14	4ld9
+p62799	Histone H4	Xenopus laevis	H4_14	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	14	6ftx
+p62799	Histone H4	Xenopus laevis	H4_14	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	14	6g0l
+p62799	Histone H4	Xenopus laevis	H4_15	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	15	3tu4
+p62799	Histone H4	Xenopus laevis	H4_15	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	15	4ld9
+p62799	Histone H4	Xenopus laevis	H4_15	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	15	6ftx
+p62799	Histone H4	Xenopus laevis	H4_15	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	15	6g0l
+p62799	Histone H4	Xenopus laevis	H4_16	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	16	3tu4
+p62799	Histone H4	Xenopus laevis	H4_16	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	16	4ld9
+p62799	Histone H4	Xenopus laevis	H4_16	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	16	5x0y
+p62799	Histone H4	Xenopus laevis	H4_16	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	16	6ftx
+p62799	Histone H4	Xenopus laevis	H4_16	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	16	6g0l
+p62799	Histone H4	Xenopus laevis	H4_16	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	16	6nj9
+p62799	Histone H4	Xenopus laevis	H4_16	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	16	6nqa
+p62799	Histone H4	Xenopus laevis	H4_17	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	17	3tu4
+p62799	Histone H4	Xenopus laevis	H4_17	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	17	4ld9
+p62799	Histone H4	Xenopus laevis	H4_17	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	17	5x0y
+p62799	Histone H4	Xenopus laevis	H4_17	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	17	5o9g
+p62799	Histone H4	Xenopus laevis	H4_17	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	17	6ftx
+p62799	Histone H4	Xenopus laevis	H4_17	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	17	6g0l
+p62799	Histone H4	Xenopus laevis	H4_17	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	17	6j99
+p62799	Histone H4	Xenopus laevis	H4_17	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	17	6nj9
+p62799	Histone H4	Xenopus laevis	H4_17	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	17	6nqa
+p62799	Histone H4	Xenopus laevis	H4_18	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	18	3tu4
+p62799	Histone H4	Xenopus laevis	H4_18	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	18	4ld9
+p62799	Histone H4	Xenopus laevis	H4_18	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	18	5x0y
+p62799	Histone H4	Xenopus laevis	H4_18	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	18	5o9g
+p62799	Histone H4	Xenopus laevis	H4_18	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	18	6ftx
+p62799	Histone H4	Xenopus laevis	H4_18	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	18	6g0l
+p62799	Histone H4	Xenopus laevis	H4_18	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	18	6j99
+p62799	Histone H4	Xenopus laevis	H4_18	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	18	6nj9
+p62799	Histone H4	Xenopus laevis	H4_18	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	18	6nqa
+p62799	Histone H4	Xenopus laevis	H4_19	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	19	3tu4
+p62799	Histone H4	Xenopus laevis	H4_19	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	19	4ld9
+p62799	Histone H4	Xenopus laevis	H4_19	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	19	5x0y
+p62799	Histone H4	Xenopus laevis	H4_19	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	19	5o9g
+p62799	Histone H4	Xenopus laevis	H4_19	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	19	6ftx
+p62799	Histone H4	Xenopus laevis	H4_19	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	19	6g0l
+p62799	Histone H4	Xenopus laevis	H4_19	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	19	6j99
+p62799	Histone H4	Xenopus laevis	H4_19	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	19	6nj9
+p62799	Histone H4	Xenopus laevis	H4_19	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	19	6nqa
+p62799	Histone H4	Xenopus laevis	H4_20	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	20	3tu4
+p62799	Histone H4	Xenopus laevis	H4_20	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	20	4ld9
+p62799	Histone H4	Xenopus laevis	H4_20	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	20	5x0y
+p62799	Histone H4	Xenopus laevis	H4_20	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	20	5o9g
+p62799	Histone H4	Xenopus laevis	H4_20	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	20	6j99
+p62799	Histone H4	Xenopus laevis	H4_20	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	20	6nj9
+p62799	Histone H4	Xenopus laevis	H4_20	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	20	6nqa
+p62799	Histone H4	Xenopus laevis	H4_21	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	21	3tu4
+p62799	Histone H4	Xenopus laevis	H4_21	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H4	21	5x0y
+p62799	Histone H4	Xenopus laevis	H4_21	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	21	5o9g
+p62799	Histone H4	Xenopus laevis	H4_21	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	21	6g0l
+p62799	Histone H4	Xenopus laevis	H4_21	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	21	6j99
+p62799	Histone H4	Xenopus laevis	H4_21	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	21	6nqa
+p62799	Histone H4	Xenopus laevis	H4_22	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	22	3tu4
+p62799	Histone H4	Xenopus laevis	H4_22	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	22	4ld9
+p62799	Histone H4	Xenopus laevis	H4_22	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	22	3tu4
+p62799	Histone H4	Xenopus laevis	H4_22	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H4	22	6g0l
+p62799	Histone H4	Xenopus laevis	H4_22	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H4	22	4r8p
+p62799	Histone H4	Xenopus laevis	H4_22	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	22	6j99
+p62799	Histone H4	Xenopus laevis	H4_22	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	22	6nj9
+p62799	Histone H4	Xenopus laevis	H4_22	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	22	6nqa
+p62799	Histone H4	Xenopus laevis	H4_23	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	23	3tu4
+p62799	Histone H4	Xenopus laevis	H4_23	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	23	4ld9
+p62799	Histone H4	Xenopus laevis	H4_23	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	23	6nj9
+p62799	Histone H4	Xenopus laevis	H4_24	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	24	3tu4
+p62799	Histone H4	Xenopus laevis	H4_24	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	24	4ld9
+p62799	Histone H4	Xenopus laevis	H4_24	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	24	3tu4
+p62799	Histone H4	Xenopus laevis	H4_24	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	24	4ld9
+p62799	Histone H4	Xenopus laevis	H4_24	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H4	24	4r8p
+p62799	Histone H4	Xenopus laevis	H4_24	p61077#q99496	P61077:#Ubiquitin-conjugating enzyme E2 D3#Q99496:#E3 ubiquitin-protein ligase RING2	NA	Homo sapiens	H4	24	4r8p
+p62799	Histone H4	Xenopus laevis	H4_24	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	24	6j99
+p62799	Histone H4	Xenopus laevis	H4_24	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	24	6nj9
+p62799	Histone H4	Xenopus laevis	H4_24	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	24	6nqa
+p62799	Histone H4	Xenopus laevis	H4_25	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	25	3tu4
+p62799	Histone H4	Xenopus laevis	H4_25	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	25	4ld9
+p62799	Histone H4	Xenopus laevis	H4_25	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	25	6j99
+p62799	Histone H4	Xenopus laevis	H4_49	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	49	5hq2
+p62799	Histone H4	Xenopus laevis	H4_50	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	50	5hq2
+p62799	Histone H4	Xenopus laevis	H4_53	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	53	5hq2
+p62799	Histone H4	Xenopus laevis	H4_54	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	54	5hq2
+p62799	Histone H4	Xenopus laevis	H4_56	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	56	5hq2
+p62799	Histone H4	Xenopus laevis	H4_57	q9nqr1	N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4	57	5hq2
+p62799	Histone H4	Xenopus laevis	H4_60	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	60	4ld9
+p62799	Histone H4	Xenopus laevis	H4_60	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	60	6nqa
+p62799	Histone H4	Xenopus laevis	H4_64	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H4	64	4ld9
+p62799	Histone H4	Xenopus laevis	H4_64	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	64	6nj9
+p62799	Histone H4	Xenopus laevis	H4_64	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	64	6nqa
+p62799	Histone H4	Xenopus laevis	H4_71	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	71	6nj9
+p62799	Histone H4	Xenopus laevis	H4_71	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	71	6nqa
+p62799	Histone H4	Xenopus laevis	H4_72	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	72	3tu4
+p62799	Histone H4	Xenopus laevis	H4_72	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	72	4ld9
+p62799	Histone H4	Xenopus laevis	H4_74	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	74	6nj9
+p62799	Histone H4	Xenopus laevis	H4_74	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	74	6nqa
+p62799	Histone H4	Xenopus laevis	H4_75	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	75	3tu4
+p62799	Histone H4	Xenopus laevis	H4_75	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	75	4ld9
+p62799	Histone H4	Xenopus laevis	H4_75	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H4	75	4r8p
+p62799	Histone H4	Xenopus laevis	H4_75	q12888	TP53-binding protein 1	NA	Homo sapiens	H4	75	5kgf
+p62799	Histone H4	Xenopus laevis	H4_75	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	75	6j99
+p62799	Histone H4	Xenopus laevis	H4_75	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	75	6nj9
+p62799	Histone H4	Xenopus laevis	H4_75	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	75	6nqa
+p62799	Histone H4	Xenopus laevis	H4_76	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	76	3tu4
+p62799	Histone H4	Xenopus laevis	H4_76	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	76	4ld9
+p62799	Histone H4	Xenopus laevis	H4_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	78	3tu4
+p62799	Histone H4	Xenopus laevis	H4_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	78	4ld9
+p62799	Histone H4	Xenopus laevis	H4_78	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	78	6nqa
+p62799	Histone H4	Xenopus laevis	H4_79	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	79	6nj9
+p62799	Histone H4	Xenopus laevis	H4_79	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	79	6nqa
+p62799	Histone H4	Xenopus laevis	H4_80	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H4	80	4ld9
+p62799	Histone H4	Xenopus laevis	H4_80	p50102	Ubiquitin carboxyl-terminal hydrolase 8	Peptidase_C19D	Saccharomyces cerevisiae	H4	80	4zux
+p62799	Histone H4	Xenopus laevis	H4_80	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	80	6j99
+p62799	Histone H4	Xenopus laevis	H4_80	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	80	6nj9
+p62799	Histone H4	Xenopus laevis	H4_80	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H4	80	6nqa
+p62805	Histone H4	Homo sapiens	H4_22	g0s589	Actin related protein 5	NA	Chaetomium thermophilum	H4	22	6fml
+p62805	Histone H4	Homo sapiens	H4_24	q96h22	Centromere protein N	CENP-N	Homo sapiens	H4	24	6c0w
+p62805	Histone H4	Homo sapiens	H4_75	q96h22	Centromere protein N	CENP-N	Homo sapiens	H4	75	6c0w
+p62805	Histone H4	Homo sapiens	H4_78	q96h22	Centromere protein N	CENP-N	Homo sapiens	H4	78	6c0w
+p62805	Histone H4	Homo sapiens	H4_80	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H4	80	6ir9
+p62805	Histone H4	Homo sapiens	H4_80	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H4	80	6j4x
+p62805	Histone H4	Homo sapiens	H4_80	q96h22	Centromere protein N	CENP-N	Homo sapiens	H4	80	6c0w
+p62805	Histone H4	Homo sapiens	H4_81	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H4	81	6ir9
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_100	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	100	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_106	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	106	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_106	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	106	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_107	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	107	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_109	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	109	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_109	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	109	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_110	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	110	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_110	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	110	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_113	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	113	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_113	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	113	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_114	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	114	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_116	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	116	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_117	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	117	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_117	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	117	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_119	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	119	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_120	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	120	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_120	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	120	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_120	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	120	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_121	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	121	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_123	q96h22	Centromere protein N	CENP-N	Homo sapiens	H2B	123	6c0w
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_124	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	124	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_125	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	125	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_126	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	126	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_50	g0ryc2	RuvB-like helicase	NA	Chaetomium thermophilum	H2B	50	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_50	g0ryc2	RuvB-like helicase	TIP49	Chaetomium thermophilum	H2B	50	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_52		Ino80	NA	Chaetomium thermophilum	H2B	52	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_91	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	91	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_92	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	92	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_92	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	92	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_93	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	93	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_93	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	93	5kgf
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_93	q96h22	Centromere protein N	CENP-N	Homo sapiens	H2B	93	6c0w
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_96	g0s590	Ies6	NA	Chaetomium thermophilum	H2B	96	6fml
+p62807	Histone H2B type 1-C/E/F/G/I	Homo sapiens	H2B_96	q12888	TP53-binding protein 1	NA	Homo sapiens	H2B	96	5kgf
+p68431	Histone H3.1	Homo sapiens	H3_41	q9ulg1	Chromatin-remodeling ATPase INO80	NA	Homo sapiens	H3	41	6hts
+p68431	Histone H3.1	Homo sapiens	H3_41	q9ulg1	Chromatin-remodeling ATPase INO80	SNF2_N	Homo sapiens	H3	41	6hts
+p68431	Histone H3.1	Homo sapiens	H3_47	q9ulg1	Chromatin-remodeling ATPase INO80	NA	Homo sapiens	H3	47	6hts
+p68431	Histone H3.1	Homo sapiens	H3_47	q9ulg1	Chromatin-remodeling ATPase INO80	SNF2_N	Homo sapiens	H3	47	6hts
+p84040	Histone H4	Drosophila melanogaster	H4_54	q66lh7	CENP-C	NA	Rattus norvegicus	H4	54	4x23
+p84040	Histone H4	Drosophila melanogaster	H4_60	q66lh7	CENP-C	NA	Rattus norvegicus	H4	60	4x23
+p84040	Histone H4	Drosophila melanogaster	H4_61	q66lh7	CENP-C	NA	Rattus norvegicus	H4	61	4x23
+p84040	Histone H4	Drosophila melanogaster	H4_64	q66lh7	CENP-C	NA	Rattus norvegicus	H4	64	4x23
+p84040	Histone H4	Drosophila melanogaster	H4_65	q66lh7	CENP-C	NA	Rattus norvegicus	H4	65	4x23
+p84040	Histone H4	Drosophila melanogaster	H4_68	q66lh7	CENP-C	NA	Rattus norvegicus	H4	68	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_56	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	56	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_57	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	57	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_60	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	60	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_61	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	61	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_64	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	64	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_65	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	65	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_88	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	88	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_89	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	89	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_90	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	90	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_91	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	91	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_92	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	92	4x23
+p84051	Histone H2A	Drosophila melanogaster	H2A_93	q66lh7	CENP-C	NA	Rattus norvegicus	H2A	93	4x23
+p84233	Histone H3.2	Xenopus laevis	H3_110	p14349	Gag polyprotein	NA	Simian foamy virus	H3	110	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_114	p14349	Gag polyprotein	NA	Simian foamy virus	H3	114	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_123	p14349	Gag polyprotein	NA	Simian foamy virus	H3	123	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_126	p14349	Gag polyprotein	NA	Simian foamy virus	H3	126	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_127	p14349	Gag polyprotein	NA	Simian foamy virus	H3	127	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_130	p14349	Gag polyprotein	NA	Simian foamy virus	H3	130	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_135	p14349	Gag polyprotein	NA	Simian foamy virus	H3	135	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_136	p14349	Gag polyprotein	NA	Simian foamy virus	H3	136	5mlu
+p84233	Histone H3.2	Xenopus laevis	H3_74	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	74	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_74	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	74	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_77	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	77	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_77	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	77	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_77	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	77	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_77	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H3	77	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_77	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	77	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_77	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	77	6nn6
+p84233	Histone H3.2	Xenopus laevis	H3_77	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	77	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	78	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_78	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	78	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_78	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	78	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_78	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	78	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_78	p35226	Polycomb complex protein BMI-1	NA	Homo sapiens	H3	78	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_78	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H3	78	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_78	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	78	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_78	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	78	6nn6
+p84233	Histone H3.2	Xenopus laevis	H3_78	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	78	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_79	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	79	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_79	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	79	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_79	p06701	Regulatory protein SIR3	NA	Saccharomyces cerevisiae	H3	79	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_79	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H3	79	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_79	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	79	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_79	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	79	6nn6
+p84233	Histone H3.2	Xenopus laevis	H3_79	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	79	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_80	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	80	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_80	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	80	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_80	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H3	80	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_80	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	80	6nn6
+p84233	Histone H3.2	Xenopus laevis	H3_81	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	81	3tu4
+p84233	Histone H3.2	Xenopus laevis	H3_81	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	81	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_81	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H3	81	4zux
+p84233	Histone H3.2	Xenopus laevis	H3_81	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	81	5o9g
+p84233	Histone H3.2	Xenopus laevis	H3_81	p35226	Polycomb complex protein BMI-1	RING-HC_PCGF4	Homo sapiens	H3	81	4r8p
+p84233	Histone H3.2	Xenopus laevis	H3_81	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	81	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_81	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	81	6nn6
+p84233	Histone H3.2	Xenopus laevis	H3_81	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	81	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_82	p06701	Regulatory protein SIR3	BAH_Orc1p_Yeast	Saccharomyces cerevisiae	H3	82	4ld9
+p84233	Histone H3.2	Xenopus laevis	H3_82	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H3	82	5x0y
+p84233	Histone H3.2	Xenopus laevis	H3_82	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	82	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_82	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	82	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_83	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	83	6nj9
+p84233	Histone H3.2	Xenopus laevis	H3_83	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H3	83	6nqa
+p84233	Histone H3.2	Xenopus laevis	H3_84	p22082	Transcription regulatory protein SNF2	NA	Saccharomyces cerevisiae	H3	84	5x0y
+p84243	Histone H3.3	Homo sapiens	H3_39	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	39	6j4w
+p84243	Histone H3.3	Homo sapiens	H3_69	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	69	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_70	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	70	6j4y
+p84243	Histone H3.3	Homo sapiens	H3_73	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	73	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_73	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	73	6j4y
+p84243	Histone H3.3	Homo sapiens	H3_73	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	73	6j51
+p84243	Histone H3.3	Homo sapiens	H3_77	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	77	6ir9
+p84243	Histone H3.3	Homo sapiens	H3_77	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	77	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_77	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	77	6j4y
+p84243	Histone H3.3	Homo sapiens	H3_80	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	80	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_81	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	81	6ir9
+p84243	Histone H3.3	Homo sapiens	H3_81	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	81	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_81	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	81	6j4y
+p84243	Histone H3.3	Homo sapiens	H3_81	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	81	6j51
+p84243	Histone H3.3	Homo sapiens	H3_82	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	82	6ir9
+p84243	Histone H3.3	Homo sapiens	H3_82	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	82	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_82	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	82	6j51
+p84243	Histone H3.3	Homo sapiens	H3_83	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	83	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_84	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	84	6ir9
+p84243	Histone H3.3	Homo sapiens	H3_84	c4qz45	Transcription elongation factor 1 homolog	NA	Komagataella phaffii	H3	84	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	84	6a5v
+p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	84	6j4x
+p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	84	6j4y
+p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	NA	Komagataella phaffii	H3	84	6j51
+p84243	Histone H3.3	Homo sapiens	H3_84	c4r4y0	DNA-directed RNA polymerase subunit	RNAP_II_RPB1_N	Komagataella phaffii	H3	84	6a5v
+q28d68	Histone H2B	Xenopus tropicalis	H2B_110	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	110	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_114	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	114	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_117	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	117	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_120	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	120	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_121	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	121	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_122	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	122	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_124	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	124	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_125	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	125	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_48	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	48	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_49	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	49	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_50	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	50	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_51	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	51	6ftx
+q28d68	Histone H2B	Xenopus tropicalis	H2B_52	p0cg47	Polyubiquitin-B	Ubiquitin	Homo sapiens	H2B	52	6ftx
+q6azj8	Histone H2A	Xenopus laevis	H2A_25	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	25	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_57	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	57	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_58	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	58	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_61	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	61	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_61	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	61	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_62	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	62	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_65	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	65	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_65	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	65	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_66	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	66	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_69	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	69	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_72	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	72	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_72	q8tek3	Histone-lysine N-methyltransferase, H3 lysine-79 specific	NA	Homo sapiens	H2A	72	6j99
+q6azj8	Histone H2A	Xenopus laevis	H2A_73	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	73	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_75	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	75	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_76	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	76	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_77	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	77	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_91	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	91	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_93	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	93	3mvd
+q6azj8	Histone H2A	Xenopus laevis	H2A_94	p25171	Regulator of chromosome condensation	NA	Drosophila melanogaster	H2A	94	3mvd
+q71di3	Histone H3.2	Homo sapiens	H3_78	g0s590	Ies6	NA	Chaetomium thermophilum	H3	78	6fml
+q71di3	Histone H3.2	Homo sapiens	H3_79	g0s590	Ies6	NA	Chaetomium thermophilum	H3	79	6fml
+q71di3	Histone H3.2	Homo sapiens	H3_81	g0s589	Actin related protein 5	NA	Chaetomium thermophilum	H3	81	6fml
+q92133	Histone H3	Xenopus laevis	H3_70	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	70	6g0l
+q92133	Histone H3	Xenopus laevis	H3_74	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	74	6g0l
+q92133	Histone H3	Xenopus laevis	H3_77	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	77	6g0l
+q92133	Histone H3	Xenopus laevis	H3_78	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	78	6g0l
+q92133	Histone H3	Xenopus laevis	H3_81	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	81	6g0l
+q92133	Histone H3	Xenopus laevis	H3_82	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	82	6g0l
+q92133	Histone H3	Xenopus laevis	H3_84	p32657	Chromo domain-containing protein 1	NA	Saccharomyces cerevisiae	H3	84	6g0l
