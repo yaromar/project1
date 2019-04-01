@@ -18,7 +18,9 @@ WRONG ALIGNMENTS IN ALEX FILES?:
 2ndg -- homo
 2pvc -- homo
 2pxj -- homo
+2rfi -- homo
 3k26 -- homo
+3k24 -- homo
 3psl -- homo
 4i51 -- homo
 5jxt
@@ -43,3 +45,101 @@ CHIMERIC CHAINS:
 5lnc -- homo
 5vey -- homo
 5wfc
+
+MISSING UNIPROTS:
+1Q2C  
+1S5P  
+2DEW  
+2DEX  
+2DEY  
+2DVS  
+2F6J  
+2FSA  
+2G6Q  
+2G99  
+2G9A  
+2H13  
+2H6K  
+2H6N  
+2H6Q  
+2KVM  
+2LGG  
+2LGK  
+2MNZ  
+2O9K  
+2OD2  
+2OD7  
+2OD9  
+2OS2  
+2P0W  
+2P5B  
+2PNX  
+2PQW  
+2PUY  
+2PVC  
+2PXJ  
+2Q8C  
+2Q8D  
+2Q8E  
+2QIC  
+2R0Y  
+2RFI  
+2RJF  
+2VPE  
+2YYR  
+3C6W  
+3FDT  
+3HNA  
+3IIW  
+3IIY  
+3IJ0  
+3JZG  
+3JZH  
+3K24  
+3K26  
+3K27  
+3KQI  
+3L41  
+3OA6  
+3PSL  
+3SHB  
+3UEC  
+3UED  
+4I51  
+4IGQ  
+4O30  
+4Q6F  
+4QBM  
+4QC1  
+4QC3  
+4QEO  
+4QUF  
+4RMH  
+4TT2  
+4TT4  
+4V2V  
+4YHP  
+4YHZ  
+5EFN  
+5VS7  
+5XFQ  
+5XFR  
+5XMY  
+5Y5W  
+5YE3  
+5YE4  
+5YYF  
+5ZWX  
+6CHG  
+6E83  
+6E86  
+6F6D  
+6GYT  
+6IE4  
+6IE6  
+6IE7  
+6MIL  
+6MIM  
+6MIN  
+6MIO  
+6MIQ  
