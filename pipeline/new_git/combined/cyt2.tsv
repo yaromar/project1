@@ -1,0 +1,128 @@
+partner_name	partner_domain	partner_organism	histone_generic
+14-3-3 protein zeta/delta	14-3-3_beta_zeta	Homo sapiens	H3
+A612L protein	SET	Paramecium bursaria Chlorella virus 1	H3
+ATPase family AAA domain-containing protein 2	Bromo_AAA	Homo sapiens	H3
+ATPase family AAA domain-containing protein 2	Bromo_AAA	Homo sapiens	H4
+Baculoviral IAP repeat-containing protein 5	BIR	Homo sapiens	H3
+Bromodomain adjacent to zinc finger domain protein 2A	Bromo_BAZ2A_B_like	Homo sapiens	H4
+Bromodomain adjacent to zinc finger domain protein 2B	Bromo_BAZ2A_B_like	Homo sapiens	H3
+Bromodomain adjacent to zinc finger domain protein 2B	Bromo_BAZ2A_B_like	Homo sapiens	H4
+Bromodomain-containing protein 3	Bromo_Brdt_II_like	Homo sapiens	H3
+Bromodomain-containing protein 4	Bromo_Brdt_I_like	Homo sapiens	H3
+Bromodomain-containing protein 4	Bromo_Brdt_I_like	Homo sapiens	H4
+CREB-binding protein	Bromo_cbp_like	Homo sapiens	H3
+CREB-binding protein	Bromo_cbp_like	Homo sapiens	H4
+Cathepsin L1	Peptidase_C1	Homo sapiens	H3
+Chromatin-remodeling ATPase INO80	SNF2_N	Homo sapiens	H3
+Chromobox protein homolog 1	Chromo_shadow	Homo sapiens	H3
+Chromobox protein homolog 3	Chromo	Homo sapiens	H1
+Chromobox protein homolog 3	Chromo_shadow	Homo sapiens	H3
+Chromobox protein homolog 5	Chromo	Homo sapiens	H3
+Chromodomain-helicase-DNA-binding protein 1	CHROMO	Homo sapiens	H3
+Chromodomain-helicase-DNA-binding protein 1	Chromo	Homo sapiens	H3
+Chromodomain-helicase-DNA-binding protein 4	PHD2_CHD_II	Homo sapiens	H3
+DNA (cytosine-5)-methyltransferase 1	DNMT1-RFD	Homo sapiens	H3
+DNA (cytosine-5)-methyltransferase 3A	ADDz_Dnmt3a	Homo sapiens	H3
+DNA (cytosine-5)-methyltransferase 3B	Dnmt3b_related	Homo sapiens	H3
+Death domain-associated protein 6	DAXX_histone_binding	Homo sapiens	H3
+Death domain-associated protein 6	DAXX_histone_binding	Homo sapiens	H4
+Death-inducer obliterator 1	PHD_DIDO1_like	Homo sapiens	H3
+E3 ubiquitin-protein ligase TRIM33	Bromo_tif1_like	Homo sapiens	H3
+E3 ubiquitin-protein ligase TRIM33	PHD_TIF1gamma	Homo sapiens	H3
+E3 ubiquitin-protein ligase UHRF1	PHD_UHRF1	Homo sapiens	H3
+E3 ubiquitin-protein ligase UHRF1	TTD	Homo sapiens	H3
+Fab Heavy Chain	IgV_H	Homo sapiens	H3
+Fab Light Chain	IgV_L_lambda	Homo sapiens	H3
+HLA class I histocompatibility antigen, alpha chain G	MHC_I	Homo sapiens	H2A
+HLA class II histocompatibility antigen, DR alpha chain	MHC_II_alpha	Homo sapiens	H2B
+HLA class II histocompatibility antigen, DRB1-4 beta chain	MHC_II_beta	Homo sapiens	H2B
+Hepatoma-derived growth factor-related protein 2	HDGF_related	Homo sapiens	H3
+Hepatoma-derived growth factor-related protein 2	HDGF_related	Homo sapiens	H4
+Histone acetyltransferase KAT6A	PHD1_MOZ	Homo sapiens	H3
+Histone acetyltransferase KAT6A	PHD2_KAT6A_6B	Homo sapiens	H3
+Histone acetyltransferase type B catalytic subunit	Hat1_N	Homo sapiens	H4
+Histone chaperone ASF1A	ASF1_hist_chap	Homo sapiens	H3
+Histone chaperone ASF1A	ASF1_hist_chap	Homo sapiens	H4
+Histone chaperone ASF1B	ASF1_hist_chap	Homo sapiens	H3
+Histone chaperone ASF1B	ASF1_hist_chap	Homo sapiens	H4
+Histone lysine demethylase PHF8	JmjC	Homo sapiens	H3
+Histone-arginine methyltransferase CARM1	AdoMet_MTases	Homo sapiens	H3
+Histone-binding protein RBBP7	CAF1C_H4-bd	Homo sapiens	H4
+Histone-lysine N-methyltransferase 2A	Bromo_ALL-1	Homo sapiens	H3
+Histone-lysine N-methyltransferase 2A	PHD3_KMT2A	Homo sapiens	H3
+Histone-lysine N-methyltransferase 2A	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase 2C	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase EHMT1	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase EHMT2	PreSET	Homo sapiens	H3
+Histone-lysine N-methyltransferase EHMT2	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase EZH2	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase NSD3	PHD5_NSD3	Homo sapiens	H3
+Histone-lysine N-methyltransferase SETD2	AWS	Homo sapiens	H3
+Histone-lysine N-methyltransferase SETD2	PostSET	Homo sapiens	H3
+Histone-lysine N-methyltransferase SETD2	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase SETD7	SET	Homo sapiens	H3
+Histone-lysine N-methyltransferase SETDB1	TUDOR	Homo sapiens	H3
+Inactive histone-lysine N-methyltransferase 2E	PHD_MLL5	Homo sapiens	H3
+Lethal(3)malignant brain tumor-like protein 1	MBT	Homo sapiens	H1
+Lethal(3)malignant brain tumor-like protein 1	MBT	Homo sapiens	H4
+Lysine-specific demethylase 4A	JmjC	Homo sapiens	H1
+Lysine-specific demethylase 4A	JmjC	Homo sapiens	H3
+Lysine-specific demethylase 4A	JmjC	Homo sapiens	H4
+Lysine-specific demethylase 4A	TUDOR	Homo sapiens	H3
+Lysine-specific demethylase 4A	TUDOR	Homo sapiens	H4
+Lysine-specific demethylase 4B	JmjC	Homo sapiens	H3
+Lysine-specific demethylase 4D	JmjC	Homo sapiens	H3
+Lysine-specific demethylase 5A	PHD3_KDM5A	Homo sapiens	H3
+Lysine-specific demethylase 6A	JmjC	Homo sapiens	H3
+Lysine-specific demethylase 6B	JmjC	Homo sapiens	H3
+Lysine-specific demethylase PHF2	PHD_PHF2	Homo sapiens	H3
+M-phase phosphoprotein 8	CHROMO	Homo sapiens	H3
+MORC family CW-type zinc finger protein 3	zf-CW	Homo sapiens	H3
+Male-specific lethal 3 homolog	Tudor-knot	Homo sapiens	H4
+Metal-response element-binding transcription factor 2	TUDOR	Homo sapiens	H3
+Microcephalin	BRCT	Homo sapiens	H2A
+N-alpha-acetyltransferase 40	Acetyltransf_1	Homo sapiens	H4
+N-lysine methyltransferase KMT5A	SET	Homo sapiens	H4
+N-terminal Xaa-Pro-Lys N-methyltransferase 1	Methyltransf_PK	Homo sapiens	H3
+NAD-dependent protein deacylase Sir2A	PTZ00409	Plasmodium falciparum	H3
+NAD-dependent protein deacylase sirtuin-5, mitochondrial	SIRT5_Af1_CobB	Homo sapiens	H3
+Nuclear autoantigen Sp-100	PHD_TIF1_like	Homo sapiens	H3
+Nucleosome-remodeling factor subunit BPTF	PHD2_3_BPTF	Homo sapiens	H3
+PAX-interacting protein 1	BRCT	Homo sapiens	H2A
+PAX-interacting protein 1	RTT107_BRCT_5	Homo sapiens	H2A
+PHD finger protein 1	TUDOR	Homo sapiens	H3
+PHD finger protein 19	TUDOR	Homo sapiens	H3
+PHD finger protein 21A	PHD_PHF21A	Homo sapiens	H3
+Peregrin	BR140_related	Homo sapiens	H3
+Peregrin	Bromo_brd1_like	Homo sapiens	H2A
+Peregrin	Bromo_brd1_like	Homo sapiens	H3
+Peregrin	Bromo_brd1_like	Homo sapiens	H4
+Protein AF-10	PHD_AF10_AF17	Homo sapiens	H3
+Protein AF-9	YEATS	Homo sapiens	H3
+Protein ENL	YEATS	Homo sapiens	H3
+Protein arginine N-methyltransferase 5	PRMT5	Homo sapiens	H4
+Pygopus homolog 1	PHD_PYGO1	Homo sapiens	H3
+Serine/threonine-protein kinase haspin	DUF3635	Homo sapiens	H3
+Sex comb on midleg-like protein 2	MBT	Homo sapiens	H2A
+Speckle-type POZ protein	MATH_SPOP	Homo sapiens	H2A
+Spindlin-1	Spin-Ssty	Homo sapiens	H3
+Spindlin-2B	Spin-Ssty	Homo sapiens	H3
+Spindlin-4	Spin-Ssty	Homo sapiens	H3
+Tonsoku-like protein	ANK	Homo sapiens	H3
+Tonsoku-like protein	ANK	Homo sapiens	H4
+Transcription initiation factor TFIID subunit 1	Bromo_TFIID	Homo sapiens	H4
+Transcription initiation factor TFIID subunit 3	PHD_TAF3	Homo sapiens	H3
+Transcription intermediary factor 1-alpha	Bromo_tif1_like	Homo sapiens	H3
+Transcription intermediary factor 1-alpha	Bromo_tif1_like	Homo sapiens	H4
+Transcriptional regulator ATRX	ADDz_ATRX	Homo sapiens	H3
+Ubiquitin-40S ribosomal protein S27a	Ubiquitin	Homo sapiens	H3
+Vacuolar protein sorting-associated protein 72 homolog	YL1	Homo sapiens	H2A
+Vacuolar protein sorting-associated protein 72 homolog	YL1	Homo sapiens	H2B
+WD repeat-containing protein 5	WD40	Homo sapiens	H3
+YEATS domain-containing protein 2	YEATS	Homo sapiens	H3
+YEATS domain-containing protein 4	YEATS	Homo sapiens	H3
+Zinc finger CW-type PWWP domain protein 1	zf-CW	Homo sapiens	H3
+Zinc finger CW-type PWWP domain protein 2	zf-CW	Homo sapiens	H3
+Zinc finger protein DPF3	PHD1_DPF3	Homo sapiens	H3
+Zinc finger protein DPF3	PHD2_d4	Homo sapiens	H3
+Zinc finger protein DPF3	PHD2_d4	Homo sapiens	H4

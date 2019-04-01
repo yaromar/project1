@@ -16,6 +16,7 @@
 5wfc	histone	yes	no
 2l43	histone	no	yes
 6a7u	histone	no	yes
+
 5z23	nucleosome	no	yes
 5zbx	nucleosome	no	yes
 
