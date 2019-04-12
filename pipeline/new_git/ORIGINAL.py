@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[36]:
+# In[22]:
 
 
 #!/usr/bin/env python 3
@@ -10,13 +10,13 @@ import csv
 
 #PATH = "./"
 PATH = "/net/pan1/interactomes/pipeline/Interactome/Workflow/Interfaces/"
-CHAIN_FILE = "nucleosomes/nucleosomeChains.csv"
+CHAIN_FILE = "combined/comboChains.csv"
 #CHAIN_FILE = "tempChains.csv"
-PDB_LIST = "nucleosomes/nucleosomesID.txt"
+PDB_LIST = "combined/comboID.txt"
 #PDB_LIST = "tempID.txt"
 
 
-# In[37]:
+# In[23]:
 
 
 #PARAMETERS:
@@ -37,7 +37,7 @@ def file_check(file):
         return 0
 
 
-# In[38]:
+# In[24]:
 
 
 #PARAMETERS:
@@ -80,7 +80,7 @@ def is_histone(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[39]:
+# In[25]:
 
 
 #PARAMETERS:
@@ -94,7 +94,7 @@ def is_histone2(name, typeCount):
 
     if(re.search(r'histone|h3|h4|h2a|lys\(ac\)', name, re.I)):
        
-        if(not re.search(r'chaperone|ase|ing|fasciclin|rna|chain|region|fold|llama|anti', name, re.I)):
+        if(not re.search(r'chaperone|ase|ing|fasciclin|rna|chain|region|fold|llama|anti|inhibitor|nanobody|nucleoprotein|regulatory|insulin|nr1h|upf0052|hiv|affitin|envelope|ddef|bh3|hsh49|1h4i|h2afy|h2a1', name, re.I)):
             
             typeCount[1] = 1 #adds the number of histones in chain  (should be changed to actual number of histones in chain!!!)
 
@@ -123,7 +123,7 @@ def is_histone2(name, typeCount):
                 typeCount[0] += 'some histone|'
 
 
-# In[40]:
+# In[26]:
 
 
 #PARAMETERS: 
@@ -154,7 +154,7 @@ def get_files(pdbList, files, parameter):
                 files.append(PATH + folder + '/' + line + '_atomic_contacts_5.0A.tab')
 
 
-# In[41]:
+# In[27]:
 
 
 #PARAMETERS: 
@@ -178,7 +178,7 @@ def get_file(pdb, parameter):
         return file
 
 
-# In[42]:
+# In[28]:
 
 
 #PARAMETERS:
@@ -295,7 +295,7 @@ def get_chain_dictionaries(cFile, dictionary):
                 pass
 
 
-    with open('temp.tsv', 'a') as rfh:
+    with open('combined/temp.tsv', 'w') as rfh:
         for structure in list(dictionary): 
 
             if(structure in histoneCount):
@@ -364,10 +364,26 @@ def get_chain_dictionaries(cFile, dictionary):
                             rfh.write(str(dictionary[structure][chain]) + '\n')
                             #rfh.write(structure + '\t' + 'histone' + '\t' + 'yes' + '\n')
             else:
-                del dictionary[structure]
+                for chain in dictionary[structure]:
+                    chainFields = dictionary[structure][chain].split('|')
+
+                    chainType = chainFields[3]  ##
+
+                    dictionary[structure][chain] += 'other:0|' #!!!!!!
+                            
+                    #rfh.write(structure + '\t' + 'nucleosome' + '\t' + 'no' + '\n')
+
+                for chain in dictionary[structure]:
+                    dictionary[structure][chain] += 'bp:1|'
+                    for element in tempDict2[structure][chain]:
+                        dictionary[structure][chain] += str(element)
+                        dictionary[structure][chain] += '|'
+                    dictionary[structure][chain] += str(len(tempDict2[structure][chain]) / 3)
+                    rfh.write(str(dictionary[structure][chain]) + '\n')
+                #del dictionary[structure]
 
 
-# In[64]:
+# In[29]:
 
 
 #PARAMETERS:
@@ -389,7 +405,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             with open (file, 'r') as ifh:
                 ifh.readline()
 
-                with open('results.tsv', 'a') as rfh:
+                with open('combined/results.tsv', 'a') as rfh:
                                      
                     for line in ifh:
                         lineFields = line.split('\t')
@@ -425,14 +441,14 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                         uniprotEnd2 = mmCIFend2 + align2
                         
                         #if(not nucleosome and bp and type1 != 'other' and type2 == 'other'):
-                        if(bp and type1 != 'other' and type2 == 'other'):
+                        if(type1 != 'other' and type2 == 'other'):
                             
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
                             if((type1 == 'H1' and 1 <= uniprotStart1 <= 229 and 1 <= uniprotEnd1 <= 229) or (type1 == 'H2A' and 1 <= uniprotStart1 <= 385 and 1 <= uniprotEnd1 <= 385) or (type1 == 'H2B' and 1 <= uniprotStart1 <= 133 and 1 <= uniprotEnd1 <= 133) or (type1 == 'H3' and 1 <= uniprotStart1 <= 184 and 1 <= uniprotEnd1 <= 184) or (type1 == 'H4' and 1 <= uniprotStart1 <= 103 and 1 <= uniprotEnd1 <= 103)):
                                 if(int(residue1) >= mmCIFstart1 and int(residue1) <= mmCIFend1):
 
-                                    with open('nucleosomes/hitdata.txt', 'r') as hfh:
+                                    with open('combined/hitdata.txt', 'r') as hfh:
                                         hfh.readline()
                                         domainFlag = 0
                                         
@@ -465,20 +481,20 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                             pfields = chainDictionary[pdb][chain2].split('|')
                                             alignedRes = int(residue1) + align1
                                             rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + 'NA' + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
-                                else:
-                                    print(pdb, type1, residue1, mmCIFstart1, mmCIFend1)
-                            else:
-                                print(pdb + '\t' + fields1[0] + '\t' + fields1[2] + '\t' + str(uniprotStart1) + '\t' + str(uniprotEnd1) + '\n')
+                                #else:
+                                    #print(pdb, type1, residue1, mmCIFstart1, mmCIFend1)
+                            #else:
+                                #print(pdb + '\t' + fields1[0] + '\t' + fields1[2] + '\t' + str(uniprotStart1) + '\t' + str(uniprotEnd1) + '\n')
 
                         #if(not nucleosome and bp and type2 != 'other' and type1 == 'other'):
-                        elif(bp and type2 != 'other' and type1 == 'other'):
+                        elif(type2 != 'other' and type1 == 'other'):
 
                             residue1 = lineFields[2]
                             residue2 = lineFields[6]
                             if((type2 == 'H1' and 1 <= uniprotStart2 <= 229 and 1 <= uniprotEnd2 <= 229) or (type2 == 'H2A' and 1 <= uniprotStart2 <= 385 and 1 <= uniprotEnd2 <= 385) or (type2 == 'H2B' and 1 <= uniprotStart2 <= 133 and 1 <= uniprotEnd2 <= 133) or (type2 == 'H3' and 1 <= uniprotStart2 <= 184 and 1 <= uniprotEnd2 <= 184) or (type2 == 'H4' and 1 <= uniprotStart2 <= 103 and 1 <= uniprotEnd2 <= 103)):
                                 if(int(residue2) >= mmCIFstart2 and int(residue2) <= mmCIFend2):
 
-                                    with open('nucleosomes/hitdata.txt', 'r') as hfh:
+                                    with open('combined/hitdata.txt', 'r') as hfh:
                                         hfh.readline()
                                         domainFlag = 0
                                         for line in hfh:
@@ -508,10 +524,19 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
                                             alignedRes = int(residue2) + align2
                                             pfields = chainDictionary[pdb][chain1].split('|')
                                             rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '_' + str(alignedRes) + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + 'NA' + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + str(alignedRes) + '\t' + pdb + '\n')
-                                else:
-                                    print(pdb, type2, residue2, mmCIFstart2, mmCIFend2)
-                            else:
-                                print(pdb + '\t' + fields2[0] + '\t' + fields2[2] + '\t' + str(uniprotStart2) + '\t' + str(uniprotEnd2) + '\n')
+                                #else:
+                                    #print(pdb, type2, residue2, mmCIFstart2, mmCIFend2)
+                            #else:
+                                #print(pdb + '\t' + fields2[0] + '\t' + fields2[2] + '\t' + str(uniprotStart2) + '\t' + str(uniprotEnd2) + '\n')
+                                
+                        elif(type2 == 'other' and type1 == 'other'):
+
+                            hfields = chainDictionary[pdb][chain2].split('|')
+                            pfields = chainDictionary[pdb][chain1].split('|')
+
+                            rfh.write(hfields[1] +'\t' + hfields[2] + '\t' + hfields[4] + '\t' + hfields[3] + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + '' + '\t' + pfields[4] + '\t' + hfields[3] + '\t' + '' + '\t' + pdb + '\n')
+                            #print(hfields[2] + '\t' + hfields[3] + '\t' + hfields[4] + '\t' + residue2 + '\t' + pfields[1] + '\t' + pfields[2] + '\t' + pfields[4] + '\t' + name)
+                        
 
         except (IOError, KeyError) as e:
             #print("Error: " + file + " does not appear to exist.")
@@ -519,7 +544,7 @@ def residue_count(interfaceFiles, chainDictionary, interfaceDictionary):
             pass
 
 
-# In[65]:
+# In[30]:
 
 
 def main():
@@ -541,7 +566,7 @@ def main():
 #             print(pair + '\t' + a + '\t' + str(interfaceDictionary[pair][a]))
 
 
-# In[66]:
+# In[ ]:
 
 
 if __name__ == "__main__":

@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[61]:
+# In[1]:
 
 
 import requests
 
 
-# In[62]:
+# In[2]:
 
 
 def main():
@@ -42,6 +42,7 @@ def main():
                     if(element != ""):
                         pdb_set.add(element.split(':', 1)[0])
                     
+                    
             else:
                 print("failed to retrieve results for %s" % uniprot)
                 
@@ -64,7 +65,7 @@ def main():
                 print("failed to generate report for %s", pdb)
 
 
-# In[ ]:
+# In[3]:
 
 
 if __name__ == '__main__':
