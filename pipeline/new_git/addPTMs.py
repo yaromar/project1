@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[20]:
+# In[3]:
 
 
 import csv
 
 
-# In[24]:
+# In[10]:
 
 
 with open("combined/PTMs.tsv",'r') as ptmfh, open("combined/uniqueResults.tsv", 'r') as interfh, open("combined/interactome.tsv", 'w') as resfh:
@@ -24,17 +24,36 @@ with open("combined/PTMs.tsv",'r') as ptmfh, open("combined/uniqueResults.tsv", 
             uniprot = interLine[0].upper()
             position = interLine[-2]
             
+            flagSite = 0
+            flagMod = 0
+            modification = ''
             for ptmLine in ptmFile:
-                if(ptmLine[3] == pdb and ptmLine[1] == uniprot and ptmLine[2] == position):
-                    output += '\t' + ptmLine[7] + ' ' + position + ' site'
-                    modification = position
-                elif(ptmLine[3] == pdb and ptmLine[1] == uniprot):
+                if(ptmLine[3] == pdb and ptmLine[1] == uniprot and ptmLine[2] == position and not flagSite and not flagMod):
                     output += '\t' + ptmLine[7] + ' ' + position
+                    modification = ptmLine[7]
+                    flagSite = 1
+                    flagMod = 1
+                elif(ptmLine[3] == pdb and ptmLine[1] == uniprot and ptmLine[2] == position and not flagSite):
+                    output += '|' + ptmLine[7] + ' ' + position
+                    modification = ptmLine[7]
+                    flagSite = 1
+                    flagMod = 1        
+                elif(ptmLine[3] == pdb and ptmLine[1] == uniprot and flagMod):
+                    output += '|' + ptmLine[7] + ' ' + ptmLine[2]
+                    flagMod = 1
+                elif(ptmLine[3] == pdb and ptmLine[1] == uniprot):
+                    output += '\t' + ptmLine[7] + ' ' + ptmLine[2]
+                    flagMod = 1
                     
-            print(output)
-            
+            if(flagSite):
+                output += '\t' + modification + '\n'
+            else:
+                output += '\t' + 'NA' + '\t' + 'NA' + '\n'
+                
             ptmfh.seek(0)
         
+            resfh.write(output)
         else:
-            print(output)
+            output += '\t' + 'NA' + '\t' + 'NA' + '\n'
+            resfh.write(output)
 
