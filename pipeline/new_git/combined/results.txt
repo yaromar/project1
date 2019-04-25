@@ -1,0 +1,182 @@
+1) PDBs by organism (the most frequent):
+	w/ first neighbor (https://github.com/yaromar/interactome/blob/master/combined/neighbor.png):
+			human: 9636 
+			mouse: 1495
+			yeast: 1277 
+			Human immunodeficiency virus 1: 1132
+			E.coli: 998
+			rat: 924 
+	
+	wo/ first neighbor (https://github.com/yaromar/interactome/blob/master/combined/histones.png):
+ 			human: 403 
+			yeast: 56
+			frog: 46
+			mouse: 35
+			synthetic: 17
+
+2) How many PDBs with PTMs?
+	117 
+		H1: 1 (all human)
+		H2A: 7 (all human)
+		H2B: 0
+		H3: 80 (Arabidopsis thaliana 1, C.elegans 5, fly 2, mouse 6, yeast 1, frog 1, synthetic 4, fission yeast 1)
+		H4: 28 (mouse 2, yeast 6, frog 3, synthetic 1)
+
+
+3) How many unique PTM states?
+	44
+		H1: 1
+		H2A: 3
+		H2B: 0
+		H3: 30 (Arabidopsis thaliana 1, C.elegans 1, fly 1, mouse 1, yeast 1, frog 1, synthetic 4, fission yeast 1)
+		H4: 10 (frog 2, mouse 1, yeast 2)
+
+4) The most connected nodes in the first neighbor graph (https://github.com/yaromar/interactome/blob/master/combined/interactome_analysis.tsv):
+	*note: these are partial results, as the analysis is still running
+	*note2: there are many other parameters besides node "degree" that are in the GitHub file which I need to read about
+	Humans:
+		HLA class I histocompatibility antigen, A-2 alpha chain
+		Beta-2-microglobulin
+		Prothrombin
+		Polyubiquitin-C
+		Polyubiquitin-B
+		T cell receptor alpha constant
+		HLA class II histocompatibility antigen, DR alpha chain
+		T cell receptor beta constant 1
+		60S ribosomal protein L18a
+		Amyloid-beta A4 protein
+		40S ribosomal protein S30
+	E.coli:
+		Maltose/maltodextrin-binding periplasmic protein
+		50S ribosomal protein L11
+		30S ribosomal protein S1
+		Signal recognition particle protein
+		30S ribosomal protein S6
+		Elongation factor Tu 1
+		30S ribosomal protein S21
+		Peptide chain release factor RF1
+		Peptide chain release factor RF2
+		Translation initiation factor IF-2
+		Preprotein translocase secY subunit
+	mouse:
+		Immunoglobulin kappa constant
+		Importin subunit alpha-1
+		H-2 class I histocompatibility antigen, D-B alpha chain
+		Proteasome subunit beta type-5
+		Proteasome subunit beta type-6
+		H-2 class I histocompatibility antigen, K-B alpha chain
+		Proteasome subunit beta type-2
+		Antigen-presenting glycoprotein CD1d1
+		Proteasome subunit beta type-3
+		Proteasome subunit beta type-1
+		Serine/threonine-protein kinase PLK1
+	yeast:
+		Pre-mRNA-splicing factor 8
+		DNA-directed RNA polymerase II subunit RPB1
+		Proteasome subunit alpha type-6
+		Pre-mRNA-processing protein 45
+		Proteasome subunit alpha type-5
+		Exportin-1
+		Proteasome subunit alpha type-3
+		Proteasome subunit alpha type-1
+		60S ribosomal protein L4-A
+		60S ribosomal protein L8-A
+		60S ribosomal protein L25
+	wild boar:
+		DNA-directed RNA polymerase subunit
+		Tubulin alpha-1B chain
+		Tubulin beta chain
+		DNA-directed RNA polymerases I, II, and III subunit RPABC3
+		NADH-ubiquinone oxidoreductase chain 4
+		NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial
+		Mitochondrial ribosomal protein L20
+		Mitochondrial ribosomal protein L57
+		Chymotrypsin-like elastase family member 1
+		Mitochondrial ribosomal protein L21
+		ICT1
+	trypanosoma brucei:
+		mS47
+		uS9m
+		uS10m
+		mS22
+		mS26
+		bS18m
+		mL43
+		mL68
+		mS33
+		uS17m
+		50S ribosomal protein L17, putative
+
+
+
+
+
+Possibly interesting (PTM state affecting domains interacting with histone):
+Chromo domain-containing protein 1	NA	H3	N-TRIMETHYLLYSINE                         10
+Chromo domain-containing protein 1	CD_Chp1_like	H3	NA
+Chromo domain-containing protein 1	NA	H3	NA
+
+DNA (cytosine-5)-methyltransferase 1	BAH_plantDCM_I	H3	N-DIMETHYL-LYSINE                         10
+DNA (cytosine-5)-methyltransferase 1	NA	H3	N-DIMETHYL-LYSINE                         10
+DNA (cytosine-5)-methyltransferase 1	CD_CMT3_like	H3	N-DIMETHYL-LYSINE                        10
+DNA (cytosine-5)-methyltransferase 1	NA	H3	N-DIMETHYL-LYSINE                        10
+DNA (cytosine-5)-methyltransferase 1	DNMT1-RFD	H3	NA
+DNA (cytosine-5)-methyltransferase 1	NA	H3	NA
+
+DNA (cytosine-5)-methyltransferase 3A	ADDz_Dnmt3a	H3	NA
+DNA (cytosine-5)-methyltransferase 3A	NA	H3	NA
+DNA (cytosine-5)-methyltransferase 3A	NA	H3	PHOSPHOTHREONINE                          4
+
+E3 ubiquitin-protein ligase TRIM33	NA	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15
+E3 ubiquitin-protein ligase TRIM33	PHD_TIF1gamma	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15
+E3 ubiquitin-protein ligase TRIM33	Bromo_tif1_like	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15|N(6)-ACETYLLYSINE                         19
+E3 ubiquitin-protein ligase TRIM33	NA	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15|N(6)-ACETYLLYSINE                         19
+E3 ubiquitin-protein ligase TRIM33	PHD_TIF1gamma	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15|N(6)-ACETYLLYSINE                         19
+E3 ubiquitin-protein ligase TRIM33	NA	H3	NA
+
+E3 ubiquitin-protein ligase UHRF1	NA	H3	N-TRIMETHYLLYSINE                         10
+E3 ubiquitin-protein ligase UHRF1	PHD_UHRF1	H3	N-TRIMETHYLLYSINE                         10
+E3 ubiquitin-protein ligase UHRF1	TTD	H3	N-TRIMETHYLLYSINE                         10
+E3 ubiquitin-protein ligase UHRF1	NA	H3	N-TRIMETHYLLYSINE                         5
+E3 ubiquitin-protein ligase UHRF1	PHD_UHRF1	H3	N-TRIMETHYLLYSINE                         5
+E3 ubiquitin-protein ligase UHRF1	NA	H3	NA
+E3 ubiquitin-protein ligase UHRF1	PHD_UHRF1	H3	NA
+E3 ubiquitin-protein ligase UHRF1	TTD	H3	NA
+
+Histone-lysine N-methyltransferase 2A	Bromo_ALL-1	H3	N-DIMETHYL-LYSINE                         5	
+Histone-lysine N-methyltransferase 2A	NA	H3	N-DIMETHYL-LYSINE                         5	
+Histone-lysine N-methyltransferase 2A	PHD3_KMT2A	H3	N-DIMETHYL-LYSINE                         5	
+Histone-lysine N-methyltransferase 2A	Bromo_ALL-1	H3	N-TRIMETHYLLYSINE                         5	
+Histone-lysine N-methyltransferase 2A	NA	H3	N-TRIMETHYLLYSINE                         5	
+Histone-lysine N-methyltransferase 2A	PHD3_KMT2A	H3	N-TRIMETHYLLYSINE                         5	
+Histone-lysine N-methyltransferase 2A	NA	H3	NA	
+Histone-lysine N-methyltransferase 2A	SET	H3	NA	
+
+Lysine-specific demethylase 4A	JmjC	H3	N-DIMETHYL-LYSINE                         10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	NA	H3	N-DIMETHYL-LYSINE                         10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	JmjC	H3	N-METHYL-LYSINE                           10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	NA	H3	N-METHYL-LYSINE                           10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	JmjC	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	NA	H3	N-TRIMETHYLLYSINE                         10|N(6)-ACETYLLYSINE                         15
+Lysine-specific demethylase 4A	JmjC	H3	N-TRIMETHYLLYSINE                         28
+Lysine-specific demethylase 4A	NA	H3	N-TRIMETHYLLYSINE                         28
+Lysine-specific demethylase 4A	JmjC	H3	N-TRIMETHYLLYSINE                        28
+Lysine-specific demethylase 4A	NA	H3	N-TRIMETHYLLYSINE                        28
+Lysine-specific demethylase 4A	JmjC	H3	NA
+Lysine-specific demethylase 4A	NA	H3	NA
+Lysine-specific demethylase 4A	TUDOR	H3	NA
+
+Peregrin	BR140_related	H3	N-TRIMETHYLLYSINE                         37
+Peregrin	NA	H3	N-TRIMETHYLLYSINE                         37
+Peregrin	Bromo_brd1_like	H3	NA
+Peregrin	NA	H3	NA
+
+Transcription intermediary factor 1-alpha	Bromo_tif1_like	H3	N(6)-ACETYLLYSINE                         24
+Transcription intermediary factor 1-alpha	NA	H3	N(6)-ACETYLLYSINE                         24
+Transcription intermediary factor 1-alpha	Bromo_tif1_like	H3	N(6)-ACETYLLYSINE                         28
+Transcription intermediary factor 1-alpha	NA	H3	N(6)-ACETYLLYSINE                         28
+Transcription intermediary factor 1-alpha	NA	H3	NA
+
+Lysine-specific demethylase 4A	TUDOR	H4	N-TRIMETHYLLYSINE                         21
+Lysine-specific demethylase 4A	JmjC	H4	NA
+Lysine-specific demethylase 4A	NA	H4	NA
